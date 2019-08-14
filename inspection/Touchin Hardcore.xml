@@ -90,6 +90,7 @@
   <inspection_tool class="AndroidLintMissingVersion" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="AndroidLintNestedScrolling" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="AndroidLintNestedWeights" enabled="true" level="INFO" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintNewApi" enabled="false" level="ERROR" enabled_by_default="false" />
   <inspection_tool class="AndroidLintNewerVersionAvailable" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="AndroidLintObsoleteLayoutParam" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="AndroidLintOldTargetApi" enabled="true" level="ERROR" enabled_by_default="true" />
@@ -127,7 +128,6 @@
   <inspection_tool class="AndroidLintTypographyFractions" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="AndroidLintTypos" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="AndroidLintUnknownIdInLayout" enabled="true" level="ERROR" enabled_by_default="true" />
-  <inspection_tool class="AndroidLintUnknownNullness" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="AndroidLintUnlocalizedSms" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="AndroidLintUnusedIds" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="AndroidLintUnusedQuantity" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -1076,6 +1076,7 @@
   <inspection_tool class="StringEquals" enabled="false" level="ERROR" enabled_by_default="false" />
   <inspection_tool class="StringEqualsEmptyString" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="StringEqualsIgnoreCase" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="StringOperationCanBeSimplified" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="StringReplaceableByStringBuffer" enabled="true" level="ERROR" enabled_by_default="true">
     <option name="onlyWarnOnLoop" value="true" />
   </inspection_tool>
