@@ -18,6 +18,17 @@
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/Work" />
   </component>
+  <component name="HgRememberedInputs">
+    <option name="visitedUrls">
+      <list>
+        <UrlAndUserName>
+          <option name="url" value="https://karenkovid@bitbucket.org/coinkeeper/disrapp-ck-android" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+      </list>
+    </option>
+    <option name="cloneParentDir" value="$USER_HOME$/Work" />
+  </component>
   <component name="Vcs.Log.App.Settings">
     <option name="SHOW_CHANGES_FROM_PARENTS" value="true" />
   </component>
