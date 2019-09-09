@@ -3,8 +3,11 @@
     <blacklists>
       <blacklist language="Java" />
       <blacklist language="Groovy" />
-      <blacklist language="Kotlin" />
+      <blacklist language="Kotlin">
+        <added pattern="android.view.animation.RotateAnimation(fromDegrees,toDegrees,pivotXType,pivotXValue,pivotYType,pivotYValue)" />
+      </blacklist>
     </blacklists>
+    <option id="SHOW_PROPERTY_HINT" value="true" />
     <option id="SHOW_FUNCTION_HINT" value="true" />
     <option id="SHOW_PARAMETER_TYPE_HINT" value="true" />
   </component>
