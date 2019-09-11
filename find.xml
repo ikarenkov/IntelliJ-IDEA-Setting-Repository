@@ -16,10 +16,10 @@
     <mask>*Response.java</mask>
     <mask>*Presenter.kt</mask>
     <mask>*.kt</mask>
-    <mask>*.xml</mask>
     <mask>*.gradle.kts</mask>
     <mask>*.java</mask>
     <mask>*.gitignore</mask>
     <mask>*.gradle</mask>
+    <mask>*.xml</mask>
   </component>
 </application>
