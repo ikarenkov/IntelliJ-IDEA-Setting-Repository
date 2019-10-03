@@ -1292,6 +1292,7 @@
   <inspection_tool class="UnusedReturnValue" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="UnusedValue" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="UpperCaseFieldNameNotConstant" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="UseExpressionBody" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="UseOfAWTPeerClass" enabled="false" level="ERROR" enabled_by_default="false" />
   <inspection_tool class="UseOfJDBCDriverClass" enabled="false" level="ERROR" enabled_by_default="false" />
   <inspection_tool class="UseOfProcessBuilder" enabled="false" level="ERROR" enabled_by_default="false" />
