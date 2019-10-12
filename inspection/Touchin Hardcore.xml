@@ -985,7 +985,6 @@
     <option name="ignoreEmptySuperMethods" value="false" />
   </inspection_tool>
   <inspection_tool class="RemoveCurlyBracesFromTemplate" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="RemoveEmptyParenthesesFromLambdaCall" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="RemoveExplicitSuperQualifier" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="RemoveExplicitTypeArguments" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="RemoveToStringInStringTemplate" enabled="true" level="WARNING" enabled_by_default="true" />
