@@ -17,7 +17,7 @@
     <mask>*.java</mask>
     <mask>*.gitignore</mask>
     <mask>*.gradle</mask>
-    <mask>*.xml</mask>
     <mask>*.kt</mask>
+    <mask>*.xml</mask>
   </component>
 </application>
