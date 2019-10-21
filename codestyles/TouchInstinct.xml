@@ -28,18 +28,16 @@
       <emptyLine />
     </value>
   </option>
-  <option name="RIGHT_MARGIN" value="150" />
+  <option name="RIGHT_MARGIN" value="130" />
   <AndroidXmlCodeStyleSettings>
     <option name="LAYOUT_SETTINGS">
       <value>
-        <option name="INSERT_BLANK_LINE_BEFORE_TAG" value="false" />
         <option name="INSERT_LINE_BREAK_BEFORE_NAMESPACE_DECLARATION" value="true" />
       </value>
     </option>
     <option name="MANIFEST_SETTINGS">
       <value>
         <option name="INSERT_LINE_BREAK_BEFORE_NAMESPACE_DECLARATION" value="true" />
-        <option name="INSERT_LINE_BREAK_AFTER_LAST_ATTRIBUTE" value="true" />
       </value>
     </option>
     <option name="OTHER_SETTINGS">
@@ -54,21 +52,23 @@
     <option name="DO_NOT_WRAP_AFTER_SINGLE_ANNOTATION" value="true" />
     <option name="ANNOTATION_PARAMETER_WRAP" value="1" />
     <option name="ALIGN_MULTILINE_ANNOTATION_PARAMETERS" value="true" />
+    <option name="CLASS_COUNT_TO_USE_IMPORT_ON_DEMAND" value="200" />
+    <option name="NAMES_COUNT_TO_USE_IMPORT_ON_DEMAND" value="200" />
     <option name="IMPORT_LAYOUT_TABLE">
       <value>
-        <package name="android" withSubpackages="true" static="false" />
+        <package name="android" withSubpackages="false" static="false" />
         <emptyLine />
-        <package name="com" withSubpackages="true" static="false" />
+        <package name="com" withSubpackages="false" static="false" />
         <emptyLine />
-        <package name="junit" withSubpackages="true" static="false" />
+        <package name="junit" withSubpackages="false" static="false" />
         <emptyLine />
-        <package name="net" withSubpackages="true" static="false" />
+        <package name="net" withSubpackages="false" static="false" />
         <emptyLine />
-        <package name="org" withSubpackages="true" static="false" />
+        <package name="org" withSubpackages="false" static="false" />
         <emptyLine />
-        <package name="java" withSubpackages="true" static="false" />
+        <package name="java" withSubpackages="false" static="false" />
         <emptyLine />
-        <package name="javax" withSubpackages="true" static="false" />
+        <package name="javax" withSubpackages="false" static="false" />
         <emptyLine />
         <package name="" withSubpackages="true" static="false" />
         <emptyLine />
@@ -86,7 +86,7 @@
     <option name="NAME_COUNT_TO_USE_STAR_IMPORT_FOR_MEMBERS" value="2147483647" />
   </JetCodeStyleSettings>
   <XML>
-    <option name="XML_SPACE_INSIDE_EMPTY_TAG" value="false" />
+    <option name="XML_KEEP_BLANK_LINES" value="1" />
     <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
   </XML>
   <codeStyleSettings language="JAVA">
