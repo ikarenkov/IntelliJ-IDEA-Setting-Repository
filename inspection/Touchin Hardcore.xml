@@ -712,6 +712,7 @@
   <inspection_tool class="MavenDuplicateDependenciesInspection" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="MavenDuplicatePluginInspection" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="MavenRedundantGroupId" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="MemberVisibilityCanBePrivate" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
   <inspection_tool class="MethodCallInLoopCondition" enabled="false" level="ERROR" enabled_by_default="false" />
   <inspection_tool class="MethodCanBeVariableArityMethod" enabled="true" level="ERROR" enabled_by_default="true">
     <option name="ignoreByteAndShortArrayParameters" value="true" />
