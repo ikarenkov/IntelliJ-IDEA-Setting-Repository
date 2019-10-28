@@ -5,6 +5,7 @@
     <option name="regularExpressions" value="true" />
     <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.kt" />
     <mask>*.properties</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
@@ -19,10 +20,10 @@
     <mask>*.java</mask>
     <mask>*.gitignore</mask>
     <mask>*.gradle</mask>
-    <mask>*.kt</mask>
     <mask>*.xml</mask>
     <mask>*Entity.kt</mask>
     <mask>*Test.kt</mask>
     <mask>activity*.xml</mask>
+    <mask>*.kt</mask>
   </component>
 </application>
