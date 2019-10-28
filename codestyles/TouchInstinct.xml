@@ -86,6 +86,7 @@
     <option name="NAME_COUNT_TO_USE_STAR_IMPORT_FOR_MEMBERS" value="2147483647" />
   </JetCodeStyleSettings>
   <XML>
+    <option name="XML_ATTRIBUTE_WRAP" value="4" />
     <option name="XML_KEEP_BLANK_LINES" value="1" />
     <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
   </XML>
