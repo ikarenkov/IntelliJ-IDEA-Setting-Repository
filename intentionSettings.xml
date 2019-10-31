@@ -1,5 +1,0 @@
-<application>
-  <component name="IntentionManagerSettings">
-    <ignoreAction name="Kotlin/Replace 'it' with explicit parameter" />
-  </component>
-</application>
