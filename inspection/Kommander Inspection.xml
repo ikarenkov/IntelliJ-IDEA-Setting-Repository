@@ -1,5 +1,5 @@
 <profile version="1.0">
-  <option name="myName" value="CoinKepper Inspection" />
+  <option name="myName" value="Kommander Inspection" />
   <inspection_tool class="AbsoluteAlignmentInUserInterface" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="AbstractClassExtendsConcreteClass" enabled="false" level="ERROR" enabled_by_default="false" />
   <inspection_tool class="AbstractClassNamingConvention" enabled="true" level="ERROR" enabled_by_default="true">
