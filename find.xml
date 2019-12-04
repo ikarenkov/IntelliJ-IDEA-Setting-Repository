@@ -3,6 +3,7 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.pro" />
     <mask>*.properties</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
@@ -10,7 +11,6 @@
     <mask>*.as</mask>
     <mask>*.css</mask>
     <mask>*.mxml</mask>
-    <mask>*.pro</mask>
     <mask>*Response.java</mask>
     <mask>*Presenter.kt</mask>
     <mask>*.gradle.kts</mask>
@@ -20,5 +20,6 @@
     <mask>*.kt</mask>
     <mask>*.gradle</mask>
     <mask>*.xml</mask>
+    <mask>*.pro</mask>
   </component>
 </application>
