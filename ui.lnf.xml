@@ -1,5 +1,5 @@
 <application>
   <component name="UISettings">
-    <option name="FONT_FACE" value=".SFNSText-Regular" />
+    <option name="SHOW_INPLACE_COMMENTS" value="true" />
   </component>
 </application>
