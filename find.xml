@@ -19,6 +19,7 @@
     <mask>*Entity.kt</mask>
     <mask>*.xml</mask>
     <mask>*.pro</mask>
+    <mask>*.gradle</mask>
     <mask>*.kt</mask>
     <mask>*.gradle</mask>
   </component>
