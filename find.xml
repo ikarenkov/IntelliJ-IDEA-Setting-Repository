@@ -18,9 +18,9 @@
     <mask>*.gitignore</mask>
     <mask>*Entity.kt</mask>
     <mask>*.pro</mask>
-    <mask>*.gradle</mask>
     <mask>*.xml</mask>
     <mask>*.kt</mask>
+    <mask>*.gradle</mask>
     <mask>*.gradle</mask>
   </component>
 </application>
