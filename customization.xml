@@ -32,13 +32,6 @@
       <path value="Default" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="Debugger.ResumeThread" is_action="true" action_type="1" position="3">
-      <path value="root" />
-      <path value="Touch Bar" />
-      <path value="Debugger" />
-      <path value="Debugger Step Actions" />
-      <option name="myInitialPosition" value="-1" />
-    </group>
     <group value="Android.SyncProject" is_action="true" action_type="1" position="8">
       <path value="root" />
       <path value="Touch Bar" />
