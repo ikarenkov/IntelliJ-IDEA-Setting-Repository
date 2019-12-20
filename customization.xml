@@ -7,11 +7,31 @@
       <path value="Optional Actions" />
       <option name="myInitialPosition" value="-1" />
     </group>
+    <group value="Resume" is_action="true" action_type="-1" position="1">
+      <path value="root" />
+      <path value="Touch Bar" />
+      <path value="Debugger" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="StepInto" is_action="true" action_type="-1" position="1">
+      <path value="root" />
+      <path value="Touch Bar" />
+      <path value="Debugger" />
+      <path value="Debugger Step Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
     <group value="Vcs.UpdateProject" is_action="true" action_type="-1" position="0">
       <path value="root" />
       <path value="Touch Bar" />
       <path value="Default" />
       <path value="Optional Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="StepOver" is_action="true" action_type="-1" position="0">
+      <path value="root" />
+      <path value="Touch Bar" />
+      <path value="Debugger" />
+      <path value="Debugger Step Actions" />
       <option name="myInitialPosition" value="-1" />
     </group>
     <group value="QuickJavaDoc" is_action="true" action_type="1" position="0">
@@ -26,10 +46,31 @@
       <path value="Default" />
       <option name="myInitialPosition" value="-1" />
     </group>
+    <group value="StepInto" is_action="true" action_type="1" position="1">
+      <path value="root" />
+      <path value="Touch Bar" />
+      <path value="Debugger" />
+      <path value="Debugger Step Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
     <group value="FindUsages" is_action="true" action_type="1" position="2">
       <path value="root" />
       <path value="Touch Bar" />
       <path value="Default" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="StepOver" is_action="true" action_type="1" position="2">
+      <path value="root" />
+      <path value="Touch Bar" />
+      <path value="Debugger" />
+      <path value="Debugger Step Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Resume" is_action="true" action_type="1" position="3">
+      <path value="root" />
+      <path value="Touch Bar" />
+      <path value="Debugger" />
+      <path value="Debugger Step Actions" />
       <option name="myInitialPosition" value="-1" />
     </group>
     <group value="Android.SyncProject" is_action="true" action_type="1" position="8">
