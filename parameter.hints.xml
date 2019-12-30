@@ -5,6 +5,7 @@
       <blacklist language="Groovy" />
       <blacklist language="Kotlin">
         <added pattern="android.view.animation.RotateAnimation(fromDegrees,toDegrees,pivotXType,pivotXValue,pivotYType,pivotYValue)" />
+        <added pattern="Settings_gradle.include(projectPaths)" />
       </blacklist>
     </blacklists>
     <option id="SHOW_PROPERTY_HINT" value="true" />
