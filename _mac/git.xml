@@ -1,6 +1,6 @@
 <application>
   <component name="Git.Application.Settings">
-    <option name="myPathToGit" value="/usr/local/bin/git" />
+    <option name="myPathToGit" value="/usr/local/Cellar/git/2.24.1/bin/git" />
     <option name="ANNOTATE_IGNORE_SPACES" value="false" />
     <option name="USE_CREDENTIAL_HELPER" value="true" />
   </component>
