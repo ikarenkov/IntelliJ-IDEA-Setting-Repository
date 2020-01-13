@@ -739,7 +739,7 @@
   <inspection_tool class="MethodNameSameAsParentName" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="MethodNamesDifferOnlyByCase" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="MethodOnlyUsedFromInnerClass" enabled="true" level="ERROR" enabled_by_default="true">
-    <option name="ignoreMethodsAccessedFromAnonymousClass" value="true" />
+    <option name="ignoreMethodsAccessedFromAnonymousClass" value="false" />
     <option name="ignoreStaticMethodsFromNonStaticInnerClass" value="false" />
     <option name="onlyReportStaticMethods" value="false" />
   </inspection_tool>
