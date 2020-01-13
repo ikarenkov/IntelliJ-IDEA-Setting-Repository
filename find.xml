@@ -9,7 +9,7 @@
     <mask>*.jsp</mask>
     <mask>*.properties</mask>
     <mask>*.java</mask>
-    <mask>*.gradle</mask>
     <mask>*.kts</mask>
+    <mask>*.gradle</mask>
   </component>
 </application>
