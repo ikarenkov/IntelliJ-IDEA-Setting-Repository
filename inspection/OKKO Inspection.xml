@@ -474,7 +474,7 @@
   <inspection_tool class="FieldHidesSuperclassField" enabled="true" level="ERROR" enabled_by_default="true">
     <option name="m_ignoreInvisibleFields" value="true" />
   </inspection_tool>
-  <inspection_tool class="FieldMayBeFinal" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="FieldMayBeFinal" enabled="true" level="INFORMATION" enabled_by_default="true" />
   <inspection_tool class="FieldMayBeStatic" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="FieldRepeatedlyAccessed" enabled="false" level="ERROR" enabled_by_default="false">
     <option name="m_ignoreFinalFields" value="true" />
@@ -681,7 +681,7 @@
   <inspection_tool class="LengthOneStringsInConcatenation" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="LiteralAsArgToStringEquals" enabled="false" level="ERROR" enabled_by_default="false" />
   <inspection_tool class="LoadLibraryWithNonConstantString" enabled="false" level="ERROR" enabled_by_default="false" />
-  <inspection_tool class="LocalCanBeFinal" enabled="true" level="ERROR" enabled_by_default="true">
+  <inspection_tool class="LocalCanBeFinal" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="REPORT_VARIABLES" value="true" />
     <option name="REPORT_PARAMETERS" value="true" />
   </inspection_tool>
@@ -1050,6 +1050,7 @@
   <inspection_tool class="SimplifiableIfStatement" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="SingleCharacterStartsWith" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="SingleClassImport" enabled="false" level="ERROR" enabled_by_default="false" />
+  <inspection_tool class="SingleElementAnnotation" enabled="false" level="INFORMATION" enabled_by_default="false" />
   <inspection_tool class="Singleton" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="SizeReplaceableByIsEmpty" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="SleepWhileHoldingLock" enabled="true" level="ERROR" enabled_by_default="true" />
