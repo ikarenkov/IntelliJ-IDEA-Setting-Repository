@@ -1,5 +1,5 @@
 <profile version="1.0">
-  <option name="myName" value="OKKO Inspection" />
+  <option name="myName" value="OKKO Inspection2" />
   <inspection_tool class="AbsoluteAlignmentInUserInterface" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="AbstractClassExtendsConcreteClass" enabled="false" level="ERROR" enabled_by_default="false" />
   <inspection_tool class="AbstractClassNamingConvention" enabled="true" level="ERROR" enabled_by_default="true">
