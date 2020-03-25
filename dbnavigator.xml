@@ -385,7 +385,7 @@
       <regional-settings>
         <date-format value="MEDIUM" />
         <number-format value="UNGROUPED" />
-        <locale value="SYSTEM_DEFAULT" />
+        <locale value="ru_RU" />
         <use-custom-formats value="false" />
       </regional-settings>
       <environment>
