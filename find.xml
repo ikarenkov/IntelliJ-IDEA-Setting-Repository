@@ -10,9 +10,9 @@
     <mask>*.java</mask>
     <mask>*.yml</mask>
     <mask>*.gradle</mask>
-    <mask>*.xml</mask>
     <mask>*.kt</mask>
     <mask>*.kts</mask>
     <mask>*ViewModel.kt</mask>
+    <mask>*.xml</mask>
   </component>
 </application>
