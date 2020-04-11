@@ -78,11 +78,13 @@
   </component>
   <component name="XDebuggerSettings">
     <data-views />
-    <general />
+    <general>
+      <evaluation-dialog-mode>CODE_FRAGMENT</evaluation-dialog-mode>
+    </general>
     <debuggers>
-      <debugger id="ObjectiveC">
+      <debugger id="javascript">
         <configuration>
-          <option name="VALUES_FILTER_ENABLED" value="false" />
+          <custom-object-presentation />
         </configuration>
       </debugger>
       <debugger id="kotlin_debugger">
