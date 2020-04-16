@@ -3,16 +3,16 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.kts" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
     <mask>*.properties</mask>
     <mask>*.java</mask>
     <mask>*.yml</mask>
-    <mask>*.kt</mask>
     <mask>*.gradle</mask>
-    <mask>*.xml</mask>
+    <mask>*.kt</mask>
     <mask>*.kts</mask>
+    <mask>*ViewModel.kt</mask>
+    <mask>*.xml</mask>
   </component>
 </application>
