@@ -1,5 +1,7 @@
 <application>
   <component name="DebuggerSettings">
+    <option name="DISABLE_JIT" value="true" />
+    <option name="ENABLE_MEMORY_AGENT" value="true" />
     <filter>
       <option name="PATTERN" value="com.sun.*" />
       <option name="ENABLED" value="true" />
