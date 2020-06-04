@@ -72,6 +72,12 @@
       <path value="Debugger Step Actions" />
       <option name="myInitialPosition" value="-1" />
     </group>
+    <group value="ShowUsages" is_action="true" action_type="1" position="3">
+      <path value="root" />
+      <path value="Touch Bar" />
+      <path value="Default" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
     <group value="Resume" is_action="true" action_type="1" position="3">
       <path value="root" />
       <path value="Touch Bar" />
@@ -79,18 +85,19 @@
       <path value="Debugger Step Actions" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="XDebugger.AttachToProcess" is_action="true" action_type="1" position="5">
+    <group value="XDebugger.AttachToProcess" is_action="true" action_type="1" position="6">
       <path value="root" />
       <path value="Touch Bar" />
       <path value="Default" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="Android.SyncProject" is_action="true" action_type="1" position="8">
+    <group value="Android.SyncProject" is_action="true" action_type="1" position="9">
       <path value="root" />
       <path value="Touch Bar" />
       <path value="Default" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <action id="QuickJavaDoc" icon="$USER_HOME$/Downloads/TB_getinfo_2x.png" />
+    <action id="RenameElement" icon="$USER_HOME$/Documents/Android studio icons/edit.svg" />
+    <action id="QuickJavaDoc" icon="$USER_HOME$/Downloads/documentation/documentation.svg" />
   </component>
 </application>
