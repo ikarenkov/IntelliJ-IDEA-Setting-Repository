@@ -91,5 +91,6 @@
       <path value="Default" />
       <option name="myInitialPosition" value="-1" />
     </group>
+    <action id="QuickJavaDoc" icon="$USER_HOME$/Downloads/TB_getinfo_2x.png" />
   </component>
 </application>
