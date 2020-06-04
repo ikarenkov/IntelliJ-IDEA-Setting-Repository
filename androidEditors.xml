@@ -3,8 +3,8 @@
     <option name="state">
       <GlobalState>
         <option name="preferXmlEditor" value="true" />
-        <option name="preferredDrawableEditorMode" value="Code" />
-        <option name="preferredEditorMode" value="Code" />
+        <option name="preferredDrawableEditorMode" value="Split" />
+        <option name="preferredEditorMode" value="Split" />
         <option name="showLint" value="true" />
         <option name="visible" value="false" />
       </GlobalState>
