@@ -59,7 +59,7 @@
       <path value="Debugger Step Actions" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="FindUsages" is_action="true" action_type="1" position="2">
+    <group value="ShowUsages" is_action="true" action_type="1" position="2">
       <path value="root" />
       <path value="Touch Bar" />
       <path value="Default" />
@@ -72,7 +72,7 @@
       <path value="Debugger Step Actions" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="ShowUsages" is_action="true" action_type="1" position="3">
+    <group value="SelectInProjectView" is_action="true" action_type="1" position="3">
       <path value="root" />
       <path value="Touch Bar" />
       <path value="Default" />
@@ -97,7 +97,14 @@
       <path value="Default" />
       <option name="myInitialPosition" value="-1" />
     </group>
+    <group value="FindUsages" is_action="true" action_type="1" position="12">
+      <path value="root" />
+      <path value="Touch Bar" />
+      <path value="Default" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
     <action id="RenameElement" icon="$USER_HOME$/Documents/Android studio icons/edit.svg" />
     <action id="QuickJavaDoc" icon="$USER_HOME$/Downloads/documentation/documentation.svg" />
+    <action id="SelectInProjectView" icon="$USER_HOME$/Documents/Android studio icons/locate.svg" />
   </component>
 </application>
