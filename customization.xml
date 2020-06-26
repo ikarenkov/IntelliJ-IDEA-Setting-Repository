@@ -133,19 +133,31 @@
       <path value="Default" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="XDebugger.AttachToProcess" is_action="true" action_type="1" position="9">
+    <group value="android.deploy.ApplyChanges" is_action="true" action_type="1" position="7">
       <path value="root" />
       <path value="Touch Bar" />
       <path value="Default" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="Android.SyncProject" is_action="true" action_type="1" position="11">
+    <group value="android.deploy.CodeSwap" is_action="true" action_type="1" position="8">
       <path value="root" />
       <path value="Touch Bar" />
       <path value="Default" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="FindUsages" is_action="true" action_type="1" position="12">
+    <group value="XDebugger.AttachToProcess" is_action="true" action_type="1" position="11">
+      <path value="root" />
+      <path value="Touch Bar" />
+      <path value="Default" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Android.SyncProject" is_action="true" action_type="1" position="13">
+      <path value="root" />
+      <path value="Touch Bar" />
+      <path value="Default" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="FindUsages" is_action="true" action_type="1" position="14">
       <path value="root" />
       <path value="Touch Bar" />
       <path value="Default" />
