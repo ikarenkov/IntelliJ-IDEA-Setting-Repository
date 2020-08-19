@@ -36,6 +36,7 @@
   <inspection_tool class="AndroidLintCommitPrefEdits" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="AndroidLintCommitTransaction" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="AndroidLintContentDescription" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="AndroidLintConvertToWebp" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="AndroidLintCustomViewStyleable" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="AndroidLintCutPasteId" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="AndroidLintDeprecated" enabled="true" level="ERROR" enabled_by_default="true" />
@@ -43,6 +44,7 @@
   <inspection_tool class="AndroidLintDisableBaselineAlignment" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="AndroidLintDrawAllocation" enabled="true" level="INFO" enabled_by_default="true" />
   <inspection_tool class="AndroidLintDuplicateIncludedIds" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintDuplicateStrings" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
   <inspection_tool class="AndroidLintDuplicateUsesFeature" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="AndroidLintExportedContentProvider" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="AndroidLintExportedPreferenceActivity" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -64,6 +66,7 @@
   <inspection_tool class="AndroidLintIconDipSize" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="AndroidLintIconDuplicates" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="AndroidLintIconDuplicatesConfig" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintIconExpectedSize" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="AndroidLintIconExtension" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="AndroidLintIconLauncherShape" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="AndroidLintIconLocation" enabled="true" level="ERROR" enabled_by_default="true" />
@@ -78,6 +81,7 @@
   <inspection_tool class="AndroidLintInefficientWeight" enabled="true" level="INFO" enabled_by_default="true" />
   <inspection_tool class="AndroidLintInflateParams" enabled="true" level="INFO" enabled_by_default="true" />
   <inspection_tool class="AndroidLintInnerclassSeparator" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintKtxExtensionAvailable" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
   <inspection_tool class="AndroidLintLabelFor" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="AndroidLintLocaleFolder" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="AndroidLintLogConditional" enabled="true" level="ERROR" enabled_by_default="true" />
@@ -86,7 +90,6 @@
   <inspection_tool class="AndroidLintMipmapIcons" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="AndroidLintMissingApplicationIcon" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="AndroidLintMissingId" enabled="true" level="ERROR" enabled_by_default="true" />
-  <inspection_tool class="AndroidLintMissingTranslation" enabled="false" level="ERROR" enabled_by_default="false" />
   <inspection_tool class="AndroidLintMissingVersion" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="AndroidLintNestedScrolling" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="AndroidLintNestedWeights" enabled="true" level="INFO" enabled_by_default="true" />
@@ -102,6 +105,7 @@
   <inspection_tool class="AndroidLintRecycle" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="AndroidLintRegistered" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="AndroidLintRelativeOverlap" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="AndroidLintRequiredSize" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
   <inspection_tool class="AndroidLintRtlEnabled" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="AndroidLintRtlHardcoded" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="AndroidLintRtlSymmetry" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -116,7 +120,7 @@
   <inspection_tool class="AndroidLintSmallSp" enabled="false" level="INFO" enabled_by_default="false" />
   <inspection_tool class="AndroidLintSpUsage" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="AndroidLintStateListReachable" enabled="true" level="ERROR" enabled_by_default="true" />
-  <inspection_tool class="AndroidLintStringFormatCount" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="AndroidLintStringFormatCount" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="AndroidLintSuspiciousImport" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="AndroidLintTextFields" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="AndroidLintTextViewEdits" enabled="true" level="ERROR" enabled_by_default="true" />
@@ -130,13 +134,11 @@
   <inspection_tool class="AndroidLintUnlocalizedSms" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="AndroidLintUnusedIds" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="AndroidLintUnusedQuantity" enabled="false" level="WARNING" enabled_by_default="false" />
-  <inspection_tool class="AndroidLintUnusedResources" enabled="false" level="ERROR" enabled_by_default="false" />
+  <inspection_tool class="AndroidLintUnusedResources" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="AndroidLintUseAlpha2" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="AndroidLintUseCompoundDrawables" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="AndroidLintUseSparseArrays" enabled="true" level="INFO" enabled_by_default="true" />
   <inspection_tool class="AndroidLintUseValueOf" enabled="true" level="ERROR" enabled_by_default="true" />
-  <inspection_tool class="AndroidLintUselessLeaf" enabled="false" level="WARNING" enabled_by_default="false" />
-  <inspection_tool class="AndroidLintUselessParent" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="AndroidLintUsesMinSdkAttributes" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="AndroidLintUsingHttp" enabled="true" level="INFO" enabled_by_default="true" />
   <inspection_tool class="AndroidLintViewConstructor" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -317,6 +319,10 @@
   <inspection_tool class="ConstantAssertCondition" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="ConstantConditionIf" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ConstantConditionalExpression" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="ConstantConditions" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="SUGGEST_NULLABLE_ANNOTATIONS" value="false" />
+    <option name="DONT_REPORT_TRUE_ASSERT_STATEMENTS" value="false" />
+  </inspection_tool>
   <inspection_tool class="ConstantIfStatement" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="ConstantMathCall" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="ConstantNamingConvention" enabled="true" level="ERROR" enabled_by_default="true">
@@ -1292,7 +1298,6 @@
   <inspection_tool class="UnusedMessageFormatParameter" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="UnusedParameter" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="UnusedParameters" enabled="true" level="INFO" enabled_by_default="true" />
-  <inspection_tool class="UnusedProperty" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="UnusedReturnValue" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="UnusedValue" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="UpperCaseFieldNameNotConstant" enabled="true" level="WARNING" enabled_by_default="true" />
