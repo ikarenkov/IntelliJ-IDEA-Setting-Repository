@@ -1,8 +1,8 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="All Places" />
-    <option name="defaultScopeName" value="All Places" />
-    <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="customScope" value="File '.../features/movieDetails/tv/src/main/res/values/strings.xml [Okko.features.movieDetails.tv]'" />
+    <option name="defaultScopeName" value="File '.../features/movieDetails/tv/src/main/res/values/strings.xml [Okko.features.movieDetails.tv]'" />
+    <option name="SEARCH_SCOPE" value="File '.../features/movieDetails/tv/src/main/res/values/strings.xml [Okko.features.movieDetails.tv]'" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
