@@ -1,5 +1,6 @@
 <application>
   <component name="Emulator">
     <option name="launchInToolWindow" value="true" />
+    <option name="showLaunchedStandaloneNotification" value="false" />
   </component>
 </application>

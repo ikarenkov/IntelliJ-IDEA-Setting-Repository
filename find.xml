@@ -9,12 +9,12 @@
     <mask>*.html</mask>
     <mask>*.jsp</mask>
     <mask>*.properties</mask>
-    <mask>*.java</mask>
     <mask>*.yml</mask>
     <mask>*.gradle</mask>
-    <mask>*.kt</mask>
-    <mask>*.kts</mask>
     <mask>*ViewModel.kt</mask>
+    <mask>*.java</mask>
+    <mask>*.kts</mask>
+    <mask>*.kt</mask>
     <mask>*.xml</mask>
   </component>
 </application>

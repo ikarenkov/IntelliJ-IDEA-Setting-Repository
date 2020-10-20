@@ -1,5 +1,23 @@
 <application>
   <component name="com.intellij.ide.ui.customization.CustomActionsSchema">
+    <group seperator="true" action_type="-1" position="6">
+      <path value="root" />
+      <path value="Touch Bar" />
+      <path value="Default" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group seperator="true" action_type="-1" position="5">
+      <path value="root" />
+      <path value="Touch Bar" />
+      <path value="Default" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="RunnerActionsTouchbar" is_group="true" action_type="-1" position="3">
+      <path value="root" />
+      <path value="Touch Bar" />
+      <path value="Default" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
     <group value="RunConfiguration" is_action="true" action_type="-1" position="2">
       <path value="root" />
       <path value="Touch Bar" />
@@ -85,27 +103,69 @@
       <path value="Debugger Step Actions" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="XDebugger.AttachToProcess" is_action="true" action_type="1" position="6">
+    <group seperator="true" action_type="1" position="4">
       <path value="root" />
       <path value="Touch Bar" />
       <path value="Default" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="Android.SyncProject" is_action="true" action_type="1" position="9">
+    <group value="EvaluateExpression" is_action="true" action_type="1" position="4">
+      <path value="root" />
+      <path value="Touch Bar" />
+      <path value="Debugger" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group seperator="true" action_type="1" position="5">
       <path value="root" />
       <path value="Touch Bar" />
       <path value="Default" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="FindUsages" is_action="true" action_type="1" position="12">
+    <group value="QuickEvaluateExpression" is_action="true" action_type="1" position="5">
+      <path value="root" />
+      <path value="Touch Bar" />
+      <path value="Debugger" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group seperator="true" action_type="1" position="6">
+      <path value="root" />
+      <path value="Touch Bar" />
+      <path value="Default" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="android.deploy.ApplyChanges" is_action="true" action_type="1" position="7">
+      <path value="root" />
+      <path value="Touch Bar" />
+      <path value="Default" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="android.deploy.CodeSwap" is_action="true" action_type="1" position="8">
+      <path value="root" />
+      <path value="Touch Bar" />
+      <path value="Default" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="XDebugger.AttachToProcess" is_action="true" action_type="1" position="11">
+      <path value="root" />
+      <path value="Touch Bar" />
+      <path value="Default" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Android.SyncProject" is_action="true" action_type="1" position="13">
+      <path value="root" />
+      <path value="Touch Bar" />
+      <path value="Default" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="FindUsages" is_action="true" action_type="1" position="14">
       <path value="root" />
       <path value="Touch Bar" />
       <path value="Default" />
       <option name="myInitialPosition" value="-1" />
     </group>
     <action id="RenameElement" icon="$USER_HOME$/Documents/Android studio icons/edit.svg" />
-    <action id="ShowUsages" icon="$USER_HOME$/Documents/Android studio icons/search.svg" />
     <action id="QuickJavaDoc" icon="$USER_HOME$/Downloads/documentation/documentation.svg" />
+    <action id="ShowUsages" icon="$USER_HOME$/Documents/Android studio icons/search.svg" />
     <action id="SelectInProjectView" icon="$USER_HOME$/Documents/Android studio icons/locate.svg" />
   </component>
 </application>
