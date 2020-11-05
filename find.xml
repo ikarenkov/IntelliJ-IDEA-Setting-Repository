@@ -5,6 +5,7 @@
     <option name="wholeWordsOnly" value="true" />
     <option name="WHOLE_WORDS_ONLY" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.kts" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
@@ -13,9 +14,9 @@
     <mask>*.gradle</mask>
     <mask>*ViewModel.kt</mask>
     <mask>*.java</mask>
-    <mask>*.kts</mask>
     <mask>*.xml</mask>
     <mask>*.json</mask>
     <mask>*.kt</mask>
+    <mask>*.kts</mask>
   </component>
 </application>
