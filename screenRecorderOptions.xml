@@ -1,0 +1,5 @@
+<application>
+  <component name="ScreenRecorderOptions">
+    <option name="bitRateMbps" value="16" />
+  </component>
+</application>
