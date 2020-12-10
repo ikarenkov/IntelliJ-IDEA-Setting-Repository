@@ -129,14 +129,9 @@
       <evaluation-dialog-mode>CODE_FRAGMENT</evaluation-dialog-mode>
     </general>
     <debuggers>
-      <debugger id="kotlin_debugger">
+      <debugger id="javascript">
         <configuration>
-          <option name="filterForStdlibAlreadyAdded" value="true" />
-        </configuration>
-      </debugger>
-      <debugger id="ObjectiveC">
-        <configuration>
-          <option name="VALUES_FILTER_ENABLED" value="false" />
+          <custom-object-presentation />
         </configuration>
       </debugger>
     </debuggers>
