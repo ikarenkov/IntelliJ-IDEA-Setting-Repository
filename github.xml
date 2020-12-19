@@ -3,6 +3,9 @@
     <account id="ac448df4-6870-4b16-bf58-15ce6f3976cb" name="KarenkovID">
       <server host="github.com" />
     </account>
+    <account id="f48f1490-01e6-4112-8c3c-cb73a01c62aa" name="KarenkovID">
+      <server useHttp="false" host="github.com" />
+    </account>
   </component>
   <component name="GithubSettings">
     <option name="LOGIN" value="karenkovigor@gmail.com" />
