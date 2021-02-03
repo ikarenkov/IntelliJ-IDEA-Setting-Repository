@@ -2,19 +2,23 @@
   <component name="FindSettings">
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
-    <option name="regularExpressions" value="true" />
-    <option name="REGULAR_EXPRESSIONS" value="true" />
+    <option name="localRegularExpressions" value="true" />
+    <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*Module*.kt" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
     <mask>*.properties</mask>
     <mask>*.yml</mask>
     <mask>*.gradle</mask>
-    <mask>*.kts</mask>
     <mask>*ViewModel.kt</mask>
     <mask>*.java</mask>
-    <mask>*.kt</mask>
     <mask>*.xml</mask>
+    <mask>*.json</mask>
+    <mask>*MediatorImpl.kt</mask>
+    <mask>*.kt</mask>
+    <mask>*.kts</mask>
+    <mask>*Module*.kt</mask>
   </component>
 </application>
