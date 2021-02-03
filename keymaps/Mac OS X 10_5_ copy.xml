@@ -3,6 +3,12 @@
     <keyboard-shortcut first-keystroke="meta 6" />
   </action>
   <action id="ActivateTODOToolWindow" />
+  <action id="EditorCloneCaretAbove">
+    <keyboard-shortcut first-keystroke="shift ctrl up" />
+  </action>
+  <action id="EditorCloneCaretBelow">
+    <keyboard-shortcut first-keystroke="shift ctrl down" />
+  </action>
   <action id="RecentChangedFiles">
     <keyboard-shortcut first-keystroke="shift meta e" />
   </action>
