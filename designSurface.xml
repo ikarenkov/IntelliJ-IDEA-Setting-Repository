@@ -17,6 +17,8 @@
         <entry key="../../../../layout/compose-model-1612950076066.xml" value="0.19444444444444445" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.2359375" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.14583333333333334" />
+        <entry key="features/movieDetails/tv/impl/src/main/res/layout/item_movie_details_about_event.xml" value="0.161231884057971" />
+        <entry key="ui/tv/res/src/main/res/drawable/icon_availability_subscription_offer_circle_32.xml" value="0.24259259259259258" />
       </map>
     </option>
   </component>
