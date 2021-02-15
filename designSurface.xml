@@ -19,6 +19,7 @@
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.14583333333333334" />
         <entry key="features/movieDetails/tv/impl/src/main/res/layout/dialog_fragment_seasons.xml" value="0.1" />
         <entry key="features/movieDetails/tv/impl/src/main/res/layout/fragment_movie_details.xml" value="0.1" />
+        <entry key="features/movieDetails/tv/impl/src/main/res/layout/item_channel_about.xml" value="0.1" />
         <entry key="features/movieDetails/tv/impl/src/main/res/layout/item_cinema_about.xml" value="0.2194093009500808" />
         <entry key="features/movieDetails/tv/impl/src/main/res/layout/item_cinema_description.xml" value="0.1" />
         <entry key="features/movieDetails/tv/impl/src/main/res/layout/item_movie_details_about.xml" value="0.22214854111405835" />
