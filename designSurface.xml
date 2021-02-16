@@ -32,6 +32,7 @@
         <entry key="features/movieDetails/tv/impl/src/main/res/layout/item_movie_details_titled_list.xml" value="0.1" />
         <entry key="features/movieDetails/tv/impl/src/main/res/layout/item_panel_season.xml" value="0.1" />
         <entry key="features/movieDetails/tv/impl/src/main/res/layout/item_row_season.xml" value="0.5" />
+        <entry key="ui/mobile/moviesBigDelegates-library/src/main/res/layout/item_collection_big.xml" value="0.1" />
         <entry key="ui/tv/res/src/main/res/drawable/icon_availability_subscription_offer_circle_32.xml" value="0.24259259259259258" />
       </map>
     </option>
