@@ -17,7 +17,7 @@
     <mask>*.json</mask>
     <mask>*MediatorImpl.kt</mask>
     <mask>*.kt</mask>
-    <mask>*.kts</mask>
     <mask>*Module*.kt</mask>
+    <mask>*.kts</mask>
   </component>
 </application>
