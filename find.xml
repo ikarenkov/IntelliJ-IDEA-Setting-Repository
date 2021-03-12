@@ -1,11 +1,9 @@
 <application>
   <component name="FindSettings">
-    <option name="caseSensitive" value="true" />
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
-    <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*Component.kt" />
+    <option name="FILE_MASK" value="*.kts" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
@@ -18,8 +16,8 @@
     <mask>*.json</mask>
     <mask>*.kt</mask>
     <mask>*Module*.kt</mask>
-    <mask>*.kts</mask>
     <mask>*MediatorImpl.kt</mask>
     <mask>*Component.kt</mask>
+    <mask>*.kts</mask>
   </component>
 </application>
