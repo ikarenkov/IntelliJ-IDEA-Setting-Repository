@@ -136,7 +136,6 @@
       <debugger id="ObjectiveC">
         <configuration>
           <option name="VALUES_FILTER_ENABLED" value="false" />
-          <option name="LLDB_NATVIS_RENDERERS_ENABLED" value="false" />
         </configuration>
       </debugger>
     </debuggers>
