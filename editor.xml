@@ -8,6 +8,9 @@
     <option name="SOFT_WRAP_FILE_MASKS" value="*.md; *.txt; *.rst; *.adoc" />
     <option name="IS_WHITESPACES_SHOWN" value="true" />
   </component>
+  <component name="InlayHintsSettings">
+    <option name="lastViewedProviderKeyId" value="parameter.hints.old" />
+  </component>
   <component name="InspectionProfileManager">
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="INFORMATION" />
