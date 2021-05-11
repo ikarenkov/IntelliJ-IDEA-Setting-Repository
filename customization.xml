@@ -1,6 +1,6 @@
 <application>
   <component name="com.intellij.ide.ui.customization.CustomActionsSchema">
-    <group seperator="true" action_type="-1" position="6">
+    <group seperator="true" action_type="-1" position="5">
       <path value="root" />
       <path value="Touch Bar" />
       <path value="Default" />
