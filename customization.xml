@@ -1,9 +1,31 @@
 <application>
   <component name="com.intellij.ide.ui.customization.CustomActionsSchema">
-    <group seperator="true" action_type="-1" position="5">
+    <group value="ShowUsages" is_action="true" action_type="-1" position="6">
       <path value="root" />
       <path value="Touch Bar" />
       <path value="Default" />
+      <path value="Default with Cmd Key" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ToggleLineBreakpoint" is_action="true" action_type="-1" position="4">
+      <path value="root" />
+      <path value="Touch Bar" />
+      <path value="Default" />
+      <path value="Default with Cmd Key" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ToggleBookmark" is_action="true" action_type="-1" position="3">
+      <path value="root" />
+      <path value="Touch Bar" />
+      <path value="Default" />
+      <path value="Default with Cmd Key" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Forward" is_action="true" action_type="-1" position="1">
+      <path value="root" />
+      <path value="Touch Bar" />
+      <path value="Default" />
+      <path value="Default with Cmd Key" />
       <option name="myInitialPosition" value="-1" />
     </group>
     <group value="Resume" is_action="true" action_type="-1" position="1">
@@ -19,6 +41,13 @@
       <path value="Debugger Step Actions" />
       <option name="myInitialPosition" value="-1" />
     </group>
+    <group value="Back" is_action="true" action_type="-1" position="0">
+      <path value="root" />
+      <path value="Touch Bar" />
+      <path value="Default" />
+      <path value="Default with Cmd Key" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
     <group value="StepOver" is_action="true" action_type="-1" position="0">
       <path value="root" />
       <path value="Touch Bar" />
@@ -32,10 +61,24 @@
       <path value="Default" />
       <option name="myInitialPosition" value="-1" />
     </group>
+    <group value="ActivateProjectToolWindow" is_action="true" action_type="1" position="0">
+      <path value="root" />
+      <path value="Touch Bar" />
+      <path value="Default" />
+      <path value="Default with Cmd Key" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
     <group value="RenameElement" is_action="true" action_type="1" position="1">
       <path value="root" />
       <path value="Touch Bar" />
       <path value="Default" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ActivateVersionControlToolWindow" is_action="true" action_type="1" position="1">
+      <path value="root" />
+      <path value="Touch Bar" />
+      <path value="Default" />
+      <path value="Default with Ctrl Key" />
       <option name="myInitialPosition" value="-1" />
     </group>
     <group value="NextProjectWindow" is_action="true" action_type="1" position="1">
@@ -43,6 +86,13 @@
       <path value="Touch Bar" />
       <path value="Default" />
       <path value="Default with Alt Key" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ActivateStructureToolWindow" is_action="true" action_type="1" position="1">
+      <path value="root" />
+      <path value="Touch Bar" />
+      <path value="Default" />
+      <path value="Default with Cmd Key" />
       <option name="myInitialPosition" value="-1" />
     </group>
     <group value="StepInto" is_action="true" action_type="1" position="1">
@@ -84,6 +134,13 @@
       <path value="Default" />
       <option name="myInitialPosition" value="-1" />
     </group>
+    <group value="HideAllWindows" is_action="true" action_type="1" position="4">
+      <path value="root" />
+      <path value="Touch Bar" />
+      <path value="Default" />
+      <path value="Default with Cmd Key" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
     <group value="EvaluateExpression" is_action="true" action_type="1" position="4">
       <path value="root" />
       <path value="Touch Bar" />
@@ -94,6 +151,13 @@
       <path value="root" />
       <path value="Touch Bar" />
       <path value="Default" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ActivateAndroidEmulatorToolWindow" is_action="true" action_type="1" position="5">
+      <path value="root" />
+      <path value="Touch Bar" />
+      <path value="Default" />
+      <path value="Default with Cmd Key" />
       <option name="myInitialPosition" value="-1" />
     </group>
     <group value="QuickEvaluateExpression" is_action="true" action_type="1" position="5">
@@ -108,10 +172,24 @@
       <path value="Default" />
       <option name="myInitialPosition" value="-1" />
     </group>
+    <group value="ActivateVersionControlToolWindow" is_action="true" action_type="1" position="6">
+      <path value="root" />
+      <path value="Touch Bar" />
+      <path value="Default" />
+      <path value="Default with Cmd Key" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
     <group value="android.deploy.ApplyChanges" is_action="true" action_type="1" position="7">
       <path value="root" />
       <path value="Touch Bar" />
       <path value="Default" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ActivateGradleToolWindow" is_action="true" action_type="1" position="7">
+      <path value="root" />
+      <path value="Touch Bar" />
+      <path value="Default" />
+      <path value="Default with Cmd Key" />
       <option name="myInitialPosition" value="-1" />
     </group>
     <group value="android.deploy.CodeSwap" is_action="true" action_type="1" position="8">
