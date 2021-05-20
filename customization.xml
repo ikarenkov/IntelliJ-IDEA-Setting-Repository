@@ -210,7 +210,13 @@
       <path value="Default" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="FindUsages" is_action="true" action_type="1" position="14">
+    <group value="Gradle.ExecuteTask" is_action="true" action_type="1" position="14">
+      <path value="root" />
+      <path value="Touch Bar" />
+      <path value="Default" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="FindUsages" is_action="true" action_type="1" position="15">
       <path value="root" />
       <path value="Touch Bar" />
       <path value="Default" />
