@@ -74,7 +74,7 @@
       <path value="Default" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="ActivateVersionControlToolWindow" is_action="true" action_type="1" position="1">
+    <group value="OpenInBrowser" is_action="true" action_type="1" position="1">
       <path value="root" />
       <path value="Touch Bar" />
       <path value="Default" />
@@ -108,6 +108,13 @@
       <path value="Default" />
       <option name="myInitialPosition" value="-1" />
     </group>
+    <group value="ShowBlankDiffWindow" is_action="true" action_type="1" position="2">
+      <path value="root" />
+      <path value="Touch Bar" />
+      <path value="Default" />
+      <path value="Default with Ctrl Key" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
     <group value="HideAllWindows" is_action="true" action_type="1" position="2">
       <path value="root" />
       <path value="Touch Bar" />
@@ -126,6 +133,13 @@
       <path value="root" />
       <path value="Touch Bar" />
       <path value="Default" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="RevealIn" is_action="true" action_type="1" position="3">
+      <path value="root" />
+      <path value="Touch Bar" />
+      <path value="Default" />
+      <path value="Default with Ctrl Key" />
       <option name="myInitialPosition" value="-1" />
     </group>
     <group value="Resume" is_action="true" action_type="1" position="3">
