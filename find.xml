@@ -1,8 +1,8 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="All Places" />
-    <option name="defaultScopeName" value="All Places" />
-    <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="customScope" value="Module 'Okko.features.contentCard.tv.impl'" />
+    <option name="defaultScopeName" value="Module 'Okko.features.contentCard.tv.impl'" />
+    <option name="SEARCH_SCOPE" value="Module 'Okko.features.contentCard.tv.impl'" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
