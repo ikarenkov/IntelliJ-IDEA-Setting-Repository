@@ -68,7 +68,7 @@
       <path value="Default with Cmd Key" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="RenameElement" is_action="true" action_type="1" position="1">
+    <group value="SelectInProjectView" is_action="true" action_type="1" position="1">
       <path value="root" />
       <path value="Touch Bar" />
       <path value="Default" />
@@ -102,7 +102,7 @@
       <path value="Debugger Step Actions" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="ShowUsages" is_action="true" action_type="1" position="2">
+    <group value="RenameElement" is_action="true" action_type="1" position="2">
       <path value="root" />
       <path value="Touch Bar" />
       <path value="Default" />
@@ -129,7 +129,7 @@
       <path value="Debugger Step Actions" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="SelectInProjectView" is_action="true" action_type="1" position="3">
+    <group value="ShowUsages" is_action="true" action_type="1" position="3">
       <path value="root" />
       <path value="Touch Bar" />
       <path value="Default" />
