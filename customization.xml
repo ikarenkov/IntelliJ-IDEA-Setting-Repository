@@ -159,6 +159,13 @@
       <path value="Default with Ctrl Key" />
       <option name="myInitialPosition" value="-1" />
     </group>
+    <group value="Git.ResolveConflicts" is_action="true" action_type="1" position="2">
+      <path value="root" />
+      <path value="Touch Bar" />
+      <path value="Default" />
+      <path value="Default with Alt Key" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
     <group value="HideAllWindows" is_action="true" action_type="1" position="2">
       <path value="root" />
       <path value="Touch Bar" />
@@ -184,6 +191,13 @@
       <path value="Touch Bar" />
       <path value="Default" />
       <path value="Default with Ctrl Key" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Git.Merge.Abort" is_action="true" action_type="1" position="3">
+      <path value="root" />
+      <path value="Touch Bar" />
+      <path value="Default" />
+      <path value="Default with Alt Key" />
       <option name="myInitialPosition" value="-1" />
     </group>
     <group value="HideSideWindows" is_action="true" action_type="1" position="3">
