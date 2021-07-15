@@ -78,6 +78,9 @@
     </option>
     <option name="JD_P_AT_EMPTY_LINES" value="false" />
   </JavaCodeStyleSettings>
+  <JetCodeStyleSettings>
+    <option name="CODE_STYLE_DEFAULTS" value="KOTLIN_OFFICIAL" />
+  </JetCodeStyleSettings>
   <XML>
     <option name="XML_KEEP_BLANK_LINES" value="1" />
     <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
@@ -486,5 +489,8 @@
         </section>
       </rules>
     </arrangement>
+  </codeStyleSettings>
+  <codeStyleSettings language="kotlin">
+    <option name="CODE_STYLE_DEFAULTS" value="KOTLIN_OFFICIAL" />
   </codeStyleSettings>
 </code_scheme>
