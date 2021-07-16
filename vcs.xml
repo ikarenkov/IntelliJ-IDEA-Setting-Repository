@@ -58,6 +58,10 @@
           <option name="url" value="https://github.com/formatools/forma" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/cyph3rcod3r/Tinder-Like.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/Documents/Android" />
