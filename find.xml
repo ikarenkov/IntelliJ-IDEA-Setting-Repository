@@ -14,10 +14,10 @@
     <mask>*Module*.kt</mask>
     <mask>*MediatorImpl.kt</mask>
     <mask>*Component.kt</mask>
-    <mask>*.kts</mask>
-    <mask>*.kt</mask>
     <mask>*.gradle</mask>
-    <mask>*.gradle.kts</mask>
     <mask>*.xml</mask>
+    <mask>*.gradle.kts</mask>
+    <mask>*.kt</mask>
+    <mask>*.kts</mask>
   </component>
 </application>
