@@ -3,6 +3,7 @@
     <option name="customScope" value="Default Changelist" />
     <option name="defaultScopeName" value="Default Changelist" />
     <option name="SEARCH_SCOPE" value="Default Changelist" />
+    <option name="FILE_MASK" value="*.kts" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
@@ -16,9 +17,9 @@
     <mask>*Component.kt</mask>
     <mask>*.gradle</mask>
     <mask>*.gradle.kts</mask>
-    <mask>*.kts</mask>
     <mask>*.kt</mask>
     <mask>*.xml</mask>
     <mask>*Delegate*.kt</mask>
+    <mask>*.kts</mask>
   </component>
 </application>
