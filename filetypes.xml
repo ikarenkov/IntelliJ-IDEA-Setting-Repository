@@ -8,8 +8,7 @@
       <mapping pattern=".empty" type="PLAIN_TEXT" />
       <mapping ext="xcuserstate" type="PLAIN_TEXT" />
       <mapping ext="cfg" type="PLAIN_TEXT" />
-      <mapping ext="sq" type="SQL" />
-      <removed_mapping ext="sq" type="SqlDelight" />
+      <mapping ext="sq" type="SqlDelight" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="psd" approved="true" type="Image" />
     </extensionMap>
