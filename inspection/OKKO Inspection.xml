@@ -934,6 +934,21 @@
   <inspection_tool class="PointlessBooleanExpression" enabled="true" level="ERROR" enabled_by_default="true">
     <option name="m_ignoreExpressionsContainingConstants" value="true" />
   </inspection_tool>
+  <inspection_tool class="PreviewAnnotationInFunctionWithParameters" enabled="true" level="ERROR" enabled_by_default="true">
+    <option name="previewFile" value="true" />
+  </inspection_tool>
+  <inspection_tool class="PreviewDimensionRespectsLimit" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="previewFile" value="true" />
+  </inspection_tool>
+  <inspection_tool class="PreviewMultipleParameterProviders" enabled="true" level="ERROR" enabled_by_default="true">
+    <option name="previewFile" value="true" />
+  </inspection_tool>
+  <inspection_tool class="PreviewMustBeTopLevelFunction" enabled="true" level="ERROR" enabled_by_default="true">
+    <option name="previewFile" value="true" />
+  </inspection_tool>
+  <inspection_tool class="PreviewNeedsComposableAnnotation" enabled="true" level="ERROR" enabled_by_default="true">
+    <option name="previewFile" value="true" />
+  </inspection_tool>
   <inspection_tool class="PrimitiveArrayArgumentToVariableArgMethod" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="PrivateMemberAccessBetweenOuterAndInnerClass" enabled="false" level="ERROR" enabled_by_default="false" />
   <inspection_tool class="ProblematicVarargsMethodOverride" enabled="true" level="ERROR" enabled_by_default="true" />
