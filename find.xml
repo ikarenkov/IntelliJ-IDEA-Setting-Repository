@@ -8,7 +8,6 @@
     <mask>*.jsp</mask>
     <mask>*.properties</mask>
     <mask>*.yml</mask>
-    <mask>*ViewModel.kt</mask>
     <mask>*.java</mask>
     <mask>*.json</mask>
     <mask>*Module*.kt</mask>
@@ -21,5 +20,6 @@
     <mask>*UseCase.kt</mask>
     <mask>*.xml</mask>
     <mask>*.kts</mask>
+    <mask>*ViewModel.kt</mask>
   </component>
 </application>
