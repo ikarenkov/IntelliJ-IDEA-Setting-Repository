@@ -328,7 +328,7 @@
       <path value="Default with Alt Key" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="Android.SyncProject" is_action="true" action_type="1" position="7">
+    <group value="Gradle.ExecuteTask" is_action="true" action_type="1" position="7">
       <path value="root" />
       <path value="Touch Bar" />
       <path value="Default" />
@@ -348,7 +348,7 @@
       <path value="Default with Cmd Key" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="Gradle.ExecuteTask" is_action="true" action_type="1" position="8">
+    <group value="Android.SyncProject" is_action="true" action_type="1" position="8">
       <path value="root" />
       <path value="Touch Bar" />
       <path value="Default" />
