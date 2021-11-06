@@ -8,10 +8,10 @@
             <value value="R38N400QPVP" />
           </Key>
         </key>
-        <lastOnlineTime value="2021-11-06T20:18:34.515461Z" />
+        <lastOnlineTime value="2021-11-06T20:35:17.661171Z" />
         <name value="samsung SM-F700F" />
-        <target value="Android 10.0" />
-        <api value="29" />
+        <target value="Android 1.0" />
+        <api value="1" />
       </PhysicalDevice>
     </physicalDevices>
   </component>
