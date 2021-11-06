@@ -85,6 +85,20 @@
       <path value="Touchbar Run/Debug Actions" />
       <option name="myInitialPosition" value="-1" />
     </group>
+    <group seperator="true" action_type="-1" position="0">
+      <path value="root" />
+      <path value="Touch Bar" />
+      <path value="Default" />
+      <path value="Default with Ctrl Key" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="SelectInProjectView" is_action="true" action_type="-1" position="0">
+      <path value="root" />
+      <path value="Touch Bar" />
+      <path value="Default" />
+      <path value="Default with Alt Key" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
     <group value="Back" is_action="true" action_type="-1" position="0">
       <path value="root" />
       <path value="Touch Bar" />
@@ -105,7 +119,21 @@
       <path value="Default" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="ActivateProjectToolWindow" is_action="true" action_type="1" position="0">
+    <group value="AndroidConnectDebuggerAction" is_action="true" action_type="1" position="0">
+      <path value="root" />
+      <path value="Touch Bar" />
+      <path value="Default" />
+      <path value="Default with Ctrl Key" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="NextProjectWindow" is_action="true" action_type="1" position="0">
+      <path value="root" />
+      <path value="Touch Bar" />
+      <path value="Default" />
+      <path value="Default with Alt Key" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="HideAllWindows" is_action="true" action_type="1" position="0">
       <path value="root" />
       <path value="Touch Bar" />
       <path value="Default" />
@@ -125,21 +153,21 @@
       <path value="Default" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="OpenInBrowser" is_action="true" action_type="1" position="1">
+    <group value="Debug" is_action="true" action_type="1" position="1">
       <path value="root" />
       <path value="Touch Bar" />
       <path value="Default" />
       <path value="Default with Ctrl Key" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="NextProjectWindow" is_action="true" action_type="1" position="1">
+    <group value="OpenInBrowser" is_action="true" action_type="1" position="1">
       <path value="root" />
       <path value="Touch Bar" />
       <path value="Default" />
       <path value="Default with Alt Key" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="ActivateStructureToolWindow" is_action="true" action_type="1" position="1">
+    <group value="Git.Branches" is_action="true" action_type="1" position="1">
       <path value="root" />
       <path value="Touch Bar" />
       <path value="Default" />
@@ -152,21 +180,21 @@
       <path value="Default" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="ShowBlankDiffWindow" is_action="true" action_type="1" position="2">
+    <group value="Run" is_action="true" action_type="1" position="2">
       <path value="root" />
       <path value="Touch Bar" />
       <path value="Default" />
       <path value="Default with Ctrl Key" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="Git.ResolveConflicts" is_action="true" action_type="1" position="2">
+    <group value="RevealIn" is_action="true" action_type="1" position="2">
       <path value="root" />
       <path value="Touch Bar" />
       <path value="Default" />
       <path value="Default with Alt Key" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="HideAllWindows" is_action="true" action_type="1" position="2">
+    <group value="HideSideWindows" is_action="true" action_type="1" position="2">
       <path value="root" />
       <path value="Touch Bar" />
       <path value="Default" />
@@ -186,21 +214,21 @@
       <path value="Default" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="RevealIn" is_action="true" action_type="1" position="3">
+    <group value="android.deploy.ApplyChanges" is_action="true" action_type="1" position="3">
       <path value="root" />
       <path value="Touch Bar" />
       <path value="Default" />
       <path value="Default with Ctrl Key" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="Git.Merge.Abort" is_action="true" action_type="1" position="3">
+    <group value="ShowBlankDiffWindow" is_action="true" action_type="1" position="3">
       <path value="root" />
       <path value="Touch Bar" />
       <path value="Default" />
       <path value="Default with Alt Key" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="HideSideWindows" is_action="true" action_type="1" position="3">
+    <group value="ActivateProjectToolWindow" is_action="true" action_type="1" position="3">
       <path value="root" />
       <path value="Touch Bar" />
       <path value="Default" />
@@ -218,6 +246,27 @@
       <path value="root" />
       <path value="Touch Bar" />
       <path value="Default" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="android.deploy.CodeSwap" is_action="true" action_type="1" position="4">
+      <path value="root" />
+      <path value="Touch Bar" />
+      <path value="Default" />
+      <path value="Default with Ctrl Key" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Diff.ShowDiff" is_action="true" action_type="1" position="4">
+      <path value="root" />
+      <path value="Touch Bar" />
+      <path value="Default" />
+      <path value="Default with Alt Key" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ActivateStructureToolWindow" is_action="true" action_type="1" position="4">
+      <path value="root" />
+      <path value="Touch Bar" />
+      <path value="Default" />
+      <path value="Default with Cmd Key" />
       <option name="myInitialPosition" value="-1" />
     </group>
     <group value="EvaluateExpression" is_action="true" action_type="1" position="4">
@@ -239,6 +288,20 @@
       <path value="Default" />
       <option name="myInitialPosition" value="-1" />
     </group>
+    <group value="Stop" is_action="true" action_type="1" position="5">
+      <path value="root" />
+      <path value="Touch Bar" />
+      <path value="Default" />
+      <path value="Default with Ctrl Key" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Git.ResolveConflicts" is_action="true" action_type="1" position="5">
+      <path value="root" />
+      <path value="Touch Bar" />
+      <path value="Default" />
+      <path value="Default with Alt Key" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
     <group value="QuickEvaluateExpression" is_action="true" action_type="1" position="5">
       <path value="root" />
       <path value="Touch Bar" />
@@ -251,76 +314,91 @@
       <path value="Default" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="ActivateAndroidEmulatorToolWindow" is_action="true" action_type="1" position="6">
+    <group value="ChooseDebugConfiguration" is_action="true" action_type="1" position="6">
+      <path value="root" />
+      <path value="Touch Bar" />
+      <path value="Default" />
+      <path value="Default with Ctrl Key" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Git.Merge.Abort" is_action="true" action_type="1" position="6">
+      <path value="root" />
+      <path value="Touch Bar" />
+      <path value="Default" />
+      <path value="Default with Alt Key" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Android.SyncProject" is_action="true" action_type="1" position="7">
+      <path value="root" />
+      <path value="Touch Bar" />
+      <path value="Default" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="RunConfiguration" is_action="true" action_type="1" position="7">
+      <path value="root" />
+      <path value="Touch Bar" />
+      <path value="Default" />
+      <path value="Default with Ctrl Key" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ActivateAndroidEmulatorToolWindow" is_action="true" action_type="1" position="7">
       <path value="root" />
       <path value="Touch Bar" />
       <path value="Default" />
       <path value="Default with Cmd Key" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="AndroidConnectDebuggerAction" is_action="true" action_type="1" position="7">
+    <group value="Gradle.ExecuteTask" is_action="true" action_type="1" position="8">
       <path value="root" />
       <path value="Touch Bar" />
       <path value="Default" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="ActivateVersionControlToolWindow" is_action="true" action_type="1" position="7">
-      <path value="root" />
-      <path value="Touch Bar" />
-      <path value="Default" />
-      <path value="Default with Cmd Key" />
-      <option name="myInitialPosition" value="-1" />
-    </group>
-    <group value="Android.SyncProject" is_action="true" action_type="1" position="8">
-      <path value="root" />
-      <path value="Touch Bar" />
-      <path value="Default" />
-      <option name="myInitialPosition" value="-1" />
-    </group>
-    <group value="ActivateGradleToolWindow" is_action="true" action_type="1" position="8">
+    <group value="ActivateVersionControlToolWindow" is_action="true" action_type="1" position="8">
       <path value="root" />
       <path value="Touch Bar" />
       <path value="Default" />
       <path value="Default with Cmd Key" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="Gradle.ExecuteTask" is_action="true" action_type="1" position="9">
+    <group value="FindUsages" is_action="true" action_type="1" position="9">
       <path value="root" />
       <path value="Touch Bar" />
       <path value="Default" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="FindUsages" is_action="true" action_type="1" position="10">
+    <group value="ActivateGradleToolWindow" is_action="true" action_type="1" position="9">
+      <path value="root" />
+      <path value="Touch Bar" />
+      <path value="Default" />
+      <path value="Default with Cmd Key" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="android.emulator.home.button" is_action="true" action_type="1" position="11">
       <path value="root" />
       <path value="Touch Bar" />
       <path value="Default" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="android.emulator.home.button" is_action="true" action_type="1" position="12">
+    <group value="android.emulator.back.button" is_action="true" action_type="1" position="12">
       <path value="root" />
       <path value="Touch Bar" />
       <path value="Default" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="android.emulator.back.button" is_action="true" action_type="1" position="13">
+    <group seperator="true" action_type="1" position="15">
       <path value="root" />
       <path value="Touch Bar" />
       <path value="Default" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group seperator="true" action_type="1" position="16">
+    <group value="ActivateAndroidEmulatorToolWindow" is_action="true" action_type="1" position="16">
       <path value="root" />
       <path value="Touch Bar" />
       <path value="Default" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="ActivateAndroidEmulatorToolWindow" is_action="true" action_type="1" position="17">
-      <path value="root" />
-      <path value="Touch Bar" />
-      <path value="Default" />
-      <option name="myInitialPosition" value="-1" />
-    </group>
-    <group value="RunnerActionsTouchbar" is_group="true" action_type="1" position="18">
+    <group value="RunnerActionsTouchbar" is_group="true" action_type="1" position="17">
       <path value="root" />
       <path value="Touch Bar" />
       <path value="Default" />
