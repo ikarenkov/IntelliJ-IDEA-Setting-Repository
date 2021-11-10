@@ -18,10 +18,10 @@
     <mask>*.gradle</mask>
     <mask>*Delegate*.kt</mask>
     <mask>*UseCase.kt</mask>
-    <mask>*.xml</mask>
     <mask>*.kts</mask>
     <mask>*ViewModel.kt</mask>
     <mask>*.kt</mask>
     <mask>*.gradle.kts</mask>
+    <mask>*.xml</mask>
   </component>
 </application>
