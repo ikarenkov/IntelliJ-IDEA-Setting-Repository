@@ -5,6 +5,7 @@
     <option name="regularExpressions" value="true" />
     <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.gradle" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
@@ -15,7 +16,6 @@
     <mask>*Module*.kt</mask>
     <mask>*MediatorImpl.kt</mask>
     <mask>*Component.kt</mask>
-    <mask>*.gradle</mask>
     <mask>*Delegate*.kt</mask>
     <mask>*UseCase.kt</mask>
     <mask>*.kts</mask>
@@ -23,5 +23,6 @@
     <mask>*.xml</mask>
     <mask>*.kt</mask>
     <mask>*.gradle.kts</mask>
+    <mask>*.gradle</mask>
   </component>
 </application>
