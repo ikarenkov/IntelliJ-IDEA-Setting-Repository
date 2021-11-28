@@ -15,6 +15,10 @@
   <action id="FileChooser.LightEditGotoOpenedFile">
     <keyboard-shortcut first-keystroke="f2" />
   </action>
+  <action id="FindUsages">
+    <keyboard-shortcut first-keystroke="alt f7" />
+    <keyboard-shortcut first-keystroke="ctrl meta b" />
+  </action>
   <action id="GotoNextError" />
   <action id="NextProjectWindow">
     <keyboard-shortcut first-keystroke="meta alt back_quote" />
