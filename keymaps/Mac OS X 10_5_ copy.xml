@@ -19,6 +19,9 @@
     <keyboard-shortcut first-keystroke="alt f7" />
     <keyboard-shortcut first-keystroke="ctrl meta b" />
   </action>
+  <action id="Git.Branches">
+    <keyboard-shortcut first-keystroke="f11" />
+  </action>
   <action id="GotoNextError" />
   <action id="NextProjectWindow">
     <keyboard-shortcut first-keystroke="meta alt back_quote" />
