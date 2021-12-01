@@ -1,8 +1,9 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Module 'Okko.sdk.domain-library'" />
-    <option name="defaultScopeName" value="Module 'Okko.sdk.domain-library'" />
-    <option name="SEARCH_SCOPE" value="Module 'Okko.sdk.domain-library'" />
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
+    <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.kt" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
@@ -18,8 +19,8 @@
     <mask>*.kts</mask>
     <mask>*ViewModel.kt</mask>
     <mask>*.xml</mask>
-    <mask>*.kt</mask>
     <mask>*.gradle</mask>
     <mask>*.gradle.kts</mask>
+    <mask>*.kt</mask>
   </component>
 </application>
