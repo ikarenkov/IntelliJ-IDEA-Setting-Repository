@@ -1,0 +1,53 @@
+<keymap version="1" name="Mac OS X 10.5+ copy" parent="Mac OS X 10.5+">
+  <action id="ActivateLogcatToolWindow">
+    <keyboard-shortcut first-keystroke="meta 6" />
+  </action>
+  <action id="ActivateTODOToolWindow" />
+  <action id="Android.SyncProject">
+    <keyboard-shortcut first-keystroke="f10" />
+  </action>
+  <action id="EditorCloneCaretAbove">
+    <keyboard-shortcut first-keystroke="shift ctrl up" />
+  </action>
+  <action id="EditorCloneCaretBelow">
+    <keyboard-shortcut first-keystroke="shift ctrl down" />
+  </action>
+  <action id="FileChooser.LightEditGotoOpenedFile">
+    <keyboard-shortcut first-keystroke="f2" />
+  </action>
+  <action id="FindUsages">
+    <keyboard-shortcut first-keystroke="alt f7" />
+    <keyboard-shortcut first-keystroke="ctrl meta b" />
+  </action>
+  <action id="Git.Branches">
+    <keyboard-shortcut first-keystroke="f11" />
+  </action>
+  <action id="GotoNextError" />
+  <action id="NextProjectWindow">
+    <keyboard-shortcut first-keystroke="meta alt back_quote" />
+    <keyboard-shortcut first-keystroke="alt tab" />
+  </action>
+  <action id="RecentChangedFiles">
+    <keyboard-shortcut first-keystroke="shift meta e" />
+  </action>
+  <action id="RecentLocations">
+    <keyboard-shortcut first-keystroke="shift meta alt e" />
+  </action>
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="shift f6" />
+    <keyboard-shortcut first-keystroke="f3" />
+  </action>
+  <action id="SelectInProjectView">
+    <keyboard-shortcut first-keystroke="f2" />
+  </action>
+  <action id="ToggleBookmark" />
+  <action id="android.deploy.ApplyChanges">
+    <keyboard-shortcut first-keystroke="ctrl meta r" />
+  </action>
+  <action id="android.deploy.CodeSwap">
+    <keyboard-shortcut first-keystroke="shift ctrl meta r" />
+  </action>
+  <action id="android.emulator.back.button">
+    <keyboard-shortcut first-keystroke="back_space" />
+  </action>
+</keymap>

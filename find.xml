@@ -1,0 +1,26 @@
+<application>
+  <component name="FindSettings">
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
+    <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.kt" />
+    <mask>*.css</mask>
+    <mask>*.html</mask>
+    <mask>*.jsp</mask>
+    <mask>*.properties</mask>
+    <mask>*.yml</mask>
+    <mask>*.java</mask>
+    <mask>*.json</mask>
+    <mask>*Module*.kt</mask>
+    <mask>*MediatorImpl.kt</mask>
+    <mask>*Component.kt</mask>
+    <mask>*Delegate*.kt</mask>
+    <mask>*UseCase.kt</mask>
+    <mask>*.kts</mask>
+    <mask>*ViewModel.kt</mask>
+    <mask>*.xml</mask>
+    <mask>*.gradle</mask>
+    <mask>*.gradle.kts</mask>
+    <mask>*.kt</mask>
+  </component>
+</application>
