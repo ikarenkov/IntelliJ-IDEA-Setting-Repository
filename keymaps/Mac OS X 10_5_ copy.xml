@@ -6,19 +6,47 @@
   <action id="Android.SyncProject">
     <keyboard-shortcut first-keystroke="f10" />
   </action>
+  <action id="Debugger.EditFrameSource">
+    <keyboard-shortcut first-keystroke="meta down" />
+  </action>
+  <action id="DomCollectionControl.Edit">
+    <keyboard-shortcut first-keystroke="meta down" />
+  </action>
+  <action id="DomElementsTreeView.GotoDomElementDeclarationAction">
+    <keyboard-shortcut first-keystroke="meta down" />
+  </action>
+  <action id="EditSource">
+    <keyboard-shortcut first-keystroke="meta down" />
+  </action>
   <action id="EditorCloneCaretAbove">
     <keyboard-shortcut first-keystroke="shift ctrl up" />
   </action>
   <action id="EditorCloneCaretBelow">
     <keyboard-shortcut first-keystroke="shift ctrl down" />
   </action>
+  <action id="ExternalSystem.OpenConfig">
+    <keyboard-shortcut first-keystroke="meta down" />
+  </action>
   <action id="FileChooser.LightEditGotoOpenedFile">
     <keyboard-shortcut first-keystroke="f2" />
   </action>
+  <action id="FindUsages">
+    <keyboard-shortcut first-keystroke="alt f7" />
+    <keyboard-shortcut first-keystroke="f3" />
+  </action>
   <action id="GotoNextError" />
+  <action id="NavBar-navigate">
+    <keyboard-shortcut first-keystroke="meta down" />
+  </action>
   <action id="NextProjectWindow">
     <keyboard-shortcut first-keystroke="meta alt back_quote" />
     <keyboard-shortcut first-keystroke="alt tab" />
+  </action>
+  <action id="OpenModuleSettings">
+    <keyboard-shortcut first-keystroke="meta down" />
+  </action>
+  <action id="ProjectViewEditSource">
+    <keyboard-shortcut first-keystroke="meta down" />
   </action>
   <action id="RecentChangedFiles">
     <keyboard-shortcut first-keystroke="shift meta e" />
@@ -26,8 +54,19 @@
   <action id="RecentLocations">
     <keyboard-shortcut first-keystroke="shift meta alt e" />
   </action>
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="shift f6" />
+    <keyboard-shortcut first-keystroke="f4" />
+  </action>
   <action id="SelectInProjectView">
     <keyboard-shortcut first-keystroke="f2" />
+  </action>
+  <action id="ToggleBookmark" />
+  <action id="Vcs.EditSource">
+    <keyboard-shortcut first-keystroke="meta down" />
+  </action>
+  <action id="XDebugger.JumpToSource">
+    <keyboard-shortcut first-keystroke="meta down" />
   </action>
   <action id="android.deploy.ApplyChanges">
     <keyboard-shortcut first-keystroke="ctrl meta r" />
