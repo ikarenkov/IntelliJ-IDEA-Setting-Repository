@@ -18,8 +18,8 @@
     <mask>*.kts</mask>
     <mask>*ViewModel.kt</mask>
     <mask>*.xml</mask>
-    <mask>*.kt</mask>
     <mask>*.gradle</mask>
+    <mask>*.kt</mask>
     <mask>*.gradle.kts</mask>
   </component>
 </application>
