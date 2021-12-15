@@ -3,6 +3,7 @@
     <option name="customScope" value="All Changed Files" />
     <option name="defaultScopeName" value="All Changed Files" />
     <option name="SEARCH_SCOPE" value="All Changed Files" />
+    <option name="FILE_MASK" value="*.xml" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
@@ -16,10 +17,10 @@
     <mask>*UseCase.kt</mask>
     <mask>*.kts</mask>
     <mask>*ViewModel.kt</mask>
-    <mask>*.xml</mask>
     <mask>*.gradle</mask>
     <mask>*.gradle.kts</mask>
     <mask>*.kt</mask>
     <mask>*MediatorImpl.kt</mask>
+    <mask>*.xml</mask>
   </component>
 </application>
