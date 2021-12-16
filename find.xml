@@ -2,8 +2,6 @@
   <component name="FindSettings">
     <option name="customScope" value="All Changed Files" />
     <option name="defaultScopeName" value="All Changed Files" />
-    <option name="regularExpressions" value="true" />
-    <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="All Changed Files" />
     <mask>*.css</mask>
     <mask>*.html</mask>
