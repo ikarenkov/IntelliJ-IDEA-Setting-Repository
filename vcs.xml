@@ -174,6 +174,10 @@
           <option name="url" value="https://github.com/Regsterclimb/CurrencyZ" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/terrakok/Modo" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/Documents/development" />
