@@ -35,6 +35,19 @@
         <target value="Android 11.0" />
         <api value="30" />
       </PhysicalDevice>
+      <PhysicalDevice>
+        <key>
+          <Key>
+            <type value="SERIAL_NUMBER" />
+            <value value="192.168.31.38:5555" />
+          </Key>
+        </key>
+        <lastOnlineTime value="2022-03-31T15:46:33.518783Z" />
+        <type value="TV" />
+        <name value="Google Chromecast" />
+        <target value="Android 10.0" />
+        <api value="29" />
+      </PhysicalDevice>
     </physicalDevices>
   </component>
 </application>
