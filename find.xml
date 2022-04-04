@@ -11,15 +11,15 @@
     <mask>*.java</mask>
     <mask>*.json</mask>
     <mask>*Module*.kt</mask>
-    <mask>*MediatorImpl.kt</mask>
     <mask>*Component.kt</mask>
     <mask>*Delegate*.kt</mask>
     <mask>*UseCase.kt</mask>
-    <mask>*.kts</mask>
     <mask>*ViewModel.kt</mask>
-    <mask>*.xml</mask>
     <mask>*.gradle</mask>
-    <mask>*.kt</mask>
     <mask>*.gradle.kts</mask>
+    <mask>*MediatorImpl.kt</mask>
+    <mask>*.xml</mask>
+    <mask>*.kt</mask>
+    <mask>*.kts</mask>
   </component>
 </application>

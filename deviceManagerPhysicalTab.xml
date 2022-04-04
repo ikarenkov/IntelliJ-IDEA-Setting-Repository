@@ -24,6 +24,17 @@
         <target value="Android 10.0" />
         <api value="29" />
       </PhysicalDevice>
+      <PhysicalDevice>
+        <key>
+          <Key>
+            <type value="DOMAIN_NAME" />
+            <value value="adb-5855debe-ksjXWK._adb-tls-connect._tcp." />
+          </Key>
+        </key>
+        <name value="Xiaomi Mi 9T Pro" />
+        <target value="Android 11.0" />
+        <api value="30" />
+      </PhysicalDevice>
     </physicalDevices>
   </component>
 </application>
