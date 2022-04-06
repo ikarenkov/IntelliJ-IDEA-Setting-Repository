@@ -42,6 +42,7 @@
             <value value="192.168.31.38:5555" />
           </Key>
         </key>
+        <lastOnlineTime value="2022-04-06T07:30:52.914620Z" />
         <type value="TV" />
         <name value="Google Chromecast" />
         <target value="Android 10.0" />
