@@ -19,7 +19,7 @@
     <mask>*.gradle.kts</mask>
     <mask>*MediatorImpl.kt</mask>
     <mask>*.xml</mask>
-    <mask>*.kts</mask>
     <mask>*.kt</mask>
+    <mask>*.kts</mask>
   </component>
 </application>
