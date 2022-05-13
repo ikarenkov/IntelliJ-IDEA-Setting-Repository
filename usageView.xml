@@ -5,6 +5,9 @@
   <component name="ShowUsagesSettings">
     <option name="IS_FILTER_DUPLICATED_LINE" value="false" />
   </component>
+  <component name="UsageFilteringRuleState">
+    <option value="com.intellij.usages.impl.rules.ImportUsageFilteringRule" />
+  </component>
   <component name="UsageViewSettings">
     <option name="PREVIEW_USAGES_SPLITTER_PROPORTIONS" value="0.39651957" />
   </component>
