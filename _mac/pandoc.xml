@@ -1,5 +1,0 @@
-<application>
-  <component name="Pandoc.Application.Settings">
-    <option name="myPathToImages" value="$USER_HOME$/development/import-resources" />
-  </component>
-</application>
