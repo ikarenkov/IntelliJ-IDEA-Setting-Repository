@@ -1,8 +1,8 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="All Places" />
-    <option name="defaultScopeName" value="All Places" />
-    <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="customScope" value="File '…/applicant/feature/search-vacancy/core/logic/src/main/java/ru/hh/applicant/feature/search_vacancy/core/logic/analytics/VacancyCardAnalytics.kt [hh.applicant.feature.search-vacancy.core.logic.main]'" />
+    <option name="defaultScopeName" value="File '…/applicant/feature/search-vacancy/core/logic/src/main/java/ru/hh/applicant/feature/search_vacancy/core/logic/analytics/VacancyCardAnalytics.kt [hh.applicant.feature.search-vacancy.core.logic.main]'" />
+    <option name="SEARCH_SCOPE" value="File '…/applicant/feature/search-vacancy/core/logic/src/main/java/ru/hh/applicant/feature/search_vacancy/core/logic/analytics/VacancyCardAnalytics.kt [hh.applicant.feature.search-vacancy.core.logic.main]'" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
