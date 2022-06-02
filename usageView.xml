@@ -5,6 +5,9 @@
   <component name="UsageFilteringRuleState">
     <option value="com.intellij.usages.impl.rules.ImportUsageFilteringRule" />
   </component>
+  <component name="UsageInGeneratedCodeFilteringSetting">
+    <option name="enabled" value="false" />
+  </component>
   <component name="UsageViewSettings">
     <option name="PREVIEW_USAGES_SPLITTER_PROPORTIONS" value="0.39651957" />
   </component>
