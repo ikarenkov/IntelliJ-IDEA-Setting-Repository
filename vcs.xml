@@ -234,6 +234,10 @@
           <option name="url" value="https://github.com/hhru/hh-android.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/KarenkovID/Podlodka_Compose_Task.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/Documents/development" />
