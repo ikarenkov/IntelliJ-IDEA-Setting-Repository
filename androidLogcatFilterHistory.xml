@@ -1,6 +1,6 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="nonFavorites">
+    <option name="favorites">
       <list>
         <option value="package:mine" />
       </list>
