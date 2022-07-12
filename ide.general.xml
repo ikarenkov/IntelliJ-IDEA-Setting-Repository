@@ -10,11 +10,18 @@
     <entry key="external.system.auto.import.disabled" value="true" />
     <entry key="ide.text.editor.with.preview.show.floating.toolbar" value="false" />
     <entry key="ide.instant.shutdown" value="false" />
+    <entry key="ide.experimental.ui" value="true" />
+    <entry key="ide.experimental.ui.vcs.branch.popup" value="true" />
+    <entry key="ide.experimental.ui.toolwindow.stripes" value="true" />
+    <entry key="ide.experimental.ui.main.toolbar" value="true" />
+    <entry key="ide.experimental.ui.inter.font" value="true" />
+    <entry key="ide.experimental.ui.editor.tabs" value="true" />
   </component>
   <component name="StatusBar">
     <option name="widgets">
       <map>
         <entry key="Memory" value="true" />
+        <entry key="PowerSaveMode" value="true" />
       </map>
     </option>
   </component>
