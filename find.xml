@@ -19,8 +19,8 @@
     <mask>*.gradle.kts</mask>
     <mask>*MediatorImpl.kt</mask>
     <mask>*.xml</mask>
-    <mask>*.kt</mask>
     <mask>*.kts</mask>
     <mask>*Aggregator*.kt</mask>
+    <mask>*.kt</mask>
   </component>
 </application>
