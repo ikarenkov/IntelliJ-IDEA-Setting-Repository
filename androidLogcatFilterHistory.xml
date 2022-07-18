@@ -5,10 +5,12 @@
         <option value="package:mine" />
       </list>
     </option>
-    <option name="mostRecentlyUsed" value="package:mine " />
+    <option name="mostRecentlyUsed" value="package:mine tag:Review Cell" />
     <option name="nonFavorites">
       <list>
+        <option value="package:mine tag:Review Cell" />
         <option value="package:mine " />
+        <option value="package:mine tag:&quot;Review Cell&quot;" />
       </list>
     </option>
   </component>
