@@ -254,6 +254,10 @@
           <option name="url" value="https://github.com/Strikelon/helsinkimap" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/Strikelon/ItunesCompose.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/Documents/development" />
