@@ -22,5 +22,6 @@
     <mask>*.kts</mask>
     <mask>*Aggregator*.kt</mask>
     <mask>*.kt</mask>
+    <mask>*.rb</mask>
   </component>
 </application>
