@@ -11,6 +11,7 @@
       <mapping ext="pem" type="PLAIN_TEXT" />
       <mapping ext="cfg" type="PLAIN_TEXT" />
       <mapping pattern="prepare-commit-msg-test" type="Shell Script" />
+      <mapping ext="qrc" type="XML" />
       <mapping ext="flat" type="XML" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="bash" approved="true" type="Shell Script" />
