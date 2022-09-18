@@ -266,6 +266,14 @@
           <option name="url" value="https://github.com/AlexGladkov/Odyssey.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/Android-Academy-Global/AAGlobal-NavigationComponentPlayground.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/hhru/android-multimodule-plugin.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/development" />

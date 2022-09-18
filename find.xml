@@ -21,7 +21,7 @@
     <mask>*.xml</mask>
     <mask>*.kts</mask>
     <mask>*Aggregator*.kt</mask>
-    <mask>*.kt</mask>
     <mask>*.rb</mask>
+    <mask>*.kt</mask>
   </component>
 </application>
