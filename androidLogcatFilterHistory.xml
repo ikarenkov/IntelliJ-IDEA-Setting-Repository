@@ -2,9 +2,9 @@
   <component name="AndroidLogcatFilterHistory">
     <option name="nonFavorites">
       <list>
+        <option value="package:mine " />
         <option value="package:mine" />
         <option value="package:mine level:error " />
-        <option value="package:mine " />
         <option value="package:mine tag:Review Cell" />
         <option value="package:mine tag:&quot;Review Cell&quot;" />
       </list>
