@@ -19,6 +19,13 @@
   <action id="Android.SyncProject">
     <keyboard-shortcut first-keystroke="f10" />
   </action>
+  <action id="AndroidLogConsole.DeviceScreenshotAction">
+    <keyboard-shortcut first-keystroke="ctrl alt 3" />
+    <keyboard-shortcut first-keystroke="ctrl alt 4" />
+  </action>
+  <action id="AndroidLogConsole.ScreenRecorderAction">
+    <keyboard-shortcut first-keystroke="ctrl alt 5" />
+  </action>
   <action id="Back">
     <keyboard-shortcut first-keystroke="meta open_bracket" />
     <mouse-shortcut keystroke="button4" />
