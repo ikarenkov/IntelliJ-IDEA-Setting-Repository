@@ -49,6 +49,10 @@
     <keyboard-shortcut first-keystroke="alt f7" />
     <keyboard-shortcut first-keystroke="ctrl meta b" />
   </action>
+  <action id="FocusEditor">
+    <keyboard-shortcut first-keystroke="escape" />
+    <keyboard-shortcut first-keystroke="meta escape" />
+  </action>
   <action id="Forward">
     <keyboard-shortcut first-keystroke="meta close_bracket" />
     <mouse-shortcut keystroke="button5" />
