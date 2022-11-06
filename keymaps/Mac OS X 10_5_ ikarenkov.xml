@@ -86,7 +86,8 @@
   </action>
   <action id="ToggleBookmark" />
   <action id="ToggleDistractionFreeMode">
-    <keyboard-shortcut first-keystroke="ctrl meta alt f" />
+    <keyboard-shortcut first-keystroke="shift ctrl meta f" />
+    <keyboard-shortcut first-keystroke="shift ctrl meta enter" />
   </action>
   <action id="android.deploy.ApplyChanges">
     <keyboard-shortcut first-keystroke="ctrl meta r" />
