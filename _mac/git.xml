@@ -1,0 +1,7 @@
+<application>
+  <component name="Git.Application.Settings">
+    <option name="myPathToGit" value="/opt/homebrew/bin/git" />
+    <option name="ANNOTATE_IGNORE_SPACES" value="false" />
+    <option name="USE_CREDENTIAL_HELPER" value="true" />
+  </component>
+</application>

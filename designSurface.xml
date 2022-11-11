@@ -1,0 +1,40 @@
+<application>
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../../../layout/custom_preview.xml" value="0.26875" />
+        <entry key="../../../../layout/compose-model-1612389557538.xml" value="1.0" />
+        <entry key="../../../../layout/compose-model-1612393315034.xml" value="0.5" />
+        <entry key="../../../../layout/compose-model-1612425289202.xml" value="1.0" />
+        <entry key="../../../../layout/compose-model-1612433758123.xml" value="1.0" />
+        <entry key="../../../../layout/compose-model-1612472009042.xml" value="1.0" />
+        <entry key="../../../../layout/compose-model-1612473985552.xml" value="1.0" />
+        <entry key="../../../../layout/compose-model-1612474727850.xml" value="0.22278481012658227" />
+        <entry key="../../../../layout/compose-model-1612609736162.xml" value="0.3358649789029536" />
+        <entry key="../../../../layout/compose-model-1612790088784.xml" value="0.31223628691983124" />
+        <entry key="../../../../layout/compose-model-1612793932713.xml" value="0.31223628691983124" />
+        <entry key="../../../../layout/compose-model-1612946537450.xml" value="0.3240506329113924" />
+        <entry key="../../../../layout/compose-model-1612950076066.xml" value="0.19444444444444445" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.2359375" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.14583333333333334" />
+        <entry key="features/movieDetails/tv/impl/src/main/res/layout/dialog_fragment_seasons.xml" value="0.1" />
+        <entry key="features/movieDetails/tv/impl/src/main/res/layout/fragment_movie_details.xml" value="0.1" />
+        <entry key="features/movieDetails/tv/impl/src/main/res/layout/item_channel_about.xml" value="0.1" />
+        <entry key="features/movieDetails/tv/impl/src/main/res/layout/item_cinema_about.xml" value="0.2194093009500808" />
+        <entry key="features/movieDetails/tv/impl/src/main/res/layout/item_cinema_description.xml" value="0.1" />
+        <entry key="features/movieDetails/tv/impl/src/main/res/layout/item_movie_details_about.xml" value="0.22214854111405835" />
+        <entry key="features/movieDetails/tv/impl/src/main/res/layout/item_movie_details_about_channel.xml" value="0.5" />
+        <entry key="features/movieDetails/tv/impl/src/main/res/layout/item_movie_details_about_event.xml" value="0.5" />
+        <entry key="features/movieDetails/tv/impl/src/main/res/layout/item_movie_details_description.xml" value="0.1" />
+        <entry key="features/movieDetails/tv/impl/src/main/res/layout/item_movie_details_description_event_channel.xml" value="0.1" />
+        <entry key="features/movieDetails/tv/impl/src/main/res/layout/item_movie_details_genre.xml" value="0.1" />
+        <entry key="features/movieDetails/tv/impl/src/main/res/layout/item_movie_details_person.xml" value="0.1" />
+        <entry key="features/movieDetails/tv/impl/src/main/res/layout/item_movie_details_titled_list.xml" value="0.1" />
+        <entry key="features/movieDetails/tv/impl/src/main/res/layout/item_panel_season.xml" value="0.1" />
+        <entry key="features/movieDetails/tv/impl/src/main/res/layout/item_row_season.xml" value="0.5" />
+        <entry key="ui/mobile/moviesBigDelegates-library/src/main/res/layout/item_collection_big.xml" value="0.1" />
+        <entry key="ui/tv/res/src/main/res/drawable/icon_availability_subscription_offer_circle_32.xml" value="0.24259259259259258" />
+      </map>
+    </option>
+  </component>
+</application>

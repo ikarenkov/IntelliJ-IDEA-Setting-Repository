@@ -1,0 +1,113 @@
+<application>
+  <component name="LanguageInjectionConfiguration">
+    <injection language="RegExp" injector-id="groovy">
+      <display-name>RegExp</display-name>
+      <single-file value="true" />
+      <place><![CDATA[groovyElement().annotationParam("groovy.lang.Newify", "pattern")]]></place>
+      <place><![CDATA[groovyLiteralExpression().regExpOperatorArgument()]]></place>
+    </injection>
+    <injection language="encoding-reference" injector-id="java">
+      <display-name>Charset Name</display-name>
+      <single-file value="true" />
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("forName").withParameters("java.lang.String").definedInClass("java.nio.charset.Charset"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("getBytes").withParameters("java.lang.String").definedInClass("java.lang.String"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("isSupported").withParameters("java.lang.String").definedInClass("java.nio.charset.Charset"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("setCharacterEncoding").withParameters("java.lang.String").definedInClass(psiClass().withQualifiedName(string().oneOf("javax.servlet.ServletResponse", "jakarta.servlet.ServletResponse"))))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("toString").withParameters("java.lang.String").definedInClass("java.io.ByteArrayOutputStream"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("InputStreamReader").withParameters("java.io.InputStream", "java.lang.String").definedInClass("java.io.InputStreamReader"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("OutputStreamWriter").withParameters("java.io.OutputStream", "java.lang.String").definedInClass("java.io.OutputStreamWriter"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("PrintStream").withParameters("java.io.File", "java.lang.String").definedInClass("java.io.PrintStream"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("PrintStream").withParameters("java.lang.String", "java.lang.String").definedInClass("java.io.PrintStream"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("String").withParameters("byte[]", "java.lang.String").definedInClass("java.lang.String"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("createXMLEventReader").withParameters("java.io.InputStream", "java.lang.String").definedInClass("javax.xml.stream.XMLInputFactory"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("createXMLEventWriter").withParameters("java.io.OutputStream", "java.lang.String").definedInClass("javax.xml.stream.XMLInputFactory"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("createXMLStreamReader").withParameters("java.io.InputStream", "java.lang.String").definedInClass("javax.xml.stream.XMLInputFactory"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("createXMLStreamWriter").withParameters("java.io.OutputStream", "java.lang.String").definedInClass("javax.xml.stream.XMLInputFactory"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("decode").withParameters("java.lang.String", "java.lang.String").definedInClass("java.net.URLDecoder"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("encode").withParameters("java.lang.String", "java.lang.String").definedInClass("java.net.URLEncoder"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("newReader").withParameters("java.nio.channels.ReadableByteChannel", "java.lang.String").definedInClass("java.nio.channels.Channels"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("newWriter").withParameters("java.nio.channels.WritableByteChannel", "java.lang.String").definedInClass("java.nio.channels.Channels"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(2, psiMethod().withName("PrintStream").withParameters("java.io.OutputStream", "boolean", "java.lang.String").definedInClass("java.io.PrintStream"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(3, psiMethod().withName("String").withParameters("byte[]", "int", "int", "java.lang.String").definedInClass("java.lang.String"))]]></place>
+    </injection>
+    <injection language="JSONPath" injector-id="java">
+      <display-name>JsonAsserter (com.jayway.jsonpath)</display-name>
+      <single-file value="true" />
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("assertEquals").definedInClass("com.jayway.jsonassert.JsonAsserter"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("assertNotDefined").definedInClass("com.jayway.jsonassert.JsonAsserter"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("assertNotNull").definedInClass("com.jayway.jsonassert.JsonAsserter"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("assertNull").definedInClass("com.jayway.jsonassert.JsonAsserter"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("assertThat").definedInClass("com.jayway.jsonassert.JsonAsserter"))]]></place>
+    </injection>
+    <injection language="RoomSql" injector-id="java">
+      <display-name>Room Query annotation</display-name>
+      <single-file value="true" />
+      <place><![CDATA[psiMethod().withName("value").withParameters().definedInClass("android.arch.persistence.room.DatabaseView")]]></place>
+      <place><![CDATA[psiMethod().withName("value").withParameters().definedInClass("android.arch.persistence.room.Query")]]></place>
+      <place><![CDATA[psiMethod().withName("value").withParameters().definedInClass("androidx.room.DatabaseView")]]></place>
+      <place><![CDATA[psiMethod().withName("value").withParameters().definedInClass("androidx.room.Query")]]></place>
+    </injection>
+    <injection language="RoomSql" injector-id="java">
+      <display-name>SQLiteDatabase methods</display-name>
+      <single-file value="true" />
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("compileStatement").withParameters("java.lang.String").definedInClass("android.arch.persistence.db.SupportSQLiteDatabase"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("compileStatement").withParameters("java.lang.String").definedInClass("android.database.sqlite.SQLiteDatabase"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("compileStatement").withParameters("java.lang.String").definedInClass("androidx.sqlite.db.SupportSQLiteDatabase"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("execSQL").withParameters("java.lang.String").definedInClass("android.arch.persistence.db.SupportSQLiteDatabase"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("execSQL").withParameters("java.lang.String").definedInClass("android.database.sqlite.SQLiteDatabase"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("execSQL").withParameters("java.lang.String").definedInClass("androidx.sqlite.db.SupportSQLiteDatabase"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("execSQL").withParameters("java.lang.String", "java.lang.Object[]").definedInClass("android.arch.persistence.db.SupportSQLiteDatabase"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("execSQL").withParameters("java.lang.String", "java.lang.Object[]").definedInClass("android.database.sqlite.SQLiteDatabase"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("execSQL").withParameters("java.lang.String", "java.lang.Object[]").definedInClass("androidx.sqlite.db.SupportSQLiteDatabase"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("rawQuery").withParameters("java.lang.String", "java.lang.String[]").definedInClass("android.database.sqlite.SQLiteDatabase"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("rawQuery").withParameters("java.lang.String", "java.lang.String[]", "android.os.CancellationSignal").definedInClass("android.database.sqlite.SQLiteDatabase"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("validateSql").withParameters("java.lang.String", "android.os.CancellationSignal").definedInClass("android.database.sqlite.SQLiteDatabase"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("rawQueryWithFactory").withParameters("android.database.sqlite.SQLiteDatabase.CursorFactory", "java.lang.String", "java.lang.String[]", "java.lang.String").definedInClass("android.database.sqlite.SQLiteDatabase"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("rawQueryWithFactory").withParameters("android.database.sqlite.SQLiteDatabase.CursorFactory", "java.lang.String", "java.lang.String[]", "java.lang.String", "android.os.CancellationSignal").definedInClass("android.database.sqlite.SQLiteDatabase"))]]></place>
+    </injection>
+    <injection language="RegExp" injector-id="java">
+      <display-name>Scanner (java.util)</display-name>
+      <single-file value="true" />
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("findInLine").withParameters("java.lang.String").definedInClass("java.util.Scanner"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("findWithinHorizon").withParameters("java.lang.String", "int").definedInClass("java.util.Scanner"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("hasNext").withParameters("java.lang.String").definedInClass("java.util.Scanner"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("next").withParameters("java.lang.String").definedInClass("java.util.Scanner"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("skip").withParameters("java.lang.String").definedInClass("java.util.Scanner"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("useDelimiter").withParameters("java.lang.String").definedInClass("java.util.Scanner"))]]></place>
+    </injection>
+    <injection language="RegExp" injector-id="java">
+      <display-name>String (java.lang)</display-name>
+      <single-file value="true" />
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("matches").withParameters("java.lang.String").definedInClass("java.lang.String"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("replaceAll").withParameters("java.lang.String", "java.lang.String").definedInClass("java.lang.String"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("replaceFirst").withParameters("java.lang.String", "java.lang.String").definedInClass("java.lang.String"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("split").withParameters("java.lang.String").definedInClass("java.lang.String"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("split").withParameters("java.lang.String", "int").definedInClass("java.lang.String"))]]></place>
+    </injection>
+    <injection language="RegExp" injector-id="java">
+      <display-name>StringSubject (com.google.common.truth)</display-name>
+      <single-file value="true" />
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("containsMatch").definedInClass("com.google.common.truth.StringSubject"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("doesNotContainMatch").definedInClass("com.google.common.truth.StringSubject"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("doesNotMatch").definedInClass("com.google.common.truth.StringSubject"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("matches").definedInClass("com.google.common.truth.StringSubject"))]]></place>
+    </injection>
+    <injection language="JSONPath" injector-id="java">
+      <display-name>WriteContext (com.jayway.jsonpath)</display-name>
+      <single-file value="true" />
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("add").definedInClass("com.jayway.jsonpath.WriteContext"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("delete").definedInClass("com.jayway.jsonpath.WriteContext"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("map").definedInClass("com.jayway.jsonpath.WriteContext"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("put").definedInClass("com.jayway.jsonpath.WriteContext"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("renameKey").definedInClass("com.jayway.jsonpath.WriteContext"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("set").definedInClass("com.jayway.jsonpath.WriteContext"))]]></place>
+    </injection>
+    <injection language="RegExp" injector-id="kotlin">
+      <display-name>Kotlin</display-name>
+      <single-file value="true" />
+      <place><![CDATA[kotlinParameter().ofFunction(0, kotlinFunction().withName("Regex").definedInClass("kotlin.text.Regex"))]]></place>
+      <place><![CDATA[receiver().ofFunction(kotlinFunction().withName("toPattern").withReceiver("kotlin.String").definedInPackage("kotlin.text"))]]></place>
+      <place><![CDATA[receiver().ofFunction(kotlinFunction().withName("toRegex").withReceiver("kotlin.String").definedInPackage("kotlin.text"))]]></place>
+    </injection>
+  </component>
+</application>

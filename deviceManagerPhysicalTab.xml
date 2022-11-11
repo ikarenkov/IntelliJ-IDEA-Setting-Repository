@@ -1,0 +1,53 @@
+<application>
+  <component name="deviceManagerPhysicalTab">
+    <physicalDevices>
+      <PhysicalDevice>
+        <key>
+          <Key>
+            <type value="SERIAL_NUMBER" />
+            <value value="192.168.31.38:5555" />
+          </Key>
+        </key>
+        <lastOnlineTime value="2022-04-06T11:05:22.377086Z" />
+        <type value="TV" />
+        <name value="Google Chromecast" />
+        <target value="Android 10.0" />
+        <api value="29" />
+      </PhysicalDevice>
+      <PhysicalDevice>
+        <key>
+          <Key>
+            <type value="SERIAL_NUMBER" />
+            <value value="5855debe" />
+          </Key>
+        </key>
+        <name value="Xiaomi Mi 9T Pro" />
+        <target value="Android 11.0" />
+        <api value="30" />
+      </PhysicalDevice>
+      <PhysicalDevice>
+        <key>
+          <Key>
+            <type value="SERIAL_NUMBER" />
+            <value value="R38N400QPVP" />
+          </Key>
+        </key>
+        <lastOnlineTime value="2021-11-06T20:58:51.343484Z" />
+        <name value="samsung SM-F700F" />
+        <target value="Android 10.0" />
+        <api value="29" />
+      </PhysicalDevice>
+      <PhysicalDevice>
+        <key>
+          <Key>
+            <type value="DOMAIN_NAME" />
+            <value value="adb-5855debe-ksjXWK._adb-tls-connect._tcp." />
+          </Key>
+        </key>
+        <name value="Xiaomi Mi 9T Pro" />
+        <target value="Android 11.0" />
+        <api value="30" />
+      </PhysicalDevice>
+    </physicalDevices>
+  </component>
+</application>
