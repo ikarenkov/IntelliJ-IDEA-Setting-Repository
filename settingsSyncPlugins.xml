@@ -25,19 +25,6 @@
             </PluginData>
           </value>
         </entry>
-        <entry key="com.developerphil.adbidea">
-          <value>
-            <PluginData>
-              <option name="dependencies">
-                <set>
-                  <option value="com.intellij.modules.androidstudio" />
-                  <option value="com.intellij.modules.platform" />
-                  <option value="org.jetbrains.android" />
-                </set>
-              </option>
-            </PluginData>
-          </value>
-        </entry>
         <entry key="com.intellij.marketplace">
           <value>
             <PluginData>
@@ -46,6 +33,7 @@
                   <option value="com.intellij.modules.lang" />
                 </set>
               </option>
+              <option name="enabled" value="false" />
             </PluginData>
           </value>
         </entry>
@@ -60,6 +48,7 @@
                   <option value="org.jetbrains.kotlin" />
                 </set>
               </option>
+              <option name="enabled" value="false" />
             </PluginData>
           </value>
         </entry>
@@ -73,6 +62,7 @@
                   <option value="com.intellij.properties" />
                 </set>
               </option>
+              <option name="enabled" value="false" />
             </PluginData>
           </value>
         </entry>

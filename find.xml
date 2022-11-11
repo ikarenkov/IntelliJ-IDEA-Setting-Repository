@@ -2,8 +2,6 @@
   <component name="FindSettings">
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
-    <option name="localRegularExpressions" value="true" />
-    <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
     <mask>*.css</mask>
     <mask>*.html</mask>
@@ -18,12 +16,12 @@
     <mask>*UseCase.kt</mask>
     <mask>*ViewModel.kt</mask>
     <mask>*.gradle</mask>
-    <mask>*.gradle.kts</mask>
     <mask>*MediatorImpl.kt</mask>
     <mask>*.xml</mask>
     <mask>*.kts</mask>
     <mask>*Aggregator*.kt</mask>
     <mask>*.rb</mask>
     <mask>*.kt</mask>
+    <mask>*.gradle.kts</mask>
   </component>
 </application>

@@ -9,7 +9,7 @@
       </set>
     </option>
   </component>
-  <component name="DaemonCodeAnalyzerSettings" profile="OKKO Inspection" />
+  <component name="DaemonCodeAnalyzerSettings" profile="HH_Android_Inspection" />
   <component name="EditorSettings">
     <option name="languageBreadcrumbsMap">
       <map>
@@ -19,7 +19,10 @@
     <option name="USE_SOFT_WRAPS" value="" />
     <option name="SOFT_WRAP_FILE_MASKS" value="*.md; *.txt; *.rst; *.adoc" />
     <option name="IS_RIGHT_MARGIN_SHOWN" value="false" />
+    <option name="ARE_LINE_NUMBERS_SHOWN" value="false" />
+    <option name="ARE_GUTTER_ICONS_SHOWN" value="false" />
     <option name="IS_FOLDING_OUTLINE_SHOWN" value="false" />
+    <option name="SHOW_BREADCRUMBS" value="false" />
     <option name="IS_WHITESPACES_SHOWN" value="true" />
     <option name="IS_INDENT_GUIDES_SHOWN" value="false" />
   </component>
