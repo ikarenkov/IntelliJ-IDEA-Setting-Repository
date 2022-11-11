@@ -59,6 +59,7 @@
   </action>
   <action id="Git.Branches">
     <keyboard-shortcut first-keystroke="f11" />
+    <keyboard-shortcut first-keystroke="shift meta 9" />
   </action>
   <action id="GotoNextError" />
   <action id="HideAllWindows">
