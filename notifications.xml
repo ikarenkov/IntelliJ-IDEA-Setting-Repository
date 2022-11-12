@@ -3,5 +3,6 @@
     <notification groupId="Build sync orphan modules" displayType="NONE" shouldLog="false" />
     <notification groupId="Gradle Notification Group" displayType="NONE" shouldLog="false" />
     <notification groupId="LaunchTaskRunner for Debug" />
+    <notification groupId="LaunchTaskRunner for Run" displayType="TOOL_WINDOW" shouldLog="false" />
   </component>
 </application>
