@@ -16,7 +16,6 @@
     <entry key="ide.experimental.ui.main.toolbar" value="true" />
     <entry key="ide.experimental.ui.inter.font" value="true" />
     <entry key="ide.experimental.ui.editor.tabs" value="true" />
-    <entry key="editor.distraction.free.mode" value="true" />
     <entry key="projectView.hide.dot.idea" value="false" />
     <entry key="idea.use.loader.for.jdk9" value="false" />
   </component>
