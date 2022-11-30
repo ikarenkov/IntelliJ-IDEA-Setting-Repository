@@ -25,5 +25,6 @@
     <mask>*.rb</mask>
     <mask>*.kt</mask>
     <mask>*.gradle.kts</mask>
+    <mask>*.md</mask>
   </component>
 </application>
