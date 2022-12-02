@@ -109,5 +109,17 @@
       <place><![CDATA[receiver().ofFunction(kotlinFunction().withName("toPattern").withReceiver("kotlin.String").definedInPackage("kotlin.text"))]]></place>
       <place><![CDATA[receiver().ofFunction(kotlinFunction().withName("toRegex").withReceiver("kotlin.String").definedInPackage("kotlin.text"))]]></place>
     </injection>
+    <injection language="RegExp" injector-id="xml">
+      <display-name>IntelliJ IDEA injection patterns</display-name>
+      <single-file value="true" />
+      <place><![CDATA[xmlTag().withLocalName("ignore-pattern").withParent(xmlTag().withLocalName("injection").withParent(xmlTag().withLocalName("component")))]]></place>
+      <place><![CDATA[xmlTag().withLocalName("value-pattern").withParent(xmlTag().withLocalName("injection").withParent(xmlTag().withLocalName("component")))]]></place>
+    </injection>
+    <injection language="Groovy" injector-id="xml">
+      <display-name>IntelliJ IDEA pattern</display-name>
+      <single-file value="true" />
+      <place><![CDATA[xmlTag().withLocalName("pattern").inside(xmlTag().withLocalName("idea-plugin"))]]></place>
+      <place><![CDATA[xmlTag().withLocalName("place").withParent(xmlTag().withLocalName("injection").withParent(xmlTag().withLocalName("component")))]]></place>
+    </injection>
   </component>
 </application>

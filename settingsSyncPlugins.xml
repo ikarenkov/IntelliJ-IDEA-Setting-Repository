@@ -13,6 +13,17 @@
             </PluginData>
           </value>
         </entry>
+        <entry key="PythonCore">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.python-core-capable" />
+                </set>
+              </option>
+            </PluginData>
+          </value>
+        </entry>
         <entry key="com.chimerapps.proguard-retrace">
           <value>
             <PluginData>
