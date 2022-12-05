@@ -3,6 +3,7 @@
     <option name="customScope" value="Project Files" />
     <option name="defaultScopeName" value="Project Files" />
     <option name="SEARCH_SCOPE" value="Project Files" />
+    <option name="FILE_MASK" value="*.py" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
@@ -24,5 +25,6 @@
     <mask>*.kt</mask>
     <mask>*.gradle.kts</mask>
     <mask>*.md</mask>
+    <mask>*.py</mask>
   </component>
 </application>
