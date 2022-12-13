@@ -2,10 +2,7 @@
   <component name="FindSettings">
     <option name="customScope" value="Project Files" />
     <option name="defaultScopeName" value="Project Files" />
-    <option name="wholeWordsOnly" value="true" />
-    <option name="WHOLE_WORDS_ONLY" value="true" />
     <option name="SEARCH_SCOPE" value="Project Files" />
-    <option name="FILE_MASK" value="*.kt" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
