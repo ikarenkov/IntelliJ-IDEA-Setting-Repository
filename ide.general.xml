@@ -19,6 +19,7 @@
     <entry key="projectView.hide.dot.idea" value="false" />
     <entry key="idea.use.loader.for.jdk9" value="false" />
     <entry key="editor.distraction.free.mode" value="true" />
+    <entry key="gradle.version.catalogs.dynamic.support" value="true" />
   </component>
   <component name="StatusBar">
     <option name="widgets">
