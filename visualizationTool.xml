@@ -2,20 +2,6 @@
   <component name="VisualizationTool">
     <option name="state">
       <GlobalState>
-        <option name="configurationSetId" value="custom" />
-        <option name="customConfigurationAttributes">
-          <list>
-            <CustomConfigurationAttribute>
-              <option name="apiLevel" value="30" />
-              <option name="deviceId" value="Nexus 7 2013" />
-              <option name="name" value="Preview" />
-              <option name="nightMode" value="NOTNIGHT" />
-              <option name="orientation" value="PORTRAIT" />
-              <option name="theme" value="AppTheme.Mobile" />
-              <option name="uiMode" value="NORMAL" />
-            </CustomConfigurationAttribute>
-          </list>
-        </option>
         <option name="firstTimeOpen" value="false" />
       </GlobalState>
     </option>

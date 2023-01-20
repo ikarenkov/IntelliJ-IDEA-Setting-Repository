@@ -12,6 +12,9 @@
   </action>
   <action id="ActivateProblemsViewToolWindow" />
   <action id="ActivateRunToolWindow" />
+  <action id="ActivateRunningDevicesToolWindow">
+    <keyboard-shortcut first-keystroke="meta 2" />
+  </action>
   <action id="ActivateTODOToolWindow" />
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="meta 6" />

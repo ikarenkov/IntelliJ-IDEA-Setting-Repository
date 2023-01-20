@@ -109,6 +109,12 @@
       <place><![CDATA[receiver().ofFunction(kotlinFunction().withName("toPattern").withReceiver("kotlin.String").definedInPackage("kotlin.text"))]]></place>
       <place><![CDATA[receiver().ofFunction(kotlinFunction().withName("toRegex").withReceiver("kotlin.String").definedInPackage("kotlin.text"))]]></place>
     </injection>
+    <injection language="RoomSql" injector-id="kotlin">
+      <display-name>Room Query annotation</display-name>
+      <single-file value="true" />
+      <place><![CDATA[kotlinParameter().ofFunction(0, kotlinFunction().withName("DatabaseView").definedInClass("androidx.room.DatabaseView"))]]></place>
+      <place><![CDATA[kotlinParameter().ofFunction(0, kotlinFunction().withName("Query").definedInClass("androidx.room.Query"))]]></place>
+    </injection>
     <injection language="RegExp" injector-id="xml">
       <display-name>IntelliJ IDEA injection patterns</display-name>
       <single-file value="true" />
