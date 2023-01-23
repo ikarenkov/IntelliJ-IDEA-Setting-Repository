@@ -44,6 +44,9 @@
   <action id="EditorCloneCaretBelow">
     <keyboard-shortcut first-keystroke="shift ctrl down" />
   </action>
+  <action id="EditorUp">
+    <keyboard-shortcut first-keystroke="up" />
+  </action>
   <action id="FileChooser.GotoProject" />
   <action id="FileChooser.LightEditGotoOpenedFile">
     <keyboard-shortcut first-keystroke="f2" />
@@ -70,6 +73,9 @@
   </action>
   <action id="JumpToLastWindow">
     <keyboard-shortcut first-keystroke="shift meta f12" />
+  </action>
+  <action id="List-selectPreviousRow">
+    <keyboard-shortcut first-keystroke="up" />
   </action>
   <action id="NextProjectWindow">
     <keyboard-shortcut first-keystroke="meta alt back_quote" />
