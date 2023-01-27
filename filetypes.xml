@@ -12,6 +12,7 @@
       <mapping ext="scenarios" type="PLAIN_TEXT" />
       <mapping ext="pem" type="PLAIN_TEXT" />
       <mapping ext="cfg" type="PLAIN_TEXT" />
+      <mapping pattern="post-merge-or-commit" type="Shell Script" />
       <mapping pattern="prepare-commit-msg-test" type="Shell Script" />
       <mapping ext="flat" type="XML" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
