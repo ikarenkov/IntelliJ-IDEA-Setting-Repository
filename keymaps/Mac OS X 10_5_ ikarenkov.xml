@@ -4,19 +4,38 @@
   </action>
   <action id="ActivateBookmarksToolWindow" />
   <action id="ActivateBuildToolWindow">
-    <keyboard-shortcut first-keystroke="meta 4" />
+    <keyboard-shortcut first-keystroke="meta 3" />
   </action>
   <action id="ActivateFindToolWindow" />
   <action id="ActivateLogcatToolWindow">
-    <keyboard-shortcut first-keystroke="meta 6" />
+    <keyboard-shortcut first-keystroke="meta 4" />
   </action>
+  <action id="ActivateProblemsViewToolWindow" />
   <action id="ActivateRunToolWindow" />
+  <action id="ActivateRunningDevicesToolWindow">
+    <keyboard-shortcut first-keystroke="meta 2" />
+  </action>
   <action id="ActivateTODOToolWindow" />
   <action id="ActivateTerminalToolWindow">
-    <keyboard-shortcut first-keystroke="meta 3" />
+    <keyboard-shortcut first-keystroke="meta 6" />
   </action>
   <action id="Android.SyncProject">
     <keyboard-shortcut first-keystroke="f10" />
+  </action>
+  <action id="AndroidLogConsole.DeviceScreenshotAction">
+    <keyboard-shortcut first-keystroke="ctrl alt 3" />
+    <keyboard-shortcut first-keystroke="ctrl alt 4" />
+  </action>
+  <action id="AndroidLogConsole.ScreenRecorderAction">
+    <keyboard-shortcut first-keystroke="ctrl alt 5" />
+  </action>
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="meta open_bracket" />
+    <mouse-shortcut keystroke="button4" />
+  </action>
+  <action id="DeviceAndSnapshotComboBox">
+    <keyboard-shortcut first-keystroke="shift alt f11" />
+    <keyboard-shortcut first-keystroke="ctrl meta alt r" />
   </action>
   <action id="DuplicatesForm.SendToRight" />
   <action id="EditorCloneCaretAbove">
@@ -24,6 +43,9 @@
   </action>
   <action id="EditorCloneCaretBelow">
     <keyboard-shortcut first-keystroke="shift ctrl down" />
+  </action>
+  <action id="EditorUp">
+    <keyboard-shortcut first-keystroke="up" />
   </action>
   <action id="FileChooser.GotoProject" />
   <action id="FileChooser.LightEditGotoOpenedFile">
@@ -33,8 +55,17 @@
     <keyboard-shortcut first-keystroke="alt f7" />
     <keyboard-shortcut first-keystroke="ctrl meta b" />
   </action>
+  <action id="FocusEditor">
+    <keyboard-shortcut first-keystroke="escape" />
+    <keyboard-shortcut first-keystroke="meta escape" />
+  </action>
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="meta close_bracket" />
+    <mouse-shortcut keystroke="button5" />
+  </action>
   <action id="Git.Branches">
     <keyboard-shortcut first-keystroke="f11" />
+    <keyboard-shortcut first-keystroke="shift meta 9" />
   </action>
   <action id="GotoNextError" />
   <action id="HideAllWindows">
@@ -42,6 +73,9 @@
   </action>
   <action id="JumpToLastWindow">
     <keyboard-shortcut first-keystroke="shift meta f12" />
+  </action>
+  <action id="List-selectPreviousRow">
+    <keyboard-shortcut first-keystroke="up" />
   </action>
   <action id="NextProjectWindow">
     <keyboard-shortcut first-keystroke="meta alt back_quote" />
@@ -61,6 +95,10 @@
     <keyboard-shortcut first-keystroke="f2" />
   </action>
   <action id="ToggleBookmark" />
+  <action id="ToggleDistractionFreeMode">
+    <keyboard-shortcut first-keystroke="shift ctrl meta f" />
+    <keyboard-shortcut first-keystroke="shift ctrl meta enter" />
+  </action>
   <action id="android.deploy.ApplyChanges">
     <keyboard-shortcut first-keystroke="ctrl meta r" />
   </action>
@@ -69,5 +107,23 @@
   </action>
   <action id="android.emulator.back.button">
     <keyboard-shortcut first-keystroke="ctrl back_space" />
+    <keyboard-shortcut first-keystroke="meta alt back_space" />
+    <keyboard-shortcut first-keystroke="ctrl delete" />
+  </action>
+  <action id="android.emulator.home.button">
+    <keyboard-shortcut first-keystroke="meta alt down" />
+    <keyboard-shortcut first-keystroke="ctrl page_down" />
+  </action>
+  <action id="android.emulator.overview.button">
+    <keyboard-shortcut first-keystroke="meta alt up" />
+    <keyboard-shortcut first-keystroke="ctrl page_up" />
+  </action>
+  <action id="android.emulator.rotate.left">
+    <keyboard-shortcut first-keystroke="meta alt left" />
+    <keyboard-shortcut first-keystroke="ctrl home" />
+  </action>
+  <action id="android.emulator.rotate.right">
+    <keyboard-shortcut first-keystroke="meta alt right" />
+    <keyboard-shortcut first-keystroke="ctrl end" />
   </action>
 </keymap>

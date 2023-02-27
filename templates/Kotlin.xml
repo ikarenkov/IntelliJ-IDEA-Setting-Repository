@@ -1,0 +1,12 @@
+<templateSet group="Kotlin">
+  <template name="uid" value="companion object {&#10;    private val serialVersionUid: Long = 1L&#10;}$END$" description="serialVersionUid" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="serial" value="private const val serialVersionUID = 1L" description="private const val serialVersionUID = 1L" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+    </context>
+  </template>
+</templateSet>
