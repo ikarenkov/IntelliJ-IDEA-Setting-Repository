@@ -2,9 +2,8 @@
   <component name="FindSettings">
     <option name="customScope" value="Project Files" />
     <option name="defaultScopeName" value="Project Files" />
-    <option name="regularExpressions" value="true" />
-    <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="Project Files" />
+    <option name="FILE_MASK" value="*.kt" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
@@ -25,7 +24,7 @@
     <mask>*.gradle.kts</mask>
     <mask>*.md</mask>
     <mask>*.py</mask>
-    <mask>*.kt</mask>
     <mask>*.kts</mask>
+    <mask>*.kt</mask>
   </component>
 </application>
