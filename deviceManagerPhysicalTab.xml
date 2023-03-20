@@ -8,11 +8,10 @@
             <value value="192.168.31.38:5555" />
           </Key>
         </key>
-        <lastOnlineTime value="2022-04-06T11:05:22.377086Z" />
         <type value="TV" />
         <name value="Google Chromecast" />
         <target value="Android 10.0" />
-        <api value="29" />
+        <api value="androidversion:29:null:null:true" />
       </PhysicalDevice>
       <PhysicalDevice>
         <key>
@@ -23,7 +22,7 @@
         </key>
         <name value="Xiaomi Mi 9T Pro" />
         <target value="Android 11.0" />
-        <api value="30" />
+        <api value="androidversion:30:null:null:true" />
       </PhysicalDevice>
       <PhysicalDevice>
         <key>
@@ -32,10 +31,9 @@
             <value value="R38N400QPVP" />
           </Key>
         </key>
-        <lastOnlineTime value="2021-11-06T20:58:51.343484Z" />
         <name value="samsung SM-F700F" />
         <target value="Android 10.0" />
-        <api value="29" />
+        <api value="androidversion:29:null:null:true" />
       </PhysicalDevice>
       <PhysicalDevice>
         <key>
@@ -46,7 +44,29 @@
         </key>
         <name value="Xiaomi Mi 9T Pro" />
         <target value="Android 11.0" />
-        <api value="30" />
+        <api value="androidversion:30:null:null:true" />
+      </PhysicalDevice>
+      <PhysicalDevice>
+        <key>
+          <Key>
+            <type value="DOMAIN_NAME" />
+            <value value="adb-28311FDH300986-c8N24Q._adb-tls-connect._tcp." />
+          </Key>
+        </key>
+        <name value="Google Pixel 7 Pro" />
+        <target value="Android 13.0" />
+        <api value="androidversion:33:null:null:true" />
+      </PhysicalDevice>
+      <PhysicalDevice>
+        <key>
+          <Key>
+            <type value="SERIAL_NUMBER" />
+            <value value="28311FDH300986" />
+          </Key>
+        </key>
+        <name value="Google Pixel 7 Pro" />
+        <target value="Android 13.0" />
+        <api value="androidversion:33:null:null:true" />
       </PhysicalDevice>
     </physicalDevices>
   </component>
