@@ -294,6 +294,10 @@
           <option name="url" value="https://github.com/FPasaoglu/Work-Manager-Example.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/Android-Academy-Global/advanced-2021-architecture-1.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/development" />
