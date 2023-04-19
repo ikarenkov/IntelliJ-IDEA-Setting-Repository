@@ -25,7 +25,7 @@
     <mask>*.gradle.kts</mask>
     <mask>*.md</mask>
     <mask>*.py</mask>
-    <mask>*.kts</mask>
     <mask>*.kt</mask>
+    <mask>*.kts</mask>
   </component>
 </application>

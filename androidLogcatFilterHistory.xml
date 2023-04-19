@@ -1,13 +1,15 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="package:mine" />
+    <option name="mostRecentlyUsed" value="package:mine -tag:EGL_emulation" />
     <option name="nonFavorites">
       <list>
+        <option value="package:mine -tag:EGL_emulation" />
+        <option value="package:mine --tag:EGL_emulation" />
+        <option value="package:mine " />
         <option value="package:mine" />
         <option value="package:mine level:error " />
         <option value="package:mine tag:SyncInteractor" />
         <option value="package:mine sinc" />
-        <option value="package:mine " />
         <option value="package:mine tag:" />
         <option value="package:mine tag:Review Cell" />
         <option value="package:mine tag:&quot;Review Cell&quot;" />
