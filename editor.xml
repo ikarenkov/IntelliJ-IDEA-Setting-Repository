@@ -9,21 +9,30 @@
       </set>
     </option>
   </component>
-  <component name="DaemonCodeAnalyzerSettings" profile="OKKO Inspection">
-    <option name="SHOW_METHOD_SEPARATORS" value="true" />
-  </component>
+  <component name="DaemonCodeAnalyzerSettings" profile="OKKO Inspection" />
   <component name="EditorSettings">
     <option name="languageBreadcrumbsMap">
       <map>
+        <entry key="Groovy" value="true" />
+        <entry key="HTML" value="true" />
+        <entry key="JAVA" value="false" />
+        <entry key="JSON" value="true" />
+        <entry key="Markdown" value="false" />
+        <entry key="ObjectiveC" value="true" />
+        <entry key="XHTML" value="true" />
+        <entry key="XML" value="true" />
         <entry key="kotlin" value="true" />
+        <entry key="yaml" value="true" />
       </map>
     </option>
     <option name="USE_SOFT_WRAPS" value="" />
     <option name="SOFT_WRAP_FILE_MASKS" value="*.md; *.txt; *.rst; *.adoc" />
+    <option name="IS_FOLDING_OUTLINE_SHOWN" value="false" />
     <option name="IS_WHITESPACES_SHOWN" value="true" />
+    <option name="IS_INDENT_GUIDES_SHOWN" value="false" />
   </component>
   <component name="InlayHintsSettings">
-    <option name="lastViewedProviderKeyId" value=".references" />
+    <option name="lastViewedProviderKeyId" value="" />
   </component>
   <component name="InspectionProfileManager">
     <list size="8">

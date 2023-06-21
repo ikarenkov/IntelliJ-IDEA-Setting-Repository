@@ -19,6 +19,9 @@
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="meta 6" />
   </action>
+  <action id="Android.RunLayoutInspector">
+    <keyboard-shortcut first-keystroke="meta 0" />
+  </action>
   <action id="Android.SyncProject">
     <keyboard-shortcut first-keystroke="f10" />
   </action>
