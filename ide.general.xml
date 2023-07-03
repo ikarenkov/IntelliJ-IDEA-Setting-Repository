@@ -10,15 +10,12 @@
     <entry key="external.system.auto.import.disabled" value="true" />
     <entry key="ide.text.editor.with.preview.show.floating.toolbar" value="false" />
     <entry key="ide.instant.shutdown" value="false" />
-    <entry key="ide.experimental.ui" value="true" />
     <entry key="ide.experimental.ui.vcs.branch.popup" value="true" />
     <entry key="ide.experimental.ui.toolwindow.stripes" value="true" />
     <entry key="ide.experimental.ui.main.toolbar" value="true" />
-    <entry key="ide.experimental.ui.inter.font" value="true" />
     <entry key="ide.experimental.ui.editor.tabs" value="true" />
     <entry key="projectView.hide.dot.idea" value="false" />
     <entry key="idea.use.loader.for.jdk9" value="false" />
-    <entry key="gradle.version.catalogs.dynamic.support" value="true" />
     <entry key="editor.distraction.free.mode" value="true" />
   </component>
   <component name="StatusBar">
