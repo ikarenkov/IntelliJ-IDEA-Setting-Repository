@@ -3,7 +3,6 @@
     <option name="SHOW_IMPORTS" value="false" />
   </component>
   <component name="UsageFilteringRuleState">
-    <option value="com.intellij.usages.impl.rules.WriteAccessFilteringRule" />
     <option value="com.intellij.usages.impl.rules.ImportUsageFilteringRule" />
   </component>
   <component name="UsageInGeneratedCodeFilteringSetting">
