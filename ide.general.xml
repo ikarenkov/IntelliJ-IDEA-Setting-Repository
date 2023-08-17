@@ -16,7 +16,6 @@
     <entry key="ide.experimental.ui.editor.tabs" value="true" />
     <entry key="projectView.hide.dot.idea" value="false" />
     <entry key="idea.use.loader.for.jdk9" value="false" />
-    <entry key="editor.distraction.free.mode" value="true" />
   </component>
   <component name="StatusBar">
     <option name="widgets">
