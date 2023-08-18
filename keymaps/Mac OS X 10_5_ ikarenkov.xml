@@ -74,6 +74,12 @@
   <action id="HideAllWindows">
     <keyboard-shortcut first-keystroke="f12" />
   </action>
+  <action id="IntentionActionAsAction_org.jetbrains.kotlin.idea.intentions.ChopArgumentListIntention">
+    <keyboard-shortcut first-keystroke="meta alt s" />
+  </action>
+  <action id="IntentionActionAsAction_org.jetbrains.kotlin.idea.intentions.JoinArgumentListIntention">
+    <keyboard-shortcut first-keystroke="meta alt s" />
+  </action>
   <action id="JumpToLastWindow">
     <keyboard-shortcut first-keystroke="shift meta f12" />
   </action>
