@@ -77,6 +77,9 @@
   <action id="IntentionActionAsAction_org.jetbrains.kotlin.idea.intentions.ChopArgumentListIntention">
     <keyboard-shortcut first-keystroke="meta alt s" />
   </action>
+  <action id="IntentionActionAsAction_org.jetbrains.kotlin.idea.intentions.ChopParameterListIntention">
+    <keyboard-shortcut first-keystroke="meta alt s" />
+  </action>
   <action id="IntentionActionAsAction_org.jetbrains.kotlin.idea.intentions.JoinArgumentListIntention">
     <keyboard-shortcut first-keystroke="meta alt s" />
   </action>
