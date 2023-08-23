@@ -4,6 +4,17 @@
       <PhysicalDevice>
         <key>
           <Key>
+            <type value="SERIAL_NUMBER" />
+            <value value="28311FDH300986" />
+          </Key>
+        </key>
+        <name value="Google Pixel 7 Pro" />
+        <target value="Android 13.0" />
+        <api value="androidversion:33:null:6:true" />
+      </PhysicalDevice>
+      <PhysicalDevice>
+        <key>
+          <Key>
             <type value="DOMAIN_NAME" />
             <value value="adb-28311FDH300986-c8N24Q._adb-tls-connect._tcp." />
           </Key>
@@ -56,17 +67,6 @@
         <name value="Xiaomi Mi 9T Pro" />
         <target value="Android 11.0" />
         <api value="androidversion:30:null:null:true" />
-      </PhysicalDevice>
-      <PhysicalDevice>
-        <key>
-          <Key>
-            <type value="SERIAL_NUMBER" />
-            <value value="28311FDH300986" />
-          </Key>
-        </key>
-        <name value="Google Pixel 7 Pro" />
-        <target value="Android 13.0" />
-        <api value="androidversion:33:null:null:true" />
       </PhysicalDevice>
     </physicalDevices>
   </component>
