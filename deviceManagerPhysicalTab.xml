@@ -8,9 +8,8 @@
             <value value="28311FDH300986" />
           </Key>
         </key>
-        <name value="Google Pixel 7 Pro" />
-        <target value="Android 13.0" />
-        <api value="androidversion:33:null:6:true" />
+        <name value="Device" />
+        <target value="Android 1.0" />
       </PhysicalDevice>
       <PhysicalDevice>
         <key>
@@ -67,6 +66,16 @@
         <name value="Xiaomi Mi 9T Pro" />
         <target value="Android 11.0" />
         <api value="androidversion:30:null:null:true" />
+      </PhysicalDevice>
+      <PhysicalDevice>
+        <key>
+          <Key>
+            <type value="SERIAL_NUMBER" />
+            <value value="(no serial number)" />
+          </Key>
+        </key>
+        <name value="Device" />
+        <target value="Android 1.0" />
       </PhysicalDevice>
     </physicalDevices>
   </component>
