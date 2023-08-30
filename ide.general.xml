@@ -1,10 +1,11 @@
 <application>
   <component name="GeneralSettings">
+    <option name="showTipsOnStartup" value="true" />
     <option name="autoSaveIfInactive" value="true" />
-    <option name="confirmExit" value="false" />
-    <option name="inactiveTimeout" value="60" />
-    <option name="processCloseConfirmation" value="TERMINATE" />
     <option name="searchInBackground" value="true" />
+    <option name="confirmExit" value="false" />
+    <option name="processCloseConfirmation" value="TERMINATE" />
+    <option name="inactiveTimeout" value="60" />
   </component>
   <component name="Registry">
     <entry key="external.system.auto.import.disabled" value="true" />
@@ -18,7 +19,6 @@
     <entry key="ide.experimental.ui.editor.tabs" value="true" />
     <entry key="projectView.hide.dot.idea" value="false" />
     <entry key="idea.use.loader.for.jdk9" value="false" />
-    <entry key="gradle.version.catalogs.dynamic.support" value="true" />
     <entry key="editor.distraction.free.mode" value="true" />
   </component>
   <component name="StatusBar">
