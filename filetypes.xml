@@ -6,6 +6,7 @@
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
       <mapping ext="db" type="Native" />
+      <mapping ext="mp4" type="Native" />
       <mapping pattern=".keep" type="PLAIN_TEXT" />
       <mapping pattern=".empty" type="PLAIN_TEXT" />
       <mapping ext="xcuserstate" type="PLAIN_TEXT" />
