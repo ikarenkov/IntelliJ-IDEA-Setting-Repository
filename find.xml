@@ -25,7 +25,7 @@
     <mask>*.kt</mask>
     <mask>*.apk</mask>
     <mask>**Test**.kt</mask>
-    <mask>*.rb</mask>
     <mask>*.kts</mask>
+    <mask>*.rb</mask>
   </component>
 </application>
