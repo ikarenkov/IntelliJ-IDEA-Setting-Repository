@@ -4,9 +4,11 @@
   </component>
   <component name="UISettings">
     <option name="compactTreeIndents" value="true" />
+    <option name="EDITOR_TAB_PLACEMENT" value="0" />
     <option name="MAX_LOOKUP_LIST_HEIGHT" value="17" />
     <option name="MAX_LOOKUP_WIDTH2" value="996" />
     <option name="SHOW_INPLACE_COMMENTS" value="true" />
+    <option name="SHOW_STATUS_BAR" value="false" />
     <option name="WIDESCREEN_SUPPORT" value="true" />
   </component>
 </application>
