@@ -9,6 +9,7 @@
     <option name="MAX_LOOKUP_WIDTH2" value="996" />
     <option name="SHOW_INPLACE_COMMENTS" value="true" />
     <option name="SHOW_STATUS_BAR" value="false" />
+    <option name="UI_DENSITY" value="COMPACT" />
     <option name="WIDESCREEN_SUPPORT" value="true" />
   </component>
 </application>
