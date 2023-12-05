@@ -20,7 +20,6 @@
     <entry key="idea.use.loader.for.jdk9" value="false" />
     <entry key="ide.experimental.ui" value="true" />
     <entry key="debugger.new.tool.window.layout" value="true" />
-    <entry key="editor.distraction.free.mode" value="true" />
   </component>
   <component name="StatusBar">
     <option name="widgets">
