@@ -1,8 +1,9 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="" />
+    <option name="mostRecentlyUsed" value="tag:AuthLogoutTest" />
     <option name="nonFavorites">
       <list>
+        <option value="tag:AuthLogoutTest" />
         <option value="level:error package:mine " />
         <option value="level:error " />
         <option value="tag:CrossAuth" />
@@ -22,7 +23,6 @@
         <option value="package:mine sinc" />
         <option value="package:mine tag:" />
         <option value="package:mine tag:Review Cell" />
-        <option value="package:mine tag:&quot;Review Cell&quot;" />
       </list>
     </option>
   </component>
