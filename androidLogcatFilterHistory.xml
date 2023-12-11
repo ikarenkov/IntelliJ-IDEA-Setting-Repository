@@ -1,8 +1,9 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="tag:AuthLogoutTest" />
+    <option name="mostRecentlyUsed" value="tag:AuthData" />
     <option name="nonFavorites">
       <list>
+        <option value="tag:AuthData" />
         <option value="tag:AuthLogoutTest" />
         <option value="level:error package:mine " />
         <option value="level:error " />
@@ -22,7 +23,6 @@
         <option value="package:mine tag:SyncInteractor" />
         <option value="package:mine sinc" />
         <option value="package:mine tag:" />
-        <option value="package:mine tag:Review Cell" />
       </list>
     </option>
   </component>
