@@ -1,14 +1,13 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="tag:AuthData" />
     <option name="nonFavorites">
       <list>
+        <option value="package:mine " />
         <option value="tag:AuthData" />
         <option value="tag:AuthLogoutTest" />
         <option value="level:error package:mine " />
         <option value="level:error " />
         <option value="tag:CrossAuth" />
-        <option value="package:mine " />
         <option value="tag:&quot;CrossAuth&quot;" />
         <option value="tag=:CrossAuth" />
         <option value="tag=:" />
