@@ -1,18 +1,27 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="package:mine -tag:EGL_emulation" />
     <option name="nonFavorites">
       <list>
-        <option value="package:mine -tag:EGL_emulation" />
-        <option value="package:mine --tag:EGL_emulation" />
         <option value="package:mine " />
+        <option value="tag:AuthData" />
+        <option value="tag:AuthLogoutTest" />
+        <option value="level:error package:mine " />
+        <option value="level:error " />
+        <option value="tag:CrossAuth" />
+        <option value="tag:&quot;CrossAuth&quot;" />
+        <option value="tag=:CrossAuth" />
+        <option value="tag=:" />
+        <option value="package:mine -tag:EGL_emulation level:error " />
+        <option value="package:mine -tag:EGL_emulation" />
+        <option value="package:mine -tag:EGL_emulation level:ASSERT  " />
+        <option value="package:mine -tag:EGL_emulation level:E " />
+        <option value="package:mine -tag:EGL_emulation level:assert " />
+        <option value="package:mine --tag:EGL_emulation" />
         <option value="package:mine" />
         <option value="package:mine level:error " />
         <option value="package:mine tag:SyncInteractor" />
         <option value="package:mine sinc" />
         <option value="package:mine tag:" />
-        <option value="package:mine tag:Review Cell" />
-        <option value="package:mine tag:&quot;Review Cell&quot;" />
       </list>
     </option>
   </component>

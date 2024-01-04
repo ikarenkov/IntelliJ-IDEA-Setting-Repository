@@ -5,11 +5,12 @@
   <component name="CodeVisionSettings">
     <option name="disabledCodeVisionProviderIds">
       <set>
+        <option value="references" />
         <option value="vcs.code.vision" />
       </set>
     </option>
   </component>
-  <component name="DaemonCodeAnalyzerSettings" profile="OKKO Inspection">
+  <component name="DaemonCodeAnalyzerSettings" profile="Kommander Inspection">
     <option name="SHOW_METHOD_SEPARATORS" value="true" />
   </component>
   <component name="EditorSettings">
@@ -29,9 +30,7 @@
     </option>
     <option name="USE_SOFT_WRAPS" value="" />
     <option name="SOFT_WRAP_FILE_MASKS" value="*.md; *.txt; *.rst; *.adoc" />
-    <option name="IS_FOLDING_OUTLINE_SHOWN" value="false" />
     <option name="IS_WHITESPACES_SHOWN" value="true" />
-    <option name="IS_INDENT_GUIDES_SHOWN" value="false" />
   </component>
   <component name="InlayHintsSettings">
     <option name="lastViewedProviderKeyId" value="" />
