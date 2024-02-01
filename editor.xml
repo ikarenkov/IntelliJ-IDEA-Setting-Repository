@@ -37,6 +37,7 @@
     <settingsMapElement>
       <kotlin.kotlin.references.types.hints>
         <Settings>
+          <option name="functionReturnType" value="true" />
           <option name="propertyType" value="true" />
         </Settings>
       </kotlin.kotlin.references.types.hints>
