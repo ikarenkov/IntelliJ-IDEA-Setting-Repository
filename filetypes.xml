@@ -6,14 +6,14 @@
       <mapping pattern="CODEOWNERS" type="AUTO_DETECTED" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
-      <mapping ext="mp4" type="Native" />
       <mapping ext="db" type="Native" />
+      <mapping ext="mp4" type="Native" />
       <mapping pattern=".keep" type="PLAIN_TEXT" />
       <mapping pattern=".empty" type="PLAIN_TEXT" />
-      <mapping ext="xcuserstate" type="PLAIN_TEXT" />
       <mapping ext="scenarios" type="PLAIN_TEXT" />
-      <mapping ext="pem" type="PLAIN_TEXT" />
       <mapping ext="cfg" type="PLAIN_TEXT" />
+      <mapping ext="pem" type="PLAIN_TEXT" />
+      <mapping ext="xcuserstate" type="PLAIN_TEXT" />
       <mapping pattern="post-merge-or-commit" type="Shell Script" />
       <mapping pattern="prepare-commit-msg-test" type="Shell Script" />
       <mapping ext="flat" type="XML" />

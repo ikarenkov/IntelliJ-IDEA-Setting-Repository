@@ -1,25 +1,26 @@
 <application>
   <component name="GeneralSettings">
+    <option name="showTipsOnStartup" value="true" />
     <option name="autoSaveIfInactive" value="true" />
-    <option name="confirmExit" value="false" />
-    <option name="inactiveTimeout" value="60" />
-    <option name="processCloseConfirmation" value="TERMINATE" />
     <option name="searchInBackground" value="true" />
+    <option name="confirmExit" value="false" />
+    <option name="confirmOpenNewProject2" value="-1" />
+    <option name="processCloseConfirmation" value="TERMINATE" />
+    <option name="inactiveTimeout" value="60" />
   </component>
   <component name="Registry">
-    <entry key="external.system.auto.import.disabled" value="true" />
-    <entry key="ide.text.editor.with.preview.show.floating.toolbar" value="false" />
-    <entry key="ide.instant.shutdown" value="false" />
     <entry key="ide.experimental.ui.vcs.branch.popup" value="true" />
-    <entry key="ide.experimental.ui.toolwindow.stripes" value="true" />
-    <entry key="ide.experimental.ui.main.toolbar" value="true" />
+    <entry key="ide.experimental.ui" value="true" />
+    <entry key="analyze.exceptions.on.the.fly" value="true" />
+    <entry key="idea.use.loader.for.jdk9" value="false" />
+    <entry key="ide.instant.shutdown" value="false" />
     <entry key="ide.experimental.ui.editor.tabs" value="true" />
     <entry key="projectView.hide.dot.idea" value="false" />
-    <entry key="idea.use.loader.for.jdk9" value="false" />
-    <entry key="ide.experimental.ui" value="true" />
+    <entry key="ide.experimental.ui.toolwindow.stripes" value="true" />
+    <entry key="ide.experimental.ui.main.toolbar" value="true" />
     <entry key="debugger.new.tool.window.layout" value="true" />
-    <entry key="analyze.exceptions.on.the.fly" value="true" />
-    <entry key="gradle.version.catalogs.dynamic.support" value="true" />
+    <entry key="ide.experimental.ui.inter.font" value="false" />
+    <entry key="idea.plugins.compatible.build" value="" />
   </component>
   <component name="StatusBar">
     <option name="widgets">

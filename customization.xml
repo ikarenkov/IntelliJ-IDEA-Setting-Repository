@@ -1,5 +1,12 @@
 <application>
   <component name="com.intellij.ide.ui.customization.CustomActionsSchema">
+    <group value="Vcs.Push" is_action="true" action_type="1" position="1">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="Left" />
+      <path value="VCS Group" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
     <action id="RenameElement" icon="$USER_HOME$/Documents/Android studio icons/edit.svg" />
     <action id="QuickJavaDoc" icon="$USER_HOME$/Downloads/documentation/documentation.svg" />
     <action id="ShowUsages" icon="$USER_HOME$/Documents/Android studio icons/search.svg" />
