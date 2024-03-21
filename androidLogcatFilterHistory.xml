@@ -1,8 +1,11 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="package:mine -tag:EGL_emulation AndroidViewModelSampleScreen" />
+    <option name="mostRecentlyUsed" value="package:mine -tag:EGL_emulation AndroidViewModelSampleScreen | ModoScreenAndroidAdapter" />
     <option name="nonFavorites">
       <list>
+        <option value="package:mine -tag:EGL_emulation AndroidViewModelSampleScreen | ModoScreenAndroidAdapter" />
+        <option value="package:mine -tag:EGL_emulation " />
+        <option value="package:mine -tag:EGL_emulation AndroidViewModelSampleScreen | " />
         <option value="package:mine -tag:EGL_emulation AndroidViewModelSampleScreen" />
         <option value="package:mine -tag:EGL_emulation ((^|, )(AndroidViewModelSampleScreen))*" />
         <option value="package:mine -tag:EGL_emulation (AndroidViewModelSampleScreen)" />
@@ -20,9 +23,6 @@
         <option value="tag=:" />
         <option value="package:mine -tag:EGL_emulation level:error " />
         <option value="package:mine -tag:EGL_emulation level:ASSERT  " />
-        <option value="package:mine -tag:EGL_emulation level:E " />
-        <option value="package:mine -tag:EGL_emulation level:assert " />
-        <option value="package:mine --tag:EGL_emulation" />
       </list>
     </option>
   </component>
