@@ -1,15 +1,15 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="package:mine -tag:EGL_emulation AndroidViewModelSampleScreen | ModoScreenAndroidAdapter" />
+    <option name="mostRecentlyUsed" value="package:mine -tag:EGL_emulation" />
     <option name="nonFavorites">
       <list>
+        <option value="package:mine -tag:EGL_emulation" />
         <option value="package:mine -tag:EGL_emulation AndroidViewModelSampleScreen | ModoScreenAndroidAdapter" />
         <option value="package:mine -tag:EGL_emulation " />
         <option value="package:mine -tag:EGL_emulation AndroidViewModelSampleScreen | " />
         <option value="package:mine -tag:EGL_emulation AndroidViewModelSampleScreen" />
         <option value="package:mine -tag:EGL_emulation ((^|, )(AndroidViewModelSampleScreen))*" />
         <option value="package:mine -tag:EGL_emulation (AndroidViewModelSampleScreen)" />
-        <option value="package:mine -tag:EGL_emulation" />
         <option value="package:mine " />
         <option value="package:mine -tag:VRI" />
         <option value="package:mine --tag:VRI" />
