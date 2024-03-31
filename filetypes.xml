@@ -1,6 +1,6 @@
 <application>
-  <component name="FileTypeManager" version="18">
-    <ignoreFiles list="*.iml;*.orig;*.pyc;*.pyo;*.rbc;*.yarb;*~;.DS_Store;.hg;.svn;CVS;__pycache__;_svn;vssver.scc;vssver2.scc" />
+  <component name="FileTypeManager" version="19">
+    <ignoreFiles list="*.iml;*.orig;*.pyc;*.pyo;*.rbc;*.yarb;*~;.DS_Store;.hg;.mypy_cache;.pytest_cache;.ruff_cache;.svn;CVS;__pycache__;_svn;vssver.scc;vssver2.scc" />
     <extensionMap>
       <mapping pattern="IntelliJ IDEA Global Settings" type="AUTO_DETECTED" />
       <mapping pattern="CODEOWNERS" type="AUTO_DETECTED" />
