@@ -2,11 +2,17 @@
   <component name="ImportFilteringUsageViewSetting">
     <option name="SHOW_IMPORTS" value="false" />
   </component>
+  <component name="UsageFilteringRuleState">
+    <option value="com.intellij.usages.impl.rules.UsageInGeneratedCodeFilteringRule" />
+    <option value="com.intellij.usages.impl.rules.ImportUsageFilteringRule" />
+  </component>
   <component name="UsageInGeneratedCodeFilteringSetting">
     <option name="enabled" value="false" />
   </component>
   <component name="UsageViewSettings">
     <option name="IS_EXPANDED" value="true" />
-    <option name="PREVIEW_USAGES_SPLITTER_PROPORTIONS" value="0.39651957" />
+    <option name="FLATTEN_MODULES" value="false" />
+    <option name="GROUP_BY_FILE_STRUCTURE" value="false" />
+    <option name="PREVIEW_USAGES_SPLITTER_PROPORTIONS" value="0.7587879" />
   </component>
 </application>
