@@ -2,5 +2,10 @@
   <component name="StudioBotSettings">
     <option name="contextSharingMode" value="ALWAYS_SHARE" />
     <option name="onboardedVersion" value="3" />
+    <option name="queryHistory">
+      <list>
+        <historyEntry timestamp="1713821358062">how to add drawerElevation to Scaffold when LazyColumn is scrolled</historyEntry>
+      </list>
+    </option>
   </component>
 </application>

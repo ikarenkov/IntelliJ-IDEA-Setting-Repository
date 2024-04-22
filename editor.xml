@@ -54,6 +54,9 @@
       </kotlin.kotlin.references.types.hints>
     </settingsMapElement>
   </component>
+  <component name="InlineCompletionOnboarding">
+    <option name="onboardingFinished" value="true" />
+  </component>
   <component name="InspectionProfileManager">
     <list size="12">
       <item index="0" class="java.lang.String" itemvalue="INFORMATION" />
