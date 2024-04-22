@@ -1,0 +1,6 @@
+<application>
+  <component name="StudioBotSettings">
+    <option name="contextSharingMode" value="ALWAYS_SHARE" />
+    <option name="onboardedVersion" value="3" />
+  </component>
+</application>
