@@ -4,6 +4,7 @@
     <option name="onboardedVersion" value="3" />
     <option name="queryHistory">
       <list>
+        <historyEntry timestamp="1714156165464">How to start activity?</historyEntry>
         <historyEntry timestamp="1713873043850">Make suggestions to improve this code:
 class ScreenEffectsSampleScreen(
     override val screenKey: ScreenKey = generateScreenKey()
