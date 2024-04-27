@@ -1,12 +1,12 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="package:mine -tag:EGL_emulation tag=:Modo" />
+    <option name="mostRecentlyUsed" value="package:mine -tag:EGL_emulation" />
     <option name="nonFavorites">
       <list>
+        <option value="package:mine -tag:EGL_emulation" />
         <option value="package:mine -tag:EGL_emulation tag=:Modo" />
         <option value="package:mine -tag:EGL_emulation " />
         <option value="package:mine -tag:EGL_emulation tag=:MainScreen" />
-        <option value="package:mine -tag:EGL_emulation" />
         <option value="package:mine -tag:EGL_emulation tag=:&quot;InnerScreen Lifecycle&quot;" />
         <option value="package:mine " />
         <option value="package:mine -tag:EGL_emulation tag:SampleStack" />
