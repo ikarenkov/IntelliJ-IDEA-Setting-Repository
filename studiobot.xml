@@ -4,6 +4,8 @@
     <option name="onboardedVersion" value="3" />
     <option name="queryHistory">
       <list>
+        <historyEntry timestamp="1714229177988">where supportFragmentManager is stored?</historyEntry>
+        <historyEntry timestamp="1714228758132">How to built in fragment container to activity and create fist fragment?</historyEntry>
         <historyEntry timestamp="1714210983991">Activity has a method isFinishing that returns true when we actually close activity and it liveth hierarchy. I use it to clear resources. Is thare simmular ways to do so, but for fragments?</historyEntry>
       </list>
     </option>
