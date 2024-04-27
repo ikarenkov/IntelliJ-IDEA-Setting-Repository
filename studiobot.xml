@@ -4,40 +4,7 @@
     <option name="onboardedVersion" value="3" />
     <option name="queryHistory">
       <list>
-        <historyEntry timestamp="1714210593540">Make suggestions to improve this code:
-/**
- * Creates [RootScreen] with provided screen, if there is no saved value.
- * Otherwise
- * Integration point for your screen hierarchy. You can use this fun to integrate Modo to your Fragment or Activity.
- */
-@Composable
-fun &lt;T : Screen&gt; rememberRootScreen(
-    rootScreenFactory: () -&gt; T
-): RootScreen&lt;T&gt; {
-    val rootScreen = rememberSaveable {
-        RootScreen(rootScreenFactory())
-    }
-    val context = LocalContext.current
-    val activity by remember {
-        derivedStateOf {
-            context.getActivity()
-        }
-    }
-    DisposableEffect(rootScreen, activity) {
-        onDispose {
-            if (activity?.isFinishing == true) {
-                onRootScreenFinished(rootScreen)
-            }
-        }
-    }
-    return rootScreen
-}</historyEntry>
-        <historyEntry timestamp="1714156165464">How to start activity?</historyEntry>
-        <historyEntry timestamp="1713873043850">Make suggestions to improve this code:
-class ScreenEffectsSampleScreen(
-    override val screenKey: ScreenKey = generateScreenKey()
-) : Screen {
-}</historyEntry>
+        <historyEntry timestamp="1714210983991">Activity has a method isFinishing that returns true when we actually close activity and it liveth hierarchy. I use it to clear resources. Is thare simmular ways to do so, but for fragments?</historyEntry>
       </list>
     </option>
   </component>
