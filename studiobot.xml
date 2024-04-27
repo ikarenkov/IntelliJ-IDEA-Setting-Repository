@@ -4,6 +4,12 @@
     <option name="onboardedVersion" value="3" />
     <option name="queryHistory">
       <list>
+        <historyEntry timestamp="1714243506201">how to get a fragment by backstackentry</historyEntry>
+        <historyEntry timestamp="1714243276493">But name is always null</historyEntry>
+        <historyEntry timestamp="1714242794397">But how can I take the index?</historyEntry>
+        <historyEntry timestamp="1714242754512">But I just have a Fragment, how can I determine is Fragment removing from given fragment instance?</historyEntry>
+        <historyEntry timestamp="1714242462568">How to distinguish removal of fragment from backstack from just putting it into bakc stack? F.e. in activity there is isFinishing method that helps to distiguish system distroy of fragment from user initiated.</historyEntry>
+        <historyEntry timestamp="1714242191740">but supportFragmentManager.fragments returns fragments added to the container, but i need fragments stored in the back stack</historyEntry>
         <historyEntry timestamp="1714240818427">How to deteck that fragment is removed fror backstack?</historyEntry>
         <historyEntry timestamp="1714239430040">how to handle back pressed in the activity?</historyEntry>
         <historyEntry timestamp="1714229177988">where supportFragmentManager is stored?</historyEntry>
