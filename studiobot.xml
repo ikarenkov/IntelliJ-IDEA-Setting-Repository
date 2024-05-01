@@ -4,6 +4,10 @@
     <option name="onboardedVersion" value="3" />
     <option name="queryHistory">
       <list>
+        <historyEntry timestamp="1714550742808">But how to do it directly inside the modifier?</historyEntry>
+        <historyEntry timestamp="1714550701264">But when i move to the other screen and back, then I got a new color for background. But I would like it to be the same</historyEntry>
+        <historyEntry timestamp="1714550536919">how to do it from randomBackground?</historyEntry>
+        <historyEntry timestamp="1714550452850">Ok, this code works well, but how to provide behavior simmular to rememberSaveable? I want to remember color once</historyEntry>
         <historyEntry timestamp="1714550023725">How to build a new modifier that use random backround color by reusing Modifier.background?</historyEntry>
         <historyEntry timestamp="1714549015003">but i dont need an animation</historyEntry>
         <historyEntry timestamp="1714548988535">why do you use animation here?</historyEntry>
