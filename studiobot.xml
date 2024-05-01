@@ -4,6 +4,7 @@
     <option name="onboardedVersion" value="3" />
     <option name="queryHistory">
       <list>
+        <historyEntry timestamp="1714597615807">how in gradle comnvention plugin when i set up publication get sources jar for project?</historyEntry>
         <historyEntry timestamp="1714575605238">how to correctly apply convention plugin to root project?</historyEntry>
         <historyEntry timestamp="1714550742808">But how to do it directly inside the modifier?</historyEntry>
         <historyEntry timestamp="1714550701264">But when i move to the other screen and back, then I got a new color for background. But I would like it to be the same</historyEntry>
