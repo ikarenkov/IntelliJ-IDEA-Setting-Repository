@@ -4,6 +4,7 @@
     <option name="onboardedVersion" value="3" />
     <option name="queryHistory">
       <list>
+        <historyEntry timestamp="1714550023725">How to build a new modifier that use random backround color by reusing Modifier.background?</historyEntry>
         <historyEntry timestamp="1714549015003">but i dont need an animation</historyEntry>
         <historyEntry timestamp="1714548988535">why do you use animation here?</historyEntry>
         <historyEntry timestamp="1714548835761">I have a code that uses composed to create Modifier. Can you rewrite it to use new api Modifier.Node?
