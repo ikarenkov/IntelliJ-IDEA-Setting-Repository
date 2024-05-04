@@ -4,6 +4,7 @@
     <option name="onboardedVersion" value="3" />
     <option name="queryHistory">
       <list>
+        <historyEntry timestamp="1714818245755">How to get all android lint rules?</historyEntry>
         <historyEntry timestamp="1714598433874">if I create publication in this way, how to sign it?</historyEntry>
         <historyEntry timestamp="1714597615807">how in gradle comnvention plugin when i set up publication get sources jar for project?</historyEntry>
         <historyEntry timestamp="1714575605238">how to correctly apply convention plugin to root project?</historyEntry>
