@@ -4,6 +4,10 @@
     <option name="onboardedVersion" value="3" />
     <option name="queryHistory">
       <list>
+        <historyEntry timestamp="1714921830628">But this is local plugin, gradle should not try to look it in the gradle plugins portal</historyEntry>
+        <historyEntry timestamp="1714921730545">how correctly define user created gradle plugins in libs.version.toml?
+I declare it like this `modo-detekt = { id = &quot;modo-detekt&quot;, version = &quot;unspecified&quot; }`, but in this case I have a error in log
+Could not connect to https://plugins.gradle.org/m2/modo-detekt/modo-detekt.gradle.plugin/maven-metadata.xml to get the latest available version for plugin modo-detekt</historyEntry>
         <historyEntry timestamp="1714835932286">what is type of task in gradle for lint? Can you give me it with a package</historyEntry>
         <historyEntry timestamp="1714822769000">But is there gast a list of rules?</historyEntry>
         <historyEntry timestamp="1714818245755">How to get all android lint rules?</historyEntry>
