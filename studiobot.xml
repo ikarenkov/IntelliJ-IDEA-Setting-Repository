@@ -4,6 +4,14 @@
     <option name="onboardedVersion" value="3" />
     <option name="queryHistory">
       <list>
+        <historyEntry timestamp="1715938159275">It is about this code this@ProvideScope</historyEntry>
+        <historyEntry timestamp="1715938099340">I have warning
+&quot;This label is now resolved to 'function ProvideScope' but soon it will be resolved to the closest 'anonymous function'. Please consider introducing or changing explicit label name&quot;
+How to fix it?</historyEntry>
+        <historyEntry timestamp="1715873581675">If I mark interface as a Stable, does it mean that inherited classes are also going to be stable?</historyEntry>
+        <historyEntry timestamp="1715581477444">But I provide this library, maybe I need a flag to enable and disable logging?</historyEntry>
+        <historyEntry timestamp="1715581417464">I'm developing library for android jetpack compose. I want to log some information in the library. What is a best practice to log internal work?</historyEntry>
+        <historyEntry timestamp="1715521757992">Is it possible to union cells inside the table in markdown?</historyEntry>
         <historyEntry timestamp="1715342163538">I use &lt;table&gt; inside readme.md file. How to add a link to a local file in the table?</historyEntry>
         <historyEntry timestamp="1714921830628">But this is local plugin, gradle should not try to look it in the gradle plugins portal</historyEntry>
         <historyEntry timestamp="1714921730545">how correctly define user created gradle plugins in libs.version.toml?
