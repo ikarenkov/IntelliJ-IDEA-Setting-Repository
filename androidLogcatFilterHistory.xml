@@ -1,8 +1,9 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="package:ru.hh.employer.android.debug tag:testRememberSaveable" />
+    <option name="mostRecentlyUsed" value="package:ru.hh.employer.android.debug " />
     <option name="nonFavorites">
       <list>
+        <option value="package:ru.hh.employer.android.debug " />
         <option value="package:ru.hh.employer.android.debug tag:testRememberSaveable" />
         <option value="package:ru.hh.employer.android.debug tag=:testRememberSaveable" />
         <option value="package:ru.hh.employer.android.debug" />
@@ -22,7 +23,6 @@
         <option value="package:mine -tag:EGL_emulation (AndroidViewModelSampleScreen)" />
         <option value="package:mine -tag:VRI" />
         <option value="package:mine --tag:VRI" />
-        <option value="tag:AuthData" />
       </list>
     </option>
   </component>
