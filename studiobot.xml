@@ -4,6 +4,7 @@
     <option name="onboardedVersion" value="3" />
     <option name="queryHistory">
       <list>
+        <historyEntry timestamp="1716633475997">How to use beta version of a compose foundation with compose bom?</historyEntry>
         <historyEntry timestamp="1716203813788">If I create ComposeView in fragment using onCreateView, what to do with savedInstanceState?</historyEntry>
         <historyEntry timestamp="1715938159275">It is about this code this@ProvideScope</historyEntry>
         <historyEntry timestamp="1715938099340">I have warning

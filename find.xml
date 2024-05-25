@@ -1,11 +1,10 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Project Files" />
-    <option name="defaultScopeName" value="Project Files" />
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
     <option name="localCaseSensitive" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
-    <option name="SEARCH_SCOPE" value="Project Files" />
-    <option name="FILE_MASK" value="*Screen*" />
+    <option name="SEARCH_SCOPE" value="All Places" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
@@ -27,10 +26,10 @@
     <mask>*.kt</mask>
     <mask>*.apk</mask>
     <mask>**Test**.kt</mask>
-    <mask>*.kts</mask>
     <mask>*.rb</mask>
     <mask>*rules.*</mask>
     <mask>*.md</mask>
     <mask>*Screen*</mask>
+    <mask>*.kts</mask>
   </component>
 </application>
