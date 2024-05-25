@@ -1,6 +1,6 @@
 <application>
   <component name="StudioBotSettings">
-    <option name="contextSharingMode" value="ALWAYS_SHARE" />
+    <option name="contextSharingMode" value="NEVER_SHARE" />
     <option name="onboardedVersion" value="3" />
     <option name="queryHistory">
       <list>
