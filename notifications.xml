@@ -2,6 +2,7 @@
   <component name="NotificationConfiguration">
     <notification groupId="Android Gradle Upgrade Notification" />
     <notification groupId="Build sync orphan modules" displayType="NONE" shouldLog="false" />
+    <notification groupId="Deploy" displayType="NONE" />
     <notification groupId="Gradle Notification Group" displayType="NONE" shouldLog="false" />
     <notification groupId="LaunchTaskRunner for Debug" />
     <notification groupId="LaunchTaskRunner for Run" displayType="TOOL_WINDOW" shouldLog="false" />
