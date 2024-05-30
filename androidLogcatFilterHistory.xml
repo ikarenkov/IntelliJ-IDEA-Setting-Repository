@@ -1,8 +1,9 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="package:ru.hh.android.demo tag:HorizontalPagerInnerScreen" />
+    <option name="mostRecentlyUsed" value="package:ru.hh.android.demo tag:HorizontalPager" />
     <option name="nonFavorites">
       <list>
+        <option value="package:ru.hh.android.demo tag:HorizontalPager" />
         <option value="package:ru.hh.android.demo tag:HorizontalPagerInnerScreen" />
         <option value="package:ru.hh.android.demo tag:HorizontalPagerScreen" />
         <option value="package:mine tag:HorizontalPagerScreen" />
@@ -22,7 +23,6 @@
         <option value="package:mine -tag:EGL_emulation tag:SampleStack" />
         <option value="package:mine -tag:EGL_emulation AndroidViewModelSampleScreen | ModoScreenAndroidAdapter" />
         <option value="package:mine -tag:EGL_emulation AndroidViewModelSampleScreen | " />
-        <option value="package:mine -tag:EGL_emulation AndroidViewModelSampleScreen" />
       </list>
     </option>
   </component>
