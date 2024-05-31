@@ -1,53 +1,11 @@
 <application>
   <component name="StudioBotSettings">
-    <option name="contextSharingMode" value="NEVER_SHARE" />
+    <option name="contextSharingMode" value="AlwaysShare" />
+    <option name="enableCodeCompletion" value="false" />
     <option name="onboardedVersion" value="3" />
     <option name="queryHistory">
       <list>
-        <historyEntry timestamp="1716969064294">No, I mean natural languaegs, line english and russian</historyEntry>
-        <historyEntry timestamp="1716969035309">I mean you can Install extensions for different laguages support</historyEntry>
-        <historyEntry timestamp="1716968993986">How to configure arphography in android studio?</historyEntry>
-        <historyEntry timestamp="1716654900994">Explain: FATAL EXCEPTION: main
-Process: com.github.terrakok.modo.sample, PID: 7541
-java.lang.IllegalArgumentException: modifier is updated when deactivated
-at androidx.compose.ui.internal.InlineClassHelperKt.throwIllegalArgumentException(InlineClassHelper.kt:34)
-at androidx.compose.ui.node.LayoutNode.setModifier(LayoutNode.kt:1936) with tag AndroidRuntime</historyEntry>
-        <historyEntry timestamp="1716633475997">How to use beta version of a compose foundation with compose bom?</historyEntry>
-        <historyEntry timestamp="1716203813788">If I create ComposeView in fragment using onCreateView, what to do with savedInstanceState?</historyEntry>
-        <historyEntry timestamp="1715938159275">It is about this code this@ProvideScope</historyEntry>
-        <historyEntry timestamp="1715938099340">I have warning
-&quot;This label is now resolved to 'function ProvideScope' but soon it will be resolved to the closest 'anonymous function'. Please consider introducing or changing explicit label name&quot;
-How to fix it?</historyEntry>
-        <historyEntry timestamp="1715873581675">If I mark interface as a Stable, does it mean that inherited classes are also going to be stable?</historyEntry>
-        <historyEntry timestamp="1715581477444">But I provide this library, maybe I need a flag to enable and disable logging?</historyEntry>
-        <historyEntry timestamp="1715581417464">I'm developing library for android jetpack compose. I want to log some information in the library. What is a best practice to log internal work?</historyEntry>
-        <historyEntry timestamp="1715521757992">Is it possible to union cells inside the table in markdown?</historyEntry>
-        <historyEntry timestamp="1715342163538">I use &lt;table&gt; inside readme.md file. How to add a link to a local file in the table?</historyEntry>
-        <historyEntry timestamp="1714921830628">But this is local plugin, gradle should not try to look it in the gradle plugins portal</historyEntry>
-        <historyEntry timestamp="1714921730545">how correctly define user created gradle plugins in libs.version.toml?
-I declare it like this `modo-detekt = { id = &quot;modo-detekt&quot;, version = &quot;unspecified&quot; }`, but in this case I have a error in log
-Could not connect to https://plugins.gradle.org/m2/modo-detekt/modo-detekt.gradle.plugin/maven-metadata.xml to get the latest available version for plugin modo-detekt</historyEntry>
-        <historyEntry timestamp="1714835932286">what is type of task in gradle for lint? Can you give me it with a package</historyEntry>
-        <historyEntry timestamp="1714822769000">But is there gast a list of rules?</historyEntry>
-        <historyEntry timestamp="1714818245755">How to get all android lint rules?</historyEntry>
-        <historyEntry timestamp="1714598433874">if I create publication in this way, how to sign it?</historyEntry>
-        <historyEntry timestamp="1714597615807">how in gradle comnvention plugin when i set up publication get sources jar for project?</historyEntry>
-        <historyEntry timestamp="1714575605238">how to correctly apply convention plugin to root project?</historyEntry>
-        <historyEntry timestamp="1714550742808">But how to do it directly inside the modifier?</historyEntry>
-        <historyEntry timestamp="1714550701264">But when i move to the other screen and back, then I got a new color for background. But I would like it to be the same</historyEntry>
-        <historyEntry timestamp="1714550536919">how to do it from randomBackground?</historyEntry>
-        <historyEntry timestamp="1714550452850">Ok, this code works well, but how to provide behavior simmular to rememberSaveable? I want to remember color once</historyEntry>
-        <historyEntry timestamp="1714550023725">How to build a new modifier that use random backround color by reusing Modifier.background?</historyEntry>
-        <historyEntry timestamp="1714549015003">but i dont need an animation</historyEntry>
-        <historyEntry timestamp="1714548988535">why do you use animation here?</historyEntry>
-        <historyEntry timestamp="1714548835761">I have a code that uses composed to create Modifier. Can you rewrite it to use new api Modifier.Node?
-fun Modifier.randomBackground(
-    alpha: Float = 1f
-) = composed {
-    val backgroundColorInt = rememberSaveable { Random.nextInt() }
-    val backgroundColor = remember { Color(backgroundColorInt).copy(alpha = alpha) }
-    then(Modifier.background(backgroundColor))
-}</historyEntry>
+        <historyEntry timestamp="1717079068814">I have compse State in my ViewModel, how to convert it to flow?</historyEntry>
       </list>
     </option>
   </component>
