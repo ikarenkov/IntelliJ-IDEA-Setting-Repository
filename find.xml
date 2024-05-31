@@ -5,6 +5,7 @@
     <option name="regularExpressions" value="true" />
     <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="Project Files" />
+    <option name="FILE_MASK" value="*Screen*" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
@@ -29,7 +30,7 @@
     <mask>*.rb</mask>
     <mask>*rules.*</mask>
     <mask>*.md</mask>
-    <mask>*Screen*</mask>
     <mask>*.kts</mask>
+    <mask>*Screen*</mask>
   </component>
 </application>
