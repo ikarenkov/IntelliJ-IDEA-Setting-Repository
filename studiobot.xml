@@ -5,6 +5,70 @@
     <option name="onboardedVersion" value="3" />
     <option name="queryHistory">
       <list>
+        <historyEntry timestamp="1717247073995">Make suggestions to improve this code:
+# Modo
+
+[![Maven Central](https://img.shields.io/maven-central/v/com.github.terrakok/modo-compose)](https://repo1.maven.org/maven2/com/github/terrakok)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+&lt;list columns=&quot;2&quot;&gt;
+    &lt;li&gt;
+        &lt;p&gt;
+            &lt;b&gt;Modo&lt;/b&gt; is a simple and convenient state-base navigation library for Jetpack Compose. It offers a flexible and powerful way to manage navigation in your application.
+        &lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;p&gt;
+            Sample video overview:
+            &lt;video src=&quot;../videos/modo_0.9.0_sample_overview.mp4&quot; preview-src=&quot;../images/media/modo_0.9.0_sample_overview_preview.png&quot; width=&quot;300&quot;/&gt;
+        &lt;/p&gt;
+    &lt;/li&gt;
+&lt;/list&gt;
+
+## Overview of Modo
+
+UI of Modo navigation is defined by `NavigationState`, that contains of structure of `Screen` and `ContainerScreen`: ![diagram_1.png](diagram_1.png){
+height = 400 }
+
+### Screen
+
+`Screen` is a basic unit of UI. To render content, create `Screen` implementation and override `fun Content(modifier: Modifier)`
+
+```kotlin
+```
+
+{ src=&quot;SampleScreen.kt&quot; default-state=&quot;collapsed&quot; collapsible=&quot;true&quot; collapsed-title=&quot;SampleScreen&quot;}
+
+### Performing navigation
+
+To update state, use `dispatch(action: Action)` on `NavigationContainer`, or build-in extension functions
+for [StackScreen]()
+and [MultiScreen]()
+
+* `Screen` can be injected into your DI container, but it must be removed from DI as soon as `Screen` is removed from hierarchy. You can use build-in
+  screen effects for this purpose.
+
+## Getting Started
+
+To get started with Modo, check out our [Quick Start Guide](QuickStartGuide.md) and explore
+the [sample application](https://github.com/ikarenkov/Modo/tree/dev/sample) to see how Modo can simplify your navigation needs.
+
+# List of features
+
+&lt;table&gt;
+&lt;tr&gt;&lt;td&gt;Feature&lt;/td&gt;&lt;td&gt;Status&lt;/td&gt;&lt;td&gt;Source/Docs&lt;/td&gt;&lt;td&gt;Sample&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Stack navigation&lt;/td&gt;&lt;td&gt;✅&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;%github_code_url%modo-compose/src/main/java/com/github/terrakok/modo/stack/StackScreen.kt&quot;&gt;StackScreen&lt;/a&gt;, &lt;a href=&quot;%github_code_url%modo-compose/src/main/java/com/github/terrakok/modo/stack/StackActions.kt&quot;&gt;build-in commands&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;%github_code_url%sample/src/main/java/com/github/terrakok/modo/sample/screens/containers/SampleStack.kt&quot;&gt;SampleStack&lt;/a&gt;, &lt;a href=&quot;%github_code_url%sample/src/main/java/com/github/terrakok/modo/sample/screens/stack/StackActionsScreen.kt&quot;&gt;sample&lt;/a&gt; of navigation actions&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Multi screen navigation&lt;/td&gt;&lt;td&gt;✅&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;%github_code_url%modo-compose/src/main/java/com/github/terrakok/modo/multiscreen/MultiScreen.kt&quot;&gt;MultiScreen&lt;/a&gt;, &lt;a href=&quot;%github_code_url%modo-compose/src/main/java/com/github/terrakok/modo/multiscreen/MultiScreenActions.kt&quot;&gt;build-in commands&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;%github_code_url%sample/src/main/java/com/github/terrakok/modo/sample/screens/containers/SampleMultiScreen.kt&quot;&gt;SampleMultiscreen&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Dialogs&lt;/td&gt;&lt;td&gt;✅&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;%github_code_url%modo-compose/src/main/java/com/github/terrakok/modo/DialogScreen.kt&quot;&gt;DialogScreen&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;%github_code_url%sample/src/main/java/com/github/terrakok/modo/sample/screens/dialogs/DialogsPlayground.kt&quot;&gt;Dialogs playground&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Arguments&lt;/td&gt;&lt;td&gt;✅&lt;/td&gt;&lt;td&gt;Arguments can be passed as constructor parameter of Screen.&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;%github_code_url%sample/src/main/java/com/github/terrakok/modo/sample/screens/MainScreen.kt&quot;&gt;MainScreen&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Animation&lt;/td&gt;&lt;td&gt;✅&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;%github_code_url%modo-compose/src/main/java/com/github/terrakok/modo/animation/ScreenTransitions.kt&quot;&gt;ScreenTransition&lt;/a&gt;, &lt;a href=&quot;%github_code_url%modo-compose/src/main/java/com/github/terrakok/modo/animation/StackTransitionType.kt&quot;&gt;helpers for stack screen transition&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;%github_code_url%sample/src/main/java/com/github/terrakok/modo/sample/screens/containers/SampleStack.kt&quot;&gt;SampleStack&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Android lifecycle support&lt;/td&gt;&lt;td&gt;✅&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;%github_code_url%modo-compose/src/main/java/com/github/terrakok/modo/android/ModoScreenAndroidAdapter.kt&quot;&gt;ModoScreenAndroidAdapter&lt;/a&gt; connect Modo with android-related features. You can safely use LocalLifecycleOwner and other fun inside Screen's. To correctly observe screen lifecycle it's recommender to use &lt;code&gt;LifecycleScreenEffect&lt;/code&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;%github_code_url%sample/src/main/java/com/github/terrakok/modo/sample/screens/MainScreen.kt&quot;&gt;MainScreen&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Android ViewModel support&lt;/td&gt;&lt;td&gt;✅&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;%github_code_url%modo-compose/src/main/java/com/github/terrakok/modo/android/ModoScreenAndroidAdapter.kt&quot;&gt;ModoScreenAndroidAdapter&lt;/a&gt; connect Modo with android-related features. You can safely use &lt;code&gt;viewModel&lt;/code&gt; and other fun inside Screen's.&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;%github_code_url%sample/src/main/java/com/github/terrakok/modo/sample/screens/viewmodel/AndroidViewModelSampleScreen.kt&quot;&gt;AndroidViewModelSampleScreen.kt&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Activity and fragment integration&lt;/td&gt;&lt;td&gt;✅&lt;/td&gt;&lt;td&gt;Use &lt;code&gt;rememberRootScreen&lt;/code&gt; inside &lt;code&gt;Fragment&lt;/code&gt; or &lt;code&gt;Activity&lt;/code&gt;. These functions are declared in &lt;a href=&quot;%github_code_url%modo-compose/src/main/java/com/github/terrakok/modo/Modo.kt&quot;&gt;Modo&lt;/a&gt; and automatically handle saving and restoring during &lt;code&gt;Activity&lt;/code&gt; lifecycle and process death.&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;%github_code_url%sample/src/main/java/com/github/terrakok/modo/sample/ModoSampleActivity.kt&quot;&gt;ModoSampleActivity&lt;/a&gt;, &lt;a href=&quot;%github_code_url%sample/src/main/java/com/github/terrakok/modo/sample/fragment/ModoFragment.kt&quot;&gt;ModoFragment.kt&lt;/a&gt;, &lt;a href=&quot;%github_code_url%sample/src/main/java/com/github/terrakok/modo/sample/ModoLegacyIntegrationActivity.kt&quot;&gt;ModoLegacyIntegrationActivity.kt&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Activity and process death handling&lt;/td&gt;&lt;td&gt;✅&lt;/td&gt;&lt;td&gt;Automatically provided by &lt;code&gt;Fragment&lt;/code&gt; and &lt;code&gt;Activity&lt;/code&gt; Modo integration. For more details take a look to&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;%github_code_url%sample/src/main/java/com/github/terrakok/modo/sample/ModoSampleActivity.kt&quot;&gt;ModoSampleActivity&lt;/a&gt;, &lt;a href=&quot;%github_code_url%sample/src/main/java/com/github/terrakok/modo/sample/fragment/ModoFragment.kt&quot;&gt;ModoFragment.kt&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Screen effects&lt;/td&gt;&lt;td&gt;✅&lt;/td&gt;&lt;td&gt;You can use &lt;code&gt;LaunchedScreenEffect&lt;/code&gt; and &lt;code&gt;DisposableScreenEffect&lt;/code&gt; analogies for &lt;code&gt;Screen&lt;/code&gt;, it's linked to life time of a &lt;code&gt;Screen&lt;/code&gt;. There is also &lt;code&gt;LifecycleScreenEffect&lt;/code&gt; for easy observing lifecycle. See &lt;a href=&quot;%github_code_url%modo-compose/src/main/java/com/github/terrakok/modo/lifecycle/ScreenEffects.kt&quot;&gt;ScreenEffects&lt;/a&gt; for details.&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;%github_code_url%sample/src/main/java/com/github/terrakok/modo/sample/screens/ScreenEffectsSampleScreen.kt&quot;&gt;ScreenEffectsSampleScreen.kt&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Pager and LazyList integration&lt;/td&gt;&lt;td&gt;✅&lt;/td&gt;&lt;td&gt;You can create custom &lt;code&gt;ContainerScreen&lt;/code&gt; and use internal &lt;code&gt;Screen&lt;/code&gt; inside &lt;code&gt;Vertical/HorizontalPager&lt;/code&gt; and &lt;code&gt;LazyRow/Column&lt;/code&gt;. It's vital to define &lt;code&gt;key = {}&lt;/code&gt; lambda with &lt;code&gt;InternalContent&lt;/code&gt; for correct intagration. For more details take a look to the samples. &lt;a href=&quot;%github_code_url%modo-compose%2Fsrc%2Fmain%2Fjava%2Fcom%2Fgithub%2Fterrakok%2Fmodo%2Flazylist%2FLazyListUtils.kt&quot;&gt;LazyListUtils&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;%github_code_url%sample/src/main/java/com/github/terrakok/modo/sample/screens/containers/StackInLazyColumnScreen.kt&quot;&gt;StackInLazyColumnScreen.kt&lt;/a&gt;, &lt;a href=&quot;%github_code_url%sample/src/main/java/com/github/terrakok/modo/sample/screens/containers/HorizontalPagerScreen.kt&quot;&gt;HorizontalPagerScreen.kt&lt;/a&gt;, &lt;a href=&quot;%github_code_url%sample/src/main/java/com/github/terrakok/modo/sample/screens/containers/custom/RemovableItemContainerScreen.kt&quot;&gt;RemovableItemContainerScreen.kt&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</historyEntry>
         <historyEntry timestamp="1717079068814">I have compse State in my ViewModel, how to convert it to flow?</historyEntry>
       </list>
     </option>
