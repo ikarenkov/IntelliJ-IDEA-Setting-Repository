@@ -5,6 +5,9 @@
     <option name="onboardedVersion" value="3" />
     <option name="queryHistory">
       <list>
+        <historyEntry timestamp="1717449882631">In coroutine 1.7.3 there is no such function</historyEntry>
+        <historyEntry timestamp="1717449822605">What is onCancellation?</historyEntry>
+        <historyEntry timestamp="1717449742182">How to execute code of coroutine when it is canceled?</historyEntry>
         <historyEntry timestamp="1717408990523">Make suggestions to improve this code:
 &lt;note&gt;This part of the documentation is under development and can contains incomplete or empty sections.&lt;/note&gt;</historyEntry>
         <historyEntry timestamp="1717400243423">Generate a text for the page &quot;Community and contribution&quot;. It is for documentation of Modo - navigation library for jetpack compose. We have telegram group and github page. Motivate people to enchance library and documentation</historyEntry>
