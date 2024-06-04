@@ -5,6 +5,77 @@
     <option name="onboardedVersion" value="3" />
     <option name="queryHistory">
       <list>
+        <historyEntry timestamp="1717490869691">Make suggestions to improve this code:
+# Screen effects
+
+Modo provides a set of side-effect that are similar to the `LaunchedEffect` and `DisposableEffect` from Jetpack Compose, but they are tied to the
+screen lifecycle:
+
+* `LaunchedScreenEffct` - executes the given `block: suspend CoroutineScope.() -&gt; Unit` when the screen is created and cancels coroutine scope when
+  the screen is removed.
+* `DisposableScreenEffect` - executes the given `effect: DisposableEffectScope.() -&gt; DisposableEffectResult` whe the screen is created and calls
+  the `DisposableEffectResult.dispose()` of returned `DisposableEffectResult` when the screen is removed.
+* `OnScreenRemoved` - executes when the screen is removed from the navigation graph. It is similar to the `DisposableScreenEffect`.
+* `LifecycleScreenEffect` - a shortcut for subscribing to screen's lifecycle, that uses `DisposableScreenEffect` under the hood.
+
+You can use them when you need to perform some action when screen is created and then dispose it when screen is removed. F.e. you can use it to create
+and close DI scope.
+
+1. effects called called once per `Screen` instance, when the given fun enters to the composition and this block wasn't called for
+   this `Screen`'s instance.
+2. Effect disposed when the `Screen` is removed from the navigation graph.
+
+&lt;include from=&quot;snippets.topic&quot; element-id=&quot;under_develop_note&quot;&gt;&lt;/include&gt;
+
+## Examples of usage
+
+### Analytics
+
+You can use `DisposableScreenEffect` to track screen first visit and remove events:
+
+```Kotlin
+DisposableScreenEffect {
+    logcat { &quot;Analytics: screen created. Counter: $counter.&quot; }
+    onDispose {
+        logcat { &quot;Analytics: screen destroyed.  Counter: $counter.&quot; }
+    }
+}
+```
+
+### DI scope integration
+
+You can use `OnScreenRemoved` with `remember` to create and close DI scope. Scope of `Screen` can be identified by `screenKey`. Here is a sample of
+how you can use it with Toothpick:
+
+```Kotlin
+@Composable
+internal fun Screen.rememberScreenScope(
+    parentScope: Scope = LocalToothpickScope.current,
+    moduleProvider: () -&gt; Module = { module { } },
+): Scope {
+    val scope = remember {
+        getOrInitScope(screenKey, parentScope, moduleProvider)
+    }
+    OnScreenRemoved(&quot;scope&quot;) {
+        Toothpick.closeScope(scope.name)
+    }
+    return scope
+}
+
+private fun getOrInitScope(
+    screenKey: ScreenKey,
+    parentScope: Scope,
+    moduleProvider: () -&gt; Module = { module { } },
+): Scope {
+    val scopeName = screenKey.scopeName()
+    return if (Toothpick.isScopeOpen(scopeName)) {
+        Toothpick.openScope(scopeName)
+    } else {
+        val scope = Toothpick.openScopes(parentScope.name, scopeName)
+        scope.installModules(moduleProvider.invoke())
+    }
+}
+```</historyEntry>
         <historyEntry timestamp="1717449882631">In coroutine 1.7.3 there is no such function</historyEntry>
         <historyEntry timestamp="1717449822605">What is onCancellation?</historyEntry>
         <historyEntry timestamp="1717449742182">How to execute code of coroutine when it is canceled?</historyEntry>
