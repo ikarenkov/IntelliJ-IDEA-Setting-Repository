@@ -73,6 +73,9 @@
     <keyboard-shortcut first-keystroke="f11" />
     <keyboard-shortcut first-keystroke="shift meta 9" />
   </action>
+  <action id="GitUpdateSelectedBranchAction">
+    <keyboard-shortcut first-keystroke="ctrl meta alt t" />
+  </action>
   <action id="GotoNextError" />
   <action id="HideAllWindows">
     <keyboard-shortcut first-keystroke="f12" />
