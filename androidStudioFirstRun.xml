@@ -1,5 +1,8 @@
 <application>
+  <component name="AndroidFirstRunPersistentData">
+    <version>1</version>
+  </component>
   <component name="whatsNew">
-    <shownVersion>2024.1.2rc5</shownVersion>
+    <shownVersion>2024.1.1rc9</shownVersion>
   </component>
 </application>
