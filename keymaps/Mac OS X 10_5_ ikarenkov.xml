@@ -36,6 +36,9 @@
     <keyboard-shortcut first-keystroke="meta open_bracket" />
     <mouse-shortcut keystroke="button4" />
   </action>
+  <action id="CopyPathFromRepositoryRootProvider">
+    <keyboard-shortcut first-keystroke="ctrl c" />
+  </action>
   <action id="DeviceAndSnapshotComboBox">
     <keyboard-shortcut first-keystroke="shift alt f11" />
     <keyboard-shortcut first-keystroke="ctrl meta alt r" />
@@ -69,6 +72,9 @@
   <action id="Git.Branches">
     <keyboard-shortcut first-keystroke="f11" />
     <keyboard-shortcut first-keystroke="shift meta 9" />
+  </action>
+  <action id="GitUpdateSelectedBranchAction">
+    <keyboard-shortcut first-keystroke="ctrl meta alt t" />
   </action>
   <action id="GotoNextError" />
   <action id="HideAllWindows">
