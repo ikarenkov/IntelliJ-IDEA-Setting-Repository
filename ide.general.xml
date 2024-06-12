@@ -3,7 +3,6 @@
     <option name="showTipsOnStartup" value="true" />
     <option name="autoSaveIfInactive" value="true" />
     <option name="searchInBackground" value="true" />
-    <option name="confirmExit" value="false" />
     <option name="confirmOpenNewProject2" value="-1" />
     <option name="processCloseConfirmation" value="TERMINATE" />
     <option name="inactiveTimeout" value="60" />
