@@ -5,6 +5,8 @@
     <option name="onboardedVersion" value="3" />
     <option name="queryHistory">
       <list>
+        <historyEntry timestamp="1718372888622">Why is it limmited by package?</historyEntry>
+        <historyEntry timestamp="1718372771708">Inheritor of sealed class or interface declared in package ru.hh.applicant.feature.skills_gap.presentation.choose_resume but it must be in package ru.hh.applicant.feature.skills_gap.presentation where base class is declared. Why? Sealed classes only limited by module</historyEntry>
         <historyEntry timestamp="1717490869691">Make suggestions to improve this code:
 # Screen effects
 
