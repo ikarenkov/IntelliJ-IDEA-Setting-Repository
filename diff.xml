@@ -84,6 +84,11 @@
           <option name="READ_ONLY_LOCK" value="false" />
         </PlaceSettings>
       </entry>
+      <entry key="Merge">
+        <PlaceSettings>
+          <option name="BREADCRUMBS_PLACEMENT" value="TOP" />
+        </PlaceSettings>
+      </entry>
       <entry key="TestsFiledAssertions">
         <PlaceSettings>
           <option name="HIGHLIGHT_POLICY" value="BY_CHAR" />
