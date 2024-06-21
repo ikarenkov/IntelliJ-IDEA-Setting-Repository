@@ -5,6 +5,11 @@
     <option name="onboardedVersion" value="3" />
     <option name="queryHistory">
       <list>
+        <historyEntry timestamp="1718985481694">But what if int is a px size?</historyEntry>
+        <historyEntry timestamp="1718985460874">How to use int as padding?</historyEntry>
+        <historyEntry timestamp="1718985333737">But how to do it without onGloballyPositioned?</historyEntry>
+        <historyEntry timestamp="1718985170962">But how to do the same simplier? F.e. with BoxWithBoxWithConstraints</historyEntry>
+        <historyEntry timestamp="1718985050089">How to get the height of composable node to arage sibling?</historyEntry>
         <historyEntry timestamp="1718898428592">And what is analogue for accelirate-decelirate?</historyEntry>
         <historyEntry timestamp="1718898364580">What easing is analogue for DecelerateInterpolator?</historyEntry>
         <historyEntry timestamp="1718372888622">Why is it limmited by package?</historyEntry>
