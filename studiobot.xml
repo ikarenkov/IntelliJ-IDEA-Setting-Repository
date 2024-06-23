@@ -5,6 +5,12 @@
     <option name="onboardedVersion" value="3" />
     <option name="queryHistory">
       <list>
+        <historyEntry timestamp="1719168462575">Make suggestions to improve this code:
+/**
+ * The exit transition that will be applied when a new screen appears on top of it because of [StackTransitionType.Push] command.
+ */
+fun getPushExitTransition(animationScope: AnimatedContentTransitionScope&lt;Screen&gt;): ExitTransition? =
+    null</historyEntry>
         <historyEntry timestamp="1718985481694">But what if int is a px size?</historyEntry>
         <historyEntry timestamp="1718985460874">How to use int as padding?</historyEntry>
         <historyEntry timestamp="1718985333737">But how to do it without onGloballyPositioned?</historyEntry>

@@ -84,6 +84,11 @@
           <option name="READ_ONLY_LOCK" value="false" />
         </PlaceSettings>
       </entry>
+      <entry key="Default">
+        <PlaceSettings>
+          <option name="EXPAND_BY_DEFAULT" value="false" />
+        </PlaceSettings>
+      </entry>
       <entry key="Merge">
         <PlaceSettings>
           <option name="BREADCRUMBS_PLACEMENT" value="TOP" />
