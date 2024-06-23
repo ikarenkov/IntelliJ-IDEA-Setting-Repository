@@ -5,6 +5,135 @@
     <option name="onboardedVersion" value="3" />
     <option name="queryHistory">
       <list>
+        <historyEntry timestamp="1719171915419">Make suggestions to improve this code:
+@Parcelize
+class AnimationStackScreen(
+    val navModel: StackNavModel = StackNavModel(AnimationScreen())
+) : StackScreen(navModel) {
+
+    private fun defaultEnterTransition() = fadeIn()
+    private fun defaultExitTransition() = fadeOut()
+
+    @Composable
+    override fun Content(modifier: Modifier) {
+        TopScreenContent(modifier) { modifier -&gt;
+            ScreenTransition(
+                modifier = modifier,
+                transitionSpec = {
+                    val lastNew = newState?.stack?.lastOrNull()
+                    val lastNewAnimation = lastNew as? StackAnimation
+                    val lastOld = oldState?.stack?.lastOrNull()
+                    val lastOldAnimation = lastOld as? StackAnimation
+                    val transitionType = calculateStackTransitionType()
+                    when (transitionType) {
+                        StackTransitionType.Push -&gt; {
+                            lastNewAnimation?.getPushTransition(this)
+                                ?: (
+                                    (lastNewAnimation?.getPushEnterTransition(this) ?: defaultEnterTransition()) togetherWith
+                                        (lastOldAnimation?.getPushExitTransition(this) ?: defaultExitTransition())
+                                    )
+                        }
+                        StackTransitionType.Replace -&gt; {
+                            lastNewAnimation?.getReplaceTransition(this)
+                                ?: (
+                                    (lastNewAnimation?.getReplaceEnterTransition(this) ?: defaultEnterTransition()) togetherWith
+                                        (lastOldAnimation?.getReplaceExitTransition(this) ?: defaultExitTransition())
+                                    )
+                        }
+                        StackTransitionType.Pop -&gt; {
+                            lastNewAnimation?.getPopTransition(this)
+                                ?: (
+                                    (lastNewAnimation?.getPopEnterTransition(this) ?: defaultEnterTransition()) togetherWith
+                                        (lastOldAnimation?.getPopExitTransition(this) ?: defaultExitTransition())
+                                    )
+                        }
+                        StackTransitionType.Idle -&gt; EnterTransition.None togetherWith ExitTransition.None
+                    }
+                }
+            )
+        }
+    }
+}</historyEntry>
+        <historyEntry timestamp="1719171036057">Make suggestions to improve this code:
+/**
+ * Interface for defining custom screen transitions for a stack-based navigation controller.
+ *
+ * Allows specifying enter and exit transitions for different navigation operations, including pushing, replacing, and popping screens.
+ *
+ * @see StackTransitionType
+ * @see AnimatedContentTransitionScope
+ */
+interface StackAnimation {
+
+    /**
+     * Defines the enter transition for this screen when a push operation is detected.
+     * The enter transition describes how this screen appears during a push operation.
+     * If this method returns null, the default behavior is to use the transition defined in `getPushTransition`.
+     */
+    fun getPushEnterTransition(animationScope: AnimatedContentTransitionScope&lt;Screen&gt;): EnterTransition? =
+        null
+
+    /**
+     * Defines the exit transition for this screen when a push operation is detected.
+     * The exit transition describes how the previous screen (this) disappears during a push operation.
+     * If this method returns null, the default behavior is to use the transition defined in `getPushTransition`.
+     */
+    fun getPushExitTransition(animationScope: AnimatedContentTransitionScope&lt;Screen&gt;): ExitTransition? =
+        null
+
+    /**
+     * Defines the transition for this and hiding screens when this screen is pushed to the Stack.
+     * If this is not null, [getPushEnterTransition] and [getPushExitTransition] are not taken into account.
+     */
+    fun getPushTransition(animationScope: AnimatedContentTransitionScope&lt;Screen&gt;): ContentTransform? =
+        null
+
+    /**
+     * Defines the enter transition for this screen when it replaces another screen in the Stack.
+     * The enter transition describes how this screen appears during a replace operation.
+     * If this method returns null, the default behavior is to use the transition defined in `getReplaceTransition`.
+     */
+    fun getReplaceEnterTransition(animationScope: AnimatedContentTransitionScope&lt;Screen&gt;): EnterTransition? =
+        null
+
+    /**
+     * Defines the exit transition for the replaced screen during a replace operation.
+     * The exit transition describes how the replaced screen disappears during a replace operation.
+     * If this method returns null, the default behavior is to use the transition defined in `getReplaceTransition`.
+     */
+    fun getReplaceExitTransition(animationScope: AnimatedContentTransitionScope&lt;Screen&gt;): ExitTransition? =
+        null
+
+    /**
+     * Defines the transition (enter and exit) when this screen replaces another in the Stack.
+     * If this is not null, [getReplaceEnterTransition] and [getReplaceExitTransition] are not taken into account.
+     */
+    fun getReplaceTransition(animationScope: AnimatedContentTransitionScope&lt;Screen&gt;): ContentTransform? =
+        null
+
+    /**
+     * Defines the enter transition for this screen when the previous screen is popped.
+     * The enter transition describes how this screen appears during a pop operation.
+     * If this method returns null, the default behavior is to use the transition defined in `getPopTransition`.
+     */
+    fun getPopEnterTransition(animationScope: AnimatedContentTransitionScope&lt;Screen&gt;): EnterTransition? =
+        null
+
+    /**
+     * Defines the exit transition for this screen when it is popped.
+     * The exit transition describes how this screen disappears during a pop operation.
+     * If this method returns null, the default behavior is to use the transition defined in `getPopTransition`.
+     */
+    fun getPopExitTransition(animationScope: AnimatedContentTransitionScope&lt;Screen&gt;): ExitTransition? =
+        null
+
+    /**
+     * Defines the transition (enter and exit) when this screen is popped from the Stack.
+     * If this is not null, [getPopEnterTransition] and [getPopExitTransition] are not taken into account.
+     */
+    fun getPopTransition(animationScope: AnimatedContentTransitionScope&lt;Screen&gt;): ContentTransform? =
+        null
+}</historyEntry>
         <historyEntry timestamp="1719168462575">Make suggestions to improve this code:
 /**
  * The exit transition that will be applied when a new screen appears on top of it because of [StackTransitionType.Push] command.
