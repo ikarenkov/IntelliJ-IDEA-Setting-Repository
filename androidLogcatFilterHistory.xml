@@ -1,8 +1,15 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="package:ru.hh.android.debug " />
+    <option name="mostRecentlyUsed" value="package:com.github.terrakok.modo.sample tag:LifecycleDebug" />
     <option name="nonFavorites">
       <list>
+        <option value="package:com.github.terrakok.modo.sample tag:LifecycleDebug" />
+        <option value="package:com.github.terrakok.modo.sample " />
+        <option value="package:com.github.terrakok.modo.sample" />
+        <option value="package:com.github.terrakok.modo.sample message:LifecycleDebug" />
+        <option value="package:com.github.terrakok.modo.sample message:AndroidViewModelSampleScreen | message:onDispose" />
+        <option value="package:com.github.terrakok.modo.sample message:AndroidViewModelSampleScreen | message:SaveableContent" />
+        <option value="package:com.github.terrakok.modo.sample message:AndroidViewModelSampleScreen" />
         <option value="package:ru.hh.android.debug " />
         <option value="package:ru.hh.android.demo tag:HorizontalPager" />
         <option value="package:ru.hh.android.demo tag:HorizontalPagerInnerScreen" />
@@ -16,13 +23,6 @@
         <option value="package:ru.hh.android.debug tag=:testRememberSaveable" />
         <option value="package:com.github.terrakok.modo.sample -tag:EGL_emulation" />
         <option value="package:mine -tag:EGL_emulation" />
-        <option value="package:mine -tag:EGL_emulation tag=:Modo" />
-        <option value="package:mine -tag:EGL_emulation " />
-        <option value="package:mine -tag:EGL_emulation tag=:MainScreen" />
-        <option value="package:mine -tag:EGL_emulation tag=:&quot;InnerScreen Lifecycle&quot;" />
-        <option value="package:mine " />
-        <option value="package:mine -tag:EGL_emulation tag:SampleStack" />
-        <option value="package:mine -tag:EGL_emulation AndroidViewModelSampleScreen | ModoScreenAndroidAdapter" />
       </list>
     </option>
   </component>

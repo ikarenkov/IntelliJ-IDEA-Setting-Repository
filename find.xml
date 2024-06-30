@@ -29,5 +29,6 @@
     <mask>*.md</mask>
     <mask>*.kts</mask>
     <mask>*Screen*</mask>
+    <mask>*Plugin*</mask>
   </component>
 </application>

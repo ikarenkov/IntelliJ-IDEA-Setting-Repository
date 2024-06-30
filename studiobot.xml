@@ -5,6 +5,17 @@
     <option name="onboardedVersion" value="3" />
     <option name="queryHistory">
       <list>
+        <historyEntry timestamp="1719497762419">If I have several DisposableEffect in my composable, what is the order of onDispose?</historyEntry>
+        <historyEntry timestamp="1719494685203">How to correctly use remember with derivedStateOf? For me it looks like provided code is incorrect and we don't need to use parameters for remember:
+val formHelperState by remember(isComponentEnabled, hasError) {
+derivedStateOf {
+                when {
+                    isComponentEnabled.not() -&gt; FormHelperSpec.State.Disabled
+                    hasError -&gt; FormHelperSpec.State.Invalid
+                    else -&gt; FormHelperSpec.State.Default
+                }
+            }
+        }</historyEntry>
         <historyEntry timestamp="1719171915419">Make suggestions to improve this code:
 @Parcelize
 class AnimationStackScreen(
