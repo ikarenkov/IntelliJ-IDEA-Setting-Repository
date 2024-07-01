@@ -1,0 +1,15 @@
+<scheme name="_@user_Dark" version="142" parent_scheme="Darcula">
+  <option name="FONT_SCALE" value="1.0" />
+  <metaInfo>
+    <property name="created">2024-05-25T19:31:59</property>
+    <property name="ide">AndroidStudio</property>
+    <property name="ideVersion">2023.3.1.19</property>
+    <property name="modified">2024-05-29T11:32:59</property>
+    <property name="originalScheme">Dark</property>
+    <property name="partialSave">true</property>
+    <property name="pluginId">com.intellij</property>
+  </metaInfo>
+  <option name="LINE_SPACING" value="1.2" />
+  <option name="EDITOR_FONT_SIZE" value="13" />
+  <option name="EDITOR_FONT_NAME" value="JetBrains Mono" />
+</scheme>

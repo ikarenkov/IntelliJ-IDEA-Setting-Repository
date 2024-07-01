@@ -1,16 +1,28 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="package:mine" />
+    <option name="mostRecentlyUsed" value="package:com.github.terrakok.modo.sample tag:LifecycleDebug" />
     <option name="nonFavorites">
       <list>
-        <option value="package:mine" />
-        <option value="package:mine level:error " />
-        <option value="package:mine tag:SyncInteractor" />
-        <option value="package:mine sinc" />
-        <option value="package:mine " />
-        <option value="package:mine tag:" />
-        <option value="package:mine tag:Review Cell" />
-        <option value="package:mine tag:&quot;Review Cell&quot;" />
+        <option value="package:com.github.terrakok.modo.sample tag:LifecycleDebug" />
+        <option value="package:com.github.terrakok.modo.sample " />
+        <option value="package:com.github.terrakok.modo.sample" />
+        <option value="package:com.github.terrakok.modo.sample message:LifecycleDebug" />
+        <option value="package:com.github.terrakok.modo.sample message:AndroidViewModelSampleScreen | message:onDispose" />
+        <option value="package:com.github.terrakok.modo.sample message:AndroidViewModelSampleScreen | message:SaveableContent" />
+        <option value="package:com.github.terrakok.modo.sample message:AndroidViewModelSampleScreen" />
+        <option value="package:ru.hh.android.debug " />
+        <option value="package:ru.hh.android.demo tag:HorizontalPager" />
+        <option value="package:ru.hh.android.demo tag:HorizontalPagerInnerScreen" />
+        <option value="package:ru.hh.android.demo tag:HorizontalPagerScreen" />
+        <option value="package:mine tag:HorizontalPagerScreen" />
+        <option value="package:mine tag:HorizontalPagerInnerScreen" />
+        <option value="package:ru.hh.employer.android.debug " />
+        <option value="package:ru.hh.employer.android.debug tag:testRememberSaveable" />
+        <option value="package:ru.hh.employer.android.debug tag=:testRememberSaveable" />
+        <option value="package:ru.hh.employer.android.debug" />
+        <option value="package:ru.hh.android.debug tag=:testRememberSaveable" />
+        <option value="package:com.github.terrakok.modo.sample -tag:EGL_emulation" />
+        <option value="package:mine -tag:EGL_emulation" />
       </list>
     </option>
   </component>

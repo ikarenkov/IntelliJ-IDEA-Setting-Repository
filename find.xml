@@ -2,8 +2,6 @@
   <component name="FindSettings">
     <option name="customScope" value="Project Files" />
     <option name="defaultScopeName" value="Project Files" />
-    <option name="regularExpressions" value="true" />
-    <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="Project Files" />
     <mask>*.css</mask>
     <mask>*.html</mask>
@@ -21,11 +19,16 @@
     <mask>*MediatorImpl.kt</mask>
     <mask>*.xml</mask>
     <mask>*Aggregator*.kt</mask>
-    <mask>*.rb</mask>
     <mask>*.gradle.kts</mask>
-    <mask>*.md</mask>
     <mask>*.py</mask>
     <mask>*.kt</mask>
+    <mask>*.apk</mask>
+    <mask>**Test**.kt</mask>
+    <mask>*.rb</mask>
+    <mask>*rules.*</mask>
+    <mask>*.md</mask>
     <mask>*.kts</mask>
+    <mask>*Screen*</mask>
+    <mask>*Plugin*</mask>
   </component>
 </application>
