@@ -1,8 +1,8 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="package:mine tag:SkillsGapModo" />
     <option name="nonFavorites">
       <list>
+        <option value="package:mine " />
         <option value="package:mine tag:SkillsGapModo" />
         <option value="package:mine tag:SkillsGapStackScreen" />
         <option value="package:mine tag:RenderMetricsTrackerPlugin" />
@@ -22,7 +22,6 @@
         <option value="package:ru.hh.android.demo tag:HorizontalPagerScreen" />
         <option value="package:mine tag:HorizontalPagerScreen" />
         <option value="package:mine tag:HorizontalPagerInnerScreen" />
-        <option value="package:ru.hh.employer.android.debug " />
       </list>
     </option>
   </component>
