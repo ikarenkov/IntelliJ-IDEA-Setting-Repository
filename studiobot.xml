@@ -5,6 +5,10 @@
     <option name="onboardedVersion" value="3" />
     <option name="queryHistory">
       <list>
+        <historyEntry timestamp="1719999473070">I have a problem with using OnBackPressedDispatcher with activity and fragment inside this activity.
+I use requireActivity().onBackPressedDispatcher.addCallback(this, OnBackPressedListener()) inside fragment's onCreate to add callback. I do the same in activity, but I don't recieve back pressed in fragment, I only recieve on back pressed in activity. I dived into this and figured out that inside OnBackPressedDispatcher ON_START fistly called for fragment and only then for activity, that seems wrong, because I expected that ON_START firstly is going to be called on parent and only then on a child</historyEntry>
+        <historyEntry timestamp="1719999467568">I have a problem with using OnBackPressedDispatcher with activity and fragment inside this activity.
+I use requireActivity().onBackPressedDispatcher.addCallback(this, OnBackPressedListener()) inside fragment's onCreate to add callback. I do the same in activity, but I don't recieve back pressed in fragment, I only recieve on back pressed in activity. I dived into this and figured out that inside OnBackPressedDispatcher ON_START fistly called for fragment and only then for activity, that seems wrong, because I expected that ON_START firstly is going to be called on parent and only then on a child</historyEntry>
         <historyEntry timestamp="1719497762419">If I have several DisposableEffect in my composable, what is the order of onDispose?</historyEntry>
         <historyEntry timestamp="1719494685203">How to correctly use remember with derivedStateOf? For me it looks like provided code is incorrect and we don't need to use parameters for remember:
 val formHelperState by remember(isComponentEnabled, hasError) {
