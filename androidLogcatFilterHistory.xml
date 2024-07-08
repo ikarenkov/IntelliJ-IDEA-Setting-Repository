@@ -1,13 +1,12 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="package:mine" />
     <option name="nonFavorites">
       <list>
+        <option value="package:mine " />
         <option value="package:mine" />
         <option value="package:com.github.terrakok.modo.sample tag:MainScreen" />
         <option value="package:com.github.terrakok.modo.sample tag:OnBackPressedCallback" />
         <option value="package:mine tag:OnBackPressedCallback" />
-        <option value="package:mine " />
         <option value="package:mine tag:SkillsGapModo" />
         <option value="package:mine tag:SkillsGapStackScreen" />
         <option value="package:mine tag:RenderMetricsTrackerPlugin" />
