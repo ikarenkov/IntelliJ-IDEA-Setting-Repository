@@ -1,8 +1,9 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="package:mine tag:LifecycleDebug targetState" />
+    <option name="mostRecentlyUsed" value="package:mine tag:LifecycleDebug transition" />
     <option name="nonFavorites">
       <list>
+        <option value="package:mine tag:LifecycleDebug transition" />
         <option value="package:mine tag:LifecycleDebug targetState" />
         <option value="package:mine tag:LifecycleDebug" />
         <option value="package:mine " />
@@ -22,7 +23,6 @@
         <option value="package:com.github.terrakok.modo.sample message:LifecycleDebug" />
         <option value="package:com.github.terrakok.modo.sample message:AndroidViewModelSampleScreen | message:onDispose" />
         <option value="package:com.github.terrakok.modo.sample message:AndroidViewModelSampleScreen | message:SaveableContent" />
-        <option value="package:com.github.terrakok.modo.sample message:AndroidViewModelSampleScreen" />
       </list>
     </option>
   </component>
