@@ -2,6 +2,7 @@
   <component name="AndroidLogcatFilterHistory">
     <option name="nonFavorites">
       <list>
+        <option value="package:ru.hh.android.debug" />
         <option value="package:mine " />
         <option value="package:mine tag:LifecycleDebug transition" />
         <option value="package:mine tag:LifecycleDebug targetState" />
@@ -21,7 +22,6 @@
         <option value="package:com.github.terrakok.modo.sample" />
         <option value="package:com.github.terrakok.modo.sample message:LifecycleDebug" />
         <option value="package:com.github.terrakok.modo.sample message:AndroidViewModelSampleScreen | message:onDispose" />
-        <option value="package:com.github.terrakok.modo.sample message:AndroidViewModelSampleScreen | message:SaveableContent" />
       </list>
     </option>
   </component>
