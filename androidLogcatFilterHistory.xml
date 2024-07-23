@@ -3,8 +3,8 @@
     <option name="mostRecentlyUsed" value="package:mine tag:LifecycleDebug" />
     <option name="nonFavorites">
       <list>
-        <option value="package:mine tag:LifecycleDebug" />
         <option value="package:ru.hh.android.debug" />
+        <option value="package:mine tag:LifecycleDebug" />
         <option value="package:mine " />
         <option value="package:mine tag:LifecycleDebug transition" />
         <option value="package:mine tag:LifecycleDebug targetState" />
