@@ -13,6 +13,7 @@
     <entry key="projectView.hide.dot.idea" value="false" />
     <entry key="debugger.new.tool.window.layout" value="true" />
     <entry key="analyze.exceptions.on.the.fly" value="true" />
+    <entry key="terminal.new.ui" value="true" />
   </component>
   <component name="StatusBar">
     <option name="widgets">

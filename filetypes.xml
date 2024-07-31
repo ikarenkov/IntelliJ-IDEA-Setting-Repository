@@ -14,12 +14,15 @@
       <mapping ext="cfg" type="PLAIN_TEXT" />
       <mapping ext="pem" type="PLAIN_TEXT" />
       <mapping ext="xcuserstate" type="PLAIN_TEXT" />
+      <mapping ext="pb" type="PLAIN_TEXT" />
       <mapping pattern="post-merge-or-commit" type="Shell Script" />
       <mapping pattern="prepare-commit-msg-test" type="Shell Script" />
       <mapping ext="flat" type="XML" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
+      <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="bash" approved="true" type="Shell Script" />
       <removed_mapping ext="pro" approved="true" type="DeviceSpecFile" />
+      <removed_mapping ext="psd" approved="true" type="Image" />
       <removed_mapping ext="psd" approved="true" type="Image" />
       <removed_mapping ext="sh" approved="true" type="Shell Script" />
       <removed_mapping ext="zsh" approved="true" type="Shell Script" />
