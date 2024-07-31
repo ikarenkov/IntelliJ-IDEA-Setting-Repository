@@ -1,8 +1,9 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="package:ru.hh.android.debug" />
+    <option name="mostRecentlyUsed" value="" />
     <option name="nonFavorites">
       <list>
+        <option value="tag:KASPRESSO" />
         <option value="package:ru.hh.android.debug" />
         <option value="package:ru.hh.android.debug level:error " />
         <option value="package:mine tag:LifecycleDebug" />
@@ -22,7 +23,6 @@
         <option value="package:com.github.terrakok.modo.sample tag:LifecycleDebug" />
         <option value="package:com.github.terrakok.modo.sample " />
         <option value="package:com.github.terrakok.modo.sample" />
-        <option value="package:com.github.terrakok.modo.sample message:LifecycleDebug" />
       </list>
     </option>
   </component>
