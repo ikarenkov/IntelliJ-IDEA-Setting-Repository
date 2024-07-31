@@ -1,0 +1,7 @@
+<templateSet group="Groovy">
+  <template name="soutm" value=" println &quot;$CLASS_NAME$.$METHOD_NAME$&quot;" description="Prints current class and method names to System.out" toReformat="true" toShortenFQNames="true">
+    <variable name="CLASS_NAME" expression="className()" defaultValue="" alwaysStopAt="false" />
+    <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="false" />
+    <context />
+  </template>
+</templateSet>

@@ -1,0 +1,29 @@
+<application>
+  <component name="AndroidLogcatFilterHistory">
+    <option name="mostRecentlyUsed" value="package:mine tag:LifecycleDebug" />
+    <option name="nonFavorites">
+      <list>
+        <option value="package:ru.hh.android.debug" />
+        <option value="package:mine tag:LifecycleDebug" />
+        <option value="package:mine " />
+        <option value="package:mine tag:LifecycleDebug transition" />
+        <option value="package:mine tag:LifecycleDebug targetState" />
+        <option value="package:mine" />
+        <option value="package:com.github.terrakok.modo.sample tag:MainScreen" />
+        <option value="package:com.github.terrakok.modo.sample tag:OnBackPressedCallback" />
+        <option value="package:mine tag:OnBackPressedCallback" />
+        <option value="package:mine tag:SkillsGapModo" />
+        <option value="package:mine tag:SkillsGapStackScreen" />
+        <option value="package:mine tag:RenderMetricsTrackerPlugin" />
+        <option value="package:mine -tag:EGL_emulation -tag:FrameEvents -tag:ImageReader_JNI" />
+        <option value="package:mine -tag:EGL_emulation -tag:FrameEvents " />
+        <option value="package:mine -tag:EGL_emulation" />
+        <option value="package:com.github.terrakok.modo.sample tag:LifecycleDebug" />
+        <option value="package:com.github.terrakok.modo.sample " />
+        <option value="package:com.github.terrakok.modo.sample" />
+        <option value="package:com.github.terrakok.modo.sample message:LifecycleDebug" />
+        <option value="package:com.github.terrakok.modo.sample message:AndroidViewModelSampleScreen | message:onDispose" />
+      </list>
+    </option>
+  </component>
+</application>

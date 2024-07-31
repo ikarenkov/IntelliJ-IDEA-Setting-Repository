@@ -1,0 +1,12 @@
+<application>
+  <component name="StudioBotSettings">
+    <option name="contextSharingModeV2" value="AlwaysShare" />
+    <option name="enableCodeCompletion" value="false" />
+    <option name="onboardedVersion" value="3" />
+    <option name="queryHistory">
+      <list>
+        <historyEntry timestamp="1722259455176">How to launch app and device using adb with deeplink?</historyEntry>
+      </list>
+    </option>
+  </component>
+</application>
