@@ -5,6 +5,11 @@
     <option name="onboardedVersion" value="3" />
     <option name="queryHistory">
       <list>
+        <historyEntry timestamp="1722609568545">Explain: Optimistic bind failed.
+java.util.concurrent.TimeoutException: [Optimistic Bind] Didn't bind to resolver in time!
+at com.android.server.pm.InstantAppResolverConnection.waitForBindLocked(InstantAppResolverConnection.java:161)
+at com.android.server.pm.InstantAppResolverConnection.bind(InstantAppResolverConnection.java:226)
+at com.android.server.pm.InstantAppResolverConnection.lambda$optimisticBind$0$InstantAppResolverConnection(InstantAppResolverConnection.java:256) with tag PackageManager</historyEntry>
         <historyEntry timestamp="1722259455176">How to launch app and device using adb with deeplink?</historyEntry>
       </list>
     </option>
