@@ -1,11 +1,11 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="" />
+    <option name="mostRecentlyUsed" value="level:error " />
     <option name="nonFavorites">
       <list>
+        <option value="level:error " />
         <option value="tag:KASPRESSO " />
         <option value="KASPRESSO" />
-        <option value="level:error " />
         <option value="tag:KASPRESSO" />
         <option value="package:ru.hh.android.debug" />
         <option value="package:ru.hh.android.debug level:error " />
