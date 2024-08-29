@@ -80,6 +80,15 @@
   <action id="HideAllWindows">
     <keyboard-shortcut first-keystroke="f12" />
   </action>
+  <action id="IntentionActionAsAction_org.jetbrains.kotlin.idea.codeInsight.intentions.shared.ChopArgumentListIntention">
+    <keyboard-shortcut first-keystroke="shift meta l" />
+  </action>
+  <action id="IntentionActionAsAction_org.jetbrains.kotlin.idea.codeInsight.intentions.shared.JoinArgumentListIntention">
+    <keyboard-shortcut first-keystroke="shift meta l" />
+  </action>
+  <action id="IntentionActionAsAction_org.jetbrains.kotlin.idea.intentions.AddNameToArgumentIntention">
+    <keyboard-shortcut first-keystroke="ctrl alt p" />
+  </action>
   <action id="IntentionActionAsAction_org.jetbrains.kotlin.idea.intentions.ChopArgumentListIntention">
     <keyboard-shortcut first-keystroke="meta alt s" />
   </action>
