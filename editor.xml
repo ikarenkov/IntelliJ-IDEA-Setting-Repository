@@ -77,5 +77,44 @@
   <component name="TodoConfiguration">
     <pattern pattern="\b(todo|fixme)\b.*" />
     <pattern icon="important" pattern="\bfixme\b.*" />
+    <pattern pattern="\btodo: Workshop\b.*" />
+    <pattern pattern="\btodo: Workshop 1\b.*" />
+    <pattern pattern="\btodo: Workshop 2\b.*" />
+    <pattern pattern="\btodo: Workshop 3\b.*" />
+    <pattern pattern="\btodo: Workshop 4\b.*" />
+    <pattern pattern="\btodo: Workshop 5\b.*" />
+    <pattern pattern="\btodo: Workshop 6\b.*" />
+    <pattern pattern="\btodo: Workshop 7\b.*" />
+    <filter name="Workshop">
+      <pattern index="3" />
+      <pattern index="6" />
+      <pattern index="8" />
+      <pattern index="2" />
+      <pattern index="5" />
+      <pattern index="9" />
+      <pattern index="4" />
+      <pattern index="7" />
+    </filter>
+    <filter name="Workshop 1">
+      <pattern index="3" />
+    </filter>
+    <filter name="Workshop 2">
+      <pattern index="4" />
+    </filter>
+    <filter name="Workshop 3">
+      <pattern index="5" />
+    </filter>
+    <filter name="Workshop 4">
+      <pattern index="6" />
+    </filter>
+    <filter name="Workshop 5">
+      <pattern index="7" />
+    </filter>
+    <filter name="Workshop 6">
+      <pattern index="8" />
+    </filter>
+    <filter name="Workshop 7">
+      <pattern index="9" />
+    </filter>
   </component>
 </application>
