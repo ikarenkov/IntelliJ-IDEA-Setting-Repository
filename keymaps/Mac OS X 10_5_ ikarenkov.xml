@@ -55,6 +55,12 @@
   <action id="AndroidLogConsole.ScreenRecorderAction">
     <keyboard-shortcut first-keystroke="ctrl alt 5" />
   </action>
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="meta alt left" />
+    <mouse-shortcut keystroke="button4" />
+    <keyboard-shortcut first-keystroke="meta braceleft" />
+    <keyboard-shortcut first-keystroke="shift meta braceleft" />
+  </action>
   <action id="CopyPathFromRepositoryRootProvider">
     <keyboard-shortcut first-keystroke="ctrl c" />
   </action>
@@ -83,6 +89,12 @@
   <action id="FocusEditor">
     <keyboard-shortcut first-keystroke="escape" />
     <keyboard-shortcut first-keystroke="meta escape" />
+  </action>
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="meta close_bracket" />
+    <keyboard-shortcut first-keystroke="meta alt right" />
+    <mouse-shortcut keystroke="button5" />
+    <keyboard-shortcut first-keystroke="meta braceright" />
   </action>
   <action id="Git.Branches">
     <keyboard-shortcut first-keystroke="f11" />
