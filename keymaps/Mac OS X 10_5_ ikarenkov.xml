@@ -60,6 +60,7 @@
     <mouse-shortcut keystroke="button4" />
     <keyboard-shortcut first-keystroke="meta braceleft" />
     <keyboard-shortcut first-keystroke="shift meta braceleft" />
+    <keyboard-shortcut first-keystroke="meta open_bracket" />
   </action>
   <action id="CopyPathFromRepositoryRootProvider">
     <keyboard-shortcut first-keystroke="ctrl c" />
