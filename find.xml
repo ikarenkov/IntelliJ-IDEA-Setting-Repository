@@ -3,6 +3,7 @@
     <option name="customScope" value="Project Files" />
     <option name="defaultScopeName" value="Project Files" />
     <option name="SEARCH_SCOPE" value="Project Files" />
+    <option name="FILE_MASK" value="*DialogScreen*" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
@@ -30,5 +31,6 @@
     <mask>*.kts</mask>
     <mask>*Plugin*</mask>
     <mask>*Screen*</mask>
+    <mask>*DialogScreen*</mask>
   </component>
 </application>
