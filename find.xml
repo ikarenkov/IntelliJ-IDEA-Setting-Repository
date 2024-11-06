@@ -31,5 +31,6 @@
     <mask>*Plugin*</mask>
     <mask>*Screen*</mask>
     <mask>*DialogScreen*</mask>
+    <mask>*gradle*</mask>
   </component>
 </application>
