@@ -1,28 +1,12 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="package:mine -tag:EGL_emulation -tag:ImageReader_JNI -tag=:FrameEvents" />
     <option name="nonFavorites">
       <list>
-        <option value="package:mine -tag:EGL_emulation -tag:ImageReader_JNI -tag=:FrameEvents" />
-        <option value="package:mine -tag:EGL_emulation -tag:ImageReader_JNI" />
-        <option value="package:mine -tag:EGL_emulation " />
-        <option value="package:mine" />
         <option value="package:mine " />
-        <option value="tag=:KASPRESSO " />
-        <option value="level:error " />
-        <option value="tag:KASPRESSO " />
-        <option value="KASPRESSO" />
-        <option value="tag:KASPRESSO" />
-        <option value="package:ru.hh.android.debug" />
-        <option value="package:ru.hh.android.debug level:error " />
+        <option value="package:mine" />
+        <option value="package:mine level:error " />
         <option value="package:mine tag:LifecycleDebug" />
-        <option value="package:mine tag:LifecycleDebug transition" />
-        <option value="package:mine tag:LifecycleDebug targetState" />
-        <option value="package:com.github.terrakok.modo.sample tag:MainScreen" />
-        <option value="package:com.github.terrakok.modo.sample tag:OnBackPressedCallback" />
-        <option value="package:mine tag:OnBackPressedCallback" />
-        <option value="package:mine tag:SkillsGapModo" />
-        <option value="package:mine tag:SkillsGapStackScreen" />
+        <option value="level:error " />
       </list>
     </option>
   </component>

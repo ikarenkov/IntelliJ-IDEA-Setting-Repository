@@ -28,7 +28,9 @@
     <mask>*rules.*</mask>
     <mask>*.md</mask>
     <mask>*.kts</mask>
-    <mask>*Screen*</mask>
     <mask>*Plugin*</mask>
+    <mask>*Screen*</mask>
+    <mask>*DialogScreen*</mask>
+    <mask>*gradle*</mask>
   </component>
 </application>
