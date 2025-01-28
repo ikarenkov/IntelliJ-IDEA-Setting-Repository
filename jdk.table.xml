@@ -607,7 +607,7 @@
       <roots>
         <annotationsPath>
           <root type="composite">
-            <root url="jar://$USER_HOME$/Applications/Android Studio.app/Contents/plugins/java/lib/resources/jdkAnnotations.jar!/" type="simple" />
+            <root url="jar://$APPLICATION_HOME_DIR$/plugins/java/lib/resources/jdkAnnotations.jar!/" type="simple" />
           </root>
         </annotationsPath>
         <classPath>
