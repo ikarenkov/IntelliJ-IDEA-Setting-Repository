@@ -1,5 +1,3 @@
 <application>
-  <component name="LafManager" autodetect="true">
-    <laf themeId="ExperimentalLight" />
-  </component>
+  <component name="LafManager" autodetect="true" />
 </application>
