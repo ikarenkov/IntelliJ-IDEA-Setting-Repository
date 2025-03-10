@@ -3,7 +3,7 @@
     <jdk version="2">
       <name value="jbr-21" />
       <type value="JavaSDK" />
-      <version value="JetBrains Runtime 21.0.5 - aarch64" />
+      <version value="JetBrains Runtime 21.0.6 - aarch64" />
       <homePath value="$USER_HOME$/Applications/Android Studio.app/Contents/jbr/Contents/Home" />
       <roots>
         <annotationsPath>
