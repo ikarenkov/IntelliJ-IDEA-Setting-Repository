@@ -1,0 +1,12 @@
+<application>
+  <component name="StudioBotSettings">
+    <option name="contextSharingModeV2" value="AskPerProject" />
+    <option name="enableCodeCompletion" value="false" />
+    <option name="onboardedVersion" value="3" />
+    <option name="queryHistory">
+      <list>
+        <historyEntry timestamp="1724148551757">How do I test an Android app?</historyEntry>
+      </list>
+    </option>
+  </component>
+</application>
