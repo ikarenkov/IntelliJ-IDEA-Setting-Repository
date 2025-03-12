@@ -156,6 +156,21 @@
   <action id="ShowProjectStructureSettings">
     <keyboard-shortcut first-keystroke="shift meta comma" />
   </action>
+  <action id="Tabby.InlineCompletion.CycleNext">
+    <keyboard-shortcut first-keystroke="alt open_bracket" />
+    <keyboard-shortcut first-keystroke="meta alt braceleft" />
+    <keyboard-shortcut first-keystroke="meta alt tab" />
+    <keyboard-shortcut first-keystroke="ctrl alt s" />
+  </action>
+  <action id="Tabby.InlineCompletion.CyclePrevious">
+    <keyboard-shortcut first-keystroke="alt close_bracket" />
+    <keyboard-shortcut first-keystroke="meta alt braceright" />
+  </action>
+  <action id="Tabby.InlineCompletion.Trigger">
+    <keyboard-shortcut first-keystroke="meta back_slash" />
+    <keyboard-shortcut first-keystroke="alt back_slash" />
+    <keyboard-shortcut first-keystroke="ctrl alt a" />
+  </action>
   <action id="ToggleBookmark" />
   <action id="ToggleDistractionFreeMode">
     <keyboard-shortcut first-keystroke="shift ctrl meta f" />
