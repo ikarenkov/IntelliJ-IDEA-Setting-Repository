@@ -1,0 +1,5 @@
+<application>
+  <component name="com.tabbyml.intellijtabby.settings.SettingsService">
+    <option name="serverToken" value="auth_d8f70a854b74468eb84c0554a16f9cfa" />
+  </component>
+</application>
