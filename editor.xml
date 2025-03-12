@@ -3,11 +3,21 @@
     <option name="AUTO_POPUP_JAVADOC_INFO" value="true" />
   </component>
   <component name="CodeVisionSettings">
+    <option name="codeVisionGroupToPosition">
+      <map>
+        <entry key="change.signature" value="Default" />
+        <entry key="inheritors" value="Default" />
+        <entry key="llm" value="Default" />
+        <entry key="problems" value="Default" />
+        <entry key="references" value="Default" />
+        <entry key="rename" value="Default" />
+        <entry key="vcs.code.vision" value="Default" />
+      </map>
+    </option>
     <option name="defaultPosition" value="Right" />
     <option name="disabledCodeVisionProviderIds">
       <set>
         <option value="references" />
-        <option value="vcs.code.vision" />
       </set>
     </option>
   </component>
@@ -16,11 +26,36 @@
     <option name="SHOW_METHOD_SEPARATORS" value="true" />
   </component>
   <component name="DeclarativeInlayHintsSettings">
+    <option name="enabledOptions">
+      <map>
+        <entry key="kotlin.lambdas.hints#hints.lambda.receivers.parameters" value="false" />
+        <entry key="kotlin.lambdas.hints#hints.lambda.return" value="false" />
+        <entry key="kotlin.references.types.hints#hints.type.function.parameter" value="false" />
+        <entry key="kotlin.references.types.hints#hints.type.function.return" value="false" />
+        <entry key="kotlin.references.types.hints#hints.type.property" value="false" />
+        <entry key="kotlin.references.types.hints#hints.type.variable" value="false" />
+        <entry key="oc.type.hints#lambdas" value="true" />
+        <entry key="oc.type.hints#obvious.types" value="false" />
+        <entry key="oc.type.hints#parameter.types" value="true" />
+        <entry key="oc.type.hints#return.types" value="true" />
+        <entry key="oc.type.hints#variables" value="true" />
+      </map>
+    </option>
     <option name="providerIdToEnabled">
       <map>
         <entry key="compose.state.read" value="false" />
+        <entry key="devkit.threading" value="false" />
+        <entry key="groovy.implicit.null.argument" value="true" />
+        <entry key="groovy.lambda.parameter.inlay.provider" value="true" />
+        <entry key="groovy.local.variable.implicit.types" value="true" />
+        <entry key="java.implicit.lambdaParameter" value="true" />
         <entry key="java.implicit.types" value="false" />
         <entry key="java.method.chains" value="true" />
+        <entry key="kotlin.lambdas.hints" value="false" />
+        <entry key="kotlin.method.chains" value="false" />
+        <entry key="kotlin.references.types.hints" value="false" />
+        <entry key="kotlin.values.hints" value="true" />
+        <entry key="oc.type.hints" value="true" />
       </map>
     </option>
   </component>
@@ -86,14 +121,14 @@
     <pattern pattern="\btodo: Workshop 6\b.*" />
     <pattern pattern="\btodo: Workshop 7\b.*" />
     <filter name="Workshop">
-      <pattern index="3" />
-      <pattern index="6" />
-      <pattern index="8" />
-      <pattern index="2" />
-      <pattern index="5" />
-      <pattern index="9" />
-      <pattern index="4" />
       <pattern index="7" />
+      <pattern index="4" />
+      <pattern index="5" />
+      <pattern index="8" />
+      <pattern index="9" />
+      <pattern index="6" />
+      <pattern index="3" />
+      <pattern index="2" />
     </filter>
     <filter name="Workshop 1">
       <pattern index="3" />

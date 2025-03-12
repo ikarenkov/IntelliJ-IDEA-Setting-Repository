@@ -1,4 +1,8 @@
 <keymap version="1" name="Mac OS X 10.5+ ikarenkov" parent="Mac OS X 10.5+">
+  <action id="AIAssistant.Chat.AIPopupChat">
+    <keyboard-shortcut first-keystroke="shift meta alt back_slash" />
+    <keyboard-shortcut first-keystroke="ctrl alt a" />
+  </action>
   <action id="AIAssistant.Editor.AskAiAssistantInEditor">
     <keyboard-shortcut first-keystroke="meta back_slash" />
     <keyboard-shortcut first-keystroke="meta #100007c" />
@@ -69,6 +73,7 @@
   <action id="CallInlineCompletionAction">
     <keyboard-shortcut first-keystroke="shift alt back_slash" />
     <keyboard-shortcut first-keystroke="shift meta n" />
+    <keyboard-shortcut first-keystroke="ctrl alt space" />
   </action>
   <action id="CopyPathFromRepositoryRootProvider">
     <keyboard-shortcut first-keystroke="ctrl c" />
