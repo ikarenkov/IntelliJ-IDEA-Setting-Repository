@@ -1,3 +1,5 @@
 <application>
-  <component name="AINaturalLanguagePromotionState"><![CDATA[{}]]></component>
+  <component name="AINaturalLanguagePromotionState"><![CDATA[{
+  "isNaturalLanguageFeatureNotificationShown": true
+}]]></component>
 </application>
