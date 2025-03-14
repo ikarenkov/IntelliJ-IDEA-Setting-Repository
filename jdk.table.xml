@@ -192,7 +192,7 @@
     <jdk version="2">
       <name value="jbr-17" />
       <type value="JavaSDK" />
-      <version value="java version &quot;17.0.9&quot;" />
+      <version value="JetBrains Runtime 17.0.9 - aarch64" />
       <homePath value="$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.9/Contents/Home" />
       <roots>
         <annotationsPath>
@@ -350,6 +350,25 @@
             <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.9/Contents/Home/lib/src.zip!/jdk.internal.vm.compiler" type="simple" />
             <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.9/Contents/Home/lib/src.zip!/jdk.internal.vm.compiler.management" type="simple" />
           </root>
+        </sourcePath>
+      </roots>
+    </jdk>
+    <jdk version="2">
+      <name value="Kotlin SDK" />
+      <type value="KotlinSDK" />
+      <homePath value="" />
+      <roots>
+        <annotationsPath>
+          <root type="composite" />
+        </annotationsPath>
+        <classPath>
+          <root type="composite" />
+        </classPath>
+        <javadocPath>
+          <root type="composite" />
+        </javadocPath>
+        <sourcePath>
+          <root type="composite" />
         </sourcePath>
       </roots>
     </jdk>
