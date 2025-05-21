@@ -1,8 +1,8 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Project Files" />
-    <option name="defaultScopeName" value="Project Files" />
-    <option name="SEARCH_SCOPE" value="Project Files" />
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
+    <option name="SEARCH_SCOPE" value="All Places" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
@@ -21,7 +21,6 @@
     <mask>*Aggregator*.kt</mask>
     <mask>*.gradle.kts</mask>
     <mask>*.py</mask>
-    <mask>*.kt</mask>
     <mask>*.apk</mask>
     <mask>**Test**.kt</mask>
     <mask>*.rb</mask>
@@ -32,5 +31,6 @@
     <mask>*Screen*</mask>
     <mask>*DialogScreen*</mask>
     <mask>*gradle*</mask>
+    <mask>*.kt</mask>
   </component>
 </application>
