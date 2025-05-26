@@ -120,13 +120,9 @@
       <evaluation-dialog-mode>CODE_FRAGMENT</evaluation-dialog-mode>
     </general>
     <debuggers>
-      <debugger id="ObjectiveC">
+      <debugger id="javascript">
         <configuration>
-          <option name="LLDB_NATVIS_RENDERERS_ENABLED" value="false" />
-          <child-process-debugging-settings />
-          <macOS-symbol-settings />
-          <nt-symbol-settings />
-          <option name="VALUES_FILTER_ENABLED" value="false" />
+          <custom-object-presentation />
         </configuration>
       </debugger>
     </debuggers>
