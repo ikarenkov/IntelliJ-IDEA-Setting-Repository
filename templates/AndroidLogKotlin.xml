@@ -1,0 +1,74 @@
+<templateSet group="AndroidLogKotlin">
+  <template name="timd" value="timber.log.Timber.tag(LOG_TAG).d(&quot;$METHOD_NAME$: $content$&quot;);" description="Log.d(TAG, String)" toReformat="true" toShortenFQNames="true">
+    <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="KOTLIN_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="time" value="timber.log.Timber.tag(LOG_TAG).($exception$, &quot;$METHOD_NAME$: $content$&quot;);" description="Log.e(TAG, String, Exception)" toReformat="true" toShortenFQNames="true">
+    <variable name="exception" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="timi" value="timber.log.Timber.tag(LOG_TAG).i(&quot;$METHOD_NAME$: $content$&quot;);" description="Log.i(TAG, String)" toReformat="true" toShortenFQNames="true">
+    <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="timm" value="timber.log.Timber.tag(LOG_TAG).d($content$);" description="Log method name and its arguments" toReformat="true" toShortenFQNames="true">
+    <variable name="content" expression="groovyScript(&quot;def params = _2.collect {it + ' = [\&quot; + ' + it + ' + \&quot;]'}.join(', '); return '\&quot;' + _1 + '() called' + (params.empty  ? '' : ' with: ' + params) + '\&quot;'&quot;, methodName(), methodParameters())" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="timr" value="timber.log.Timber.tag(LOG_TAG).d(&quot;$METHOD_NAME$() returned: &quot; +  $result$);" description="Log result of this method" toReformat="true" toShortenFQNames="true">
+    <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="result" expression="variableOfType(methodReturnType())" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="timw" value="timber.log.Timber.tag(LOG_TAG).w($exception$, &quot;$METHOD_NAME$: $content$&quot;);" description="Log.w(TAG, String, Exception)" toReformat="true" toShortenFQNames="true">
+    <variable name="exception" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="logd" value="timber.log.Timber.tag(LOG_TAG).d(&quot;$METHOD_NAME$: $content$&quot;)" description="Log.d(TAG, String)" toReformat="true" toShortenFQNames="true">
+    <variable name="METHOD_NAME" expression="kotlinFunctionName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+  </template>
+  <template name="logi" value="timber.log.Timber.tag(LOG_TAG).i(&quot;$METHOD_NAME$: $content$&quot;)" description="Log.i(TAG, String)" toReformat="true" toShortenFQNames="true">
+    <variable name="METHOD_NAME" expression="kotlinFunctionName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+  </template>
+  <template name="logw" value="timber.log.Timber.tag(LOG_TAG).w($exception$, &quot;$METHOD_NAME$: $content$&quot;)" description="Log.w(TAG, String, Exception)" toReformat="true" toShortenFQNames="true">
+    <variable name="METHOD_NAME" expression="kotlinFunctionName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="exception" expression="" defaultValue="e" alwaysStopAt="true" />
+  </template>
+  <template name="loge" value="timber.log.Timber.tag(LOG_TAG).e($exception$, &quot;$METHOD_NAME$: $content$&quot;)" description="Log.e(TAG, String, Exception)" toReformat="true" toShortenFQNames="true">
+    <variable name="METHOD_NAME" expression="kotlinFunctionName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="exception" expression="" defaultValue="error" alwaysStopAt="true" />
+  </template>
+  <template name="logm" value="timber.log.Timber.tag(LOG_TAG).d($content$)" description="Log method name and its arguments" toReformat="true" toShortenFQNames="true">
+    <variable name="content" expression="groovyScript(&quot;def params = _2.collect {it + ' = $' + it}.join(', '); return '\&quot;' + _1 + '() called' + (params.empty  ? '' : ' with: ' + params) + '\&quot;'&quot;, kotlinFunctionName(), functionParameters())" defaultValue="" alwaysStopAt="false" />
+  </template>
+  <template name="logr" value="timber.log.Timber.tag(LOG_TAG).d(&quot;$METHOD_NAME$() returned: &quot; +  $result$)" description="Log result of this method" toReformat="true" toShortenFQNames="true">
+    <variable name="METHOD_NAME" expression="kotlinFunctionName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="result" expression="variableOfType(methodReturnType())" defaultValue="" alwaysStopAt="false" />
+  </template>
+  <template name="logt" value="private const val LOG_TAG = &quot;$fileName$&quot;" description="A static logtag with your current filename" toReformat="true" toShortenFQNames="true">
+    <variable name="fileName" expression="groovyScript(&quot;_1.take(Math.min(23, _1.length()));&quot;, fileNameWithoutExtension())" defaultValue="" alwaysStopAt="true" />
+  </template>
+</templateSet>
