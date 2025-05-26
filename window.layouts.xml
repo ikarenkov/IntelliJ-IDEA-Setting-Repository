@@ -1,0 +1,308 @@
+<application>
+  <component name="ToolWindowLayout"><![CDATA[{
+  "layouts": {
+    "Custom": {
+      "v1": [
+        {
+          "id": "Project",
+          "order": 0,
+          "contentUiType": "COMBO",
+          "isVisible": true,
+          "weight": 0.19808201
+        },
+        {
+          "id": "Structure",
+          "order": 1,
+          "isSplit": true
+        },
+        {
+          "id": "Favorites",
+          "order": 2,
+          "isSplit": true
+        },
+        {
+          "id": "Commit",
+          "order": 3
+        },
+        {
+          "id": "Pull Requests",
+          "order": 4,
+          "weight": 0.32969576
+        },
+        {
+          "id": "Resources Explorer",
+          "order": 5
+        },
+        {
+          "id": "Bookmarks",
+          "order": 6,
+          "isSplit": true
+        },
+        {
+          "id": "Build Variants",
+          "order": 7,
+          "isSplit": true
+        },
+        {
+          "id": "Event Log",
+          "order": 0,
+          "anchor": "BOTTOM",
+          "isSplit": true
+        },
+        {
+          "id": "Find",
+          "order": 1,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "Run",
+          "order": 2,
+          "anchor": "BOTTOM",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Debug",
+          "order": 3,
+          "anchor": "BOTTOM",
+          "isShowStripeButton": false,
+          "weight": 0.26931217
+        },
+        {
+          "id": "Inspection",
+          "order": 4,
+          "anchor": "BOTTOM",
+          "weight": 0.4
+        },
+        {
+          "id": "TODO",
+          "order": 5,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "Problems View",
+          "order": 6,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "Terminal",
+          "order": 7,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "clangd",
+          "order": 8,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "Logcat",
+          "order": 9,
+          "anchor": "BOTTOM",
+          "weight": 0.31904763
+        },
+        {
+          "id": "Android Profiler",
+          "order": 10,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "Build",
+          "order": 11,
+          "anchor": "BOTTOM",
+          "isVisible": true,
+          "weight": 0.23756614
+        },
+        {
+          "id": "Logcat V2",
+          "order": 12,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "Layout Inspector",
+          "order": 13,
+          "anchor": "BOTTOM",
+          "isSplit": true
+        },
+        {
+          "id": "Services",
+          "order": 14,
+          "anchor": "BOTTOM",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "App Quality Insights",
+          "order": 15,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "Python Packages",
+          "order": 16,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "App Inspection",
+          "order": 16,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "documentation.v2",
+          "anchor": "RIGHT",
+          "isSplit": true
+        },
+        {
+          "id": "Version Control",
+          "order": 0,
+          "anchor": "RIGHT",
+          "isAutoHide": true,
+          "floatingBounds": [
+            196,
+            72,
+            1140,
+            750
+          ],
+          "type": "FLOATING",
+          "internalType": "FLOATING",
+          "isActiveOnStart": true,
+          "weight": 0.32969576
+        },
+        {
+          "id": "Gradle",
+          "order": 1,
+          "anchor": "RIGHT",
+          "weight": 0.32969576
+        },
+        {
+          "id": "Device File Explorer",
+          "order": 2,
+          "anchor": "RIGHT",
+          "weight": 0.32969576,
+          "isSplit": true
+        },
+        {
+          "id": "Layout Validation",
+          "order": 3,
+          "anchor": "RIGHT"
+        },
+        {
+          "id": "Android Emulator",
+          "order": 4,
+          "anchor": "RIGHT",
+          "isVisible": true,
+          "weight": 0.25760582,
+          "isSplit": true
+        },
+        {
+          "id": "Key Promoter X",
+          "order": 6,
+          "anchor": "RIGHT"
+        },
+        {
+          "id": "App Links Assistant",
+          "order": 8,
+          "anchor": "RIGHT"
+        },
+        {
+          "id": "Device Manager",
+          "order": 9,
+          "anchor": "RIGHT"
+        },
+        {
+          "id": "Notifications",
+          "order": 11,
+          "anchor": "RIGHT",
+          "isSplit": true
+        }
+      ],
+      "v2": [
+        {
+          "id": "Project",
+          "order": 0,
+          "contentUiType": "COMBO",
+          "weight": 0.25
+        },
+        {
+          "id": "Commit",
+          "order": 1,
+          "weight": 0.25
+        },
+        {
+          "id": "Resources Explorer",
+          "order": 2,
+          "weight": 0.25
+        },
+        {
+          "id": "Version Control",
+          "order": 0,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "Terminal",
+          "order": 1,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "Problems",
+          "order": 2,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "Problems View",
+          "order": 3,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "Logcat",
+          "order": 4,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "App Quality Insights",
+          "order": 5,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "Build",
+          "order": 6,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "Notifications",
+          "order": 0,
+          "anchor": "RIGHT",
+          "contentUiType": "COMBO",
+          "weight": 0.25
+        },
+        {
+          "id": "Gradle",
+          "order": 1,
+          "anchor": "RIGHT",
+          "weight": 0.25
+        },
+        {
+          "id": "Device Manager",
+          "order": 2,
+          "anchor": "RIGHT",
+          "weight": 0.25
+        },
+        {
+          "id": "Device Manager 2",
+          "order": 3,
+          "anchor": "RIGHT",
+          "weight": 0.25
+        },
+        {
+          "id": "Running Devices",
+          "order": 4,
+          "anchor": "RIGHT",
+          "weight": 0.25
+        },
+        {
+          "id": "StudioBot",
+          "order": 5,
+          "anchor": "RIGHT",
+          "weight": 0.25
+        }
+      ]
+    }
+  }
+}]]></component>
+</application>

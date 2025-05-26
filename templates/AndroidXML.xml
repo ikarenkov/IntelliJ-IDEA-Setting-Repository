@@ -1,0 +1,75 @@
+<templateSet group="AndroidXML">
+  <template name="idview" value="android:id=&quot;@+id/$FILE_NAME$_$VIEW_TYPE$&quot;" description="andoid:id=&quot;filename_&quot;" toReformat="false" toShortenFQNames="true">
+    <variable name="FILE_NAME" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="false" />
+    <variable name="VIEW_TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="GROOVY" value="false" />
+      <option name="HTML" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JSON" value="false" />
+      <option name="KOTLIN" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="c" value="false" />
+      <option name="cpp" value="false" />
+    </context>
+  </template>
+  <template name="idb" value="android:id=&quot;@+id/$VAR1$_button_$VAR2$&quot;$END$" description="id button" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR1" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="false" />
+    <variable name="VAR2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+      <option name="XML_TEXT" value="false" />
+    </context>
+  </template>
+  <template name="idc" value="android:id=&quot;@+id/$VAR1$_container_$VAR2$&quot;$END$" description="id container" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR1" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="false" />
+    <variable name="VAR2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="ide" value="android:id=&quot;@+id/$VAR1$_edit_text_$VAR2$&quot;$END$" description="id edit_text" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR1" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="false" />
+    <variable name="VAR2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="idf" value="android:id=&quot;@+id/$VAR1$_frame_layout_$VAR2$&quot;$END$" description="id frame_layout" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR1" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="false" />
+    <variable name="VAR2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="idi" value="android:id=&quot;@+id/$VAR1$_image_$VAR2$&quot;$END$" description="id image" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR1" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="false" />
+    <variable name="VAR2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+      <option name="XML_TEXT" value="false" />
+    </context>
+  </template>
+  <template name="idr" value="android:id=&quot;@+id/$VAR1$_recycler_$VAR2$&quot;$END$" description="id recycler" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR1" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="false" />
+    <variable name="VAR2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+      <option name="XML_TEXT" value="false" />
+    </context>
+  </template>
+  <template name="idt" value="android:id=&quot;@+id/$VAR1$_text_view_$VAR2$&quot;$END$" description="id text_view" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR1" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="false" />
+    <variable name="VAR2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="te" value="android:text=&quot;@string/$VAR1$_$VAR2$&quot;$END$" description="text for text_view" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR1" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="false" />
+    <variable name="VAR2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,5 @@
+<application>
+  <component name="TerminalOptionsProvider">
+    <option name="terminalEngine" value="NEW_TERMINAL" />
+  </component>
+</application>

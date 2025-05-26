@@ -1,0 +1,13 @@
+<application>
+  <component name="DependencyUISettings">
+    <option name="SCOPE_TYPE" value="file" />
+  </component>
+  <component name="UISettings">
+    <option name="compactTreeIndents" value="true" />
+    <option name="MAX_LOOKUP_LIST_HEIGHT" value="17" />
+    <option name="MAX_LOOKUP_WIDTH2" value="996" />
+    <option name="SHOW_INPLACE_COMMENTS" value="true" />
+    <option name="UI_DENSITY" value="COMPACT" />
+    <option name="WIDESCREEN_SUPPORT" value="true" />
+  </component>
+</application>

@@ -1,0 +1,8 @@
+<application>
+  <component name="ScreenRecorderOptions">
+    <option name="bitRateMbps" value="20" />
+    <option name="resolutionPercent" value="50" />
+    <option name="showTaps" value="true" />
+    <option name="useEmulatorRecording" value="false" />
+  </component>
+</application>
