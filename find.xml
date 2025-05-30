@@ -3,6 +3,7 @@
     <option name="customScope" value="Project Files" />
     <option name="defaultScopeName" value="Project Files" />
     <option name="SEARCH_SCOPE" value="Project Files" />
+    <option name="FILE_MASK" value="*.jenkinsfile" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
@@ -32,5 +33,6 @@
     <mask>*DialogScreen*</mask>
     <mask>*gradle*</mask>
     <mask>*.kt</mask>
+    <mask>*.jenkinsfile</mask>
   </component>
 </application>
