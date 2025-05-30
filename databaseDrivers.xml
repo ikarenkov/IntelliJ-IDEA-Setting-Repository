@@ -6,6 +6,5 @@
     <driver id="postgresql">
       <artifact id="PostgreSQL" name="PostgreSQL" use="true" version="42.2.5" />
     </driver>
-    <driver id="snowflake" />
   </component>
 </application>
