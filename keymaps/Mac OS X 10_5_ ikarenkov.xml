@@ -122,6 +122,12 @@
   <action id="HideAllWindows">
     <keyboard-shortcut first-keystroke="f12" />
   </action>
+  <action id="HippieBackwardCompletion">
+    <keyboard-shortcut first-keystroke="ctrl alt slash" />
+  </action>
+  <action id="HippieCompletion">
+    <keyboard-shortcut first-keystroke="ctrl slash" />
+  </action>
   <action id="IntentionActionAsAction_org.jetbrains.kotlin.idea.codeInsight.intentions.shared.ChopArgumentListIntention">
     <keyboard-shortcut first-keystroke="shift meta l" />
   </action>
