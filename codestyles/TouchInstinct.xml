@@ -56,6 +56,7 @@
     <option name="NAMES_COUNT_TO_USE_IMPORT_ON_DEMAND" value="200" />
     <option name="IMPORT_LAYOUT_TABLE">
       <value>
+        <package name="" withSubpackages="true" static="false" module="true" />
         <package name="android" withSubpackages="false" static="false" />
         <emptyLine />
         <package name="com" withSubpackages="false" static="false" />
@@ -472,7 +473,6 @@
                 <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
               </AND>
             </match>
-            <order>ANDROID_ATTRIBUTE_ORDER</order>
           </rule>
         </section>
         <section>

@@ -6,5 +6,6 @@
     <entry key="moved.to.new.ui" value="true" source="SYSTEM" />
     <entry key="ide.experimental.ui" value="true" source="SYSTEM" />
     <entry key="terminal.new.ui" value="true" source="SYSTEM" />
+    <entry key="completion.cloud.enableTextCompletion" value="false" source="MANAGER" />
   </component>
 </application>
