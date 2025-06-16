@@ -160,6 +160,9 @@
     <keyboard-shortcut first-keystroke="shift ctrl g" />
   </action>
   <action id="QuickChangeScheme" />
+  <action id="QuickImplementations">
+    <keyboard-shortcut first-keystroke="meta y" />
+  </action>
   <action id="RecentChangedFiles">
     <keyboard-shortcut first-keystroke="shift meta e" />
   </action>
