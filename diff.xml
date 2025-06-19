@@ -88,6 +88,11 @@
   </component>
   <component name="TextDiffSettings">
     <option name="PLACES_MAP">
+      <entry key="ChangesTreeDiffPreview">
+        <PlaceSettings>
+          <option name="HIGHLIGHTING_LEVEL" value="ADVANCED" />
+        </PlaceSettings>
+      </entry>
       <entry key="CommitDialog">
         <PlaceSettings>
           <option name="EXPAND_BY_DEFAULT" value="false" />
