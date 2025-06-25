@@ -6,6 +6,7 @@
     <entry key="moved.to.new.ui" value="true" source="SYSTEM" />
     <entry key="ide.experimental.ui" value="true" source="SYSTEM" />
     <entry key="terminal.new.ui" value="true" source="SYSTEM" />
+    <entry key="kotlin.scripting.index.dependencies.sources" value="true" source="SYSTEM" />
   </component>
   <component name="StatusBar">
     <option name="widgets">
