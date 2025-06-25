@@ -1,0 +1,5 @@
+<application>
+  <component name="GrazieAuthFacade">
+    <option name="loginSuccessful" value="true" />
+  </component>
+</application>

@@ -1,6 +1,7 @@
 <application>
   <component name="StudioBotSettings">
     <option name="contextSharingModeV2" value="AskPerProject" />
+    <option name="dasherProductVariant" value="Free" />
     <option name="enableCodeCompletion" value="false" />
     <option name="onboardedVersion" value="3" />
     <option name="queryHistory">
