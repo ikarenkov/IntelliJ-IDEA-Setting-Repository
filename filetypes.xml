@@ -4,6 +4,7 @@
     <extensionMap>
       <mapping pattern="CODEOWNERS" type="AUTO_DETECTED" />
       <mapping pattern="IntelliJ IDEA Global Settings" type="AUTO_DETECTED" />
+      <mapping pattern="*jenkinsfile.new" type="Groovy" />
       <mapping pattern="Jenkinsfile" type="Groovy" />
       <mapping ext="jenkinsfile" type="Groovy" />
       <mapping ext="gradle.kts" type="Kotlin" />
