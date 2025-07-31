@@ -30,9 +30,9 @@
     <mask>*Screen*</mask>
     <mask>*DialogScreen*</mask>
     <mask>*gradle*</mask>
-    <mask>*.kt</mask>
     <mask>*.jenkinsfile</mask>
     <mask>*.xml</mask>
     <mask>*.groovy</mask>
+    <mask>*.kt</mask>
   </component>
 </application>
