@@ -1,0 +1,17 @@
+<application>
+  <component name="MatterhornModelPersistentStateComponent">
+    <option name="actionWhiteList">
+      <list>
+        <Allowed>
+          <option name="actionRegex" value="*" />
+          <option name="actionType" value="Build" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Qmvn clean \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+      </list>
+    </option>
+    <option name="braveMode" value="true" />
+  </component>
+</application>

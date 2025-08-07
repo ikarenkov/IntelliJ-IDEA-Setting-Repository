@@ -1,0 +1,262 @@
+<keymap version="1" name="Mac OS X 10.5+ ikarenkov" parent="Mac OS X 10.5+">
+  <action id="AIAssistant.Chat.AIPopupChat">
+    <keyboard-shortcut first-keystroke="shift meta alt back_slash" />
+    <keyboard-shortcut first-keystroke="ctrl alt a" />
+  </action>
+  <action id="AIAssistant.Editor.AskAiAssistantInEditor">
+    <keyboard-shortcut first-keystroke="meta back_slash" />
+    <keyboard-shortcut first-keystroke="meta #100007c" />
+  </action>
+  <action id="ActivateAndroidEmulatorToolWindow">
+    <keyboard-shortcut first-keystroke="meta 2" />
+  </action>
+  <action id="ActivateBookmarksToolWindow" />
+  <action id="ActivateBuildToolWindow">
+    <keyboard-shortcut first-keystroke="meta 3" />
+  </action>
+  <action id="ActivateDebugToolWindow">
+    <keyboard-shortcut first-keystroke="meta 5" />
+    <keyboard-shortcut first-keystroke="meta #1000025" />
+  </action>
+  <action id="ActivateFindToolWindow" />
+  <action id="ActivateLogcatToolWindow">
+    <keyboard-shortcut first-keystroke="meta 4" />
+    <keyboard-shortcut first-keystroke="meta semicolon" />
+  </action>
+  <action id="ActivateProblemsViewToolWindow" />
+  <action id="ActivateProjectToolWindow">
+    <keyboard-shortcut first-keystroke="meta 1" />
+    <keyboard-shortcut first-keystroke="meta exclamation_mark" />
+  </action>
+  <action id="ActivateRunToolWindow" />
+  <action id="ActivateRunningDevicesToolWindow">
+    <keyboard-shortcut first-keystroke="meta 2" />
+    <keyboard-shortcut first-keystroke="meta at" />
+  </action>
+  <action id="ActivateServicesToolWindow">
+    <keyboard-shortcut first-keystroke="meta 8" />
+    <keyboard-shortcut first-keystroke="meta asterisk" />
+  </action>
+  <action id="ActivateStructureToolWindow">
+    <keyboard-shortcut first-keystroke="meta 7" />
+    <keyboard-shortcut first-keystroke="meta #100003f" />
+  </action>
+  <action id="ActivateTODOToolWindow" />
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="meta 6" />
+    <keyboard-shortcut first-keystroke="meta colon" />
+  </action>
+  <action id="ActivateVersionControlToolWindow">
+    <keyboard-shortcut first-keystroke="meta 9" />
+    <keyboard-shortcut first-keystroke="meta left_parenthesis" />
+  </action>
+  <action id="Android.RunLayoutInspector">
+    <keyboard-shortcut first-keystroke="meta 0" />
+  </action>
+  <action id="Android.SyncProject">
+    <keyboard-shortcut first-keystroke="f10" />
+  </action>
+  <action id="AndroidLogConsole.DeviceScreenshotAction">
+    <keyboard-shortcut first-keystroke="ctrl alt 3" />
+    <keyboard-shortcut first-keystroke="ctrl alt 4" />
+  </action>
+  <action id="AndroidLogConsole.ScreenRecorderAction">
+    <keyboard-shortcut first-keystroke="ctrl alt 5" />
+  </action>
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="meta alt left" />
+    <mouse-shortcut keystroke="button4" />
+    <keyboard-shortcut first-keystroke="meta braceleft" />
+    <keyboard-shortcut first-keystroke="shift meta braceleft" />
+    <keyboard-shortcut first-keystroke="meta open_bracket" />
+  </action>
+  <action id="CallInlineCompletionAction">
+    <keyboard-shortcut first-keystroke="shift alt back_slash" />
+    <keyboard-shortcut first-keystroke="shift meta n" />
+    <keyboard-shortcut first-keystroke="ctrl alt space" />
+    <keyboard-shortcut first-keystroke="alt space" />
+  </action>
+  <action id="CopyPathFromRepositoryRootProvider">
+    <keyboard-shortcut first-keystroke="ctrl c" />
+  </action>
+  <action id="DeviceAndSnapshotComboBox">
+    <keyboard-shortcut first-keystroke="shift alt f11" />
+    <keyboard-shortcut first-keystroke="ctrl meta alt r" />
+  </action>
+  <action id="DuplicatesForm.SendToRight" />
+  <action id="EditorAddOrRemoveCaret">
+    <mouse-shortcut keystroke="shift alt button1" />
+    <mouse-shortcut keystroke="shift control button1" />
+  </action>
+  <action id="EditorCloneCaretAbove">
+    <keyboard-shortcut first-keystroke="shift ctrl up" />
+  </action>
+  <action id="EditorCloneCaretBelow">
+    <keyboard-shortcut first-keystroke="shift ctrl down" />
+  </action>
+  <action id="EditorUp">
+    <keyboard-shortcut first-keystroke="up" />
+  </action>
+  <action id="FileChooser.GotoProject" />
+  <action id="FileChooser.LightEditGotoOpenedFile">
+    <keyboard-shortcut first-keystroke="f2" />
+  </action>
+  <action id="FindUsages">
+    <keyboard-shortcut first-keystroke="alt f7" />
+    <keyboard-shortcut first-keystroke="ctrl meta b" />
+  </action>
+  <action id="FocusEditor">
+    <keyboard-shortcut first-keystroke="escape" />
+    <keyboard-shortcut first-keystroke="meta escape" />
+  </action>
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="meta close_bracket" />
+    <keyboard-shortcut first-keystroke="meta alt right" />
+    <mouse-shortcut keystroke="button5" />
+    <keyboard-shortcut first-keystroke="meta braceright" />
+  </action>
+  <action id="Git.Branches">
+    <keyboard-shortcut first-keystroke="f11" />
+    <keyboard-shortcut first-keystroke="shift meta 9" />
+  </action>
+  <action id="GitUpdateSelectedBranchAction">
+    <keyboard-shortcut first-keystroke="ctrl meta alt t" />
+  </action>
+  <action id="GotoNextError" />
+  <action id="HideAllWindows">
+    <keyboard-shortcut first-keystroke="f12" />
+  </action>
+  <action id="HippieBackwardCompletion">
+    <keyboard-shortcut first-keystroke="ctrl alt slash" />
+  </action>
+  <action id="HippieCompletion">
+    <keyboard-shortcut first-keystroke="ctrl slash" />
+  </action>
+  <action id="IntentionActionAsAction_org.jetbrains.kotlin.idea.codeInsight.intentions.shared.ChopArgumentListIntention">
+    <keyboard-shortcut first-keystroke="shift meta l" />
+  </action>
+  <action id="IntentionActionAsAction_org.jetbrains.kotlin.idea.codeInsight.intentions.shared.JoinArgumentListIntention">
+    <keyboard-shortcut first-keystroke="shift meta l" />
+  </action>
+  <action id="IntentionActionAsAction_org.jetbrains.kotlin.idea.intentions.AddNameToArgumentIntention">
+    <keyboard-shortcut first-keystroke="ctrl alt p" />
+  </action>
+  <action id="IntentionActionAsAction_org.jetbrains.kotlin.idea.intentions.ChopArgumentListIntention">
+    <keyboard-shortcut first-keystroke="meta alt s" />
+  </action>
+  <action id="IntentionActionAsAction_org.jetbrains.kotlin.idea.intentions.ChopParameterListIntention">
+    <keyboard-shortcut first-keystroke="meta alt s" />
+  </action>
+  <action id="IntentionActionAsAction_org.jetbrains.kotlin.idea.intentions.JoinArgumentListIntention">
+    <keyboard-shortcut first-keystroke="meta alt s" />
+  </action>
+  <action id="JumpToLastWindow">
+    <keyboard-shortcut first-keystroke="shift meta f12" />
+  </action>
+  <action id="List-selectPreviousRow">
+    <keyboard-shortcut first-keystroke="up" />
+  </action>
+  <action id="MoveLineDown">
+    <keyboard-shortcut first-keystroke="shift alt down" />
+    <keyboard-shortcut first-keystroke="meta alt down" />
+  </action>
+  <action id="MoveLineUp">
+    <keyboard-shortcut first-keystroke="shift alt up" />
+    <keyboard-shortcut first-keystroke="meta alt up" />
+  </action>
+  <action id="NextProjectWindow">
+    <keyboard-shortcut first-keystroke="meta alt back_quote" />
+    <keyboard-shortcut first-keystroke="alt tab" />
+  </action>
+  <action id="OpenInlineChatAction">
+    <keyboard-shortcut first-keystroke="shift ctrl g" />
+  </action>
+  <action id="QuickChangeScheme" />
+  <action id="QuickImplementations">
+    <keyboard-shortcut first-keystroke="meta y" />
+  </action>
+  <action id="RecentChangedFiles">
+    <keyboard-shortcut first-keystroke="shift meta e" />
+  </action>
+  <action id="RecentLocations">
+    <keyboard-shortcut first-keystroke="shift meta alt e" />
+  </action>
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="shift f6" />
+    <keyboard-shortcut first-keystroke="f3" />
+  </action>
+  <action id="ResizeToolWindowDown">
+    <keyboard-shortcut first-keystroke="ctrl meta alt down" />
+  </action>
+  <action id="ResizeToolWindowUp">
+    <keyboard-shortcut first-keystroke="ctrl meta alt up" />
+  </action>
+  <action id="SelectInProjectView">
+    <keyboard-shortcut first-keystroke="f2" />
+  </action>
+  <action id="ShowProjectStructureSettings">
+    <keyboard-shortcut first-keystroke="shift meta comma" />
+  </action>
+  <action id="Tabby.InlineCompletion.CycleNext">
+    <keyboard-shortcut first-keystroke="alt open_bracket" />
+    <keyboard-shortcut first-keystroke="meta alt braceleft" />
+    <keyboard-shortcut first-keystroke="meta alt tab" />
+    <keyboard-shortcut first-keystroke="ctrl alt s" />
+  </action>
+  <action id="Tabby.InlineCompletion.CyclePrevious">
+    <keyboard-shortcut first-keystroke="alt close_bracket" />
+    <keyboard-shortcut first-keystroke="meta alt braceright" />
+  </action>
+  <action id="Tabby.InlineCompletion.Trigger">
+    <keyboard-shortcut first-keystroke="meta back_slash" />
+    <keyboard-shortcut first-keystroke="alt back_slash" />
+    <keyboard-shortcut first-keystroke="ctrl alt a" />
+  </action>
+  <action id="ToggleBookmark" />
+  <action id="ToggleDistractionFreeMode">
+    <keyboard-shortcut first-keystroke="shift ctrl meta f" />
+    <keyboard-shortcut first-keystroke="shift ctrl meta enter" />
+  </action>
+  <action id="Vcs.ToggleAmendCommitMode">
+    <keyboard-shortcut first-keystroke="alt a" />
+  </action>
+  <action id="android.deploy.ApplyChanges">
+    <keyboard-shortcut first-keystroke="ctrl meta r" />
+  </action>
+  <action id="android.deploy.CodeSwap">
+    <keyboard-shortcut first-keystroke="shift ctrl meta r" />
+  </action>
+  <action id="android.device.back.button">
+    <keyboard-shortcut first-keystroke="shift meta b" />
+    <keyboard-shortcut first-keystroke="meta alt back_space" />
+  </action>
+  <action id="android.device.rotate.left">
+    <keyboard-shortcut first-keystroke="meta l" />
+    <keyboard-shortcut first-keystroke="meta alt left" />
+  </action>
+  <action id="android.device.rotate.right">
+    <keyboard-shortcut first-keystroke="meta r" />
+    <keyboard-shortcut first-keystroke="meta alt right" />
+  </action>
+  <action id="android.emulator.back.button">
+    <keyboard-shortcut first-keystroke="ctrl back_space" />
+    <keyboard-shortcut first-keystroke="meta alt back_space" />
+    <keyboard-shortcut first-keystroke="ctrl delete" />
+  </action>
+  <action id="android.emulator.home.button">
+    <keyboard-shortcut first-keystroke="meta alt down" />
+    <keyboard-shortcut first-keystroke="ctrl page_down" />
+  </action>
+  <action id="android.emulator.overview.button">
+    <keyboard-shortcut first-keystroke="meta alt up" />
+    <keyboard-shortcut first-keystroke="ctrl page_up" />
+  </action>
+  <action id="android.emulator.rotate.left">
+    <keyboard-shortcut first-keystroke="meta alt left" />
+    <keyboard-shortcut first-keystroke="ctrl home" />
+  </action>
+  <action id="android.emulator.rotate.right">
+    <keyboard-shortcut first-keystroke="meta alt right" />
+    <keyboard-shortcut first-keystroke="ctrl end" />
+  </action>
+</keymap>

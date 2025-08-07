@@ -43,6 +43,24 @@
             <list>
               <option value="com.intellij.diff.tools.combined.CombinedUnifiedDiffTool" />
               <option value="com.intellij.diff.tools.combined.CombinedSideBySideDiffTool" />
+              <option value="com.intellij.jupyter.diff.extensions.JupyterDiffTool" />
+              <option value="com.intellij.openapi.vcs.changes.patch.tool.ApplyPatchDiffTool" />
+              <option value="com.intellij.openapi.vcs.changes.patch.tool.PatchDiffTool.Unified" />
+              <option value="com.intellij.openapi.vcs.changes.patch.tool.PatchDiffTool.SideBySide" />
+              <option value="org.jetbrains.idea.svn.difftool.properties.SvnPropertiesDiffTool" />
+              <option value="org.jetbrains.idea.svn.difftool.SvnPhantomChangeDiffRequestProvider.SvnPhantomDiffTool" />
+              <option value="org.jetbrains.idea.svn.difftool.SvnTreeConflictDiffRequestProvider.SvnTreeConflictDiffTool" />
+              <option value="com.intellij.ml.llm.codeGeneration.diff.AIOneSideDiffTool" />
+              <option value="com.intellij.ml.llm.codeGeneration.diff.AIUnifiedDiffTool" />
+              <option value="com.intellij.ml.llm.codeGeneration.diff.AITwoSideDiffTool" />
+              <option value="com.intellij.ml.llm.core.chat.multifile.ui.change.LlmDiffChangeUnifiedDiffTool" />
+              <option value="com.intellij.ml.llm.core.chat.multifile.ui.change.LlmDiffChangeSimpleDiffTool" />
+              <option value="com.intellij.database.model.diff.SchemaDiffTool" />
+              <option value="com.intellij.database.diff.TableDiffTool" />
+              <option value="com.intellij.diff.tools.fragmented.UnifiedDiffTool" />
+              <option value="com.intellij.diff.tools.simple.SimpleDiffTool" />
+              <option value="com.intellij.diff.tools.binary.BinaryDiffTool" />
+              <option value="com.intellij.diff.tools.dir.DirDiffTool" />
             </list>
           </option>
         </PlaceSettings>
@@ -88,6 +106,11 @@
   </component>
   <component name="TextDiffSettings">
     <option name="PLACES_MAP">
+      <entry key="ChangesTreeDiffPreview">
+        <PlaceSettings>
+          <option name="HIGHLIGHTING_LEVEL" value="ADVANCED" />
+        </PlaceSettings>
+      </entry>
       <entry key="CommitDialog">
         <PlaceSettings>
           <option name="EXPAND_BY_DEFAULT" value="false" />
