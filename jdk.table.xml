@@ -1,6 +1,641 @@
 <application>
   <component name="ProjectJdkTable">
     <jdk version="2">
+      <name value="jbr-17" />
+      <type value="JavaSDK" />
+      <version value="JetBrains Runtime 17.0.14 - aarch64" />
+      <homePath value="$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home" />
+      <roots>
+        <annotationsPath>
+          <root type="composite">
+            <root url="jar://$APPLICATION_HOME_DIR$/plugins/java/lib/resources/jdkAnnotations.jar!/" type="simple" />
+          </root>
+        </annotationsPath>
+        <classPath>
+          <root type="composite">
+            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/java.base" type="simple" />
+            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/java.compiler" type="simple" />
+            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/java.datatransfer" type="simple" />
+            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/java.desktop" type="simple" />
+            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/java.instrument" type="simple" />
+            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/java.logging" type="simple" />
+            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/java.management" type="simple" />
+            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/java.management.rmi" type="simple" />
+            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/java.naming" type="simple" />
+            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/java.net.http" type="simple" />
+            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/java.prefs" type="simple" />
+            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/java.rmi" type="simple" />
+            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/java.scripting" type="simple" />
+            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/java.se" type="simple" />
+            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/java.security.jgss" type="simple" />
+            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/java.security.sasl" type="simple" />
+            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/java.smartcardio" type="simple" />
+            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/java.sql" type="simple" />
+            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/java.sql.rowset" type="simple" />
+            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/java.transaction.xa" type="simple" />
+            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/java.xml" type="simple" />
+            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/java.xml.crypto" type="simple" />
+            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.accessibility" type="simple" />
+            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.attach" type="simple" />
+            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.charsets" type="simple" />
+            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.compiler" type="simple" />
+            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.crypto.cryptoki" type="simple" />
+            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.crypto.ec" type="simple" />
+            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.dynalink" type="simple" />
+            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.editpad" type="simple" />
+            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.hotspot.agent" type="simple" />
+            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.httpserver" type="simple" />
+            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.incubator.foreign" type="simple" />
+            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.incubator.vector" type="simple" />
+            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.internal.ed" type="simple" />
+            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.internal.jvmstat" type="simple" />
+            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.internal.le" type="simple" />
+            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.internal.opt" type="simple" />
+            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.internal.vm.ci" type="simple" />
+            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.internal.vm.compiler" type="simple" />
+            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.internal.vm.compiler.management" type="simple" />
+            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.jartool" type="simple" />
+            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.javadoc" type="simple" />
+            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.jcmd" type="simple" />
+            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.jconsole" type="simple" />
+            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.jdeps" type="simple" />
+            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.jdi" type="simple" />
+            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.jdwp.agent" type="simple" />
+            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.jfr" type="simple" />
+            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.jlink" type="simple" />
+            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.jpackage" type="simple" />
+            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.jshell" type="simple" />
+            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.jsobject" type="simple" />
+            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.jstatd" type="simple" />
+            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.localedata" type="simple" />
+            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.management" type="simple" />
+            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.management.agent" type="simple" />
+            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.management.jfr" type="simple" />
+            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.naming.dns" type="simple" />
+            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.naming.rmi" type="simple" />
+            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.net" type="simple" />
+            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.nio.mapmode" type="simple" />
+            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.random" type="simple" />
+            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.sctp" type="simple" />
+            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.security.auth" type="simple" />
+            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.security.jgss" type="simple" />
+            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.unsupported" type="simple" />
+            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.unsupported.desktop" type="simple" />
+            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.xml.dom" type="simple" />
+            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.zipfs" type="simple" />
+          </root>
+        </classPath>
+        <javadocPath>
+          <root type="composite" />
+        </javadocPath>
+        <sourcePath>
+          <root type="composite">
+            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/java.se" type="simple" />
+            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.jdi" type="simple" />
+            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.jfr" type="simple" />
+            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.net" type="simple" />
+            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/java.rmi" type="simple" />
+            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/java.sql" type="simple" />
+            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/java.xml" type="simple" />
+            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.jcmd" type="simple" />
+            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.sctp" type="simple" />
+            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/java.base" type="simple" />
+            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.jdeps" type="simple" />
+            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.jlink" type="simple" />
+            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.zipfs" type="simple" />
+            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/java.prefs" type="simple" />
+            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.attach" type="simple" />
+            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.jshell" type="simple" />
+            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.jstatd" type="simple" />
+            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.random" type="simple" />
+            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/java.naming" type="simple" />
+            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.editpad" type="simple" />
+            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.jartool" type="simple" />
+            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.javadoc" type="simple" />
+            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.xml.dom" type="simple" />
+            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/java.desktop" type="simple" />
+            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/java.logging" type="simple" />
+            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.charsets" type="simple" />
+            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.compiler" type="simple" />
+            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.dynalink" type="simple" />
+            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.jconsole" type="simple" />
+            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.jpackage" type="simple" />
+            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.jsobject" type="simple" />
+            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/java.compiler" type="simple" />
+            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/java.net.http" type="simple" />
+            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.crypto.ec" type="simple" />
+            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/java.scripting" type="simple" />
+            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.httpserver" type="simple" />
+            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.jdwp.agent" type="simple" />
+            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.localedata" type="simple" />
+            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.management" type="simple" />
+            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.naming.dns" type="simple" />
+            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.naming.rmi" type="simple" />
+            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/java.instrument" type="simple" />
+            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/java.management" type="simple" />
+            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/java.sql.rowset" type="simple" />
+            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/java.xml.crypto" type="simple" />
+            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.internal.ed" type="simple" />
+            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.internal.le" type="simple" />
+            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.nio.mapmode" type="simple" />
+            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.unsupported" type="simple" />
+            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/java.smartcardio" type="simple" />
+            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.internal.opt" type="simple" />
+            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/java.datatransfer" type="simple" />
+            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.accessibility" type="simple" />
+            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.hotspot.agent" type="simple" />
+            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.security.auth" type="simple" />
+            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.security.jgss" type="simple" />
+            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/java.security.jgss" type="simple" />
+            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/java.security.sasl" type="simple" />
+            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.internal.vm.ci" type="simple" />
+            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.management.jfr" type="simple" />
+            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/java.management.rmi" type="simple" />
+            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/java.transaction.xa" type="simple" />
+            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.crypto.cryptoki" type="simple" />
+            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.incubator.vector" type="simple" />
+            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.internal.jvmstat" type="simple" />
+            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.management.agent" type="simple" />
+            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.incubator.foreign" type="simple" />
+            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.unsupported.desktop" type="simple" />
+            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.internal.vm.compiler" type="simple" />
+            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.internal.vm.compiler.management" type="simple" />
+          </root>
+        </sourcePath>
+      </roots>
+    </jdk>
+    <jdk version="2">
+      <name value="rbenv: 3.3.5" />
+      <type value="RUBY_SDK" />
+      <version value="ver.3.3.5 ( revision ef084cc8f4) p100" />
+      <homePath value="$USER_HOME$/.rbenv/versions/3.3.5/bin/ruby" />
+      <roots>
+        <annotationsPath>
+          <root type="composite" />
+        </annotationsPath>
+        <classPath>
+          <root type="composite">
+            <root url="file://$USER_HOME$/.rbenv/versions/3.3.5/lib/ruby/site_ruby/3.3.0" type="simple" />
+            <root url="file://$USER_HOME$/.rbenv/versions/3.3.5/lib/ruby/site_ruby/3.3.0/arm64-darwin24" type="simple" />
+            <root url="file://$USER_HOME$/.rbenv/versions/3.3.5/lib/ruby/site_ruby" type="simple" />
+            <root url="file://$USER_HOME$/.rbenv/versions/3.3.5/lib/ruby/vendor_ruby/3.3.0" type="simple" />
+            <root url="file://$USER_HOME$/.rbenv/versions/3.3.5/lib/ruby/vendor_ruby/3.3.0/arm64-darwin24" type="simple" />
+            <root url="file://$USER_HOME$/.rbenv/versions/3.3.5/lib/ruby/vendor_ruby" type="simple" />
+            <root url="file://$USER_HOME$/.rbenv/versions/3.3.5/lib/ruby/3.3.0" type="simple" />
+            <root url="file://$USER_HOME$/.rbenv/versions/3.3.5/lib/ruby/3.3.0/arm64-darwin24" type="simple" />
+            <root url="file://$APPLICATION_PLUGINS_DIR$/ruby/rubystubs/rubystubs33" type="simple" />
+          </root>
+        </classPath>
+        <javadocPath>
+          <root type="composite" />
+        </javadocPath>
+        <sourcePath>
+          <root type="composite">
+            <root url="file://$USER_HOME$/.rbenv/versions/3.3.5/lib/ruby/site_ruby/3.3.0" type="simple" />
+            <root url="file://$USER_HOME$/.rbenv/versions/3.3.5/lib/ruby/site_ruby/3.3.0/arm64-darwin24" type="simple" />
+            <root url="file://$USER_HOME$/.rbenv/versions/3.3.5/lib/ruby/site_ruby" type="simple" />
+            <root url="file://$USER_HOME$/.rbenv/versions/3.3.5/lib/ruby/vendor_ruby/3.3.0" type="simple" />
+            <root url="file://$USER_HOME$/.rbenv/versions/3.3.5/lib/ruby/vendor_ruby/3.3.0/arm64-darwin24" type="simple" />
+            <root url="file://$USER_HOME$/.rbenv/versions/3.3.5/lib/ruby/vendor_ruby" type="simple" />
+            <root url="file://$USER_HOME$/.rbenv/versions/3.3.5/lib/ruby/3.3.0" type="simple" />
+            <root url="file://$USER_HOME$/.rbenv/versions/3.3.5/lib/ruby/3.3.0/arm64-darwin24" type="simple" />
+            <root url="file://$APPLICATION_PLUGINS_DIR$/ruby/rubystubs/rubystubs33" type="simple" />
+          </root>
+        </sourcePath>
+      </roots>
+      <additional NORMALIZED_VERSION_STRING="ver.3.3.5 ( revision ef084cc8f4) p100" version="1" GEMS_BIN_DIR_PATH="$USER_HOME$/.rbenv/versions/3.3.5/bin">
+        <VERSION_MANAGER ID="rbenv">
+          <option name="gemset-name" />
+          <distribution-id>3.3.5</distribution-id>
+          <version-manager-path>/opt/homebrew/Cellar/rbenv/1.3.2/libexec/rbenv</version-manager-path>
+        </VERSION_MANAGER>
+        <RbConfig>
+          <item key="AR" value="ar" />
+          <item key="ARCH_FLAG" value="-arch arm64" />
+          <item key="ARFLAGS" value="rcu " />
+          <item key="AS" value="as" />
+          <item key="ASMEXT" value="S" />
+          <item key="BUILTIN_TRANSSRCS" value=" enc/trans/newline.c" />
+          <item key="CC" value="clang" />
+          <item key="CCDLFLAGS" value="-fno-common" />
+          <item key="CC_VERSION" value="clang --version" />
+          <item key="CC_VERSION_MESSAGE" value="Apple clang version 17.0.0 (clang-1700.0.13.5)&#10;Target: arm64-apple-darwin24.5.0&#10;Thread model: posix&#10;InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin" />
+          <item key="CFLAGS" value="-Wno-error=implicit-function-declaration -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wmisleading-indentation -Wundef -fno-common -pipe" />
+          <item key="CHDIR" value="cd -P" />
+          <item key="CONFIGURE" value="configure" />
+          <item key="COROUTINE_TYPE" value="arm64" />
+          <item key="COUTFLAG" value="-o " />
+          <item key="CP" value="cp" />
+          <item key="CPP" value="clang -E" />
+          <item key="CPPFLAGS" value="-D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT  " />
+          <item key="CPPOUTFILE" value="-o conftest.i" />
+          <item key="CROSS_COMPILING" value="no" />
+          <item key="CXX" value="clang++" />
+          <item key="CXXFLAGS" value="-fdeclspec" />
+          <item key="DLDFLAGS" value="-L/opt/homebrew/opt/gmp/lib -Wl,-undefined,dynamic_lookup" />
+          <item key="DLDSHARED" value="clang -dynamiclib" />
+          <item key="DLEXT" value="bundle" />
+          <item key="DLNOBJ" value="dln.o" />
+          <item key="DOT" value="dot" />
+          <item key="ECHO_C" value="\\c" />
+          <item key="EGREP" value="/usr/bin/grep -E" />
+          <item key="ENABLE_SHARED" value="yes" />
+          <item key="EXTOUT" value=".ext" />
+          <item key="GCC" value="yes" />
+          <item key="GIT" value="git" />
+          <item key="GNU_LD" value="no" />
+          <item key="GREP" value="/usr/bin/grep" />
+          <item key="HAVE_GIT" value="yes" />
+          <item key="INSTALL" value="/usr/bin/install -c" />
+          <item key="INSTALL_DATA" value="/usr/bin/install -c -m 644" />
+          <item key="INSTALL_PROGRAM" value="/usr/bin/install -c" />
+          <item key="INSTALL_SCRIPT" value="/usr/bin/install -c" />
+          <item key="INSTALL_STATIC_LIBRARY" value="no" />
+          <item key="LD" value="ld" />
+          <item key="LDFLAGS" value="-L. -fstack-protector-strong -L/opt/homebrew/opt/gmp/lib" />
+          <item key="LDSHARED" value="clang -dynamic -bundle" />
+          <item key="LDSHAREDXX" value="clang++ -dynamic -bundle" />
+          <item key="LIBEXT" value="a" />
+          <item key="LIBPATHENV" value="DYLD_LIBRARY_PATH" />
+          <item key="LIBPATHFLAG" value=" -L%s" />
+          <item key="LIBRUBY" value="libruby.3.3.dylib" />
+          <item key="LIBRUBYARG" value="-lruby.3.3" />
+          <item key="LIBRUBYARG_SHARED" value="-lruby.3.3" />
+          <item key="LIBRUBYARG_STATIC" value="-lruby.3.3-static -framework CoreFoundation -lgmp -ldl -lobjc -lpthread " />
+          <item key="LIBRUBY_A" value="libruby.3.3-static.a" />
+          <item key="LIBRUBY_ALIASES" value="libruby.dylib" />
+          <item key="LIBRUBY_RELATIVE" value="no" />
+          <item key="LIBRUBY_SO" value="libruby.3.3.dylib" />
+          <item key="LIBRUBY_SONAME" value="libruby.3.3.dylib" />
+          <item key="LIBS" value="-lpthread " />
+          <item key="LINK_SO" value="&#10;dsymutil $@ 2&gt;/dev/null; { test -z '$(RUBY_CODESIGN)' || codesign -s '$(RUBY_CODESIGN)' -f $@; }" />
+          <item key="LN_S" value="ln -s" />
+          <item key="MAINLIBS" value="-lgmp -ldl -lobjc -lpthread " />
+          <item key="MAJOR" value="3" />
+          <item key="MAKEDIRS" value="mkdir -p" />
+          <item key="MAKEFILES" value="Makefile GNUmakefile" />
+          <item key="MANTYPE" value="doc" />
+          <item key="MINOR" value="3" />
+          <item key="MKDIR_P" value="mkdir -p" />
+          <item key="MKMF_VERBOSE" value="0" />
+          <item key="NM" value="nm --no-llvm-bc" />
+          <item key="NULLCMD" value=":" />
+          <item key="OBJCOPY" value=":" />
+          <item key="OBJDUMP" value="objdump" />
+          <item key="OBJEXT" value="o" />
+          <item key="OUTFLAG" value="-o " />
+          <item key="PACKAGE" value="ruby" />
+          <item key="PATCHLEVEL" value="100" />
+          <item key="PATH_SEPARATOR" value=":" />
+          <item key="PKG_CONFIG" value="pkg-config" />
+          <item key="POSTLINK" value="dsymutil $@ 2&gt;/dev/null; { test -z '$(RUBY_CODESIGN)' || codesign -s '$(RUBY_CODESIGN)' -f $@; }" />
+          <item key="PRELOADENV" value="DYLD_INSERT_LIBRARIES" />
+          <item key="PREP" value="miniruby" />
+          <item key="RANLIB" value="ranlib" />
+          <item key="RI_BASE_NAME" value="ri" />
+          <item key="RJIT_SUPPORT" value="yes" />
+          <item key="RM" value="rm -f" />
+          <item key="RMALL" value="rm -fr" />
+          <item key="RMDIR" value="rmdir" />
+          <item key="RMDIRS" value="rmdir -p" />
+          <item key="RUBYW_BASE_NAME" value="rubyw" />
+          <item key="RUBY_API_VERSION" value="3.3" />
+          <item key="RUBY_BASE_NAME" value="ruby" />
+          <item key="RUBY_EXEC_PREFIX" value="$USER_HOME$/.rbenv/versions/3.3.5" />
+          <item key="RUBY_INSTALL_NAME" value="ruby" />
+          <item key="RUBY_LIB_VERSION_STYLE" value="3&#9;/* full */" />
+          <item key="RUBY_PROGRAM_VERSION" value="3.3.5" />
+          <item key="RUBY_SO_NAME" value="ruby.3.3" />
+          <item key="RUBY_VERSION_NAME" value="ruby-3.3.0" />
+          <item key="RUSTC" value="no" />
+          <item key="SHELL" value="/bin/sh" />
+          <item key="SOEXT" value="dylib" />
+          <item key="SOLIBS" value="-lgmp -ldl -lobjc -lpthread " />
+          <item key="STRIP" value="strip -A -n" />
+          <item key="SYMBOL_PREFIX" value="_" />
+          <item key="TEENY" value="5" />
+          <item key="TEST_RUNNABLE" value="yes" />
+          <item key="THREAD_MODEL" value="pthread" />
+          <item key="UNICODE_EMOJI_VERSION" value="15.0" />
+          <item key="UNICODE_VERSION" value="15.0.0" />
+          <item key="WERRORFLAG" value="-Werror" />
+          <item key="YJIT_SUPPORT" value="no" />
+          <item key="arch" value="arm64-darwin24" />
+          <item key="archdir" value="$USER_HOME$/.rbenv/versions/3.3.5/lib/ruby/3.3.0/arm64-darwin24" />
+          <item key="archincludedir" value="$USER_HOME$/.rbenv/versions/3.3.5/include/arm64-darwin24" />
+          <item key="archlibdir" value="$USER_HOME$/.rbenv/versions/3.3.5/lib/arm64-darwin24" />
+          <item key="bindir" value="$USER_HOME$/.rbenv/versions/3.3.5/bin" />
+          <item key="build" value="aarch64-apple-darwin24.5.0" />
+          <item key="build_cpu" value="aarch64" />
+          <item key="build_os" value="darwin24.5.0" />
+          <item key="build_vendor" value="apple" />
+          <item key="cflags" value="-fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wmisleading-indentation -Wundef" />
+          <item key="cleanlibs" value="$(TARGET_SO).dSYM" />
+          <item key="codesign" value="codesign" />
+          <item key="configure_args" value=" '--prefix=/Users/ikarenkov/.rbenv/versions/3.3.5' '--with-openssl-dir=/opt/homebrew/opt/openssl@3' '--enable-shared' '--with-libyaml-dir=/opt/homebrew/opt/libyaml' '--with-gmp-dir=/opt/homebrew/opt/gmp' '--with-ext=openssl,psych,+' 'CC=clang' 'CFLAGS= -Wno-error=implicit-function-declaration'" />
+          <item key="datadir" value="$USER_HOME$/.rbenv/versions/3.3.5/share" />
+          <item key="datarootdir" value="$USER_HOME$/.rbenv/versions/3.3.5/share" />
+          <item key="debugflags" value="-ggdb3" />
+          <item key="docdir" value="$USER_HOME$/.rbenv/versions/3.3.5/share/doc/ruby" />
+          <item key="dsymutil" value="dsymutil" />
+          <item key="dvidir" value="$USER_HOME$/.rbenv/versions/3.3.5/share/doc/ruby" />
+          <item key="exec" value="exec" />
+          <item key="exec_prefix" value="$USER_HOME$/.rbenv/versions/3.3.5" />
+          <item key="host" value="arm64-apple-darwin24" />
+          <item key="host_cpu" value="arm64" />
+          <item key="host_os" value="darwin24" />
+          <item key="host_vendor" value="apple" />
+          <item key="htmldir" value="$USER_HOME$/.rbenv/versions/3.3.5/share/doc/ruby" />
+          <item key="incflags" value="-I/opt/homebrew/opt/gmp/include" />
+          <item key="includedir" value="$USER_HOME$/.rbenv/versions/3.3.5/include" />
+          <item key="infodir" value="$USER_HOME$/.rbenv/versions/3.3.5/share/info" />
+          <item key="libdir" value="$USER_HOME$/.rbenv/versions/3.3.5/lib" />
+          <item key="libdirname" value="libdir" />
+          <item key="libexecdir" value="$USER_HOME$/.rbenv/versions/3.3.5/libexec" />
+          <item key="localedir" value="$USER_HOME$/.rbenv/versions/3.3.5/share/locale" />
+          <item key="localstatedir" value="$USER_HOME$/.rbenv/versions/3.3.5/var" />
+          <item key="mandir" value="$USER_HOME$/.rbenv/versions/3.3.5/share/man" />
+          <item key="oldincludedir" value="/usr/include" />
+          <item key="optflags" value="-O3 -fno-fast-math" />
+          <item key="pdfdir" value="$USER_HOME$/.rbenv/versions/3.3.5/share/doc/ruby" />
+          <item key="platform" value="arm64-darwin24" />
+          <item key="prefix" value="$USER_HOME$/.rbenv/versions/3.3.5" />
+          <item key="psdir" value="$USER_HOME$/.rbenv/versions/3.3.5/share/doc/ruby" />
+          <item key="ridir" value="$USER_HOME$/.rbenv/versions/3.3.5/share/ri" />
+          <item key="ruby_install_name" value="ruby" />
+          <item key="ruby_pc" value="ruby-3.3.pc" />
+          <item key="ruby_version" value="3.3.0" />
+          <item key="rubyarchdir" value="$USER_HOME$/.rbenv/versions/3.3.5/lib/ruby/3.3.0/arm64-darwin24" />
+          <item key="rubyarchhdrdir" value="$USER_HOME$/.rbenv/versions/3.3.5/include/ruby-3.3.0/arm64-darwin24" />
+          <item key="rubyarchprefix" value="$USER_HOME$/.rbenv/versions/3.3.5/lib/ruby/arm64-darwin24" />
+          <item key="rubyhdrdir" value="$USER_HOME$/.rbenv/versions/3.3.5/include/ruby-3.3.0" />
+          <item key="rubylibdir" value="$USER_HOME$/.rbenv/versions/3.3.5/lib/ruby/3.3.0" />
+          <item key="rubylibprefix" value="$USER_HOME$/.rbenv/versions/3.3.5/lib/ruby" />
+          <item key="rubysitearchprefix" value="$USER_HOME$/.rbenv/versions/3.3.5/lib/ruby/arm64-darwin24" />
+          <item key="runstatedir" value="$USER_HOME$/.rbenv/versions/3.3.5/var/run" />
+          <item key="sbindir" value="$USER_HOME$/.rbenv/versions/3.3.5/sbin" />
+          <item key="setup" value="Setup" />
+          <item key="sharedstatedir" value="$USER_HOME$/.rbenv/versions/3.3.5/com" />
+          <item key="sitearch" value="arm64-darwin24" />
+          <item key="sitearchdir" value="$USER_HOME$/.rbenv/versions/3.3.5/lib/ruby/site_ruby/3.3.0/arm64-darwin24" />
+          <item key="sitearchhdrdir" value="$USER_HOME$/.rbenv/versions/3.3.5/include/ruby-3.3.0/site_ruby/arm64-darwin24" />
+          <item key="sitearchincludedir" value="$USER_HOME$/.rbenv/versions/3.3.5/include/arm64-darwin24" />
+          <item key="sitearchlibdir" value="$USER_HOME$/.rbenv/versions/3.3.5/lib/arm64-darwin24" />
+          <item key="sitedir" value="$USER_HOME$/.rbenv/versions/3.3.5/lib/ruby/site_ruby" />
+          <item key="sitehdrdir" value="$USER_HOME$/.rbenv/versions/3.3.5/include/ruby-3.3.0/site_ruby" />
+          <item key="sitelibdir" value="$USER_HOME$/.rbenv/versions/3.3.5/lib/ruby/site_ruby/3.3.0" />
+          <item key="sysconfdir" value="$USER_HOME$/.rbenv/versions/3.3.5/etc" />
+          <item key="target" value="arm64-apple-darwin24" />
+          <item key="target_cpu" value="arm64" />
+          <item key="target_os" value="darwin24" />
+          <item key="target_vendor" value="apple" />
+          <item key="topdir" value="$USER_HOME$/.rbenv/versions/3.3.5/lib/ruby/3.3.0/arm64-darwin24" />
+          <item key="vendorarchdir" value="$USER_HOME$/.rbenv/versions/3.3.5/lib/ruby/vendor_ruby/3.3.0/arm64-darwin24" />
+          <item key="vendorarchhdrdir" value="$USER_HOME$/.rbenv/versions/3.3.5/include/ruby-3.3.0/vendor_ruby/arm64-darwin24" />
+          <item key="vendordir" value="$USER_HOME$/.rbenv/versions/3.3.5/lib/ruby/vendor_ruby" />
+          <item key="vendorhdrdir" value="$USER_HOME$/.rbenv/versions/3.3.5/include/ruby-3.3.0/vendor_ruby" />
+          <item key="vendorlibdir" value="$USER_HOME$/.rbenv/versions/3.3.5/lib/ruby/vendor_ruby/3.3.0" />
+          <item key="warnflags" value="-Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wmisleading-indentation -Wundef" />
+        </RbConfig>
+      </additional>
+    </jdk>
+    <jdk version="2">
+      <name value="rbenv: 3.3.0" />
+      <type value="RUBY_SDK" />
+      <version value="ver.3.3.0 ( revision 5124f9ac75) p0" />
+      <homePath value="$USER_HOME$/.rbenv/versions/3.3.0/bin/ruby" />
+      <roots>
+        <annotationsPath>
+          <root type="composite" />
+        </annotationsPath>
+        <classPath>
+          <root type="composite">
+            <root url="file://$USER_HOME$/.rbenv/versions/3.3.0/lib/ruby/site_ruby/3.3.0" type="simple" />
+            <root url="file://$USER_HOME$/.rbenv/versions/3.3.0/lib/ruby/site_ruby/3.3.0/arm64-darwin23" type="simple" />
+            <root url="file://$USER_HOME$/.rbenv/versions/3.3.0/lib/ruby/site_ruby" type="simple" />
+            <root url="file://$USER_HOME$/.rbenv/versions/3.3.0/lib/ruby/vendor_ruby/3.3.0" type="simple" />
+            <root url="file://$USER_HOME$/.rbenv/versions/3.3.0/lib/ruby/vendor_ruby/3.3.0/arm64-darwin23" type="simple" />
+            <root url="file://$USER_HOME$/.rbenv/versions/3.3.0/lib/ruby/vendor_ruby" type="simple" />
+            <root url="file://$USER_HOME$/.rbenv/versions/3.3.0/lib/ruby/3.3.0" type="simple" />
+            <root url="file://$USER_HOME$/.rbenv/versions/3.3.0/lib/ruby/3.3.0/arm64-darwin23" type="simple" />
+            <root url="file://$APPLICATION_PLUGINS_DIR$/ruby/rubystubs/rubystubs33" type="simple" />
+          </root>
+        </classPath>
+        <javadocPath>
+          <root type="composite" />
+        </javadocPath>
+        <sourcePath>
+          <root type="composite">
+            <root url="file://$USER_HOME$/.rbenv/versions/3.3.0/lib/ruby/site_ruby/3.3.0" type="simple" />
+            <root url="file://$USER_HOME$/.rbenv/versions/3.3.0/lib/ruby/site_ruby/3.3.0/arm64-darwin23" type="simple" />
+            <root url="file://$USER_HOME$/.rbenv/versions/3.3.0/lib/ruby/site_ruby" type="simple" />
+            <root url="file://$USER_HOME$/.rbenv/versions/3.3.0/lib/ruby/vendor_ruby/3.3.0" type="simple" />
+            <root url="file://$USER_HOME$/.rbenv/versions/3.3.0/lib/ruby/vendor_ruby/3.3.0/arm64-darwin23" type="simple" />
+            <root url="file://$USER_HOME$/.rbenv/versions/3.3.0/lib/ruby/vendor_ruby" type="simple" />
+            <root url="file://$USER_HOME$/.rbenv/versions/3.3.0/lib/ruby/3.3.0" type="simple" />
+            <root url="file://$USER_HOME$/.rbenv/versions/3.3.0/lib/ruby/3.3.0/arm64-darwin23" type="simple" />
+            <root url="file://$APPLICATION_PLUGINS_DIR$/ruby/rubystubs/rubystubs33" type="simple" />
+          </root>
+        </sourcePath>
+      </roots>
+      <additional NORMALIZED_VERSION_STRING="ver.3.3.0 ( revision 5124f9ac75) p0" version="1" GEMS_BIN_DIR_PATH="$USER_HOME$/.rbenv/versions/3.3.0/bin">
+        <VERSION_MANAGER ID="rbenv">
+          <option name="gemset-name" />
+          <distribution-id>3.3.0</distribution-id>
+          <version-manager-path>/opt/homebrew/Cellar/rbenv/1.3.2/libexec/rbenv</version-manager-path>
+        </VERSION_MANAGER>
+        <RbConfig>
+          <item key="ADDITIONAL_DLDFLAGS" value="-Wl,-multiply_defined,suppress" />
+          <item key="AR" value="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar" />
+          <item key="ARCH_FLAG" value="-arch arm64" />
+          <item key="ARFLAGS" value="rcu " />
+          <item key="AS" value="as" />
+          <item key="ASMEXT" value="S" />
+          <item key="BUILTIN_TRANSSRCS" value=" enc/trans/newline.c" />
+          <item key="CC" value="clang" />
+          <item key="CCDLFLAGS" value="-fno-common" />
+          <item key="CC_VERSION" value="clang --version" />
+          <item key="CC_VERSION_MESSAGE" value="Apple clang version 15.0.0 (clang-1500.3.9.4)&#10;Target: arm64-apple-darwin23.2.0&#10;Thread model: posix&#10;InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin" />
+          <item key="CFLAGS" value="-w -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable -diag-disable=175,188,1684,2259,2312 -Wno-maybe-uninitialized -Wmisleading-indentation -Wundef -fno-common -pipe" />
+          <item key="CHDIR" value="cd -P" />
+          <item key="CONFIGURE" value="configure" />
+          <item key="COROUTINE_TYPE" value="arm64" />
+          <item key="COUTFLAG" value="-o " />
+          <item key="CP" value="cp" />
+          <item key="CPP" value="clang -E" />
+          <item key="CPPFLAGS" value="-D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT  " />
+          <item key="CPPOUTFILE" value="-o conftest.i" />
+          <item key="CROSS_COMPILING" value="no" />
+          <item key="CXX" value="clang++" />
+          <item key="CXXFLAGS" value="-fdeclspec" />
+          <item key="DLDFLAGS" value="-L/opt/homebrew/opt/gmp/lib -Wl,-undefined,dynamic_lookup" />
+          <item key="DLDSHARED" value="clang -dynamiclib" />
+          <item key="DLEXT" value="bundle" />
+          <item key="DLNOBJ" value="dln.o" />
+          <item key="DOT" value="dot" />
+          <item key="ECHO_C" value="\\c" />
+          <item key="EGREP" value="/usr/bin/grep -E" />
+          <item key="ENABLE_SHARED" value="yes" />
+          <item key="EXTOUT" value=".ext" />
+          <item key="GCC" value="yes" />
+          <item key="GIT" value="git" />
+          <item key="GNU_LD" value="no" />
+          <item key="GREP" value="/usr/bin/grep" />
+          <item key="HAVE_GIT" value="yes" />
+          <item key="INSTALL" value="/usr/bin/install -c" />
+          <item key="INSTALL_DATA" value="/usr/bin/install -c -m 644" />
+          <item key="INSTALL_PROGRAM" value="/usr/bin/install -c" />
+          <item key="INSTALL_SCRIPT" value="/usr/bin/install -c" />
+          <item key="INSTALL_STATIC_LIBRARY" value="no" />
+          <item key="LD" value="ld" />
+          <item key="LDFLAGS" value="-L. -fstack-protector-strong -L/opt/homebrew/opt/gmp/lib" />
+          <item key="LDSHARED" value="clang -dynamic -bundle" />
+          <item key="LDSHAREDXX" value="clang++ -dynamic -bundle" />
+          <item key="LIBEXT" value="a" />
+          <item key="LIBPATHENV" value="DYLD_LIBRARY_PATH" />
+          <item key="LIBPATHFLAG" value=" -L%s" />
+          <item key="LIBRUBY" value="libruby.3.3.dylib" />
+          <item key="LIBRUBYARG" value="-lruby.3.3" />
+          <item key="LIBRUBYARG_SHARED" value="-lruby.3.3" />
+          <item key="LIBRUBYARG_STATIC" value="-lruby.3.3-static -framework CoreFoundation -ldl -lobjc -lpthread " />
+          <item key="LIBRUBY_A" value="libruby.3.3-static.a" />
+          <item key="LIBRUBY_ALIASES" value="libruby.dylib" />
+          <item key="LIBRUBY_RELATIVE" value="no" />
+          <item key="LIBRUBY_SO" value="libruby.3.3.dylib" />
+          <item key="LIBRUBY_SONAME" value="libruby.3.3.dylib" />
+          <item key="LIBS" value="-lpthread " />
+          <item key="LINK_SO" value="&#10;dsymutil $@ 2&gt;/dev/null; { test -z '$(RUBY_CODESIGN)' || codesign -s '$(RUBY_CODESIGN)' -f $@; }" />
+          <item key="LN_S" value="ln -s" />
+          <item key="MAINLIBS" value="-ldl -lobjc -lpthread " />
+          <item key="MAJOR" value="3" />
+          <item key="MAKEDIRS" value="mkdir -p" />
+          <item key="MAKEFILES" value="Makefile GNUmakefile" />
+          <item key="MANTYPE" value="doc" />
+          <item key="MINOR" value="3" />
+          <item key="MKDIR_P" value="mkdir -p" />
+          <item key="MKMF_VERBOSE" value="0" />
+          <item key="NM" value="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/nm --no-llvm-bc" />
+          <item key="NULLCMD" value=":" />
+          <item key="OBJCOPY" value=":" />
+          <item key="OBJDUMP" value="objdump" />
+          <item key="OBJEXT" value="o" />
+          <item key="OUTFLAG" value="-o " />
+          <item key="PACKAGE" value="ruby" />
+          <item key="PATCHLEVEL" value="0" />
+          <item key="PATH_SEPARATOR" value=":" />
+          <item key="PKG_CONFIG" value="pkg-config" />
+          <item key="POSTLINK" value="dsymutil $@ 2&gt;/dev/null; { test -z '$(RUBY_CODESIGN)' || codesign -s '$(RUBY_CODESIGN)' -f $@; }" />
+          <item key="PRELOADENV" value="DYLD_INSERT_LIBRARIES" />
+          <item key="PREP" value="miniruby" />
+          <item key="RANLIB" value="ranlib" />
+          <item key="RI_BASE_NAME" value="ri" />
+          <item key="RJIT_SUPPORT" value="yes" />
+          <item key="RM" value="rm -f" />
+          <item key="RMALL" value="rm -fr" />
+          <item key="RMDIR" value="rmdir" />
+          <item key="RMDIRS" value="rmdir -p" />
+          <item key="RUBYW_BASE_NAME" value="rubyw" />
+          <item key="RUBY_API_VERSION" value="3.3" />
+          <item key="RUBY_BASE_NAME" value="ruby" />
+          <item key="RUBY_EXEC_PREFIX" value="$USER_HOME$/.rbenv/versions/3.3.0" />
+          <item key="RUBY_INSTALL_NAME" value="ruby" />
+          <item key="RUBY_LIB_VERSION_STYLE" value="3&#9;/* full */" />
+          <item key="RUBY_PROGRAM_VERSION" value="3.3.0" />
+          <item key="RUBY_SO_NAME" value="ruby.3.3" />
+          <item key="RUBY_VERSION_NAME" value="ruby-3.3.0" />
+          <item key="RUSTC" value="no" />
+          <item key="SHELL" value="/bin/sh" />
+          <item key="SOEXT" value="dylib" />
+          <item key="SOLIBS" value="-ldl -lobjc -lpthread " />
+          <item key="STRIP" value="strip -A -n" />
+          <item key="SYMBOL_PREFIX" value="_" />
+          <item key="TEENY" value="0" />
+          <item key="TEST_RUNNABLE" value="yes" />
+          <item key="THREAD_MODEL" value="pthread" />
+          <item key="UNICODE_EMOJI_VERSION" value="15.0" />
+          <item key="UNICODE_VERSION" value="15.0.0" />
+          <item key="WERRORFLAG" value="-Werror" />
+          <item key="YJIT_SUPPORT" value="no" />
+          <item key="arch" value="arm64-darwin23" />
+          <item key="archdir" value="$USER_HOME$/.rbenv/versions/3.3.0/lib/ruby/3.3.0/arm64-darwin23" />
+          <item key="archincludedir" value="$USER_HOME$/.rbenv/versions/3.3.0/include/arm64-darwin23" />
+          <item key="archlibdir" value="$USER_HOME$/.rbenv/versions/3.3.0/lib/arm64-darwin23" />
+          <item key="bindir" value="$USER_HOME$/.rbenv/versions/3.3.0/bin" />
+          <item key="build" value="aarch64-apple-darwin23.2.0" />
+          <item key="build_cpu" value="aarch64" />
+          <item key="build_os" value="darwin23.2.0" />
+          <item key="build_vendor" value="apple" />
+          <item key="cflags" value="-fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable -diag-disable=175,188,1684,2259,2312 -Wno-maybe-uninitialized -Wmisleading-indentation -Wundef" />
+          <item key="cleanlibs" value="$(TARGET_SO).dSYM" />
+          <item key="codesign" value="codesign" />
+          <item key="configure_args" value=" '--prefix=/Users/ikarenkov/.rbenv/versions/3.3.0' '--with-openssl-dir=/opt/homebrew/opt/openssl@3' '--enable-shared' '--with-libyaml-dir=/opt/homebrew/opt/libyaml' '--with-gmp-dir=/opt/homebrew/opt/gmp' '--with-ext=openssl,psych,+' 'CC=clang' 'CFLAGS= -w'" />
+          <item key="datadir" value="$USER_HOME$/.rbenv/versions/3.3.0/share" />
+          <item key="datarootdir" value="$USER_HOME$/.rbenv/versions/3.3.0/share" />
+          <item key="debugflags" value="-ggdb3" />
+          <item key="docdir" value="$USER_HOME$/.rbenv/versions/3.3.0/share/doc/ruby" />
+          <item key="dsymutil" value="dsymutil" />
+          <item key="dvidir" value="$USER_HOME$/.rbenv/versions/3.3.0/share/doc/ruby" />
+          <item key="exec" value="exec" />
+          <item key="exec_prefix" value="$USER_HOME$/.rbenv/versions/3.3.0" />
+          <item key="host" value="arm64-apple-darwin23" />
+          <item key="host_cpu" value="arm64" />
+          <item key="host_os" value="darwin23" />
+          <item key="host_vendor" value="apple" />
+          <item key="htmldir" value="$USER_HOME$/.rbenv/versions/3.3.0/share/doc/ruby" />
+          <item key="incflags" value="-I/opt/homebrew/opt/gmp/include" />
+          <item key="includedir" value="$USER_HOME$/.rbenv/versions/3.3.0/include" />
+          <item key="infodir" value="$USER_HOME$/.rbenv/versions/3.3.0/share/info" />
+          <item key="libdir" value="$USER_HOME$/.rbenv/versions/3.3.0/lib" />
+          <item key="libdirname" value="libdir" />
+          <item key="libexecdir" value="$USER_HOME$/.rbenv/versions/3.3.0/libexec" />
+          <item key="localedir" value="$USER_HOME$/.rbenv/versions/3.3.0/share/locale" />
+          <item key="localstatedir" value="$USER_HOME$/.rbenv/versions/3.3.0/var" />
+          <item key="mandir" value="$USER_HOME$/.rbenv/versions/3.3.0/share/man" />
+          <item key="oldincludedir" value="/usr/include" />
+          <item key="optflags" value="-O3 -fno-fast-math" />
+          <item key="pdfdir" value="$USER_HOME$/.rbenv/versions/3.3.0/share/doc/ruby" />
+          <item key="platform" value="arm64-darwin23" />
+          <item key="prefix" value="$USER_HOME$/.rbenv/versions/3.3.0" />
+          <item key="psdir" value="$USER_HOME$/.rbenv/versions/3.3.0/share/doc/ruby" />
+          <item key="ridir" value="$USER_HOME$/.rbenv/versions/3.3.0/share/ri" />
+          <item key="ruby_install_name" value="ruby" />
+          <item key="ruby_pc" value="ruby-3.3.pc" />
+          <item key="ruby_version" value="3.3.0" />
+          <item key="rubyarchdir" value="$USER_HOME$/.rbenv/versions/3.3.0/lib/ruby/3.3.0/arm64-darwin23" />
+          <item key="rubyarchhdrdir" value="$USER_HOME$/.rbenv/versions/3.3.0/include/ruby-3.3.0/arm64-darwin23" />
+          <item key="rubyarchprefix" value="$USER_HOME$/.rbenv/versions/3.3.0/lib/ruby/arm64-darwin23" />
+          <item key="rubyhdrdir" value="$USER_HOME$/.rbenv/versions/3.3.0/include/ruby-3.3.0" />
+          <item key="rubylibdir" value="$USER_HOME$/.rbenv/versions/3.3.0/lib/ruby/3.3.0" />
+          <item key="rubylibprefix" value="$USER_HOME$/.rbenv/versions/3.3.0/lib/ruby" />
+          <item key="rubysitearchprefix" value="$USER_HOME$/.rbenv/versions/3.3.0/lib/ruby/arm64-darwin23" />
+          <item key="runstatedir" value="$USER_HOME$/.rbenv/versions/3.3.0/var/run" />
+          <item key="sbindir" value="$USER_HOME$/.rbenv/versions/3.3.0/sbin" />
+          <item key="setup" value="Setup" />
+          <item key="sharedstatedir" value="$USER_HOME$/.rbenv/versions/3.3.0/com" />
+          <item key="sitearch" value="arm64-darwin23" />
+          <item key="sitearchdir" value="$USER_HOME$/.rbenv/versions/3.3.0/lib/ruby/site_ruby/3.3.0/arm64-darwin23" />
+          <item key="sitearchhdrdir" value="$USER_HOME$/.rbenv/versions/3.3.0/include/ruby-3.3.0/site_ruby/arm64-darwin23" />
+          <item key="sitearchincludedir" value="$USER_HOME$/.rbenv/versions/3.3.0/include/arm64-darwin23" />
+          <item key="sitearchlibdir" value="$USER_HOME$/.rbenv/versions/3.3.0/lib/arm64-darwin23" />
+          <item key="sitedir" value="$USER_HOME$/.rbenv/versions/3.3.0/lib/ruby/site_ruby" />
+          <item key="sitehdrdir" value="$USER_HOME$/.rbenv/versions/3.3.0/include/ruby-3.3.0/site_ruby" />
+          <item key="sitelibdir" value="$USER_HOME$/.rbenv/versions/3.3.0/lib/ruby/site_ruby/3.3.0" />
+          <item key="sysconfdir" value="$USER_HOME$/.rbenv/versions/3.3.0/etc" />
+          <item key="target" value="arm64-apple-darwin23" />
+          <item key="target_cpu" value="arm64" />
+          <item key="target_os" value="darwin23" />
+          <item key="target_vendor" value="apple" />
+          <item key="topdir" value="$USER_HOME$/.rbenv/versions/3.3.0/lib/ruby/3.3.0/arm64-darwin23" />
+          <item key="vendorarchdir" value="$USER_HOME$/.rbenv/versions/3.3.0/lib/ruby/vendor_ruby/3.3.0/arm64-darwin23" />
+          <item key="vendorarchhdrdir" value="$USER_HOME$/.rbenv/versions/3.3.0/include/ruby-3.3.0/vendor_ruby/arm64-darwin23" />
+          <item key="vendordir" value="$USER_HOME$/.rbenv/versions/3.3.0/lib/ruby/vendor_ruby" />
+          <item key="vendorhdrdir" value="$USER_HOME$/.rbenv/versions/3.3.0/include/ruby-3.3.0/vendor_ruby" />
+          <item key="vendorlibdir" value="$USER_HOME$/.rbenv/versions/3.3.0/lib/ruby/vendor_ruby/3.3.0" />
+          <item key="warnflags" value="-Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable -diag-disable=175,188,1684,2259,2312 -Wno-maybe-uninitialized -Wmisleading-indentation -Wundef" />
+        </RbConfig>
+      </additional>
+    </jdk>
+    <jdk version="2">
       <name value="Android API 28 Platform" />
       <type value="Android SDK" />
       <homePath value="$USER_HOME$/Library/Android/sdk" />
@@ -217,88 +852,44 @@
       <additional sdk="android-35" />
     </jdk>
     <jdk version="2">
-      <name value="jbr-17" />
-      <type value="JavaSDK" />
-      <version value="JetBrains Runtime 17.0.14 - aarch64" />
-      <homePath value="$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home" />
+      <name value="Kotlin SDK" />
+      <type value="KotlinSDK" />
+      <homePath value="" />
       <roots>
         <annotationsPath>
-          <root type="composite">
-            <root url="jar://$APPLICATION_HOME_DIR$/plugins/java/lib/resources/jdkAnnotations.jar!/" type="simple" />
-          </root>
+          <root type="composite" />
+        </annotationsPath>
+        <classPath>
+          <root type="composite" />
+        </classPath>
+        <javadocPath>
+          <root type="composite" />
+        </javadocPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+    </jdk>
+    <jdk version="2">
+      <name value="rbenv: 3.0.1" />
+      <type value="RUBY_SDK" />
+      <version value="ver.3.0.1p64 ( revision 0fb782ee38) p64" />
+      <homePath value="$USER_HOME$/.rbenv/versions/3.0.1/bin/ruby" />
+      <roots>
+        <annotationsPath>
+          <root type="composite" />
         </annotationsPath>
         <classPath>
           <root type="composite">
-            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/java.base" type="simple" />
-            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/java.compiler" type="simple" />
-            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/java.datatransfer" type="simple" />
-            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/java.desktop" type="simple" />
-            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/java.instrument" type="simple" />
-            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/java.logging" type="simple" />
-            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/java.management" type="simple" />
-            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/java.management.rmi" type="simple" />
-            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/java.naming" type="simple" />
-            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/java.net.http" type="simple" />
-            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/java.prefs" type="simple" />
-            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/java.rmi" type="simple" />
-            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/java.scripting" type="simple" />
-            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/java.se" type="simple" />
-            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/java.security.jgss" type="simple" />
-            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/java.security.sasl" type="simple" />
-            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/java.smartcardio" type="simple" />
-            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/java.sql" type="simple" />
-            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/java.sql.rowset" type="simple" />
-            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/java.transaction.xa" type="simple" />
-            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/java.xml" type="simple" />
-            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/java.xml.crypto" type="simple" />
-            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.accessibility" type="simple" />
-            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.attach" type="simple" />
-            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.charsets" type="simple" />
-            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.compiler" type="simple" />
-            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.crypto.cryptoki" type="simple" />
-            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.crypto.ec" type="simple" />
-            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.dynalink" type="simple" />
-            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.editpad" type="simple" />
-            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.hotspot.agent" type="simple" />
-            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.httpserver" type="simple" />
-            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.incubator.foreign" type="simple" />
-            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.incubator.vector" type="simple" />
-            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.internal.ed" type="simple" />
-            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.internal.jvmstat" type="simple" />
-            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.internal.le" type="simple" />
-            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.internal.opt" type="simple" />
-            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.internal.vm.ci" type="simple" />
-            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.internal.vm.compiler" type="simple" />
-            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.internal.vm.compiler.management" type="simple" />
-            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.jartool" type="simple" />
-            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.javadoc" type="simple" />
-            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.jcmd" type="simple" />
-            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.jconsole" type="simple" />
-            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.jdeps" type="simple" />
-            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.jdi" type="simple" />
-            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.jdwp.agent" type="simple" />
-            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.jfr" type="simple" />
-            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.jlink" type="simple" />
-            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.jpackage" type="simple" />
-            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.jshell" type="simple" />
-            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.jsobject" type="simple" />
-            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.jstatd" type="simple" />
-            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.localedata" type="simple" />
-            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.management" type="simple" />
-            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.management.agent" type="simple" />
-            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.management.jfr" type="simple" />
-            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.naming.dns" type="simple" />
-            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.naming.rmi" type="simple" />
-            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.net" type="simple" />
-            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.nio.mapmode" type="simple" />
-            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.random" type="simple" />
-            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.sctp" type="simple" />
-            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.security.auth" type="simple" />
-            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.security.jgss" type="simple" />
-            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.unsupported" type="simple" />
-            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.unsupported.desktop" type="simple" />
-            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.xml.dom" type="simple" />
-            <root url="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home!/jdk.zipfs" type="simple" />
+            <root url="file://$USER_HOME$/.rbenv/versions/3.0.1/lib/ruby/site_ruby/3.0.0" type="simple" />
+            <root url="file://$USER_HOME$/.rbenv/versions/3.0.1/lib/ruby/site_ruby/3.0.0/arm64-darwin21" type="simple" />
+            <root url="file://$USER_HOME$/.rbenv/versions/3.0.1/lib/ruby/site_ruby" type="simple" />
+            <root url="file://$USER_HOME$/.rbenv/versions/3.0.1/lib/ruby/vendor_ruby/3.0.0" type="simple" />
+            <root url="file://$USER_HOME$/.rbenv/versions/3.0.1/lib/ruby/vendor_ruby/3.0.0/arm64-darwin21" type="simple" />
+            <root url="file://$USER_HOME$/.rbenv/versions/3.0.1/lib/ruby/vendor_ruby" type="simple" />
+            <root url="file://$USER_HOME$/.rbenv/versions/3.0.1/lib/ruby/3.0.0" type="simple" />
+            <root url="file://$USER_HOME$/.rbenv/versions/3.0.1/lib/ruby/3.0.0/arm64-darwin21" type="simple" />
+            <root url="file://$APPLICATION_PLUGINS_DIR$/ruby/rubystubs/rubystubs30" type="simple" />
           </root>
         </classPath>
         <javadocPath>
@@ -306,79 +897,205 @@
         </javadocPath>
         <sourcePath>
           <root type="composite">
-            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/java.se" type="simple" />
-            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.jdi" type="simple" />
-            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.jfr" type="simple" />
-            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.net" type="simple" />
-            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/java.rmi" type="simple" />
-            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/java.sql" type="simple" />
-            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/java.xml" type="simple" />
-            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.jcmd" type="simple" />
-            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.sctp" type="simple" />
-            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/java.base" type="simple" />
-            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.jdeps" type="simple" />
-            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.jlink" type="simple" />
-            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.zipfs" type="simple" />
-            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/java.prefs" type="simple" />
-            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.attach" type="simple" />
-            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.jshell" type="simple" />
-            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.jstatd" type="simple" />
-            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.random" type="simple" />
-            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/java.naming" type="simple" />
-            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.editpad" type="simple" />
-            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.jartool" type="simple" />
-            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.javadoc" type="simple" />
-            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.xml.dom" type="simple" />
-            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/java.desktop" type="simple" />
-            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/java.logging" type="simple" />
-            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.charsets" type="simple" />
-            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.compiler" type="simple" />
-            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.dynalink" type="simple" />
-            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.jconsole" type="simple" />
-            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.jpackage" type="simple" />
-            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.jsobject" type="simple" />
-            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/java.compiler" type="simple" />
-            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/java.net.http" type="simple" />
-            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.crypto.ec" type="simple" />
-            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/java.scripting" type="simple" />
-            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.httpserver" type="simple" />
-            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.jdwp.agent" type="simple" />
-            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.localedata" type="simple" />
-            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.management" type="simple" />
-            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.naming.dns" type="simple" />
-            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.naming.rmi" type="simple" />
-            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/java.instrument" type="simple" />
-            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/java.management" type="simple" />
-            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/java.sql.rowset" type="simple" />
-            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/java.xml.crypto" type="simple" />
-            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.internal.ed" type="simple" />
-            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.internal.le" type="simple" />
-            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.nio.mapmode" type="simple" />
-            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.unsupported" type="simple" />
-            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/java.smartcardio" type="simple" />
-            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.internal.opt" type="simple" />
-            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/java.datatransfer" type="simple" />
-            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.accessibility" type="simple" />
-            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.hotspot.agent" type="simple" />
-            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.security.auth" type="simple" />
-            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.security.jgss" type="simple" />
-            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/java.security.jgss" type="simple" />
-            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/java.security.sasl" type="simple" />
-            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.internal.vm.ci" type="simple" />
-            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.management.jfr" type="simple" />
-            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/java.management.rmi" type="simple" />
-            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/java.transaction.xa" type="simple" />
-            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.crypto.cryptoki" type="simple" />
-            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.incubator.vector" type="simple" />
-            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.internal.jvmstat" type="simple" />
-            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.management.agent" type="simple" />
-            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.incubator.foreign" type="simple" />
-            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.unsupported.desktop" type="simple" />
-            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.internal.vm.compiler" type="simple" />
-            <root url="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home/lib/src.zip!/jdk.internal.vm.compiler.management" type="simple" />
+            <root url="file://$USER_HOME$/.rbenv/versions/3.0.1/lib/ruby/site_ruby/3.0.0" type="simple" />
+            <root url="file://$USER_HOME$/.rbenv/versions/3.0.1/lib/ruby/site_ruby/3.0.0/arm64-darwin21" type="simple" />
+            <root url="file://$USER_HOME$/.rbenv/versions/3.0.1/lib/ruby/site_ruby" type="simple" />
+            <root url="file://$USER_HOME$/.rbenv/versions/3.0.1/lib/ruby/vendor_ruby/3.0.0" type="simple" />
+            <root url="file://$USER_HOME$/.rbenv/versions/3.0.1/lib/ruby/vendor_ruby/3.0.0/arm64-darwin21" type="simple" />
+            <root url="file://$USER_HOME$/.rbenv/versions/3.0.1/lib/ruby/vendor_ruby" type="simple" />
+            <root url="file://$USER_HOME$/.rbenv/versions/3.0.1/lib/ruby/3.0.0" type="simple" />
+            <root url="file://$USER_HOME$/.rbenv/versions/3.0.1/lib/ruby/3.0.0/arm64-darwin21" type="simple" />
+            <root url="file://$APPLICATION_PLUGINS_DIR$/ruby/rubystubs/rubystubs30" type="simple" />
           </root>
         </sourcePath>
       </roots>
+      <additional NORMALIZED_VERSION_STRING="ver.3.0.1p64 ( revision 0fb782ee38) p64" version="1" GEMS_BIN_DIR_PATH="$USER_HOME$/.rbenv/versions/3.0.1/bin">
+        <VERSION_MANAGER ID="rbenv">
+          <option name="gemset-name" />
+          <distribution-id>3.0.1</distribution-id>
+          <version-manager-path>/opt/homebrew/Cellar/rbenv/1.3.2/libexec/rbenv</version-manager-path>
+        </VERSION_MANAGER>
+        <RbConfig>
+          <item key="AR" value="ar" />
+          <item key="ARCH_FLAG" value="-m64" />
+          <item key="ARFLAGS" value="rcu " />
+          <item key="AS" value="as" />
+          <item key="ASMEXT" value="S" />
+          <item key="BUILTIN_TRANSSRCS" value=" enc/trans/newline.c" />
+          <item key="CC" value="clang -fdeclspec" />
+          <item key="CCDLFLAGS" value="-fno-common" />
+          <item key="CC_VERSION" value="clang -fdeclspec --version" />
+          <item key="CC_VERSION_MESSAGE" value="Apple clang version 13.1.6 (clang-1316.0.21.2.3)&#10;Target: arm64-apple-darwin21.5.0&#10;Thread model: posix&#10;InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin" />
+          <item key="CFLAGS" value="-O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe" />
+          <item key="CHDIR" value="cd -P" />
+          <item key="CONFIGURE" value="configure" />
+          <item key="COUTFLAG" value="-o " />
+          <item key="CP" value="cp" />
+          <item key="CPP" value="clang -E" />
+          <item key="CPPFLAGS" value="-I/Users/ikarenkov/.rbenv/versions/3.0.1/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT  " />
+          <item key="CPPOUTFILE" value="-o conftest.i" />
+          <item key="CROSS_COMPILING" value="no" />
+          <item key="CXX" value="clang++ -fdeclspec" />
+          <item key="DLDFLAGS" value="-L/Users/ikarenkov/.rbenv/versions/3.0.1/lib  -Wl,-undefined,dynamic_lookup -Wl,-multiply_defined,suppress" />
+          <item key="DLDSHARED" value="clang -fdeclspec -dynamiclib" />
+          <item key="DLEXT" value="bundle" />
+          <item key="DLNOBJ" value="dln.o" />
+          <item key="ECHO_C" value="\\c" />
+          <item key="EGREP" value="/usr/bin/grep -E" />
+          <item key="ENABLE_SHARED" value="yes" />
+          <item key="EXTOUT" value=".ext" />
+          <item key="GCC" value="yes" />
+          <item key="GIT" value="git" />
+          <item key="GNU_LD" value="no" />
+          <item key="GREP" value="/usr/bin/grep" />
+          <item key="HAVE_GIT" value="yes" />
+          <item key="INSTALL" value="/usr/bin/install -c" />
+          <item key="INSTALL_DATA" value="/usr/bin/install -c -m 644" />
+          <item key="INSTALL_PROGRAM" value="/usr/bin/install -c" />
+          <item key="INSTALL_SCRIPT" value="/usr/bin/install -c" />
+          <item key="INSTALL_STATIC_LIBRARY" value="no" />
+          <item key="LD" value="clang" />
+          <item key="LDFLAGS" value="-L. -L/Users/ikarenkov/.rbenv/versions/3.0.1/lib  -fstack-protector-strong -L/usr/local/lib" />
+          <item key="LDSHARED" value="clang -fdeclspec -dynamic -bundle" />
+          <item key="LDSHAREDXX" value="clang++ -fdeclspec -dynamic -bundle" />
+          <item key="LIBEXT" value="a" />
+          <item key="LIBPATHENV" value="DYLD_FALLBACK_LIBRARY_PATH" />
+          <item key="LIBPATHFLAG" value=" -L%s" />
+          <item key="LIBRUBY" value="libruby.3.0.dylib" />
+          <item key="LIBRUBYARG" value="-lruby.3.0" />
+          <item key="LIBRUBYARG_SHARED" value="-lruby.3.0" />
+          <item key="LIBRUBYARG_STATIC" value="-lruby.3.0-static -framework Security -framework Foundation -lpthread -ldl -lobjc" />
+          <item key="LIBRUBY_A" value="libruby.3.0-static.a" />
+          <item key="LIBRUBY_ALIASES" value="libruby.dylib" />
+          <item key="LIBRUBY_RELATIVE" value="no" />
+          <item key="LIBRUBY_SO" value="libruby.3.0.dylib" />
+          <item key="LIBRUBY_SONAME" value="libruby.3.0.dylib" />
+          <item key="LINK_SO" value="&#10;dsymutil $@; { test -z '$(RUBY_CODESIGN)' || codesign -s '$(RUBY_CODESIGN)' -f $@; }" />
+          <item key="LN_S" value="ln -s" />
+          <item key="MAINLIBS" value="-lpthread -ldl -lobjc" />
+          <item key="MAJOR" value="3" />
+          <item key="MAKEDIRS" value="mkdir -p" />
+          <item key="MAKEFILES" value="Makefile GNUmakefile" />
+          <item key="MANTYPE" value="doc" />
+          <item key="MINOR" value="0" />
+          <item key="MJIT_CC" value="/usr/bin/clang -fdeclspec" />
+          <item key="MJIT_SUPPORT" value="yes" />
+          <item key="MKDIR_P" value="mkdir -p" />
+          <item key="NM" value="nm" />
+          <item key="NULLCMD" value=":" />
+          <item key="OBJCOPY" value=":" />
+          <item key="OBJDUMP" value="objdump" />
+          <item key="OBJEXT" value="o" />
+          <item key="OUTFLAG" value="-o " />
+          <item key="PACKAGE" value="ruby" />
+          <item key="PATCHLEVEL" value="64" />
+          <item key="PATH_SEPARATOR" value=":" />
+          <item key="PKG_CONFIG" value="pkg-config" />
+          <item key="POSTLINK" value="dsymutil $@; { test -z '$(RUBY_CODESIGN)' || codesign -s '$(RUBY_CODESIGN)' -f $@; }" />
+          <item key="PRELOADENV" value="DYLD_INSERT_LIBRARIES" />
+          <item key="PREP" value="miniruby exe/$(PROGRAM)" />
+          <item key="RANLIB" value="ranlib" />
+          <item key="RI_BASE_NAME" value="ri" />
+          <item key="RM" value="rm -f" />
+          <item key="RMALL" value="rm -fr" />
+          <item key="RMDIR" value="rmdir" />
+          <item key="RMDIRS" value="rmdir -p" />
+          <item key="RUBYW_BASE_NAME" value="rubyw" />
+          <item key="RUBY_API_VERSION" value="3.0" />
+          <item key="RUBY_BASE_NAME" value="ruby" />
+          <item key="RUBY_EXEC_PREFIX" value="$USER_HOME$/.rbenv/versions/3.0.1" />
+          <item key="RUBY_INSTALL_NAME" value="ruby" />
+          <item key="RUBY_LIB_VERSION_STYLE" value="3&#9;/* full */" />
+          <item key="RUBY_PROGRAM_VERSION" value="3.0.1" />
+          <item key="RUBY_SO_NAME" value="ruby.3.0" />
+          <item key="RUBY_VERSION_NAME" value="ruby-3.0.0" />
+          <item key="SHELL" value="/bin/sh" />
+          <item key="SOEXT" value="dylib" />
+          <item key="SOLIBS" value="-lpthread -ldl -lobjc" />
+          <item key="STRIP" value="strip -A -n" />
+          <item key="SYMBOL_PREFIX" value="_" />
+          <item key="TEENY" value="1" />
+          <item key="TEST_RUNNABLE" value="yes" />
+          <item key="THREAD_MODEL" value="pthread" />
+          <item key="UNICODE_EMOJI_VERSION" value="12.1" />
+          <item key="UNICODE_VERSION" value="12.1.0" />
+          <item key="WERRORFLAG" value="-Werror" />
+          <item key="arch" value="arm64-darwin21" />
+          <item key="archdir" value="$USER_HOME$/.rbenv/versions/3.0.1/lib/ruby/3.0.0/arm64-darwin21" />
+          <item key="archincludedir" value="$USER_HOME$/.rbenv/versions/3.0.1/include/arm64-darwin21" />
+          <item key="archlibdir" value="$USER_HOME$/.rbenv/versions/3.0.1/lib/arm64-darwin21" />
+          <item key="bindir" value="$USER_HOME$/.rbenv/versions/3.0.1/bin" />
+          <item key="build" value="aarch64-apple-darwin21.5.0" />
+          <item key="build_cpu" value="aarch64" />
+          <item key="build_os" value="darwin21.5.0" />
+          <item key="build_vendor" value="apple" />
+          <item key="cflags" value="-O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens" />
+          <item key="codesign" value="codesign" />
+          <item key="configure_args" value=" '--prefix=/Users/ikarenkov/.rbenv/versions/3.0.1' '--with-openssl-dir=/Users/ikarenkov/.rbenv/versions/3.0.1/openssl' '--enable-shared' '--with-readline-dir=/opt/homebrew/opt/readline' 'CC=clang' 'LDFLAGS=-L/Users/ikarenkov/.rbenv/versions/3.0.1/lib ' 'CPPFLAGS=-I/Users/ikarenkov/.rbenv/versions/3.0.1/include '" />
+          <item key="datadir" value="$USER_HOME$/.rbenv/versions/3.0.1/share" />
+          <item key="datarootdir" value="$USER_HOME$/.rbenv/versions/3.0.1/share" />
+          <item key="debugflags" value="-ggdb3" />
+          <item key="docdir" value="$USER_HOME$/.rbenv/versions/3.0.1/share/doc/ruby" />
+          <item key="dsymutil" value="dsymutil" />
+          <item key="dvidir" value="$USER_HOME$/.rbenv/versions/3.0.1/share/doc/ruby" />
+          <item key="exec" value="exec" />
+          <item key="exec_prefix" value="$USER_HOME$/.rbenv/versions/3.0.1" />
+          <item key="host" value="arm64-apple-darwin21" />
+          <item key="host_cpu" value="arm64" />
+          <item key="host_os" value="darwin21" />
+          <item key="host_vendor" value="apple" />
+          <item key="htmldir" value="$USER_HOME$/.rbenv/versions/3.0.1/share/doc/ruby" />
+          <item key="includedir" value="$USER_HOME$/.rbenv/versions/3.0.1/include" />
+          <item key="infodir" value="$USER_HOME$/.rbenv/versions/3.0.1/share/info" />
+          <item key="libdir" value="$USER_HOME$/.rbenv/versions/3.0.1/lib" />
+          <item key="libdirname" value="libdir" />
+          <item key="libexecdir" value="$USER_HOME$/.rbenv/versions/3.0.1/libexec" />
+          <item key="localedir" value="$USER_HOME$/.rbenv/versions/3.0.1/share/locale" />
+          <item key="localstatedir" value="$USER_HOME$/.rbenv/versions/3.0.1/var" />
+          <item key="mandir" value="$USER_HOME$/.rbenv/versions/3.0.1/share/man" />
+          <item key="oldincludedir" value="/usr/include" />
+          <item key="optflags" value="-O3" />
+          <item key="pdfdir" value="$USER_HOME$/.rbenv/versions/3.0.1/share/doc/ruby" />
+          <item key="prefix" value="$USER_HOME$/.rbenv/versions/3.0.1" />
+          <item key="psdir" value="$USER_HOME$/.rbenv/versions/3.0.1/share/doc/ruby" />
+          <item key="ridir" value="$USER_HOME$/.rbenv/versions/3.0.1/share/ri" />
+          <item key="ruby_install_name" value="ruby" />
+          <item key="ruby_pc" value="ruby-3.0.pc" />
+          <item key="ruby_version" value="3.0.0" />
+          <item key="rubyarchdir" value="$USER_HOME$/.rbenv/versions/3.0.1/lib/ruby/3.0.0/arm64-darwin21" />
+          <item key="rubyarchhdrdir" value="$USER_HOME$/.rbenv/versions/3.0.1/include/ruby-3.0.0/arm64-darwin21" />
+          <item key="rubyarchprefix" value="$USER_HOME$/.rbenv/versions/3.0.1/lib/ruby/arm64-darwin21" />
+          <item key="rubyhdrdir" value="$USER_HOME$/.rbenv/versions/3.0.1/include/ruby-3.0.0" />
+          <item key="rubylibdir" value="$USER_HOME$/.rbenv/versions/3.0.1/lib/ruby/3.0.0" />
+          <item key="rubylibprefix" value="$USER_HOME$/.rbenv/versions/3.0.1/lib/ruby" />
+          <item key="rubysitearchprefix" value="$USER_HOME$/.rbenv/versions/3.0.1/lib/ruby/arm64-darwin21" />
+          <item key="runstatedir" value="$USER_HOME$/.rbenv/versions/3.0.1/var/run" />
+          <item key="sbindir" value="$USER_HOME$/.rbenv/versions/3.0.1/sbin" />
+          <item key="setup" value="Setup" />
+          <item key="sharedstatedir" value="$USER_HOME$/.rbenv/versions/3.0.1/com" />
+          <item key="sitearch" value="arm64-darwin21" />
+          <item key="sitearchdir" value="$USER_HOME$/.rbenv/versions/3.0.1/lib/ruby/site_ruby/3.0.0/arm64-darwin21" />
+          <item key="sitearchhdrdir" value="$USER_HOME$/.rbenv/versions/3.0.1/include/ruby-3.0.0/site_ruby/arm64-darwin21" />
+          <item key="sitearchincludedir" value="$USER_HOME$/.rbenv/versions/3.0.1/include/arm64-darwin21" />
+          <item key="sitearchlibdir" value="$USER_HOME$/.rbenv/versions/3.0.1/lib/arm64-darwin21" />
+          <item key="sitedir" value="$USER_HOME$/.rbenv/versions/3.0.1/lib/ruby/site_ruby" />
+          <item key="sitehdrdir" value="$USER_HOME$/.rbenv/versions/3.0.1/include/ruby-3.0.0/site_ruby" />
+          <item key="sitelibdir" value="$USER_HOME$/.rbenv/versions/3.0.1/lib/ruby/site_ruby/3.0.0" />
+          <item key="strict_warnflags" value="-std=gnu99" />
+          <item key="sysconfdir" value="$USER_HOME$/.rbenv/versions/3.0.1/etc" />
+          <item key="target" value="arm64-apple-darwin21" />
+          <item key="target_cpu" value="arm64" />
+          <item key="target_os" value="darwin21" />
+          <item key="target_vendor" value="apple" />
+          <item key="topdir" value="$USER_HOME$/.rbenv/versions/3.0.1/lib/ruby/3.0.0/arm64-darwin21" />
+          <item key="vendorarchdir" value="$USER_HOME$/.rbenv/versions/3.0.1/lib/ruby/vendor_ruby/3.0.0/arm64-darwin21" />
+          <item key="vendorarchhdrdir" value="$USER_HOME$/.rbenv/versions/3.0.1/include/ruby-3.0.0/vendor_ruby/arm64-darwin21" />
+          <item key="vendordir" value="$USER_HOME$/.rbenv/versions/3.0.1/lib/ruby/vendor_ruby" />
+          <item key="vendorhdrdir" value="$USER_HOME$/.rbenv/versions/3.0.1/include/ruby-3.0.0/vendor_ruby" />
+          <item key="vendorlibdir" value="$USER_HOME$/.rbenv/versions/3.0.1/lib/ruby/vendor_ruby/3.0.0" />
+          <item key="warnflags" value="-Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens" />
+        </RbConfig>
+      </additional>
     </jdk>
   </component>
 </application>
