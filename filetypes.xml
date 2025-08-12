@@ -2,23 +2,24 @@
   <component name="FileTypeManager" version="19">
     <ignoreFiles list="*.iml;*.orig;*.pyc;*.pyo;*.rbc;*.yarb;*~;.DS_Store;.hg;.mypy_cache;.pytest_cache;.ruff_cache;.svn;CVS;__pycache__;_svn;vssver.scc;vssver2.scc" />
     <extensionMap>
-      <mapping pattern="IntelliJ IDEA Global Settings" type="AUTO_DETECTED" />
       <mapping pattern="CODEOWNERS" type="AUTO_DETECTED" />
+      <mapping pattern="IntelliJ IDEA Global Settings" type="AUTO_DETECTED" />
       <mapping pattern="*jenkinsfile.new" type="Groovy" />
       <mapping pattern="Jenkinsfile" type="Groovy" />
       <mapping ext="jenkinsfile" type="Groovy" />
-      <mapping ext="main.kts" type="Kotlin" />
       <mapping ext="gradle.kts" type="Kotlin" />
+      <mapping ext="main.kts" type="Kotlin" />
       <mapping ext="db" type="Native" />
       <mapping ext="mp4" type="Native" />
       <mapping pattern=".keep" type="PLAIN_TEXT" />
       <mapping pattern=".empty" type="PLAIN_TEXT" />
       <mapping ext="scenarios" type="PLAIN_TEXT" />
-      <mapping ext="pem" type="PLAIN_TEXT" />
       <mapping ext="hpi" type="PLAIN_TEXT" />
       <mapping ext="cfg" type="PLAIN_TEXT" />
+      <mapping ext="pem" type="PLAIN_TEXT" />
       <mapping ext="xcuserstate" type="PLAIN_TEXT" />
       <mapping ext="pb" type="PLAIN_TEXT" />
+      <mapping pattern="Fastfile" type="Ruby" />
       <mapping pattern="post-merge-or-commit" type="Shell Script" />
       <mapping pattern="prepare-commit-msg-test" type="Shell Script" />
       <mapping pattern="post-commit" type="Shell Script" />
@@ -30,7 +31,6 @@
       <removed_mapping ext="psd" approved="true" type="Image" />
       <removed_mapping ext="sh" approved="true" type="Shell Script" />
       <removed_mapping ext="zsh" approved="true" type="Shell Script" />
-      <mapping pattern="Fastfile" type="Ruby" />
     </extensionMap>
   </component>
 </application>
