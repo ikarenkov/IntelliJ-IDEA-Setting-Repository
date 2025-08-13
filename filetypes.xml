@@ -7,8 +7,6 @@
       <mapping pattern="*jenkinsfile.new" type="Groovy" />
       <mapping pattern="Jenkinsfile" type="Groovy" />
       <mapping ext="jenkinsfile" type="Groovy" />
-      <removed_mapping pattern=".devcontainer.json" type="JSON5" />
-      <removed_mapping pattern="devcontainer.json" type="JSON5" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
       <mapping ext="db" type="Native" />
@@ -33,6 +31,8 @@
       <removed_mapping ext="psd" approved="true" type="Image" />
       <removed_mapping ext="sh" approved="true" type="Shell Script" />
       <removed_mapping ext="zsh" approved="true" type="Shell Script" />
+      <removed_mapping pattern=".devcontainer.json" approved="true" type="JSON5" />
+      <removed_mapping pattern="devcontainer.json" approved="true" type="JSON5" />
     </extensionMap>
   </component>
 </application>
