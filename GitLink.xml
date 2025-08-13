@@ -1,6 +1,7 @@
 <application>
   <component name="uk.co.ben_gibson.git.link.SettingsState">
-    <option name="hits" value="2" />
+    <option name="hits" value="5" />
     <option name="lastVersion" value="4.5.2" />
+    <option name="requestSupport" value="false" />
   </component>
 </application>
