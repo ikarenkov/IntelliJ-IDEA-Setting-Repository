@@ -4,8 +4,10 @@
   </component>
   <component name="UISettings">
     <option name="compactTreeIndents" value="true" />
+    <option name="CONSOLE_CYCLE_BUFFER_SIZE_KB" value="1048576" />
     <option name="MAX_LOOKUP_LIST_HEIGHT" value="20" />
     <option name="MAX_LOOKUP_WIDTH2" value="705" />
+    <option name="OVERRIDE_CONSOLE_CYCLE_BUFFER_SIZE" value="true" />
     <option name="SHOW_INPLACE_COMMENTS" value="true" />
     <option name="UI_DENSITY" value="COMPACT" />
     <option name="WIDESCREEN_SUPPORT" value="true" />
