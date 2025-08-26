@@ -1,6 +1,18 @@
 <application>
   <component name="uk.co.ben_gibson.git.link.SettingsState">
-    <option name="hits" value="5" />
+    <option name="customHosts">
+      <list>
+        <custom_hosts>
+          <option name="baseUrl" value="forgejo.pyn.ru" />
+          <option name="commitTemplate" value="{remote:url}/commit/{commit}" />
+          <option name="displayName" value="Forgejo" />
+          <option name="fileAtBranchTemplate" value="{remote:url}/src/branch/{branch}/{file:path}/{file:name}#L{line:start}-L{line:end}" />
+          <option name="fileAtCommitTemplate" value="{remote:url}/src/commit/{commit}/{file:path}/{file:name}#L{line:start}-L{line:end}" />
+          <option name="id" value="29378983-f9c3-4ed0-aeeb-b4402ae0b79d" />
+        </custom_hosts>
+      </list>
+    </option>
+    <option name="hits" value="6" />
     <option name="lastVersion" value="4.5.2" />
     <option name="requestSupport" value="false" />
   </component>
