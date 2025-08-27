@@ -802,7 +802,6 @@
           </root>
         </sourcePath>
       </roots>
-      <additional />
     </jdk>
     <jdk version="2">
       <name value="rbenv: 3.0.1" />
@@ -1196,7 +1195,7 @@
     <jdk version="2">
       <name value="Kotlin SDK" />
       <type value="KotlinSDK" />
-      <homePath value="" />
+      <homePath value="/" />
       <roots>
         <annotationsPath>
           <root type="composite" />
@@ -1238,6 +1237,26 @@
         </sourcePath>
       </roots>
       <additional sdk="android-35" />
+    </jdk>
+    <jdk version="2">
+      <name value="Python 3.9" />
+      <type value="Python SDK" />
+      <version value="Python 3.9.6" />
+      <homePath value="/usr/bin/python3" />
+      <roots>
+        <annotationsPath>
+          <root type="composite" />
+        </annotationsPath>
+        <classPath>
+          <root type="composite" />
+        </classPath>
+        <javadocPath>
+          <root type="composite" />
+        </javadocPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
     </jdk>
   </component>
 </application>
