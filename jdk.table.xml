@@ -238,7 +238,7 @@
     <jdk version="2">
       <name value="zulu-17" />
       <type value="JavaSDK" />
-      <version value="java version &quot;17.0.15&quot;" />
+      <version value="Azul Zulu 17.0.15 - aarch64" />
       <homePath value="$USER_HOME$/Library/Java/JavaVirtualMachines/azul-17.0.15/Contents/Home" />
       <roots>
         <annotationsPath>
