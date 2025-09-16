@@ -2,7 +2,10 @@
   <component name="FindSettings">
     <option name="customScope" value="Project Files" />
     <option name="defaultScopeName" value="Project Files" />
+    <option name="regularExpressions" value="true" />
+    <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="Project Files" />
+    <option name="FILE_MASK" value="*.ruby" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
@@ -35,5 +38,6 @@
     <mask>build.gradle.kts</mask>
     <mask>*.groovy</mask>
     <mask>*.jenkinsfile</mask>
+    <mask>*.ruby</mask>
   </component>
 </application>
