@@ -9,6 +9,7 @@
     <entry key="kotlin.scripting.index.dependencies.sources" value="true" source="SYSTEM" />
     <entry key="jvm.dfa.analysis.ui.security.analysis.window.was.shown" value="true" source="SYSTEM" />
     <entry key="vcs.log.index.enable" value="true" source="SYSTEM" />
+    <entry key="completion.cloud.adaptive.debounce.is.active" value="true" source="SYSTEM" />
   </component>
   <component name="StatusBar">
     <option name="widgets">
