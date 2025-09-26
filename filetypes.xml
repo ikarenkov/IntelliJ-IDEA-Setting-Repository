@@ -13,7 +13,7 @@
       <mapping ext="mp4" type="Native" />
       <mapping pattern=".keep" type="PLAIN_TEXT" />
       <mapping pattern=".empty" type="PLAIN_TEXT" />
-      <mapping ext="scenarios" type="PLAIN_TEXT" />
+      <mapping pattern=".env.local.sample" type="PLAIN_TEXT" />
       <mapping ext="hpi" type="PLAIN_TEXT" />
       <mapping ext="cfg" type="PLAIN_TEXT" />
       <mapping ext="pem" type="PLAIN_TEXT" />
@@ -30,7 +30,11 @@
       <removed_mapping ext="psd" approved="true" type="Image" />
       <removed_mapping ext="sh" approved="true" type="Shell Script" />
       <removed_mapping ext="zsh" approved="true" type="Shell Script" />
+      <removed_mapping pattern=".devcontainer.json" approved="true" type="JSON5" />
+      <removed_mapping pattern="devcontainer.json" approved="true" type="JSON5" />
+      <mapping ext="scenarios" type="HOCON" />
       <mapping pattern="Fastfile" type="Ruby" />
+      <mapping pattern="full-static-analysis.scenarios" type="HOCON" />
     </extensionMap>
   </component>
 </application>
