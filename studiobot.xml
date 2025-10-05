@@ -5,6 +5,26 @@
     <option name="onboardedVersion" value="3" />
     <option name="queryHistory">
       <list>
+        <historyEntry timestamp="1759557399968">I'm getting the following error while syncing my project. The error is: Extension of type 'KotlinJvmProjectExtension' does not exist. Currently registered extension types: [ExtraPropertiesExtension, LibrariesForLibs, VersionCatalogsExtension, RootProjectAccessor, BasePluginExtension, DefaultArtifactPublicationSet, SourceSetContainer, ReportingExtension, JavaToolchainService, JavaPluginExtension, LibraryExtension, LibraryAndroidComponentsExtension, NamedDomainObjectContainer&lt;BaseVariantOutput&gt;, KotlinAndroidProjectExtension, KotlinTestsRegistry]
+```
+Build file '/Users/ikarenkov/Documents/development/KombuchaUdf/kombucha/compose/build.gradle.kts' line: 1
+
+An exception occurred applying plugin request [id: 'kombucha-android-library', version: 'unspecified']
+&gt; Failed to apply plugin 'kombucha-android-library'.
+   &gt; Extension of type 'KotlinJvmProjectExtension' does not exist. Currently registered extension types: [ExtraPropertiesExtension, LibrariesForLibs, VersionCatalogsExtension, RootProjectAccessor, BasePluginExtension, DefaultArtifactPublicationSet, SourceSetContainer, ReportingExtension, JavaToolchainService, JavaPluginExtension, LibraryExtension, LibraryAndroidComponentsExtension, NamedDomainObjectContainer&lt;BaseVariantOutput&gt;, KotlinAndroidProjectExtension, KotlinTestsRegistry]
+
+* Try:
+&gt; Run with --info or --debug option to get more log output.
+&gt; Run with --scan to get full insights.
+&gt; Get more help at https://help.gradle.org.
+...
+Caused by: org.gradle.api.UnknownDomainObjectException: Extension of type 'KotlinJvmProjectExtension' does not exist. Currently registered extension types: [ExtraPropertiesExtension, LibrariesForLibs, VersionCatalogsExtension, RootProjectAccessor, BasePluginExtension, DefaultArtifactPublicationSet, SourceSetContainer, ReportingExtension, JavaToolchainService, JavaPluginExtension, LibraryExtension, LibraryAndroidComponentsExtension, NamedDomainObjectContainer&lt;BaseVariantOutput&gt;, KotlinAndroidProjectExtension, KotlinTestsRegistry]
+	at org.gradle.internal.extensibility.ExtensionsStorage.getHolderByType(ExtensionsStorage.java:88)
+	at org.gradle.internal.extensibility.ExtensionsStorage.configureExtension(ExtensionsStorage.java:70)
+	at org.gradle.internal.extensibility.DefaultConvention.configure(DefaultConvention.java:205)
+	at io.github.ikarenkov.kombucha.KotlinAndroidKt.configureKotlin(KotlinAndroid.kt:94)
+```
+How do I fix this?</historyEntry>
         <historyEntry timestamp="1724148551757">How do I test an Android app?</historyEntry>
       </list>
     </option>
