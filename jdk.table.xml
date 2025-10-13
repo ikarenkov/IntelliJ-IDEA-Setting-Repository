@@ -2075,6 +2075,241 @@
       </roots>
     </jdk>
     <jdk version="2">
+      <name value="rbenv: 3.3.6" />
+      <type value="RUBY_SDK" />
+      <version value="ver.3.3.6 ( revision 75015d4c1f) p108" />
+      <homePath value="$USER_HOME$/.rbenv/versions/3.3.6/bin/ruby" />
+      <roots>
+        <annotationsPath>
+          <root type="composite" />
+        </annotationsPath>
+        <classPath>
+          <root type="composite">
+            <root url="file://$USER_HOME$/.rbenv/versions/3.3.6/lib/ruby/site_ruby/3.3.0" type="simple" />
+            <root url="file://$USER_HOME$/.rbenv/versions/3.3.6/lib/ruby/site_ruby/3.3.0/arm64-darwin25" type="simple" />
+            <root url="file://$USER_HOME$/.rbenv/versions/3.3.6/lib/ruby/site_ruby" type="simple" />
+            <root url="file://$USER_HOME$/.rbenv/versions/3.3.6/lib/ruby/vendor_ruby/3.3.0" type="simple" />
+            <root url="file://$USER_HOME$/.rbenv/versions/3.3.6/lib/ruby/vendor_ruby/3.3.0/arm64-darwin25" type="simple" />
+            <root url="file://$USER_HOME$/.rbenv/versions/3.3.6/lib/ruby/vendor_ruby" type="simple" />
+            <root url="file://$USER_HOME$/.rbenv/versions/3.3.6/lib/ruby/3.3.0" type="simple" />
+            <root url="file://$USER_HOME$/.rbenv/versions/3.3.6/lib/ruby/3.3.0/arm64-darwin25" type="simple" />
+            <root url="file://$APPLICATION_PLUGINS_DIR$/ruby/rubystubs/rubystubs33" type="simple" />
+          </root>
+        </classPath>
+        <javadocPath>
+          <root type="composite" />
+        </javadocPath>
+        <sourcePath>
+          <root type="composite">
+            <root url="file://$USER_HOME$/.rbenv/versions/3.3.6/lib/ruby/site_ruby/3.3.0" type="simple" />
+            <root url="file://$USER_HOME$/.rbenv/versions/3.3.6/lib/ruby/site_ruby/3.3.0/arm64-darwin25" type="simple" />
+            <root url="file://$USER_HOME$/.rbenv/versions/3.3.6/lib/ruby/site_ruby" type="simple" />
+            <root url="file://$USER_HOME$/.rbenv/versions/3.3.6/lib/ruby/vendor_ruby/3.3.0" type="simple" />
+            <root url="file://$USER_HOME$/.rbenv/versions/3.3.6/lib/ruby/vendor_ruby/3.3.0/arm64-darwin25" type="simple" />
+            <root url="file://$USER_HOME$/.rbenv/versions/3.3.6/lib/ruby/vendor_ruby" type="simple" />
+            <root url="file://$USER_HOME$/.rbenv/versions/3.3.6/lib/ruby/3.3.0" type="simple" />
+            <root url="file://$USER_HOME$/.rbenv/versions/3.3.6/lib/ruby/3.3.0/arm64-darwin25" type="simple" />
+            <root url="file://$APPLICATION_PLUGINS_DIR$/ruby/rubystubs/rubystubs33" type="simple" />
+          </root>
+        </sourcePath>
+      </roots>
+      <additional NORMALIZED_VERSION_STRING="ver.3.3.6 ( revision 75015d4c1f) p108" version="1" GEMS_BIN_DIR_PATH="$USER_HOME$/.rbenv/versions/3.3.6/bin">
+        <VERSION_MANAGER ID="rbenv">
+          <option name="gemset-name" />
+          <distribution-id>3.3.6</distribution-id>
+          <version-manager-path>/opt/homebrew/Cellar/rbenv/1.3.2/libexec/rbenv</version-manager-path>
+        </VERSION_MANAGER>
+        <RbConfig>
+          <item key="AR" value="ar" />
+          <item key="ARCH_FLAG" value="-arch arm64" />
+          <item key="ARFLAGS" value="rcu " />
+          <item key="AS" value="as" />
+          <item key="ASMEXT" value="S" />
+          <item key="BUILTIN_TRANSSRCS" value=" enc/trans/newline.c" />
+          <item key="CC" value="clang" />
+          <item key="CCDLFLAGS" value="-fno-common" />
+          <item key="CC_VERSION" value="clang --version" />
+          <item key="CC_VERSION_MESSAGE" value="Apple clang version 17.0.0 (clang-1700.3.19.1)&#10;Target: arm64-apple-darwin25.0.0&#10;Thread model: posix&#10;InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin" />
+          <item key="CFLAGS" value="-fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wmisleading-indentation -Wundef -fno-common -pipe" />
+          <item key="CHDIR" value="cd -P" />
+          <item key="CONFIGURE" value="configure" />
+          <item key="COROUTINE_TYPE" value="arm64" />
+          <item key="COUTFLAG" value="-o " />
+          <item key="CP" value="cp" />
+          <item key="CPP" value="clang -E" />
+          <item key="CPPFLAGS" value="-D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT  " />
+          <item key="CPPOUTFILE" value="-o conftest.i" />
+          <item key="CROSS_COMPILING" value="no" />
+          <item key="CXX" value="clang++" />
+          <item key="CXXFLAGS" value="-fdeclspec" />
+          <item key="DLDFLAGS" value="-L/opt/homebrew/opt/gmp/lib -Wl,-undefined,dynamic_lookup" />
+          <item key="DLDSHARED" value="clang -dynamiclib" />
+          <item key="DLEXT" value="bundle" />
+          <item key="DLNOBJ" value="dln.o" />
+          <item key="DOT" value="dot" />
+          <item key="ECHO_C" value="\\c" />
+          <item key="EGREP" value="/usr/bin/grep -E" />
+          <item key="ENABLE_SHARED" value="yes" />
+          <item key="EXTOUT" value=".ext" />
+          <item key="GCC" value="yes" />
+          <item key="GIT" value="git" />
+          <item key="GNU_LD" value="no" />
+          <item key="GREP" value="/usr/bin/grep" />
+          <item key="HAVE_GIT" value="yes" />
+          <item key="INSTALL" value="/usr/bin/install -c" />
+          <item key="INSTALL_DATA" value="/usr/bin/install -c -m 644" />
+          <item key="INSTALL_PROGRAM" value="/usr/bin/install -c" />
+          <item key="INSTALL_SCRIPT" value="/usr/bin/install -c" />
+          <item key="INSTALL_STATIC_LIBRARY" value="no" />
+          <item key="LD" value="ld" />
+          <item key="LDFLAGS" value="-L. -fstack-protector-strong -L/opt/homebrew/opt/gmp/lib" />
+          <item key="LDSHARED" value="clang -dynamic -bundle" />
+          <item key="LDSHAREDXX" value="clang++ -dynamic -bundle" />
+          <item key="LIBEXT" value="a" />
+          <item key="LIBPATHENV" value="DYLD_LIBRARY_PATH" />
+          <item key="LIBPATHFLAG" value=" -L%s" />
+          <item key="LIBRUBY" value="libruby.3.3.dylib" />
+          <item key="LIBRUBYARG" value="-lruby.3.3" />
+          <item key="LIBRUBYARG_SHARED" value="-lruby.3.3" />
+          <item key="LIBRUBYARG_STATIC" value="-lruby.3.3-static -framework CoreFoundation -lgmp -ldl -lobjc -lpthread " />
+          <item key="LIBRUBY_A" value="libruby.3.3-static.a" />
+          <item key="LIBRUBY_ALIASES" value="libruby.dylib" />
+          <item key="LIBRUBY_RELATIVE" value="no" />
+          <item key="LIBRUBY_SO" value="libruby.3.3.dylib" />
+          <item key="LIBRUBY_SONAME" value="libruby.3.3.dylib" />
+          <item key="LIBS" value="-lpthread " />
+          <item key="LINK_SO" value="&#10;dsymutil $@ 2&gt;/dev/null; { test -z '$(RUBY_CODESIGN)' || codesign -s '$(RUBY_CODESIGN)' -f $@; }" />
+          <item key="LN_S" value="ln -s" />
+          <item key="MAINLIBS" value="-lgmp -ldl -lobjc -lpthread " />
+          <item key="MAJOR" value="3" />
+          <item key="MAKEDIRS" value="mkdir -p" />
+          <item key="MAKEFILES" value="Makefile GNUmakefile" />
+          <item key="MANTYPE" value="doc" />
+          <item key="MINOR" value="3" />
+          <item key="MKDIR_P" value="mkdir -p" />
+          <item key="MKMF_VERBOSE" value="0" />
+          <item key="NM" value="nm --no-llvm-bc" />
+          <item key="NULLCMD" value=":" />
+          <item key="OBJCOPY" value=":" />
+          <item key="OBJDUMP" value="objdump" />
+          <item key="OBJEXT" value="o" />
+          <item key="OUTFLAG" value="-o " />
+          <item key="PACKAGE" value="ruby" />
+          <item key="PATCHLEVEL" value="108" />
+          <item key="PATH_SEPARATOR" value=":" />
+          <item key="PKG_CONFIG" value="pkg-config" />
+          <item key="POSTLINK" value="dsymutil $@ 2&gt;/dev/null; { test -z '$(RUBY_CODESIGN)' || codesign -s '$(RUBY_CODESIGN)' -f $@; }" />
+          <item key="PRELOADENV" value="DYLD_INSERT_LIBRARIES" />
+          <item key="PREP" value="miniruby" />
+          <item key="RANLIB" value="ranlib" />
+          <item key="RI_BASE_NAME" value="ri" />
+          <item key="RJIT_SUPPORT" value="yes" />
+          <item key="RM" value="rm -f" />
+          <item key="RMALL" value="rm -fr" />
+          <item key="RMDIR" value="rmdir" />
+          <item key="RMDIRS" value="rmdir -p" />
+          <item key="RUBYW_BASE_NAME" value="rubyw" />
+          <item key="RUBY_API_VERSION" value="3.3" />
+          <item key="RUBY_BASE_NAME" value="ruby" />
+          <item key="RUBY_EXEC_PREFIX" value="$USER_HOME$/.rbenv/versions/3.3.6" />
+          <item key="RUBY_INSTALL_NAME" value="ruby" />
+          <item key="RUBY_LIB_VERSION_STYLE" value="3&#9;/* full */" />
+          <item key="RUBY_PROGRAM_VERSION" value="3.3.6" />
+          <item key="RUBY_SO_NAME" value="ruby.3.3" />
+          <item key="RUBY_VERSION_NAME" value="ruby-3.3.0" />
+          <item key="RUSTC" value="no" />
+          <item key="SHELL" value="/bin/sh" />
+          <item key="SOEXT" value="dylib" />
+          <item key="SOLIBS" value="-lgmp -ldl -lobjc -lpthread " />
+          <item key="STRIP" value="strip -A -n" />
+          <item key="SYMBOL_PREFIX" value="_" />
+          <item key="TEENY" value="6" />
+          <item key="TEST_RUNNABLE" value="yes" />
+          <item key="THREAD_MODEL" value="pthread" />
+          <item key="UNICODE_EMOJI_VERSION" value="15.0" />
+          <item key="UNICODE_VERSION" value="15.0.0" />
+          <item key="WERRORFLAG" value="-Werror" />
+          <item key="YJIT_SUPPORT" value="no" />
+          <item key="arch" value="arm64-darwin25" />
+          <item key="archdir" value="$USER_HOME$/.rbenv/versions/3.3.6/lib/ruby/3.3.0/arm64-darwin25" />
+          <item key="archincludedir" value="$USER_HOME$/.rbenv/versions/3.3.6/include/arm64-darwin25" />
+          <item key="archlibdir" value="$USER_HOME$/.rbenv/versions/3.3.6/lib/arm64-darwin25" />
+          <item key="bindir" value="$USER_HOME$/.rbenv/versions/3.3.6/bin" />
+          <item key="build" value="aarch64-apple-darwin25.0.0" />
+          <item key="build_cpu" value="aarch64" />
+          <item key="build_os" value="darwin25.0.0" />
+          <item key="build_vendor" value="apple" />
+          <item key="cflags" value="-fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wmisleading-indentation -Wundef" />
+          <item key="cleanlibs" value="$(TARGET_SO).dSYM" />
+          <item key="codesign" value="codesign" />
+          <item key="configure_args" value=" '--prefix=/Users/ikarenkov/.rbenv/versions/3.3.6' '--with-openssl-dir=/opt/homebrew/opt/openssl@3' '--enable-shared' '--with-libyaml-dir=/opt/homebrew/opt/libyaml' '--with-gmp-dir=/opt/homebrew/opt/gmp' '--with-ext=openssl,psych,+' 'CC=clang'" />
+          <item key="datadir" value="$USER_HOME$/.rbenv/versions/3.3.6/share" />
+          <item key="datarootdir" value="$USER_HOME$/.rbenv/versions/3.3.6/share" />
+          <item key="debugflags" value="-ggdb3" />
+          <item key="docdir" value="$USER_HOME$/.rbenv/versions/3.3.6/share/doc/ruby" />
+          <item key="dsymutil" value="dsymutil" />
+          <item key="dvidir" value="$USER_HOME$/.rbenv/versions/3.3.6/share/doc/ruby" />
+          <item key="exec" value="exec" />
+          <item key="exec_prefix" value="$USER_HOME$/.rbenv/versions/3.3.6" />
+          <item key="host" value="arm64-apple-darwin25" />
+          <item key="host_cpu" value="arm64" />
+          <item key="host_os" value="darwin25" />
+          <item key="host_vendor" value="apple" />
+          <item key="htmldir" value="$USER_HOME$/.rbenv/versions/3.3.6/share/doc/ruby" />
+          <item key="incflags" value="-I/opt/homebrew/opt/gmp/include" />
+          <item key="includedir" value="$USER_HOME$/.rbenv/versions/3.3.6/include" />
+          <item key="infodir" value="$USER_HOME$/.rbenv/versions/3.3.6/share/info" />
+          <item key="libdir" value="$USER_HOME$/.rbenv/versions/3.3.6/lib" />
+          <item key="libdirname" value="libdir" />
+          <item key="libexecdir" value="$USER_HOME$/.rbenv/versions/3.3.6/libexec" />
+          <item key="localedir" value="$USER_HOME$/.rbenv/versions/3.3.6/share/locale" />
+          <item key="localstatedir" value="$USER_HOME$/.rbenv/versions/3.3.6/var" />
+          <item key="mandir" value="$USER_HOME$/.rbenv/versions/3.3.6/share/man" />
+          <item key="oldincludedir" value="/usr/include" />
+          <item key="optflags" value="-O3 -fno-fast-math" />
+          <item key="pdfdir" value="$USER_HOME$/.rbenv/versions/3.3.6/share/doc/ruby" />
+          <item key="platform" value="arm64-darwin25" />
+          <item key="prefix" value="$USER_HOME$/.rbenv/versions/3.3.6" />
+          <item key="psdir" value="$USER_HOME$/.rbenv/versions/3.3.6/share/doc/ruby" />
+          <item key="ridir" value="$USER_HOME$/.rbenv/versions/3.3.6/share/ri" />
+          <item key="ruby_install_name" value="ruby" />
+          <item key="ruby_pc" value="ruby-3.3.pc" />
+          <item key="ruby_version" value="3.3.0" />
+          <item key="rubyarchdir" value="$USER_HOME$/.rbenv/versions/3.3.6/lib/ruby/3.3.0/arm64-darwin25" />
+          <item key="rubyarchhdrdir" value="$USER_HOME$/.rbenv/versions/3.3.6/include/ruby-3.3.0/arm64-darwin25" />
+          <item key="rubyarchprefix" value="$USER_HOME$/.rbenv/versions/3.3.6/lib/ruby/arm64-darwin25" />
+          <item key="rubyhdrdir" value="$USER_HOME$/.rbenv/versions/3.3.6/include/ruby-3.3.0" />
+          <item key="rubylibdir" value="$USER_HOME$/.rbenv/versions/3.3.6/lib/ruby/3.3.0" />
+          <item key="rubylibprefix" value="$USER_HOME$/.rbenv/versions/3.3.6/lib/ruby" />
+          <item key="rubysitearchprefix" value="$USER_HOME$/.rbenv/versions/3.3.6/lib/ruby/arm64-darwin25" />
+          <item key="runstatedir" value="$USER_HOME$/.rbenv/versions/3.3.6/var/run" />
+          <item key="sbindir" value="$USER_HOME$/.rbenv/versions/3.3.6/sbin" />
+          <item key="setup" value="Setup" />
+          <item key="sharedstatedir" value="$USER_HOME$/.rbenv/versions/3.3.6/com" />
+          <item key="sitearch" value="arm64-darwin25" />
+          <item key="sitearchdir" value="$USER_HOME$/.rbenv/versions/3.3.6/lib/ruby/site_ruby/3.3.0/arm64-darwin25" />
+          <item key="sitearchhdrdir" value="$USER_HOME$/.rbenv/versions/3.3.6/include/ruby-3.3.0/site_ruby/arm64-darwin25" />
+          <item key="sitearchincludedir" value="$USER_HOME$/.rbenv/versions/3.3.6/include/arm64-darwin25" />
+          <item key="sitearchlibdir" value="$USER_HOME$/.rbenv/versions/3.3.6/lib/arm64-darwin25" />
+          <item key="sitedir" value="$USER_HOME$/.rbenv/versions/3.3.6/lib/ruby/site_ruby" />
+          <item key="sitehdrdir" value="$USER_HOME$/.rbenv/versions/3.3.6/include/ruby-3.3.0/site_ruby" />
+          <item key="sitelibdir" value="$USER_HOME$/.rbenv/versions/3.3.6/lib/ruby/site_ruby/3.3.0" />
+          <item key="sysconfdir" value="$USER_HOME$/.rbenv/versions/3.3.6/etc" />
+          <item key="target" value="arm64-apple-darwin25" />
+          <item key="target_cpu" value="arm64" />
+          <item key="target_os" value="darwin25" />
+          <item key="target_vendor" value="apple" />
+          <item key="topdir" value="$USER_HOME$/.rbenv/versions/3.3.6/lib/ruby/3.3.0/arm64-darwin25" />
+          <item key="vendorarchdir" value="$USER_HOME$/.rbenv/versions/3.3.6/lib/ruby/vendor_ruby/3.3.0/arm64-darwin25" />
+          <item key="vendorarchhdrdir" value="$USER_HOME$/.rbenv/versions/3.3.6/include/ruby-3.3.0/vendor_ruby/arm64-darwin25" />
+          <item key="vendordir" value="$USER_HOME$/.rbenv/versions/3.3.6/lib/ruby/vendor_ruby" />
+          <item key="vendorhdrdir" value="$USER_HOME$/.rbenv/versions/3.3.6/include/ruby-3.3.0/vendor_ruby" />
+          <item key="vendorlibdir" value="$USER_HOME$/.rbenv/versions/3.3.6/lib/ruby/vendor_ruby/3.3.0" />
+          <item key="warnflags" value="-Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wmisleading-indentation -Wundef" />
+        </RbConfig>
+      </additional>
+    </jdk>
+    <jdk version="2">
       <name value="zulu-15" />
       <type value="JavaSDK" />
       <version value="Azul Zulu 15.0.10 - aarch64" />
