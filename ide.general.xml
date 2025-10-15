@@ -10,7 +10,6 @@
     <entry key="jvm.dfa.analysis.ui.security.analysis.window.was.shown" value="true" source="SYSTEM" />
     <entry key="vcs.log.index.enable" value="true" source="SYSTEM" />
     <entry key="completion.cloud.adaptive.debounce.is.active" value="true" source="SYSTEM" />
-    <entry key="idea.islands.feedback2.enabled" value="false" source="MANAGER" />
   </component>
   <component name="StatusBar">
     <option name="widgets">
