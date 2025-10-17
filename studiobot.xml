@@ -1,10 +1,88 @@
 <application>
   <component name="StudioBotSettings">
-    <option name="contextSharingModeV2" value="NeverShare" />
+    <option name="contextSharingModeV2" value="AskPerProject" />
     <option name="enableCodeCompletion" value="false" />
     <option name="onboardedVersion" value="3" />
     <option name="queryHistory">
       <list>
+        <historyEntry timestamp="1760702814119">You are wrong, your suggestion offers just replace alias with id, but it has nothing to do with root cause</historyEntry>
+        <historyEntry timestamp="1760702355699">I'm getting the following error while syncing my project. The error is: The request for this plugin could not be satisfied because the plugin is already on the classpath with an unknown version, so compatibility cannot be checked
+```
+Build file '/Users/ikarenkov/Documents/development/Modo/modo-compose/build.gradle.kts' line: 3
+
+Error resolving plugin [id: 'modo-android-library', version: 'unspecified']
+&gt; The request for this plugin could not be satisfied because the plugin is already on the classpath with an unknown version, so compatibility cannot be checked.
+
+* Try:
+&gt; Run with --info or --debug option to get more log output.
+&gt; Run with --scan to get full insights.
+&gt; Get more help at https://help.gradle.org.
+
+...
+Caused by: org.gradle.plugin.management.internal.InvalidPluginRequestException: The request for this plugin could not be satisfied because the plugin is already on the classpath with an unknown version, so compatibility cannot be checked.
+	at org.gradle.plugin.use.resolve.internal.AlreadyOnClasspathPluginResolver.resolve(AlreadyOnClasspathPluginResolver.java:89)
+	at org.gradle.plugin.use.internal.DefaultPluginRequestApplicator.resolvePluginRequest(DefaultPluginRequestApplicator.java:189)
+	... 205 more
+```
+How do I fix this?</historyEntry>
+        <historyEntry timestamp="1760702329133">I'm getting the following error while syncing my project. The error is: Task with name 'mergeLintSarif' not found in root project 'Modo'
+```
+Build file '/Users/ikarenkov/Documents/development/Modo/modo-compose/build.gradle.kts' line: 3
+
+An exception occurred applying plugin request [id: 'modo-android-library', version: 'unspecified']
+&gt; Failed to apply plugin 'modo-android-library'.
+   &gt; Task with name 'mergeLintSarif' not found in root project 'Modo'.
+
+* Try:
+&gt; Run with --info or --debug option to get more log output.
+&gt; Run with --scan to get full insights.
+&gt; Get more help at https://help.gradle.org.
+...
+Caused by: org.gradle.api.UnknownTaskException: Task with name 'mergeLintSarif' not found in root project 'Modo'.
+	at org.gradle.api.internal.tasks.DefaultTaskCollection.createNotFoundException(DefaultTaskCollection.java:119)
+	at org.gradle.api.internal.tasks.DefaultTaskCollection.createNotFoundException(DefaultTaskCollection.java:47)
+	at org.gradle.api.internal.DefaultNamedDomainObjectCollection.named(DefaultNamedDomainObjectCollection.java:386)
+	at org.gradle.api.internal.tasks.DefaultTaskCollection.named(DefaultTaskCollection.java:129)
+```
+How do I fix this?</historyEntry>
+        <historyEntry timestamp="1760702206557">I'm getting the following error while syncing my project. The error is: The request for this plugin could not be satisfied because the plugin is already on the classpath with an unknown version, so compatibility cannot be checked
+```
+Build file '/Users/ikarenkov/Documents/development/Modo/modo-compose/build.gradle.kts' line: 3
+
+Error resolving plugin [id: 'modo-android-library', version: 'unspecified']
+&gt; The request for this plugin could not be satisfied because the plugin is already on the classpath with an unknown version, so compatibility cannot be checked.
+
+* Try:
+&gt; Run with --info or --debug option to get more log output.
+&gt; Run with --scan to get full insights.
+&gt; Get more help at https://help.gradle.org.
+
+...
+Caused by: org.gradle.plugin.management.internal.InvalidPluginRequestException: The request for this plugin could not be satisfied because the plugin is already on the classpath with an unknown version, so compatibility cannot be checked.
+	at org.gradle.plugin.use.resolve.internal.AlreadyOnClasspathPluginResolver.resolve(AlreadyOnClasspathPluginResolver.java:89)
+	at org.gradle.plugin.use.internal.DefaultPluginRequestApplicator.resolvePluginRequest(DefaultPluginRequestApplicator.java:189)
+	... 205 more
+```
+How do I fix this?</historyEntry>
+        <historyEntry timestamp="1760702123906">I'm getting the following error while syncing my project. The error is: The request for this plugin could not be satisfied because the plugin is already on the classpath with an unknown version, so compatibility cannot be checked
+```
+Build file '/Users/ikarenkov/Documents/development/Modo/modo-compose/build.gradle.kts' line: 3
+
+Error resolving plugin [id: 'modo-android-library', version: 'unspecified']
+&gt; The request for this plugin could not be satisfied because the plugin is already on the classpath with an unknown version, so compatibility cannot be checked.
+
+* Try:
+&gt; Run with --info or --debug option to get more log output.
+&gt; Run with --scan to get full insights.
+&gt; Get more help at https://help.gradle.org.
+
+...
+Caused by: org.gradle.plugin.management.internal.InvalidPluginRequestException: The request for this plugin could not be satisfied because the plugin is already on the classpath with an unknown version, so compatibility cannot be checked.
+	at org.gradle.plugin.use.resolve.internal.AlreadyOnClasspathPluginResolver.resolve(AlreadyOnClasspathPluginResolver.java:89)
+	at org.gradle.plugin.use.internal.DefaultPluginRequestApplicator.resolvePluginRequest(DefaultPluginRequestApplicator.java:189)
+	... 205 more
+```
+How do I fix this?</historyEntry>
         <historyEntry timestamp="1759557399968">I'm getting the following error while syncing my project. The error is: Extension of type 'KotlinJvmProjectExtension' does not exist. Currently registered extension types: [ExtraPropertiesExtension, LibrariesForLibs, VersionCatalogsExtension, RootProjectAccessor, BasePluginExtension, DefaultArtifactPublicationSet, SourceSetContainer, ReportingExtension, JavaToolchainService, JavaPluginExtension, LibraryExtension, LibraryAndroidComponentsExtension, NamedDomainObjectContainer&lt;BaseVariantOutput&gt;, KotlinAndroidProjectExtension, KotlinTestsRegistry]
 ```
 Build file '/Users/ikarenkov/Documents/development/KombuchaUdf/kombucha/compose/build.gradle.kts' line: 1
