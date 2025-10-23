@@ -2,41 +2,12 @@
   <component name="FindSettings">
     <option name="customScope" value="Project Files" />
     <option name="defaultScopeName" value="Project Files" />
-    <option name="localRegularExpressions" value="true" />
-    <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="Project Files" />
     <mask>*.css</mask>
     <mask>*.html</mask>
+    <mask>*.xml</mask>
     <mask>*.jsp</mask>
     <mask>*.properties</mask>
-    <mask>*.yml</mask>
     <mask>*.java</mask>
-    <mask>*.json</mask>
-    <mask>*Module*.kt</mask>
-    <mask>*Component.kt</mask>
-    <mask>*Delegate*.kt</mask>
-    <mask>*UseCase.kt</mask>
-    <mask>*ViewModel.kt</mask>
-    <mask>*.gradle</mask>
-    <mask>*MediatorImpl.kt</mask>
-    <mask>*Aggregator*.kt</mask>
-    <mask>*.gradle.kts</mask>
-    <mask>*.py</mask>
-    <mask>*.apk</mask>
-    <mask>**Test**.kt</mask>
-    <mask>*.rb</mask>
-    <mask>*rules.*</mask>
-    <mask>*.md</mask>
-    <mask>*.kts</mask>
-    <mask>*Plugin*</mask>
-    <mask>*Screen*</mask>
-    <mask>*DialogScreen*</mask>
-    <mask>*gradle*</mask>
-    <mask>*.xml</mask>
-    <mask>*.kt</mask>
-    <mask>build.gradle.kts</mask>
-    <mask>*.groovy</mask>
-    <mask>*.jenkinsfile</mask>
-    <mask>*.ruby</mask>
   </component>
 </application>

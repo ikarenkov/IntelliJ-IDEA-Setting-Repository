@@ -12,6 +12,7 @@
       <mapping ext="db" type="Native" />
       <mapping ext="mp4" type="Native" />
       <mapping pattern=".keep" type="PLAIN_TEXT" />
+      <mapping pattern=".env.sample" type="PLAIN_TEXT" />
       <mapping pattern=".empty" type="PLAIN_TEXT" />
       <mapping pattern=".env.local.sample" type="PLAIN_TEXT" />
       <mapping ext="hpi" type="PLAIN_TEXT" />
