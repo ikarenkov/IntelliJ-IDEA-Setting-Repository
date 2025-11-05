@@ -12,6 +12,7 @@
         </Allowed>
       </list>
     </option>
+    <option name="autoModeEnabled" value="true" />
     <option name="braveMode" value="true" />
   </component>
 </application>
