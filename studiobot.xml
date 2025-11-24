@@ -5,6 +5,7 @@
     <option name="onboardedVersion" value="3" />
     <option name="queryHistory">
       <list>
+        <historyEntry timestamp="1763986235281">/tools</historyEntry>
         <historyEntry timestamp="1760704357994">I'm getting the following error while syncing my project. The error is: The request for this plugin could not be satisfied because the plugin is already on the classpath with an unknown version, so compatibility cannot be checked
 ```
 Build file '/Users/ikarenkov/Documents/development/Modo/modo-compose/build.gradle.kts' line: 3
