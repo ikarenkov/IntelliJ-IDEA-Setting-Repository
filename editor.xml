@@ -14,9 +14,6 @@
     </option>
     <option name="defaultPosition" value="Top" />
   </component>
-  <component name="DaemonCodeAnalyzerSettings">
-    <option name="AUTOREPARSE_DELAY" value="0" />
-  </component>
   <component name="DeclarativeInlayHintsSettings">
     <option name="enabledOptions">
       <map>
