@@ -1,5 +1,11 @@
 <application>
   <component name="AndroidLogcatSettings">
     <option name="bufferSize" value="10485760" />
+    <option name="ignoredTags">
+      <set>
+        <option value="hh бизнес debug-EtagSupportInterceptor" />
+        <option value="hh бизнес debug-StatusCodeInterceptor" />
+      </set>
+    </option>
   </component>
 </application>
