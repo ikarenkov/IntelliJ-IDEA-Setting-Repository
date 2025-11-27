@@ -1,8 +1,9 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="package:mine -tag:okhttp.OkHttpClient -tag:'hh бизнес debug-HeaderInterceptor' -tag:GIBSDK -tag:LeakCanary tag:HrMobileRootActivity" />
+    <option name="mostRecentlyUsed" value="package:ru.hh.android.debug " />
     <option name="nonFavorites">
       <list>
+        <option value="package:ru.hh.android.debug " />
         <option value="package:mine -tag:okhttp.OkHttpClient -tag:'hh бизнес debug-HeaderInterceptor' -tag:GIBSDK -tag:LeakCanary tag:HrMobileRootActivity" />
         <option value="package:mine -tag:okhttp.OkHttpClient -tag:'hh бизнес debug-HeaderInterceptor' -tag:GIBSDK -tag:LeakCanary" />
         <option value="package:mine -tag:okhttp.OkHttpClient -tag:'hh бизнес debug-HeaderInterceptor' -tag:GIBSDK" />
