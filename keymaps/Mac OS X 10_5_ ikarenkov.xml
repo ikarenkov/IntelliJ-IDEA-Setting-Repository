@@ -99,7 +99,7 @@
   </action>
   <action id="FileChooser.GotoProject" />
   <action id="FileChooser.LightEditGotoOpenedFile">
-    <keyboard-shortcut first-keystroke="f2" />
+    <keyboard-shortcut first-keystroke="f3" />
   </action>
   <action id="FindUsages">
     <keyboard-shortcut first-keystroke="alt f7" />
@@ -183,7 +183,7 @@
   </action>
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="shift f6" />
-    <keyboard-shortcut first-keystroke="f3" />
+    <keyboard-shortcut first-keystroke="f2" />
   </action>
   <action id="ResizeToolWindowDown">
     <keyboard-shortcut first-keystroke="ctrl meta alt down" />
@@ -192,7 +192,7 @@
     <keyboard-shortcut first-keystroke="ctrl meta alt up" />
   </action>
   <action id="SelectInProjectView">
-    <keyboard-shortcut first-keystroke="f2" />
+    <keyboard-shortcut first-keystroke="f3" />
   </action>
   <action id="ShowProjectStructureSettings">
     <keyboard-shortcut first-keystroke="shift meta comma" />
