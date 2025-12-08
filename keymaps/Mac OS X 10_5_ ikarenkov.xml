@@ -194,6 +194,9 @@
   <action id="SelectInProjectView">
     <keyboard-shortcut first-keystroke="f3" />
   </action>
+  <action id="ShowNavBar">
+    <keyboard-shortcut first-keystroke="alt home" />
+  </action>
   <action id="ShowProjectStructureSettings">
     <keyboard-shortcut first-keystroke="shift meta comma" />
   </action>
@@ -230,13 +233,21 @@
     <keyboard-shortcut first-keystroke="shift meta b" />
     <keyboard-shortcut first-keystroke="meta alt back_space" />
   </action>
+  <action id="android.device.home.button">
+    <keyboard-shortcut first-keystroke="shift meta h" />
+    <keyboard-shortcut first-keystroke="meta down" />
+  </action>
+  <action id="android.device.overview.button">
+    <keyboard-shortcut first-keystroke="shift meta w" />
+    <keyboard-shortcut first-keystroke="meta up" />
+  </action>
   <action id="android.device.rotate.left">
     <keyboard-shortcut first-keystroke="meta l" />
-    <keyboard-shortcut first-keystroke="meta alt left" />
+    <keyboard-shortcut first-keystroke="meta left" />
   </action>
   <action id="android.device.rotate.right">
     <keyboard-shortcut first-keystroke="meta r" />
-    <keyboard-shortcut first-keystroke="meta alt right" />
+    <keyboard-shortcut first-keystroke="meta right" />
   </action>
   <action id="android.emulator.back.button">
     <keyboard-shortcut first-keystroke="ctrl back_space" />
