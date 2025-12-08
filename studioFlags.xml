@@ -1,0 +1,10 @@
+<application>
+  <component name="StudioFlags">
+    <option name="data">
+      <map>
+        <entry key="compose.preview.generate.preview.action" value="true" />
+        <entry key="compose.transform.ui.with.ai" value="true" />
+      </map>
+    </option>
+  </component>
+</application>
