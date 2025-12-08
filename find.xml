@@ -12,5 +12,6 @@
     <mask>*.kt</mask>
     <mask>*Screen.kt</mask>
     <mask>*.rb</mask>
+    <mask>*gradle*</mask>
   </component>
 </application>
