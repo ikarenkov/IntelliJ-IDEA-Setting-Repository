@@ -1,8 +1,9 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="package:mine tag:&quot;hh работа debug-InternalAnalyticsInter&quot; " />
+    <option name="mostRecentlyUsed" value="package:mine -tag:EGL_emulation" />
     <option name="nonFavorites">
       <list>
+        <option value="package:mine -tag:EGL_emulation" />
         <option value="package:mine tag:&quot;hh работа debug-InternalAnalyticsInter&quot; " />
         <option value="package:ru.hh.android.debug -tag:&quot;hh работа debug-AppMemoryMonitor&quot; -tag:OkHttpClient -tag:&quot;hh работа debug-EtagSupportInterceptor &quot; -tag:&quot;hh работа debug-HeaderInterceptor&quot; -tag:&quot;hh работа debug-HeaderInterceptor&quot; tag:&quot;hh работа debug-AnalyticsLogger&quot; " />
         <option value="package:ru.hh.android.debug -tag:&quot;hh работа debug-AppMemoryMonitor&quot; -tag:OkHttpClient" />
@@ -19,7 +20,6 @@
         <option value="package:mine -tag:EGL_emulation -tag:ImageReader_JNI -tag:LifecycleDebug" />
         <option value="package:ru.hh.employer.android.debug level:error " />
         <option value="package:mine -tag:EGL_emulation -tag:ImageReader_JNI" />
-        <option value="package:mine -tag:EGL_emulation" />
         <option value="package:mine -" />
         <option value="package:mine -tag=:EGL_emulation" />
       </list>

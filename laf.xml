@@ -1,7 +1,9 @@
 <application>
   <component name="LafManager" autodetect="true">
     <laf themeId="Islands Dark" />
+    <preferred-light-laf themeId="Islands Light" />
     <preferred-dark-laf themeId="Islands Dark" />
+    <preferred-dark-editor-scheme editorSchemeId="Islands Dark" />
     <preferred-light-editor-scheme editorSchemeId="Islands Dark" />
   </component>
 </application>
