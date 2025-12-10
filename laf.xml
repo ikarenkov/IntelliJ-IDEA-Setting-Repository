@@ -1,9 +1,12 @@
 <application>
   <component name="LafManager" autodetect="true">
-    <laf themeId="Islands Dark" />
+    <laf themeId="Islands Light" />
     <preferred-light-laf themeId="Islands Light" />
     <preferred-dark-laf themeId="Islands Dark" />
     <preferred-dark-editor-scheme editorSchemeId="Islands Dark" />
-    <preferred-light-editor-scheme editorSchemeId="Islands Dark" />
+    <preferred-light-editor-scheme editorSchemeId="Light" />
+    <lafs-to-previous-schemes>
+      <laf-to-scheme laf="Islands Light" scheme="_@user_Islands Dark" />
+    </lafs-to-previous-schemes>
   </component>
 </application>
