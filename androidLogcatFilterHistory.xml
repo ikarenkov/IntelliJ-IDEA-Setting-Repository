@@ -1,8 +1,13 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="package:mine -tag:EGL_emulation" />
+    <option name="mostRecentlyUsed" value="package:mine -tag:EGL_emulation tag:ModoScreenAndroidAdapter tag:ComposeRenderer  " />
     <option name="nonFavorites">
       <list>
+        <option value="package:mine -tag:EGL_emulation tag:ModoScreenAndroidAdapter tag:ComposeRenderer  " />
+        <option value="package:mine -tag:EGL_emulation tag:ModoScreenAndroidAdapter tag:Renderer " />
+        <option value="package:mine -tag:EGL_emulation tag:ModoScreenAndroidAdapter " />
+        <option value="package:mine -tag:EGL_emulation " />
+        <option value="package:mine -tag:EGL_emulation tag:ModoDevLogs" />
         <option value="package:mine -tag:EGL_emulation" />
         <option value="package:com.github.terrakok.modo.sample" />
         <option value="package:mine level:error" />
@@ -18,11 +23,6 @@
         <option value="package:ru.hh.employer.android.debug" />
         <option value="package:ru.hh.android.debug " />
         <option value="package:mine -tag:okhttp.OkHttpClient -tag:'hh бизнес debug-HeaderInterceptor' -tag:GIBSDK -tag:LeakCanary tag:HrMobileRootActivity" />
-        <option value="package:mine -tag:okhttp.OkHttpClient -tag:'hh бизнес debug-HeaderInterceptor' -tag:GIBSDK -tag:LeakCanary" />
-        <option value="package:mine -tag:okhttp.OkHttpClient -tag:'hh бизнес debug-HeaderInterceptor' -tag:GIBSDK" />
-        <option value="package:mine -tag:okhttp.OkHttpClient -tag:'hh бизнес debug-HeaderInterceptor'" />
-        <option value="package:mine -tag:okhttp.OkHttpClient" />
-        <option value="package:mine -tag:EGL_emulation -tag:ImageReader_JNI -tag:LifecycleDebug" />
       </list>
     </option>
   </component>
