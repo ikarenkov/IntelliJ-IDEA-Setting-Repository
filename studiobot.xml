@@ -3,6 +3,7 @@
     <option name="contextSharingModeV2" value="AskPerProject" />
     <option name="enableCodeCompletion" value="false" />
     <option name="onboardedVersion" value="3" />
+    <option name="previewAttachingEnabled" value="true" />
     <option name="queryHistory">
       <list>
         <historyEntry timestamp="1763986235281">/tools</historyEntry>

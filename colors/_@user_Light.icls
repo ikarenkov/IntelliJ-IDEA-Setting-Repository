@@ -1,5 +1,4 @@
 <scheme name="_@user_Light" version="142" parent_scheme="Default">
-  <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
     <property name="ide">AndroidStudio</property>
     <property name="ideVersion">2024.1.2.9</property>
@@ -7,7 +6,4 @@
     <property name="partialSave">true</property>
     <property name="pluginId">com.intellij</property>
   </metaInfo>
-  <option name="LINE_SPACING" value="1.2" />
-  <option name="EDITOR_FONT_SIZE" value="13" />
-  <option name="EDITOR_FONT_NAME" value="JetBrains Mono" />
 </scheme>

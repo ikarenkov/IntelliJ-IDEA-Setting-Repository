@@ -1,8 +1,9 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="package:mine -tag:EGL_emulation tag:ModoScreenAndroidAdapter tag:ComposeRenderer  " />
+    <option name="mostRecentlyUsed" value="package:mine -tag:EGL_emulation  " />
     <option name="nonFavorites">
       <list>
+        <option value="package:mine -tag:EGL_emulation  " />
         <option value="package:mine -tag:EGL_emulation tag:ModoScreenAndroidAdapter tag:ComposeRenderer  " />
         <option value="package:mine -tag:EGL_emulation tag:ModoScreenAndroidAdapter tag:Renderer " />
         <option value="package:mine -tag:EGL_emulation tag:ModoScreenAndroidAdapter " />
@@ -22,7 +23,6 @@
         <option value="-tag:okhttp.OkHttpClient -tag:'hh бизнес debug-HeaderInterceptor' -tag:GIBSDK -tag:LeakCanary " />
         <option value="package:ru.hh.employer.android.debug" />
         <option value="package:ru.hh.android.debug " />
-        <option value="package:mine -tag:okhttp.OkHttpClient -tag:'hh бизнес debug-HeaderInterceptor' -tag:GIBSDK -tag:LeakCanary tag:HrMobileRootActivity" />
       </list>
     </option>
   </component>
