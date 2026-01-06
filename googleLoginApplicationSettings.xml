@@ -6,6 +6,7 @@
         <entry key="karenkovigor@gmail.com">
           <value>
             <set>
+              <option value="Notifications" />
               <option value="User Info" />
               <option value="Gemini" />
             </set>
