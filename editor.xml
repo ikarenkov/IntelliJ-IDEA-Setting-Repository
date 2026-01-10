@@ -45,6 +45,7 @@
     </option>
     <option name="providerIdToEnabled">
       <map>
+        <entry key="compose.state.read" value="true" />
         <entry key="groovy.implicit.null.argument" value="true" />
         <entry key="groovy.lambda.parameter.inlay.provider" value="true" />
         <entry key="groovy.local.variable.implicit.types" value="true" />
