@@ -11,7 +11,7 @@
     <mask>*.xml</mask>
     <mask>*.kt</mask>
     <mask>*Screen.kt</mask>
-    <mask>*.rb</mask>
     <mask>*gradle*</mask>
+    <mask>*.rb</mask>
   </component>
 </application>

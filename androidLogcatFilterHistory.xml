@@ -4,6 +4,8 @@
     <option name="nonFavorites">
       <list>
         <option value="package:mine -tag:EGL_emulation  " />
+        <option value="package:ru.hh.android.debug -tag:&quot;hh работа debug-AppMemoryMonitor&quot; -tag:OkHttpClient -tag:&quot;hh работа debug-EtagSupportInterceptor &quot; -tag:&quot;hh работа debug-HeaderInterceptor&quot; -tag:&quot;hh работа debug-HeaderInterceptor&quot; tag:&quot;hh работа debug-AnalyticsLogger&quot; " />
+        <option value="package:mine -tag:EGL_emulation  tag:PredictiveBackCallbacks" />
         <option value="package:mine -tag:EGL_emulation tag:ModoScreenAndroidAdapter tag:ComposeRenderer  " />
         <option value="package:mine -tag:EGL_emulation tag:ModoScreenAndroidAdapter tag:Renderer " />
         <option value="package:mine -tag:EGL_emulation tag:ModoScreenAndroidAdapter " />
@@ -16,13 +18,11 @@
         <option value="package:mine" />
         <option value="package:mine -tag:EGL_emulation -message~:DialogPlaceHolder" />
         <option value="package:mine tag:&quot;hh работа debug-InternalAnalyticsInter&quot; " />
-        <option value="package:ru.hh.android.debug -tag:&quot;hh работа debug-AppMemoryMonitor&quot; -tag:OkHttpClient -tag:&quot;hh работа debug-EtagSupportInterceptor &quot; -tag:&quot;hh работа debug-HeaderInterceptor&quot; -tag:&quot;hh работа debug-HeaderInterceptor&quot; tag:&quot;hh работа debug-AnalyticsLogger&quot; " />
         <option value="package:ru.hh.android.debug -tag:&quot;hh работа debug-AppMemoryMonitor&quot; -tag:OkHttpClient" />
         <option value="package:ru.hh.android.debug -tag:&quot;hh работа debug-AppMemoryMonitor&quot; " />
         <option value="package:mine -tag:okhttp.OkHttpClient -tag:'hh бизнес debug-HeaderInterceptor' -tag:GIBSDK -tag:LeakCanary " />
         <option value="-tag:okhttp.OkHttpClient -tag:'hh бизнес debug-HeaderInterceptor' -tag:GIBSDK -tag:LeakCanary " />
         <option value="package:ru.hh.employer.android.debug" />
-        <option value="package:ru.hh.android.debug " />
       </list>
     </option>
   </component>
