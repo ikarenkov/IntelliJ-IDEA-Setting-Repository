@@ -1,5 +1,6 @@
 <application>
   <component name="CommitMessageCompletionSurveyStateComponent">
-    <option name="sessionsShown" value="1" />
+    <option name="sessionsShown" value="5" />
+    <option name="sessionsAccepted" value="4" />
   </component>
 </application>
