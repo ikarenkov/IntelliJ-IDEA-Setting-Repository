@@ -35,6 +35,7 @@
       <removed_mapping ext="sh" approved="true" type="Shell Script" />
       <removed_mapping ext="zsh" approved="true" type="Shell Script" />
       <removed_mapping pattern=".devcontainer.json" approved="true" type="JSON5" />
+      <removed_mapping pattern=".keep" approved="true" type="R8 Config File" />
       <removed_mapping pattern="devcontainer.json" approved="true" type="JSON5" />
       <mapping ext="scenarios" type="HOCON" />
       <mapping pattern="Fastfile" type="Ruby" />
