@@ -126,9 +126,7 @@
   <action id="HideAllWindows">
     <keyboard-shortcut first-keystroke="f12" />
   </action>
-  <action id="HippieBackwardCompletion">
-    <keyboard-shortcut first-keystroke="ctrl alt slash" />
-  </action>
+  <action id="HippieBackwardCompletion" />
   <action id="HippieCompletion">
     <keyboard-shortcut first-keystroke="ctrl slash" />
   </action>
