@@ -1,6 +1,6 @@
 <application>
   <component name="ReworkedTerminalUsage"><![CDATA[{
-  "enterKeyPressedTimes": 55
+  "enterKeyPressedTimes": 66
 }]]></component>
   <component name="TerminalOptionsProvider">
     <option name="useOptionAsMetaKey" value="true" />
