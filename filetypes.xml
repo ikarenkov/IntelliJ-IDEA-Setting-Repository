@@ -9,6 +9,7 @@
       <mapping ext="jenkinsfile" type="Groovy" />
       <mapping pattern="full-static-analysis.scenarios" type="HOCON" />
       <mapping ext="scenarios" type="HOCON" />
+      <mapping pattern="mcp.json" type="JSON5" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
       <mapping ext="db" type="Native" />
