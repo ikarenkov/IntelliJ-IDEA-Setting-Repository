@@ -11,9 +11,9 @@
     <entry key="vcs.log.index.enable" value="true" source="SYSTEM" />
     <entry key="completion.cloud.adaptive.debounce.is.active" value="true" source="SYSTEM" />
     <entry key="switched.from.classic.to.islands" value="false" source="SYSTEM" />
-    <entry key="llm.chat.agent.codex.install.codex.version" value="0.128.0" source="MANAGER" />
-    <entry key="llm.chat.agent.codex.install.acp.server.version" value="0.0.41" source="MANAGER" />
     <entry key="trace.state.event.service.url" value="https://api.jetbrains.cloud/trace-status" source="MANAGER" />
+    <entry key="llm.chat.default.agent.rollout.enabled" value="true" source="MANAGER" />
+    <entry key="llm.chat.session.feedback.widget.enabled" value="true" source="MANAGER" />
   </component>
   <component name="StatusBar">
     <option name="widgets">
