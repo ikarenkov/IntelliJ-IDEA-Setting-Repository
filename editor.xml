@@ -1,4 +1,7 @@
 <application>
+  <component name="DaemonCodeAnalyzerSettings">
+    <option name="AUTOREPARSE_DELAY" value="0" />
+  </component>
   <component name="EditorSettings">
     <option name="IS_WHITESPACES_SHOWN" value="true" />
   </component>
