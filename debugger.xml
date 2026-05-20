@@ -110,9 +110,11 @@
     <data-views />
     <general />
     <debuggers>
-      <debugger id="javascript">
+      <debugger id="ObjectiveC">
         <configuration>
-          <custom-object-presentation />
+          <child-process-debugging-settings />
+          <macOS-symbol-settings />
+          <nt-symbol-settings />
         </configuration>
       </debugger>
     </debuggers>

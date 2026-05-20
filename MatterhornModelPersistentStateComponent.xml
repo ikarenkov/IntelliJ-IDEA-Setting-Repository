@@ -3,15 +3,26 @@
     <option name="actionWhiteList">
       <list>
         <Allowed>
-          <option name="actionRegex" value="*" />
-          <option name="actionType" value="Build" />
+          <option name="actionRegex" value="^\Q./gradlew :sample:compileDebugKotlin \E\S+$" />
+          <option name="actionType" value="Terminal" />
         </Allowed>
         <Allowed>
-          <option name="actionRegex" value="^\Qmvn clean \E\S+$" />
+          <option name="actionRegex" value="*" />
+          <option name="actionType" value="RunTests" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Q./gradlew :modo-compose:testDebugUnitTest --tests \E\S+$" />
+          <option name="actionType" value="Terminal" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="*" />
+          <option name="actionType" value="Mcp" />
+        </Allowed>
+        <Allowed>
+          <option name="actionRegex" value="^\Q./gradlew \E\S+$" />
           <option name="actionType" value="Terminal" />
         </Allowed>
       </list>
     </option>
-    <option name="braveMode" value="true" />
   </component>
 </application>

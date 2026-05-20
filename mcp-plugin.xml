@@ -1,0 +1,15 @@
+<application>
+  <component name="McpPluginSettings">
+    <option name="disabledTools">
+      <set>
+        <option value="ide_build_project" />
+        <option value="ide_convert_java_to_kotlin" />
+        <option value="ide_file_structure" />
+        <option value="ide_find_symbol" />
+        <option value="ide_open_file" />
+        <option value="ide_read_file" />
+      </set>
+    </option>
+    <option name="serverPort" value="29171" />
+  </component>
+</application>

@@ -6,11 +6,12 @@
         <entry key="karenkovigor@gmail.com">
           <value>
             <set>
-              <option value="Backup and Sync" />
-              <option value="GiAS" />
+              <option value="AiCode" />
               <option value="User Info" />
               <option value="Notifications" />
-              <option value="Gemini" />
+              <option value="Firebase" />
+              <option value="Android Vitals" />
+              <option value="Backup and Sync" />
             </set>
           </value>
         </entry>
