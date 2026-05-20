@@ -5,8 +5,8 @@
         <PlaceSettings>
           <option name="DIFF_TOOLS_ORDER">
             <list>
-              <option value="com.intellij.diff.tools.simple.SimpleDiffTool" />
               <option value="com.intellij.diff.tools.fragmented.UnifiedDiffTool" />
+              <option value="com.intellij.diff.tools.simple.SimpleDiffTool" />
               <option value="com.intellij.diff.tools.combined.CombinedSideBySideDiffTool" />
               <option value="com.intellij.diff.tools.combined.CombinedUnifiedDiffTool" />
               <option value="com.intellij.openapi.vcs.changes.patch.tool.ApplyPatchDiffTool" />
@@ -20,10 +20,11 @@
               <option value="org.jetbrains.idea.svn.difftool.properties.SvnPropertiesDiffTool" />
               <option value="org.jetbrains.idea.svn.difftool.SvnPhantomChangeDiffRequestProvider.SvnPhantomDiffTool" />
               <option value="org.jetbrains.idea.svn.difftool.SvnTreeConflictDiffRequestProvider.SvnTreeConflictDiffTool" />
-              <option value="com.android.studio.ml.bot.diff.diffviewers.BotUnifiedDiffTool" />
-              <option value="com.android.studio.ml.bot.diff.diffviewers.BotSplitViewDiffTool" />
               <option value="com.intellij.diff.tools.binary.BinaryDiffTool" />
               <option value="com.intellij.diff.tools.dir.DirDiffTool" />
+              <option value="com.intellij.jupyter.diff.extensions.JupyterDiffTool" />
+              <option value="com.intellij.database.model.diff.SchemaDiffTool" />
+              <option value="com.intellij.database.diff.TableDiffTool" />
             </list>
           </option>
         </PlaceSettings>
