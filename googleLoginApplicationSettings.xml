@@ -6,7 +6,10 @@
         <entry key="karenkovigor@gmail.com">
           <value>
             <set>
+              <option value="Backup and Sync" />
+              <option value="GiAS" />
               <option value="User Info" />
+              <option value="Notifications" />
               <option value="Gemini" />
             </set>
           </value>

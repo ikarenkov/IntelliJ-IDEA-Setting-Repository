@@ -1,11 +1,9 @@
 <application>
-  <component name="NextEditOnboardingComponent">{
-  &quot;isOnboardingShown&quot;: true
-}</component>
+  <component name="NextEditOnboardingComponent"><![CDATA[{
+  "isOnboardingShown": true
+}]]></component>
   <component name="NextEditPromotionState">
     <option name="promoted" value="true" />
   </component>
-  <component name="NextEditSettings"><![CDATA[{
-  "legacyMlCompletionResetApplied": true
-}]]></component>
+  <component name="NextEditSettings"><![CDATA[{}]]></component>
 </application>
