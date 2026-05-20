@@ -1,0 +1,23 @@
+<application>
+  <component name="ProjectManager">
+    <defaultProject>
+      <component name="AutoImportSettings">
+        <option name="autoReloadType" value="NONE" />
+      </component>
+      <component name="PropertiesComponent"><![CDATA[{}]]></component>
+      <component name="StoredSessionsInfoStore">
+        <option name="sessions">
+          <list>
+            <SessionInfoState>
+              <option name="id" value="20260505-122541-a21b2fe3-2c87-4448-954d-cd8092a572ef" />
+              <option name="lastUpdateTimestamp" value="1777958741252" />
+              <option name="responseMode" value="Agent" />
+              <option name="title" value="New Agent Session" />
+              <option name="user" value="karenkovigor@gmail.com" />
+            </SessionInfoState>
+          </list>
+        </option>
+      </component>
+    </defaultProject>
+  </component>
+</application>

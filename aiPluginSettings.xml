@@ -1,0 +1,17 @@
+<application>
+  <component name="AiPluginSettings">
+    <option name="enableAutomaticGenerationOutlines" value="true" />
+    <option name="gcpProjectByEmail">
+      <map>
+        <entry key="karenkovigor@gmail.com">
+          <value>
+            <GcpProjectSettings>
+              <option name="gcpProjectId" value="cultivated-realm-05bll" />
+              <option name="gcpProjectName" value="cultivated-realm-05bll" />
+            </GcpProjectSettings>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</application>

@@ -1,0 +1,37 @@
+<application>
+  <component name="DimensionService">
+    <location key="WELCOME_SCREEN.0.0.3024.1964@192dpi" x="1512" y="678" />
+    <location key="find.popup.0.0.3024.1964@192dpi" x="1028" y="296" />
+    <size key="find.popup.0.0.3024.1964@192dpi" width="1996" height="1524" />
+    <size key="GridCell.Tab.0.left.0.0.3024.1964@192dpi" width="2880" height="946" />
+    <size key="GridCell.Tab.0.center.0.0.3024.1964@192dpi" width="2880" height="946" />
+    <size key="GridCell.Tab.0.right.0.0.3024.1964@192dpi" width="2880" height="946" />
+    <size key="GridCell.Tab.0.bottom.0.0.3024.1964@192dpi" width="2880" height="946" />
+  </component>
+  <component name="WindowManager">
+    <frame x="0" y="33" width="1512" height="949" extendedState="6" fullScreen="true" />
+  </component>
+  <component name="WindowStateApplicationService">
+    <state width="654" height="121" key="ShowUsagesActions.dimensionServiceKey" timestamp="1777956230987">
+      <screen x="0" y="33" width="1512" height="949" />
+    </state>
+    <state width="678" height="161" key="ShowUsagesActions.dimensionServiceKey.ideScale=90" timestamp="1779092791538">
+      <screen x="0" y="33" width="1512" height="949" />
+    </state>
+    <state width="654" height="139" key="ShowUsagesActions.dimensionServiceKey.ideScale=90/0.33.1512.949" timestamp="1777970983597" />
+    <state width="678" height="161" key="ShowUsagesActions.dimensionServiceKey.ideScale=90/0.33.1512.949/1512.114.1194.804" timestamp="1779092791538" />
+    <state width="554" height="658" key="ShowUsagesActions.dimensionServiceKey/0.32.1512.950" timestamp="1777470364669" />
+    <state width="654" height="121" key="ShowUsagesActions.dimensionServiceKey/0.33.1512.949" timestamp="1777956230987" />
+    <state width="653" height="253" key="ShowUsagesActions.dimensionServiceKey/0.33.1512.949/1512.537.1194.804" timestamp="1777304497114" />
+    <state x="756" y="457" width="800" height="650" key="WELCOME_SCREEN" timestamp="1777123582262">
+      <screen x="0" y="33" width="1512" height="949" />
+    </state>
+    <state x="756" y="457" width="800" height="650" key="WELCOME_SCREEN.ideScale=90" timestamp="1778579884270">
+      <screen x="0" y="33" width="1512" height="949" />
+    </state>
+    <state x="756" y="457" width="800" height="650" key="WELCOME_SCREEN.ideScale=90/0.33.1512.949" timestamp="1778579884270" />
+    <state x="756" y="457" width="800" height="650" key="WELCOME_SCREEN.ideScale=90/0.33.1512.949/1512.-1050.1920.1050" timestamp="1778005066105" />
+    <state x="756" y="457" width="800" height="650" key="WELCOME_SCREEN/0.33.1512.949" timestamp="1777123582262" />
+    <state x="408" y="698" width="800" height="650" key="WELCOME_SCREEN/0.33.1512.949/1512.537.1194.804" timestamp="1776676411605" />
+  </component>
+</application>

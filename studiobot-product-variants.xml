@@ -1,0 +1,19 @@
+<application>
+  <component name="ProductVariantPersister">
+    <option name="userEntries">
+      <map>
+        <entry key="karenkovigor@gmail.com">
+          <value>
+            <UserEntryState>
+              <option name="paidTier" value="true" />
+              <option name="tierId" value="g1-pro-tier" />
+              <option name="tierName" value="AI Pro" />
+              <option name="type" value="Consumer" />
+              <option name="upgradePath" value="AI Pro provides higher daily limits for Gemini in Android Studio. It offers expanded capacity for advanced code completion and complex reasoning in your Android projects.&#10;&#10;[Upgrade](https://one.google.com/ai?g1_landing_page=75)↗ to get the highest limits." />
+            </UserEntryState>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</application>
