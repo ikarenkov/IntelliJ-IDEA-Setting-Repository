@@ -1,6 +1,5 @@
 <application>
   <component name="AiPluginSettings">
-    <option name="enableAutomaticGenerationOutlines" value="true" />
     <option name="gcpProjectByEmail">
       <map>
         <entry key="karenkovigor@gmail.com">
