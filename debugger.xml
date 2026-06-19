@@ -109,12 +109,5 @@
   <component name="XDebuggerSettings">
     <data-views />
     <general />
-    <debuggers>
-      <debugger id="javascript">
-        <configuration>
-          <custom-object-presentation />
-        </configuration>
-      </debugger>
-    </debuggers>
   </component>
 </application>
