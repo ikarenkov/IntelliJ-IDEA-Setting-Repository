@@ -31,26 +31,15 @@
       <mapping pattern="post-commit" type="Shell Script" />
       <mapping ext="flat" type="XML" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
-      <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
-      <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
-      <removed_mapping ext="bash" approved="true" type="Shell Script" />
       <removed_mapping ext="bash" approved="true" type="Shell Script" />
       <removed_mapping ext="pb" approved="true" type="prototext" />
-      <removed_mapping ext="pb" approved="true" type="prototext" />
       <removed_mapping ext="pro" approved="true" type="DeviceSpecFile" />
-      <removed_mapping ext="pro" approved="true" type="DeviceSpecFile" />
-      <removed_mapping ext="psd" approved="true" type="Image" />
-      <removed_mapping ext="psd" approved="true" type="Image" />
       <removed_mapping ext="psd" approved="true" type="Image" />
       <removed_mapping ext="rb" approved="true" type="Ruby" />
       <removed_mapping ext="sh" approved="true" type="Shell Script" />
-      <removed_mapping ext="sh" approved="true" type="Shell Script" />
       <removed_mapping ext="zsh" approved="true" type="Shell Script" />
-      <removed_mapping ext="zsh" approved="true" type="Shell Script" />
-      <removed_mapping pattern=".devcontainer.json" approved="true" type="JSON5" />
       <removed_mapping pattern=".devcontainer.json" approved="true" type="JSON5" />
       <removed_mapping pattern=".keep" approved="true" type="R8 Config File" />
-      <removed_mapping pattern="devcontainer.json" approved="true" type="JSON5" />
       <removed_mapping pattern="devcontainer.json" approved="true" type="JSON5" />
     </extensionMap>
   </component>
