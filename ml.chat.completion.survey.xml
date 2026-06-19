@@ -1,6 +1,5 @@
 <application>
   <component name="ChatCompletionSurveyStateComponent">
-    <option name="firstChatOpenDate2" value="2026-05-25" />
     <option name="sessionsShown" value="13" />
     <option name="sessionsAccepted" value="6" />
     <option name="firstChatOpenDate" value="2026-06-19" />

@@ -25,7 +25,6 @@
       <mapping ext="pem" type="PLAIN_TEXT" />
       <mapping ext="xcuserstate" type="PLAIN_TEXT" />
       <mapping ext="pb" type="PLAIN_TEXT" />
-      <mapping pattern="Fastfile" type="Ruby" />
       <mapping pattern="post-merge-or-commit" type="Shell Script" />
       <mapping pattern="prepare-commit-msg-test" type="Shell Script" />
       <mapping pattern="post-commit" type="Shell Script" />
@@ -41,6 +40,7 @@
       <removed_mapping pattern=".devcontainer.json" approved="true" type="JSON5" />
       <removed_mapping pattern=".keep" approved="true" type="R8 Config File" />
       <removed_mapping pattern="devcontainer.json" approved="true" type="JSON5" />
+      <mapping pattern="Fastfile" type="Ruby" />
     </extensionMap>
   </component>
 </application>
