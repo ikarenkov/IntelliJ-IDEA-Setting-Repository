@@ -1,0 +1,9 @@
+<application>
+  <component name="AndroidEditors">
+    <option name="state">
+      <GlobalState>
+        <option name="preferredResourcesEditorMode" value="SPLIT" />
+      </GlobalState>
+    </option>
+  </component>
+</application>
