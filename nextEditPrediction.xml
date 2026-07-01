@@ -1,5 +1,6 @@
 <application>
   <component name="NextEditPredictionSettings">
+    <option name="arePredictionsEnabled" value="false" />
     <option name="predictionType" value="InlineCompletion" />
   </component>
 </application>
