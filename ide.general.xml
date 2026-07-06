@@ -8,5 +8,8 @@
     <entry key="trace.state.event.service.url" value="https://api.jetbrains.cloud/trace-status" source="MANAGER" />
     <entry key="llm.chat.default.agent.rollout.enabled" value="true" source="MANAGER" />
     <entry key="editor.ux.survey.enabled" value="false" source="MANAGER" />
+    <entry key="llm.acp.copilot.tos.enabled" value="true" source="MANAGER" />
+    <entry key="llm.copilot.agent.enabled" value="true" source="MANAGER" />
+    <entry key="llm.chat.agent.acp.bundled" value="claude-acp,junie,codex-acp,github-copilot" source="MANAGER" />
   </component>
 </application>
