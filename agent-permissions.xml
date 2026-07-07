@@ -1,0 +1,10 @@
+<application>
+  <component name="PermissionPersistence">
+    <option name="entries">
+      <map>
+        <entry key="project.write.normal" value="ok" />
+        <entry key="web.search" value="ok" />
+      </map>
+    </option>
+  </component>
+</application>
