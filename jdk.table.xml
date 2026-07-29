@@ -271,9 +271,9 @@
       <additional sdk="android-36.1" />
     </jdk>
     <jdk version="2">
-      <name value="jbr-21" />
+      <name value="jbr-25" />
       <type value="JavaSDK" />
-      <version value="JetBrains Runtime 21.0.10 - aarch64" />
+      <version value="JetBrains Runtime 25.0.2 - aarch64" />
       <homePath value="$APPLICATION_HOME_DIR$/jbr/Contents/Home" />
       <roots>
         <annotationsPath>
@@ -317,6 +317,7 @@
             <root url="jrt://$APPLICATION_HOME_DIR$/jbr/Contents/Home!/jdk.internal.ed" type="simple" />
             <root url="jrt://$APPLICATION_HOME_DIR$/jbr/Contents/Home!/jdk.internal.jvmstat" type="simple" />
             <root url="jrt://$APPLICATION_HOME_DIR$/jbr/Contents/Home!/jdk.internal.le" type="simple" />
+            <root url="jrt://$APPLICATION_HOME_DIR$/jbr/Contents/Home!/jdk.internal.md" type="simple" />
             <root url="jrt://$APPLICATION_HOME_DIR$/jbr/Contents/Home!/jdk.internal.opt" type="simple" />
             <root url="jrt://$APPLICATION_HOME_DIR$/jbr/Contents/Home!/jdk.internal.vm.ci" type="simple" />
             <root url="jrt://$APPLICATION_HOME_DIR$/jbr/Contents/Home!/jdk.jartool" type="simple" />
@@ -327,7 +328,6 @@
             <root url="jrt://$APPLICATION_HOME_DIR$/jbr/Contents/Home!/jdk.jdwp.agent" type="simple" />
             <root url="jrt://$APPLICATION_HOME_DIR$/jbr/Contents/Home!/jdk.jfr" type="simple" />
             <root url="jrt://$APPLICATION_HOME_DIR$/jbr/Contents/Home!/jdk.jlink" type="simple" />
-            <root url="jrt://$APPLICATION_HOME_DIR$/jbr/Contents/Home!/jdk.jsobject" type="simple" />
             <root url="jrt://$APPLICATION_HOME_DIR$/jbr/Contents/Home!/jdk.localedata" type="simple" />
             <root url="jrt://$APPLICATION_HOME_DIR$/jbr/Contents/Home!/jdk.management" type="simple" />
             <root url="jrt://$APPLICATION_HOME_DIR$/jbr/Contents/Home!/jdk.management.agent" type="simple" />
