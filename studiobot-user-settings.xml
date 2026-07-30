@@ -1,0 +1,16 @@
+<application>
+  <component name="StudioBotUserSettings">
+    <option name="userSettingsByEmail">
+      <map>
+        <entry key="karenkovigor@gmail.com">
+          <value>
+            <UserSettingsState>
+              <option name="onboardedVersion" value="1" />
+              <option name="privacyBannerVersion" value="1" />
+            </UserSettingsState>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</application>
