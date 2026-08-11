@@ -5,5 +5,6 @@
   <component name="Registry">
     <entry key="switched.from.classic.to.islands" value="true" source="SYSTEM" />
     <entry key="ide.experimental.ui" value="true" source="SYSTEM" />
+    <entry key="trace.state.event.service.url" value="https://api.jetbrains.cloud/trace-status" source="MANAGER" />
   </component>
 </application>
