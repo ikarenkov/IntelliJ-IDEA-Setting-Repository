@@ -1,0 +1,5 @@
+<application>
+  <component name="CommandCompletion">
+    <option name="showCounts" value="1" />
+  </component>
+</application>
