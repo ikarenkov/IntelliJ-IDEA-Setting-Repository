@@ -6,11 +6,53 @@
         <option value="Russian" />
       </set>
     </option>
-    <option name="userDisabledRules">
-      <set>
-        <option value="LanguageTool.EN.OXFORD_SPELLING_Z_NOT_S" />
-        <option value="LanguageTool.EN.OXFORD_SPELLING_GRAM" />
-      </set>
+    <option name="domainDisabledRules">
+      <map>
+        <entry key="Commit">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="AIPrompt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="CodeDocumentation">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="CodeComment">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="domainEnabledRules">
+      <map>
+        <entry key="Commit">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="AIPrompt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="CodeDocumentation">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="CodeComment">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
     </option>
   </component>
 </application>
