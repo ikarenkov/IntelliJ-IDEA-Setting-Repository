@@ -1,5 +1,12 @@
 <application>
   <component name="StudioBotSettingsV2">
+    <option name="agentModelId">
+      <ModelIdState>
+        <option name="id" value="gemini-3-flash-preview" />
+        <option name="providerClass" value="AICode" />
+        <option name="providerName" value="Gemini (AI Pro)" />
+      </ModelIdState>
+    </option>
     <option name="currentModelSetId" value="00000000-0000-0000-0000-000000000000" />
     <option name="modelSets">
       <list>

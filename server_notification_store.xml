@@ -1,5 +1,10 @@
 <application>
   <component name="ServerNotificationStore">
+    <option name="featureLastUsedTimestamps">
+      <map>
+        <entry key="2" value="1787870754910" />
+      </map>
+    </option>
     <option name="serverPushNotificationShownTimestamps">
       <map>
         <entry key="create_with_ai_promotion_notification_CTA" value="1785834621856" />
