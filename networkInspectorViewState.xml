@@ -1,0 +1,23 @@
+<application>
+  <component name="NetworkInspectorViewState">
+    <columns>
+      <column-info name="URL" width-ratio="0.25" visible="false" />
+      <column-info name="Name" width-ratio="0.1852589641434263" />
+      <column-info name="Path" width-ratio="0.1" visible="false" />
+      <column-info name="Host" width-ratio="0.1" visible="false" />
+      <column-info name="Method" width-ratio="0.05" visible="false" />
+      <column-info name="Scheme" width-ratio="0.05" visible="false" />
+      <column-info name="Transport" width-ratio="0.05" visible="false" />
+      <column-info name="Request Size" width-ratio="0.05" visible="false" />
+      <column-info name="Size" width-ratio="0.14143426294820718" />
+      <column-info name="Request Headers" width-ratio="0.05" visible="false" />
+      <column-info name="Response Headers" width-ratio="0.05" visible="false" />
+      <column-info name="Type" width-ratio="0.14741035856573706" />
+      <column-info name="Status" width-ratio="0.13346613545816732" />
+      <column-info name="Time" width-ratio="0.14940239043824702" />
+      <column-info name="Request Time" width-ratio="0.05" visible="false" />
+      <column-info name="Response Time" width-ratio="0.05" visible="false" />
+      <column-info name="Timeline" width-ratio="0.24302788844621515" />
+    </columns>
+  </component>
+</application>
