@@ -9,5 +9,6 @@
     <entry key="moved.to.new.ui" value="true" source="SYSTEM" />
     <entry key="code.provenance.chatter.analytics.enabled" value="false" source="MANAGER" />
     <entry key="chat.run.target.promo.enabled" value="true" source="MANAGER" />
+    <entry key="llm.chat.detached.compose.panel.cache.size" value="0" source="MANAGER" />
   </component>
 </application>
