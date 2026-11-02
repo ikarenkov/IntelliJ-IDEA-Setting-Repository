@@ -1,0 +1,121 @@
+<templateSet group="HH_xander">
+  <template name="idb" value="android:id=&quot;@+id/$VAR1$_button_$VAR2$&quot;$END$" description="id button" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR1" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="false" />
+    <variable name="VAR2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+      <option name="XML_TEXT" value="false" />
+    </context>
+  </template>
+  <template name="ide" value="android:id=&quot;@+id/$VAR1$_edit_text_$VAR2$&quot;$END$" description="id edit_text" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR1" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="false" />
+    <variable name="VAR2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="idf" value="android:id=&quot;@+id/$VAR1$_frame_layout_$VAR2$&quot;$END$" description="id frame_layout" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR1" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="false" />
+    <variable name="VAR2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="idc" value="android:id=&quot;@+id/$VAR1$_container_$VAR2$&quot;$END$" description="id container" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR1" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="false" />
+    <variable name="VAR2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="idt" value="android:id=&quot;@+id/$VAR1$_text_view_$VAR2$&quot;$END$" description="id text_view" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR1" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="false" />
+    <variable name="VAR2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="k" value="private val KEY_$VAR1$ = TAG + &quot;.key_$VAR1$&quot;&#10;" description="key" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="kb" value="private val KEY_BUNDLE_$VAR1$ = TAG + &quot;.key_bundle_$VAR1$&quot;&#10;" description="key" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="t" value="private val TAG = &quot;$VAR$&quot;&#10;" description="add tag" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="ks" value="private val KEY_STATE_$VAR1$ = TAG + &quot;.key_state_$VAR1$&quot;&#10;" description="key state" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="un" value="&#10;throw IllegalStateException(&quot;unreachable condition with $VAR1$&quot;)$END$" description="unreachable condition" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR1" expression="methodName()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="eun" value="&#10;else -&gt; throw IllegalStateException(&quot;unreachable condition with $VAR1$&quot;)$END$" description="else -&gt; throw unreachable condition" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="idr" value="android:id=&quot;@+id/$VAR1$_recycler_$VAR2$&quot;$END$" description="id recycler" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR1" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="false" />
+    <variable name="VAR2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+      <option name="XML_TEXT" value="false" />
+    </context>
+  </template>
+  <template name="uid" value="companion object {&#10;    @Suppress(&quot;unused&quot;)&#10;    @JvmStatic&#10;    private val serialVersionUid: Long = 1&#10;}$END$" description="serialVersionUid" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="idi" value="android:id=&quot;@+id/$VAR1$_image_$VAR2$&quot;$END$" description="id image" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR1" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="false" />
+    <variable name="VAR2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+      <option name="XML_TEXT" value="false" />
+    </context>
+  </template>
+  <template name="lg" value="android.util.Log.d(TAG, &quot;$METHOD_NAME$: $content$&quot;)" description="Log.d(TAG, String)" toReformat="true" toShortenFQNames="true">
+    <variable name="METHOD_NAME" expression="kotlinFunctionName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="content" expression="kotlinVariable()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="te" value="android:text=&quot;@string/$VAR1$_$VAR2$&quot;$END$" description="text for text_view" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR1" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="false" />
+    <variable name="VAR2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="tc" value="companion object{&#10;    val TAG = &quot;$VAR$&quot;&#10;}&#10;&#10;" description="add tag" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="kt" value="private val TAG_$VAR1$ = TAG + &quot;.TAG_$VAR1$&quot;&#10;" description="key" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+</templateSet>

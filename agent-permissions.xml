@@ -1,7 +1,9 @@
 <application>
   <component name="PermissionPersistence">
+    <option name="agentMode" value="strict" />
     <option name="entries">
       <map>
+        <entry key="project.write.non-sensitive" value="ok" />
         <entry key="project.write.normal" value="ok" />
         <entry key="web.search" value="ok" />
       </map>

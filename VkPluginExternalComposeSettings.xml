@@ -1,0 +1,5 @@
+<application>
+  <component name="com.vk.idea.plugin.vkompose.settings.ComposeSettingStateComponent">
+    <option name="stabilityConfigurationPath" value="/build-logic/compose-compiler/compose_compiler_stable_type_config.conf" />
+  </component>
+</application>

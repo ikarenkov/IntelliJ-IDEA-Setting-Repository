@@ -6,6 +6,12 @@
         <option value="Russian" />
       </set>
     </option>
+    <option name="userDisabledRules">
+      <set>
+        <option value="LanguageTool.EN.OXFORD_SPELLING_Z_NOT_S" />
+        <option value="LanguageTool.EN.OXFORD_SPELLING_GRAM" />
+      </set>
+    </option>
     <option name="domainDisabledRules">
       <map>
         <entry key="Commit">

@@ -1,0 +1,6 @@
+<application>
+  <component name="GradleExperimentalSettings">
+    <option name="SKIP_GRADLE_TASKS_LIST" value="false" />
+    <option name="ALWAYS_ENABLE_MIGRATION_TO_PARALLEL_SYNC" value="true" />
+  </component>
+</application>
